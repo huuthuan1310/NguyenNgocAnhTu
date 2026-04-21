@@ -256,7 +256,7 @@ http:
 
 script-providers:
   yt-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/youtube.response.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/youtube.response.js
     interval: 86400
   sp-json:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
@@ -265,10 +265,10 @@ script-providers:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
     interval: 86400
   sc-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/SoundCloudGoPlus.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
     interval: 86400
   pa-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/PicsArt.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/PicsArt.js
     interval: 86400
   rc-multi-res:
     url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
@@ -280,7 +280,7 @@ script-providers:
     url: https://raw.githubusercontent.com/chavyleung/scripts/master/emby/emby.js
     interval: 86400
   km-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/Kinemaster.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
     interval: 86400
   lr-res:
     url: https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json
@@ -319,17 +319,17 @@ script-providers:
     url: https://raw.githubusercontent.com/iSteal-it/script/main/unfoldtest.json
     interval: 86400
   am-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/AlightMotion.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
     interval: 86400
   wink-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/WinkVipCrack.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js
     interval: 86400
   tc-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/TrueCaller.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
     interval: 86400
   cs-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/camScanner.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js
     interval: 86400
   bp-res:
-    url: https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/BeautyPlus.js
+    url: https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
     interval: 86400

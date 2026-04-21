@@ -39,7 +39,7 @@ cron "0 0 * * *" script-path=https://github.com/sub-store-org/Sub-Store/releases
 # ═══════════════════════════════════════
 # 📺 YouTube Premium (NMS Method)
 # ═══════════════════════════════════════
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/youtube.response.js,requires-body=true,binary-body-mode=true,timeout=20,argument={"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false},tag=YT-Res
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/youtube.response.js,requires-body=true,binary-body-mode=true,timeout=20,argument={"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false},tag=YT-Res
 
 # ═══════════════════════════════════════
 # 🎵 Spotify Premium - app2smile
@@ -51,12 +51,12 @@ http-response ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:
 # ═══════════════════════════════════════
 # 🎧 SoundCloud Go+ (NMS)
 # ═══════════════════════════════════════
-http-response ^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/SoundCloudGoPlus.js,requires-body=true,timeout=15,tag=SC-Res
+http-response ^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js,requires-body=true,timeout=15,tag=SC-Res
 
 # ═══════════════════════════════════════
 # 🎨 PicsArt Gold (NMS)
 # ═══════════════════════════════════════
-http-request ^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/PicsArt.js,requires-body=true,timeout=60,tag=PA-Res
+http-request ^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/PicsArt.js,requires-body=true,timeout=60,tag=PA-Res
 
 # ═══════════════════════════════════════
 # 🎬 Emby Premiere - chavyleung
@@ -66,7 +66,7 @@ http-response ^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateD
 # ═══════════════════════════════════════
 # 🎬 KineMaster Pro (NMS)
 # ═══════════════════════════════════════
-http-response ^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/Kinemaster.js,requires-body=true,timeout=10,tag=KM-Res
+http-response ^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js,requires-body=true,timeout=10,tag=KM-Res
 
 # 🎨 Lightroom - iSteal-it
 http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json,requires-body=true,timeout=10,tag=LR-Res
@@ -107,19 +107,19 @@ http-response ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts script-path=https:/
 # ═══════════════════════════════════════
 # 🎬 AlightMotion Pro (NMS)
 # ═══════════════════════════════════════
-http-response ^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/AlightMotion.js,requires-body=true,timeout=10,tag=AM-Res
+http-response ^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/AlightMotion.js,requires-body=true,timeout=10,tag=AM-Res
 
 # 💄 Wink VIP (NMS)
-http-response ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/WinkVipCrack.js,requires-body=true,timeout=10,tag=Wink-Res
+http-response ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js,requires-body=true,timeout=10,tag=Wink-Res
 
 # 📞 Truecaller Premium (NMS)
-http-response ^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple) script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/TrueCaller.js,requires-body=true,timeout=10,tag=TC-Res
+http-response ^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple) script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/TrueCaller.js,requires-body=true,timeout=10,tag=TC-Res
 
 # 📄 CamScanner Premium (NMS)
-http-response https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/camScanner.js,requires-body=true,timeout=10,tag=CS-Res
+http-response https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js,requires-body=true,timeout=10,tag=CS-Res
 
 # 💄 BeautyPlus Premium (NMS)
-http-response https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/BeautyPlus.js,requires-body=true,timeout=60,tag=BP-Res
+http-response https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js,requires-body=true,timeout=60,tag=BP-Res
 
 # ═══════════════════════════════════════
 # 🔐 RevenueCat Multi-App - z3rokaze (v5.2)

@@ -1,9 +1,10 @@
-// ========================================
-// RevenueCat Multi-App Premium Unlocker
-// 🔐 Locket Gold + 车票票 VIP + Generic RC
-// 📅 Version: 5.2.0 (2026-04-13)
-// 👤 Author: Nguyễn Ngọc Anh Tú (z3rokaze)
-// ========================================
+/***********************************************
+> RevenueCat Multi-App Premium Unlocker
+> Locket Gold + 车票票 VIP + Generic RC Apps
+> Original: z3rokaze (revenuecat_multi.js)
+> Updated: Nguyễn Ngọc Anh Tú (z3rokaze)
+> Date: 2026-04-21
+***********************************************/
 
 // ========= App ID Mapping ========= //
 const mapping = {
@@ -11,11 +12,12 @@ const mapping = {
   'Locket': ['Gold']
 };
 
-// ========= Core Logic ========= //
+// =========  Core Logic  ========= //
+// =========  @z3rokaze  ========= //
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
-
-var subscriptionData = {
+obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
+var z3rokaze = {
       auto_resume_date: null,
       display_name: "locket_1600_1y",
       is_sandbox: true,
@@ -42,13 +44,11 @@ var subscriptionData = {
       product_identifier: "locket_1600_1y",
       expires_date: "9999-01-09T10:10:14Z"
   };
-
 const match = Object.keys(mapping).find(e => ua.includes(e));
 if (match) {
   let [e, s] = mapping[match];
-  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = subscriptionData) : obj.subscriber.subscriptions["locket_1600_1y"] = subscriptionData, obj.subscriber.entitlements[e] = locketGold
-} else obj.subscriber.subscriptions["locket_1600_1y"] = subscriptionData, obj.subscriber.entitlements.pro = locketGold;
-
+  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = z3rokaze) : obj.subscriber.subscriptions["locket_1600_1y"] = z3rokaze, obj.subscriber.entitlements[e] = locketGold
+} else obj.subscriber.subscriptions["locket_1600_1y"] = z3rokaze, obj.subscriber.entitlements.pro = locketGold;
 $done({
   body: JSON.stringify(obj)
 });
