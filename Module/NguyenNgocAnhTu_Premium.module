@@ -1,6 +1,6 @@
 #!name=⚡ Nguyễn Ngọc Anh Tú 🌸 - Premium (Ultimate)
 #!desc=✨ 13 Apps Premium: Locket Gold + 车票票 + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store
-#!version=6.3.0
+#!version=7.0.0
 #!date=2026-05-02
 #!author=Nguyễn Ngọc Anh Tú (z3rokaze)
 #!homepage=https://github.com/z3rokaze/NguyenNgocAnhTu
@@ -29,7 +29,7 @@ DOMAIN,www.googleadservices.com,REJECT
 DOMAIN,ade.googlesyndication.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 DOMAIN,static.doubleclick.net,REJECT
-DOMAIN-SUFFIX,youtube-nocookie.com,REJECT
+# Removed: DOMAIN-SUFFIX,youtube-nocookie.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
 
@@ -44,7 +44,7 @@ DOMAIN-SUFFIX,google-analytics.com,REJECT
 ^https?:\/\/[\w-]+\.googlevideo\.com\/pagead reject-200
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-200
 
-# === YOUTUBE CTIER BYPASS ===
+# === YOUTUBE CTIER BYPASS (temporary keep) ===
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+) $1$2 302
 
 # === REVENUECAT REMOVE ETAG ===
@@ -59,14 +59,14 @@ enable = true
 hostname = *.googlevideo.com, *.youtube.com, s.youtube.com, youtubei.googleapis.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.picsart.c*, api.meiease.c*, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, sub.store
 
 [Script]
-# === YOUTUBE PREMIUM - Maasea ===
+# === YOUTUBE PREMIUM - Maasea (Build: 2025/7/12) ===
 youtube.response = type=http-response, pattern=^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$, script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js, argument={"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}, requires-body=true
 
-# === SPOTIFY PREMIUM - app2smile ===
+# === SPOTIFY PREMIUM - app2smile (Updated 2025.06.20) ===
 spotify-json = type=http-request, pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 spotify-proto = type=http-response, pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true
 
-# === SOUNDCLOUD GO+ - z3rokaze ===
+# === SOUNDCLOUD GO+ - z3rokaze (2026-04-21) ===
 soundcloud-response = type=http-response, pattern=^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios$, script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js, requires-body=true
 
 # === PICSART GOLD - NobyDa (2025) ===
@@ -75,25 +75,25 @@ picsart-response = type=http-response, pattern=^https:\/\/api\.(picsart|meiease)
 # === EMBY PREMIERE - chavyleung ===
 emby-response = type=http-response, pattern=^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/emby/emby.js, requires-body=true
 
-# === KINEMASTER PRO - z3rokaze ===
+# === KINEMASTER PRO - z3rokaze (2026-04-21) ===
 kinemaster-response = type=http-response, pattern=^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$, script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js, requires-body=true
 
-# === ALIGHT MOTION PRO - z3rokaze ===
+# === ALIGHT MOTION PRO - z3rokaze (2026-04-21) ===
 alightmotion-response = type=http-response, pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses, script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/AlightMotion.js, requires-body=true
 
-# === WINK VIP - z3rokaze ===
+# === WINK VIP - z3rokaze (2026-04-21) ===
 wink-response = type=http-response, pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json, script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js, requires-body=true
 
-# === TRUECALLER PREMIUM - z3rokaze ===
+# === TRUECALLER PREMIUM - z3rokaze (2026-04-21) ===
 truecaller-response = type=http-response, pattern=^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple), script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/TrueCaller.js, requires-body=true
 
-# === CAMSCANNER PREMIUM - z3rokaze ===
+# === CAMSCANNER PREMIUM - z3rokaze (2026-04-21) ===
 camscanner-response = type=http-response, pattern=^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem), script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js, requires-body=true
 
-# === BEAUTYPLUS PREMIUM - z3rokaze ===
+# === BEAUTYPLUS PREMIUM - z3rokaze (2026-04-21) ===
 beautyplus-response = type=http-response, pattern=^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance), script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js, requires-body=true, timeout=60
 
-# === REVENUECAT MULTI-APP (Locket Gold + 车票票) - z3rokaze ===
+# === REVENUECAT MULTI-APP (Locket Gold + 车票票) - z3rokaze (2026-04-21) ===
 revenuecat-response = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^\/]+$), script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js, requires-body=true, timeout=60
 revenuecat-header = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/deleteHeader.js, timeout=60
 
