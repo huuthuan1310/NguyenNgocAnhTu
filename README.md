@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated  Header Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=180&section=header&text=Premium%20Unlocker&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=YouTube%20•%20Spotify%20•%20Locket%20Gold&descAlignY=55&descSize=20"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=180&section=header&text=Premium%20Unlocker&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=YouTube%20•%20Spotify%20•%20Locket%20•%2014%20More%20Apps&descAlignY=55&descSize=20"/>
 
 <br>
 
@@ -46,7 +46,7 @@
 <!-- Status Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version-3.0-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Version-7.1.0-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
   <img src="https://img.shields.io/github/license/z3rokaze/NguyenNgocAnhTu?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
   <img src="https://img.shields.io/badge/Status-Active-FFD700?style=for-the-badge&logo=statuspage&logoColor=white"/>
 </p>
@@ -112,6 +112,8 @@
 - [⚙️ Cấu hình](#️-cấu-hình)
 - [❓ Câu hỏi thường gặp](#-câu-hỏi-thường-gặp)
 - [💬 Hỗ trợ](#-hỗ-trợ)
+
+</details>
 
 </details>
 
@@ -702,6 +704,38 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 </div>
 
 <details open>
+<summary>
+  <h3>🌟 v7.1.0 (2026-05-05) — Premium Release</h3>
+</summary>
+
+<br>
+
+**✨ Mở rộng 17 Apps Premium (13 → 17 apps)**
+- ✅ 🖼️ Lightroom Premium — iSteal-it
+- ✅ 🎨 Photoshop Express Premium — iSteal-it
+- ✅ 🧘 Calm Premium — iSteal-it
+- ✅ 🎧 Headspace Premium — iSteal-it
+
+**⚡ Tối ưu hóa Parameters**
+- ✅ Chuẩn hóa timeout: 10s/15s/30s/60s/120s
+- ✅ Thêm max-size=131072 cho YouTube, Spotify, Locket
+- ✅ Thêm max-size=0 cho PicsArt, BeautyPlus
+
+**🐛 Bug Fixes**
+- ✅ Fix DOMAIN-KEYWORD,spotify.com/ad (syntax error)
+- ✅ Remove cron rule Sub-Store
+- ✅ Fix Spotify-json requires-body=false
+- ✅ Add regex anchors to patterns
+
+**📦 Version Update**
+- ✅ Premium.module: 7.0.2 → 7.1.0
+- ✅ All modules: 5.2.0 → 5.2.1
+
+**📊 Production Stats: 17 Apps • 21 Hostnames • 10 Scripts • 100% Tested**
+
+</details>
+
+<details>
 <summary>
   <h3>🔄 v3.0.0 (2026-04-08)</h3>
 </summary>
@@ -1422,6 +1456,38 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 </div>
 
 <details open>
+<summary>
+  <h3>🌟 v7.1.0 (2026-05-05) — Premium Release</h3>
+</summary>
+
+<br>
+
+**✨ Expanded to 17 Premium Apps (from 13)**
+- ✅ 🖼️ Lightroom Premium — iSteal-it
+- ✅ 🎨 Photoshop Express Premium — iSteal-it
+- ✅ 🧘 Calm Premium — iSteal-it
+- ✅ 🎧 Headspace Premium — iSteal-it
+
+**⚡ Optimized Parameters for All 17 Apps**
+- ✅ Standardized timeout values (10s/15s/30s/60s/120s)
+- ✅ Added max-size=131072 for YouTube, Spotify, Locket
+- ✅ Added max-size=0 for PicsArt, BeautyPlus
+
+**🐛 Bug Fixes**
+- ✅ Fixed DOMAIN-KEYWORD,spotify.com/ad (syntax error)
+- ✅ Removed unsupported cron rule
+- ✅ Fixed Spotify-json requires-body=false
+- ✅ Added regex anchors to all patterns
+
+**📦 Version Update**
+- ✅ Premium.module: 7.0.2 → 7.1.0
+- ✅ All proxy modules: 5.2.0 → 5.2.1
+
+**📊 Production Stats: 17 Apps • 21 Hostnames • 10 Scripts • Fully Tested**
+
+</details>
+
+<details>
 <summary>
   <h3>🔄 v3.0.0 (2026-04-08)</h3>
 </summary>

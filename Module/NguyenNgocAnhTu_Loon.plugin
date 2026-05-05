@@ -1,5 +1,5 @@
 #!name=⚡ Anh Tú Premium - Loon
-#!desc=30 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.0 (2026-04-13)
+#!desc=30 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.1 (2026-05-05)
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/z3rokaze/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,heads-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,REJECT
 DOMAIN,spclient.wg.spotify.com,DIRECT
 DOMAIN-KEYWORD,spotify-ads,REJECT
-DOMAIN-KEYWORD,spotify.com/ad,REJECT
 # YouTube Ads Block (Synced: Maasea Enhance)
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
@@ -119,7 +118,7 @@ http-response ^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products
 http-response https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js,requires-body=true,timeout=10,tag=CS-Res
 
 # 💄 BeautyPlus Premium (NMS)
-http-response https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js,requires-body=true,timeout=60,tag=BP-Res
+http-response ^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js,requires-body=true,timeout=60,tag=BP-Res
 
 # ═══════════════════════════════════════
 # 🔐 RevenueCat Multi-App - z3rokaze (v5.2)

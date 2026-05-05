@@ -1,5 +1,5 @@
 #!name=💰 Anh Tú Premium - LanceX
-#!desc=30 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.0 (2026-04-13)
+#!desc=30 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.1 (2026-05-05)
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/z3rokaze/NguyenNgocAnhTu
 #!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/81/cb/9081cbba-b7c4-63b5-1207-23ab9efbbe04/AppIcon-0-1x_U007emarketing-0-11-0-0-85-220-0.png/230x0w.webp
@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,heads-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,REJECT
 DOMAIN,spclient.wg.spotify.com,DIRECT
 DOMAIN-KEYWORD,spotify-ads,REJECT
-DOMAIN-KEYWORD,spotify.com/ad,REJECT
 # YouTube Ads Block (Synced: Maasea Enhance)
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
@@ -56,7 +55,7 @@ spotify-proto = type=http-response,pattern=^https:\/\/(spclient\.wg\.spotify\.co
 # ═══════════════════════════════════════
 # 🎧 SoundCloud Go+ (NMS)
 # ═══════════════════════════════════════
-soundcloud-response = type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,max-size=262144,timeout=15,engine=jsc,script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
+soundcloud-response = type=http-response,pattern=^https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,max-size=262144,timeout=15,engine=jsc,script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
 
 # ═══════════════════════════════════════
 # 🎨 PicsArt Gold (NMS)
@@ -124,7 +123,7 @@ truecaller-response = type=http-response,pattern=^https://premium-(.+)\.truecall
 camscanner-response = type=http-response,pattern=https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js
 
 # 💄 BeautyPlus Premium (NMS)
-beautyplus-response = type=http-response,pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,engine=jsc,script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
+beautyplus-response = type=http-response,pattern=^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,engine=jsc,script-path=https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
 
 # ═══════════════════════════════════════
 # 🔐 RevenueCat Multi-App - z3rokaze (v5.2)
