@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated  Header Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=180&section=header&text=Premium%20Unlocker&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=YouTube%20•%20Spotify%20•%20Locket%20•%2020%2B%20Apps&descAlignY=55&descSize=20"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=180&section=header&text=Premium%20Unlocker&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=YouTube%20â€¢%20Spotify%20â€¢%20Locket%20â€¢%2020%2B%20Apps&descAlignY=55&descSize=20"/>
 
 <br>
 
@@ -19,24 +19,24 @@
 <table>
 <tr>
 <td align="center" width="200">
-<a href="#-tiếng-việt">
+<a href="#-tiáº¿ng-viá»‡t">
 <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1fb-1f1f3.svg" width="48" alt="Vietnam"/>
 <br><br>
-<b>🇻🇳 Tiếng Việt</b>
+<b>ðŸ‡»ðŸ‡³ Tiáº¿ng Viá»‡t</b>
 </a>
 </td>
 <td align="center" width="200">
 <a href="#-english">
 <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1fa-1f1f8.svg" width="48" alt="English"/>
 <br><br>
-<b>🇺🇸 English</b>
+<b>ðŸ‡ºðŸ‡¸ English</b>
 </a>
 </td>
 <td align="center" width="200">
-<a href="#-日本語">
+<a href="#-æ—¥æœ¬èªž">
 <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1ef-1f1f5.svg" width="48" alt="Japan"/>
 <br><br>
-<b>🇯🇵 日本語</b>
+<b>ðŸ‡¯ðŸ‡µ æ—¥æœ¬èªž</b>
 </a>
 </td>
 </tr>
@@ -46,7 +46,7 @@
 <!-- Status Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version-8.0.0-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
   <img src="https://img.shields.io/github/license/z3rokaze/NguyenNgocAnhTu?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
   <img src="https://img.shields.io/badge/Status-Active-FFD700?style=for-the-badge&logo=statuspage&logoColor=white"/>
 </p>
@@ -87,7 +87,7 @@
 <div align="center">
   <h1>
     <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/356/flag-vietnam_1f1fb-1f1f3.gif" width="40"/>
-    Tiếng Việt
+    Tiáº¿ng Viá»‡t
     <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/356/flag-vietnam_1f1fb-1f1f3.gif" width="40"/>
   </h1>
 </div>
@@ -98,20 +98,20 @@
 
 <br>
 
-## Mục lục
+## Má»¥c lá»¥c
 
 <details open>
-<summary><b>Nhấp để mở rộng</b></summary>
+<summary><b>Nháº¥p Ä‘á»ƒ má»Ÿ rá»™ng</b></summary>
 
-- [✨ Tính năng](#-tính-năng)
-- [🚀 Hiệu suất](#-hiệu-suất)
-- [📱 Ứng dụng hỗ trợ](#-ứng-dụng-hỗ-trợ)
-- [📥 Cài đặt nhanh](#-cài-đặt-nhanh)
-- [🔒 Locket Gold DNS](#-locket-gold-dns---giữ-gold-khi-tắt-proxy)
-- [📋 Changelog](#-changelog)
-- [⚙️ Cấu hình](#️-cấu-hình)
-- [❓ Câu hỏi thường gặp](#-câu-hỏi-thường-gặp)
-- [💬 Hỗ trợ](#-hỗ-trợ)
+- [âœ¨ TÃ­nh nÄƒng](#-tÃ­nh-nÄƒng)
+- [ðŸš€ Hiá»‡u suáº¥t](#-hiá»‡u-suáº¥t)
+- [ðŸ“± á»¨ng dá»¥ng há»— trá»£](#-á»©ng-dá»¥ng-há»—-trá»£)
+- [ðŸ“¥ CÃ i Ä‘áº·t nhanh](#-cÃ i-Ä‘áº·t-nhanh)
+- [ðŸ”’ Locket Gold DNS](#-locket-gold-dns---giá»¯-gold-khi-táº¯t-proxy)
+- [ðŸ“‹ Changelog](#-changelog)
+- [âš™ï¸ Cáº¥u hÃ¬nh](#ï¸-cáº¥u-hÃ¬nh)
+- [â“ CÃ¢u há»i thÆ°á»ng gáº·p](#-cÃ¢u-há»i-thÆ°á»ng-gáº·p)
+- [ðŸ’¬ Há»— trá»£](#-há»—-trá»£)
 
 </details>
 
@@ -121,7 +121,7 @@
 
 <div align="center">
   
-## Tính năng nổi bật
+## TÃ­nh nÄƒng ná»•i báº­t
 
 </div>
 
@@ -154,67 +154,67 @@ SoundCloud Go+
 <tr>
 <td valign="top">
 
-**Chặn quảng cáo**
-- ✅ Chặn quảng cáo video
-- ✅ Chặn quảng cáo banner
-- ✅ Chặn quảng cáo popup
-- ✅ Ẩn nội dung tài trợ
+**Cháº·n quáº£ng cÃ¡o**
+- âœ… Cháº·n quáº£ng cÃ¡o video
+- âœ… Cháº·n quáº£ng cÃ¡o banner
+- âœ… Cháº·n quáº£ng cÃ¡o popup
+- âœ… áº¨n ná»™i dung tÃ i trá»£
 
-**Tính năng Premium**
-- ✅ Picture in Picture (PiP)
-- ✅ Phát nền
-- ✅ Dịch phụ đề (VI/EN)
-- ✅ Dịch lời bài hát
-- ✅ Ẩn nút tải lên
-- ✅ Ẩn Shorts (tùy chọn)
-
-</td>
-<td valign="top">
-
-**Chặn quảng cáo**
-- ✅ Chặn quảng cáo âm thanh
-- ✅ Chặn quảng cáo video
-- ✅ Chặn quảng cáo banner
-- ✅ Giao diện sạch sẽ
-
-**Tính năng Premium**
-- ✅ Bỏ qua không giới hạn
-- ✅ Chất lượng âm thanh cao
-- ✅ Hiển thị lời bài hát
-- ✅ Tua tới bất kỳ đâu
-- ✅ Mở khóa tất cả tính năng
+**TÃ­nh nÄƒng Premium**
+- âœ… Picture in Picture (PiP)
+- âœ… PhÃ¡t ná»n
+- âœ… Dá»‹ch phá»¥ Ä‘á» (VI/EN)
+- âœ… Dá»‹ch lá»i bÃ i hÃ¡t
+- âœ… áº¨n nÃºt táº£i lÃªn
+- âœ… áº¨n Shorts (tÃ¹y chá»n)
 
 </td>
 <td valign="top">
 
-**Mở khóa Premium**
-- ✅ Gói đăng ký Gold
-- ✅ Không có watermark
-- ✅ Widget không giới hạn
-- ✅ Mở khóa tất cả tính năng
-- ✅ Truy cập trọn đời
+**Cháº·n quáº£ng cÃ¡o**
+- âœ… Cháº·n quáº£ng cÃ¡o Ã¢m thanh
+- âœ… Cháº·n quáº£ng cÃ¡o video
+- âœ… Cháº·n quáº£ng cÃ¡o banner
+- âœ… Giao diá»‡n sáº¡ch sáº½
 
-**Hiệu suất**
-- ⚡ Thời gian phản hồi 60ms
-- 💾 Sử dụng bộ nhớ 256KB
-- 🔥 Tối ưu hóa IIFE
-- 📅 Hiệu lực đến năm 2099
+**TÃ­nh nÄƒng Premium**
+- âœ… Bá» qua khÃ´ng giá»›i háº¡n
+- âœ… Cháº¥t lÆ°á»£ng Ã¢m thanh cao
+- âœ… Hiá»ƒn thá»‹ lá»i bÃ i hÃ¡t
+- âœ… Tua tá»›i báº¥t ká»³ Ä‘Ã¢u
+- âœ… Má»Ÿ khÃ³a táº¥t cáº£ tÃ­nh nÄƒng
 
 </td>
 <td valign="top">
 
-**Mở khóa Go+**
-- ✅ Không quảng cáo
-- ✅ Nghe offline
-- ✅ Chất lượng cao
-- ✅ Bỏ qua không giới hạn
-- ✅ Tất cả tính năng Pro
+**Má»Ÿ khÃ³a Premium**
+- âœ… GÃ³i Ä‘Äƒng kÃ½ Gold
+- âœ… KhÃ´ng cÃ³ watermark
+- âœ… Widget khÃ´ng giá»›i háº¡n
+- âœ… Má»Ÿ khÃ³a táº¥t cáº£ tÃ­nh nÄƒng
+- âœ… Truy cáº­p trá»n Ä‘á»i
 
-**Hiệu suất**
-- ⚡ Phản hồi nhanh
-- 💾 Tối ưu băng thông
-- 🔥 Streaming mượt mà
-- 📊 API configuration
+**Hiá»‡u suáº¥t**
+- âš¡ Thá»i gian pháº£n há»“i 60ms
+- ðŸ’¾ Sá»­ dá»¥ng bá»™ nhá»› 256KB
+- ðŸ”¥ Tá»‘i Æ°u hÃ³a IIFE
+- ðŸ“… Hiá»‡u lá»±c Ä‘áº¿n nÄƒm 2099
+
+</td>
+<td valign="top">
+
+**Má»Ÿ khÃ³a Go+**
+- âœ… KhÃ´ng quáº£ng cÃ¡o
+- âœ… Nghe offline
+- âœ… Cháº¥t lÆ°á»£ng cao
+- âœ… Bá» qua khÃ´ng giá»›i háº¡n
+- âœ… Táº¥t cáº£ tÃ­nh nÄƒng Pro
+
+**Hiá»‡u suáº¥t**
+- âš¡ Pháº£n há»“i nhanh
+- ðŸ’¾ Tá»‘i Æ°u bÄƒng thÃ´ng
+- ðŸ”¥ Streaming mÆ°á»£t mÃ 
+- ðŸ“Š API configuration
 
 </td>
 </tr>
@@ -228,10 +228,10 @@ SoundCloud Go+
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## Hiệu suất
+## Hiá»‡u suáº¥t
 
 <h3>
-⚡ 
+âš¡ 
 Performance Metrics
 </h3>
 
@@ -240,66 +240,66 @@ Performance Metrics
 <table>
 <thead>
 <tr>
-<th width="25%">📊 Metric</th>
-<th width="25%">⏮️ Before</th>
-<th width="25%">⏭️ After</th>
-<th width="25%">📈 Improvement</th>
+<th width="25%">ðŸ“Š Metric</th>
+<th width="25%">â®ï¸ Before</th>
+<th width="25%">â­ï¸ After</th>
+<th width="25%">ðŸ“ˆ Improvement</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>⏱️ <b>Response Time</b></td>
+<td>â±ï¸ <b>Response Time</b></td>
 <td><code>150ms</code></td>
 <td><code>60ms</code></td>
-<td><img src="https://img.shields.io/badge/↓_60%25-34C759?style=for-the-badge" alt="60% faster"/></td>
+<td><img src="https://img.shields.io/badge/â†“_60%25-34C759?style=for-the-badge" alt="60% faster"/></td>
 </tr>
 <tr>
-<td>💾 <b>Memory Usage</b></td>
+<td>ðŸ’¾ <b>Memory Usage</b></td>
 <td><code>512KB</code></td>
 <td><code>256KB</code></td>
-<td><img src="https://img.shields.io/badge/↓_50%25-34C759?style=for-the-badge" alt="50% less"/></td>
+<td><img src="https://img.shields.io/badge/â†“_50%25-34C759?style=for-the-badge" alt="50% less"/></td>
 </tr>
 <tr>
-<td>📄 <b>File Size</b></td>
+<td>ðŸ“„ <b>File Size</b></td>
 <td><code>5.0KB</code></td>
 <td><code>2.3KB</code></td>
-<td><img src="https://img.shields.io/badge/↓_54%25-34C759?style=for-the-badge" alt="54% smaller"/></td>
+<td><img src="https://img.shields.io/badge/â†“_54%25-34C759?style=for-the-badge" alt="54% smaller"/></td>
 </tr>
 <tr>
-<td>🚀 <b>Execution Speed</b></td>
+<td>ðŸš€ <b>Execution Speed</b></td>
 <td><code>50ms</code></td>
 <td><code>15ms</code></td>
-<td><img src="https://img.shields.io/badge/↓_70%25-34C759?style=for-the-badge" alt="70% faster"/></td>
+<td><img src="https://img.shields.io/badge/â†“_70%25-34C759?style=for-the-badge" alt="70% faster"/></td>
 </tr>
 </tbody>
 </table>
 
-### **Kỹ thuật tối ưu hóa**
+### **Ká»¹ thuáº­t tá»‘i Æ°u hÃ³a**
 
 <table>
 <tr>
 <td align="center" width="20%">
-✅
+âœ…
 <br><b>IIFE Pattern</b>
 <br><sub>Instant execution</sub>
 </td>
 <td align="center" width="20%">
-✅
+âœ…
 <br><b>Strict Mode</b>
 <br><sub>Error prevention</sub>
 </td>
 <td align="center" width="20%">
-✅
+âœ…
 <br><b>Pre-built Objects</b>
 <br><sub>Zero parsing</sub>
 </td>
 <td align="center" width="20%">
-✅
+âœ…
 <br><b>Native Loops</b>
 <br><sub>Fast iteration</sub>
 </td>
 <td align="center" width="20%">
-✅
+âœ…
 <br><b>Zero I/O</b>
 <br><sub>Memory only</sub>
 </td>
@@ -313,21 +313,21 @@ Performance Metrics
 
 <br>
 
-## Ứng dụng hỗ trợ
+## á»¨ng dá»¥ng há»— trá»£
 
 <div align="center">
 
-### Chọn ứng dụng phù hợp với bạn
+### Chá»n á»©ng dá»¥ng phÃ¹ há»£p vá»›i báº¡n
 
 <table>
 <thead>
 <tr>
-<th width="20%">Ứng dụng</th>
-<th width="15%">Định dạng</th>
-<th width="15%">Kích thước</th>
-<th width="15%">Giá</th>
-<th width="15%">Độ khó</th>
-<th width="20%">Ghi chú</th>
+<th width="20%">á»¨ng dá»¥ng</th>
+<th width="15%">Äá»‹nh dáº¡ng</th>
+<th width="15%">KÃ­ch thÆ°á»›c</th>
+<th width="15%">GiÃ¡</th>
+<th width="15%">Äá»™ khÃ³</th>
+<th width="20%">Ghi chÃº</th>
 </tr>
 </thead>
 <tbody>
@@ -338,9 +338,9 @@ Performance Metrics
 </td>
 <td align="center"><code>.sgmodule</code></td>
 <td align="center"><code>3.5KB</code></td>
-<td align="center">💰 $49.99</td>
-<td align="center">⭐⭐⭐⭐</td>
-<td align="center">Người dùng Pro</td>
+<td align="center">ðŸ’° $49.99</td>
+<td align="center">â­â­â­â­</td>
+<td align="center">NgÆ°á»i dÃ¹ng Pro</td>
 </tr>
 <tr>
 <td align="center">
@@ -349,9 +349,9 @@ Performance Metrics
 </td>
 <td align="center"><code>.plugin</code></td>
 <td align="center"><code>3.2KB</code></td>
-<td align="center">💰 $5.99</td>
-<td align="center">⭐⭐⭐⭐</td>
-<td align="center">Nâng cao</td>
+<td align="center">ðŸ’° $5.99</td>
+<td align="center">â­â­â­â­</td>
+<td align="center">NÃ¢ng cao</td>
 </tr>
 <tr style="background-color: #fffbdd;">
 <td align="center">
@@ -360,9 +360,9 @@ Performance Metrics
 </td>
 <td align="center"><code>.module</code></td>
 <td align="center"><code>5.6KB</code></td>
-<td align="center">💰 $2.99</td>
-<td align="center">⭐⭐⭐⭐⭐</td>
-<td align="center">⭐ <b>Khuyên dùng</b></td>
+<td align="center">ðŸ’° $2.99</td>
+<td align="center">â­â­â­â­â­</td>
+<td align="center">â­ <b>KhuyÃªn dÃ¹ng</b></td>
 </tr>
 <tr>
 <td align="center">
@@ -371,9 +371,9 @@ Performance Metrics
 </td>
 <td align="center"><code>.module</code></td>
 <td align="center"><code>5.7KB</code></td>
-<td align="center">💰 $1.99</td>
-<td align="center">⭐⭐⭐⭐⭐</td>
-<td align="center">Giá rẻ nhất</td>
+<td align="center">ðŸ’° $1.99</td>
+<td align="center">â­â­â­â­â­</td>
+<td align="center">GiÃ¡ ráº» nháº¥t</td>
 </tr>
 <tr>
 <td align="center">
@@ -382,9 +382,9 @@ Performance Metrics
 </td>
 <td align="center"><code>.snippet</code></td>
 <td align="center"><code>2.5KB</code></td>
-<td align="center">💰 $7.99</td>
-<td align="center">⭐⭐⭐</td>
-<td align="center">Kỹ thuật</td>
+<td align="center">ðŸ’° $7.99</td>
+<td align="center">â­â­â­</td>
+<td align="center">Ká»¹ thuáº­t</td>
 </tr>
 <tr>
 <td align="center">
@@ -393,16 +393,16 @@ Performance Metrics
 </td>
 <td align="center"><code>.stoverride</code></td>
 <td align="center"><code>3.6KB</code></td>
-<td align="center">💰 $5.99</td>
-<td align="center">⭐⭐⭐⭐</td>
-<td align="center">Tiết kiệm</td>
+<td align="center">ðŸ’° $5.99</td>
+<td align="center">â­â­â­â­</td>
+<td align="center">Tiáº¿t kiá»‡m</td>
 </tr>
 </tbody>
 </table>
 
 <br>
 
-**💡 Gợi ý:** Người mới nên dùng **Shadowrocket** hoặc **LanceX** - Rẻ ($2.99/$1.99), dễ dùng nhất (⭐⭐⭐⭐⭐), tương thích 100%
+**ðŸ’¡ Gá»£i Ã½:** NgÆ°á»i má»›i nÃªn dÃ¹ng **Shadowrocket** hoáº·c **LanceX** - Ráº» ($2.99/$1.99), dá»… dÃ¹ng nháº¥t (â­â­â­â­â­), tÆ°Æ¡ng thÃ­ch 100%
 
 </div>
 
@@ -414,11 +414,11 @@ Performance Metrics
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
 <img src="https://img.icons8.com/color/96/shield.png" width="60"/>
-<h2>🔒 Locket Gold DNS</h2>
-<p>Giữ Gold Premium ngay cả khi tắt Shadowrocket/Surge</p>
+<h2>ðŸ”’ Locket Gold DNS</h2>
+<p>Giá»¯ Gold Premium ngay cáº£ khi táº¯t Shadowrocket/Surge</p>
 
 > [!TIP]
-> **Tính năng mới v3.0** — Bằng cách kết hợp vòng lặp DNS Block và App Cache, Locket sẽ mãi mãi giữ trạng thái Premium trên thiết bị của bạn.
+> **TÃ­nh nÄƒng má»›i v3.0** â€” Báº±ng cÃ¡ch káº¿t há»£p vÃ²ng láº·p DNS Block vÃ  App Cache, Locket sáº½ mÃ£i mÃ£i giá»¯ tráº¡ng thÃ¡i Premium trÃªn thiáº¿t bá»‹ cá»§a báº¡n.
 
 <br>
 
@@ -426,42 +426,42 @@ Performance Metrics
 <tr>
   <td align="center" width="50%">
     <img src="https://img.icons8.com/fluency/96/toggle-on.png" width="48"/><br>
-    <b>1. Shadowrocket BẬT</b><br>
-    <sub>Proxy đánh chặn RevenueCat API<br>Bơm dữ liệu Gold ➔ <b>App ghi nhớ (Cache)</b></sub>
+    <b>1. Shadowrocket Báº¬T</b><br>
+    <sub>Proxy Ä‘Ã¡nh cháº·n RevenueCat API<br>BÆ¡m dá»¯ liá»‡u Gold âž” <b>App ghi nhá»› (Cache)</b></sub>
   </td>
   <td align="center" width="50%">
     <img src="https://img.icons8.com/fluency/96/toggle-off.png" width="48"/><br>
-    <b>2. Shadowrocket TẮT</b><br>
-    <sub>DNS chặn RevenueCat API<br>Mất kết nối ➔ <b>App dùng Cache (Giữ Gold)</b></sub>
+    <b>2. Shadowrocket Táº®T</b><br>
+    <sub>DNS cháº·n RevenueCat API<br>Máº¥t káº¿t ná»‘i âž” <b>App dÃ¹ng Cache (Giá»¯ Gold)</b></sub>
   </td>
 </tr>
 </table>
 
-### 📥 3 Bước Cài Đặt
+### ðŸ“¥ 3 BÆ°á»›c CÃ i Äáº·t
 
 <table align="center" width="100%">
 <tr>
   <td width="33%" align="center">
     <img src="https://img.icons8.com/fluency/96/download.png" width="40"/><br>
-    <b>1. Tải Profile</b><br>
-    <sub>Tải <code>LocketGoldDNS.mobileconfig</code> về máy.</sub>
+    <b>1. Táº£i Profile</b><br>
+    <sub>Táº£i <code>LocketGoldDNS.mobileconfig</code> vá» mÃ¡y.</sub>
   </td>
   <td width="33%" align="center">
     <img src="https://img.icons8.com/fluency/96/settings.png" width="40"/><br>
-    <b>2. Cài đặt</b><br>
-    <sub>Vào <b>Cài đặt ➔ Cài đặt chung ➔ VPN & Quản lý thiết bị</b>.</sub>
+    <b>2. CÃ i Ä‘áº·t</b><br>
+    <sub>VÃ o <b>CÃ i Ä‘áº·t âž” CÃ i Ä‘áº·t chung âž” VPN & Quáº£n lÃ½ thiáº¿t bá»‹</b>.</sub>
   </td>
   <td width="33%" align="center">
     <img src="https://img.icons8.com/fluency/96/checked.png" width="40"/><br>
-    <b>3. Lưu Cache</b><br>
-    <sub>Bật Shadowrocket và mở Locket 1 lần để lưu Gold. Xong!</sub>
+    <b>3. LÆ°u Cache</b><br>
+    <sub>Báº­t Shadowrocket vÃ  má»Ÿ Locket 1 láº§n Ä‘á»ƒ lÆ°u Gold. Xong!</sub>
   </td>
 </tr>
 </table>
 
 <br>
 
-### 🚫 Blocked Domains (25 Domains)
+### ðŸš« Blocked Domains (25 Domains)
 
 <p align="center">
   <img src="https://img.shields.io/badge/RevenueCat_API-3_Domains-FF3B30?style=flat-square&logoColor=white"/>
@@ -482,249 +482,249 @@ Performance Metrics
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## Cài đặt nhanh
+## CÃ i Ä‘áº·t nhanh
 
 </div>
 
 <details>
 <summary>
-  <h3>🌊 Surge (iOS)</h3>
+  <h3>ðŸŒŠ Surge (iOS)</h3>
 </summary>
 
 <br>
 
-**URL cài đặt**
+**URL cÃ i Ä‘áº·t**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
 ```
 
-**Tính năng v8.0.0**
-- ✅ 20+ Apps Premium unlocked
-- ✅ Tất cả scripts từ z3rokaze
-- ✅ Tối ưu hiệu suất cao
-- ✅ Sub-Store Sync tự động
+**TÃ­nh nÄƒng v1.0.0**
+- âœ… 32+ Apps Premium unlocked
+- âœ… Táº¥t cáº£ scripts tá»« z3rokaze
+- âœ… Tá»‘i Æ°u hiá»‡u suáº¥t cao
+- âœ… Sub-Store Sync tá»± Ä‘á»™ng
 
-**Các bước**
-1. Mở **Surge** → Tab **Home**
-2. Nhấn **Modules** → Nút **+**
-3. Chọn **Install Module from URL**
-4. Dán URL ở trên → **OK**
-5. Bật module
+**CÃ¡c bÆ°á»›c**
+1. Má»Ÿ **Surge** â†’ Tab **Home**
+2. Nháº¥n **Modules** â†’ NÃºt **+**
+3. Chá»n **Install Module from URL**
+4. DÃ¡n URL á»Ÿ trÃªn â†’ **OK**
+5. Báº­t module
 
-**Cài đặt MITM**
-1. **Settings** → **MITM** → **Install Certificate**
-2. Làm theo hướng dẫn iOS để cài profile
-3. **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ**
-4. Bật tin cậy cho chứng chỉ Surge
+**CÃ i Ä‘áº·t MITM**
+1. **Settings** â†’ **MITM** â†’ **Install Certificate**
+2. LÃ m theo hÆ°á»›ng dáº«n iOS Ä‘á»ƒ cÃ i profile
+3. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **Giá»›i thiá»‡u** â†’ **CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰**
+4. Báº­t tin cáº­y cho chá»©ng chá»‰ Surge
 
-**Xác minh**
-- Mở YouTube → Không có quảng cáo ✅
-- Mở Spotify → Bỏ qua không giới hạn ✅
-- Mở Locket → Premium đã kích hoạt ✅
+**XÃ¡c minh**
+- Má»Ÿ YouTube â†’ KhÃ´ng cÃ³ quáº£ng cÃ¡o âœ…
+- Má»Ÿ Spotify â†’ Bá» qua khÃ´ng giá»›i háº¡n âœ…
+- Má»Ÿ Locket â†’ Premium Ä‘Ã£ kÃ­ch hoáº¡t âœ…
 
 </details>
 
 <details>
 <summary>
-  <h3>🚀 Shadowrocket (iOS) — ⭐ Khuyên dùng</h3>
+  <h3>ðŸš€ Shadowrocket (iOS) â€” â­ KhuyÃªn dÃ¹ng</h3>
 </summary>
 
 <br>
 
-**URL cài đặt**
+**URL cÃ i Ä‘áº·t**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
 ```
 
-**Tính năng v8.0.0**
-- ✅ 20+ Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes...
-- ✅ Tất cả scripts tối ưu từ z3rokaze
-- ✅ Giữ YouTube (ekaznyra) & Locket Gold
-- ✅ Sub-Store Sync tự động mỗi ngày
+**TÃ­nh nÄƒng v1.0.0**
+- âœ… 32+ Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes, WPS, Xmind, Caixin...
+- âœ… Táº¥t cáº£ scripts tá»‘i Æ°u tá»« z3rokaze
+- âœ… Giá»¯ YouTube (ekaznyra) & Locket Gold
+- âœ… Sub-Store Sync tá»± Ä‘á»™ng má»—i ngÃ y
 
-**Các bước**
-1. Mở **Shadowrocket** → Tab **Configuration**
-2. Chọn config đang dùng → **Edit Configuration**
-3. Kéo xuống phần **[Module]** → Nút **+**
-4. Chọn **Add Module URL** → Dán URL → **Save**
+**CÃ¡c bÆ°á»›c**
+1. Má»Ÿ **Shadowrocket** â†’ Tab **Configuration**
+2. Chá»n config Ä‘ang dÃ¹ng â†’ **Edit Configuration**
+3. KÃ©o xuá»‘ng pháº§n **[Module]** â†’ NÃºt **+**
+4. Chá»n **Add Module URL** â†’ DÃ¡n URL â†’ **Save**
 
-**Cài đặt MITM**
-1. **Settings** → **Certificate** → **Generate New Certificate**
-2. **Install Certificate** → Safari mở
-3. **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị**
-4. Cài profile "Shadowrocket..."
-5. **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ**
-6. Bật tin cậy cho Shadowrocket
+**CÃ i Ä‘áº·t MITM**
+1. **Settings** â†’ **Certificate** â†’ **Generate New Certificate**
+2. **Install Certificate** â†’ Safari má»Ÿ
+3. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **VPN & Quáº£n lÃ½ thiáº¿t bá»‹**
+4. CÃ i profile "Shadowrocket..."
+5. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **Giá»›i thiá»‡u** â†’ **CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰**
+6. Báº­t tin cáº­y cho Shadowrocket
 
-**Tại sao dùng .module cho Shadowrocket?**
-- ✅ Định dạng gốc (tương thích 100%)
-- ✅ Đầy đủ tính năng (5.6KB)
-- ✅ Tải nhanh
-- ✅ Hỗ trợ 4 apps
+**Táº¡i sao dÃ¹ng .module cho Shadowrocket?**
+- âœ… Äá»‹nh dáº¡ng gá»‘c (tÆ°Æ¡ng thÃ­ch 100%)
+- âœ… Äáº§y Ä‘á»§ tÃ­nh nÄƒng (5.6KB)
+- âœ… Táº£i nhanh
+- âœ… Há»— trá»£ 4 apps
 
 </details>
 
 <details>
 <summary>
-  <h3>💰 LanceX (iOS) — Giá rẻ nhất</h3>
+  <h3>ðŸ’° LanceX (iOS) â€” GiÃ¡ ráº» nháº¥t</h3>
 </summary>
 
 <br>
 
-**URL cài đặt**
+**URL cÃ i Ä‘áº·t**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
 ```
 
-**Tính năng v8.0.0**
-- ✅ 30 Apps Premium support
-- ✅ Tương thích 100% Shadowrocket
-- ✅ Giá rẻ nhất ($1.99)
-- ✅ Giao diện tiếng Trung/Anh
+**TÃ­nh nÄƒng v1.0.0**
+- âœ… 32+ Apps Premium unlocked
+- âœ… TÆ°Æ¡ng thÃ­ch 100% Shadowrocket
+- âœ… GiÃ¡ ráº» nháº¥t ($1.99)
+- âœ… Giao diá»‡n tiáº¿ng Trung/Anh
 
-**Các bước**
-1. Mở **LanceX** → Tab **配置** (Configuration)
-2. Chọn config đang dùng → **编辑配置** (Edit)
-3. Kéo xuống phần **[Module]** → Nút **+**
-4. Chọn **URL** → Dán URL → **完成** (Done)
+**CÃ¡c bÆ°á»›c**
+1. Má»Ÿ **LanceX** â†’ Tab **é…ç½®** (Configuration)
+2. Chá»n config Ä‘ang dÃ¹ng â†’ **ç¼–è¾‘é…ç½®** (Edit)
+3. KÃ©o xuá»‘ng pháº§n **[Module]** â†’ NÃºt **+**
+4. Chá»n **URL** â†’ DÃ¡n URL â†’ **å®Œæˆ** (Done)
 
-**Cài đặt MITM**
-1. **设置** (Settings) → **证书** (Certificate) → **生成新的证书** (Generate)
-2. **安装证书** (Install Certificate) → Safari mở
-3. **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị**
-4. Cài profile "LanceX..."
-5. **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ**
-6. Bật tin cậy cho LanceX
+**CÃ i Ä‘áº·t MITM**
+1. **è®¾ç½®** (Settings) â†’ **è¯ä¹¦** (Certificate) â†’ **ç”Ÿæˆæ–°çš„è¯ä¹¦** (Generate)
+2. **å®‰è£…è¯ä¹¦** (Install Certificate) â†’ Safari má»Ÿ
+3. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **VPN & Quáº£n lÃ½ thiáº¿t bá»‹**
+4. CÃ i profile "LanceX..."
+5. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **Giá»›i thiá»‡u** â†’ **CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰**
+6. Báº­t tin cáº­y cho LanceX
 
-**Tại sao dùng LanceX?**
-- ✅ Giá rẻ nhất ($1.99 vs $2.99)
-- ✅ 100% tương thích Shadowrocket
-- ✅ Cùng file .module
-- ✅ Giao diện tiếng Trung/Anh
+**Táº¡i sao dÃ¹ng LanceX?**
+- âœ… GiÃ¡ ráº» nháº¥t ($1.99 vs $2.99)
+- âœ… 100% tÆ°Æ¡ng thÃ­ch Shadowrocket
+- âœ… CÃ¹ng file .module
+- âœ… Giao diá»‡n tiáº¿ng Trung/Anh
 
 </details>
 
 <details>
 <summary>
-  <h3>🎈 Loon (iOS)</h3>
+  <h3>ðŸŽˆ Loon (iOS)</h3>
 </summary>
 
 <br>
 
-**URL cài đặt**
+**URL cÃ i Ä‘áº·t**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
 ```
 
-**Tính năng v8.0.0**
-- ✅ 30 Apps Premium unlocked
-- ✅ Định dạng .plugin tối ưu
-- ✅ Tag system dễ quản lý
-- ✅ Binary mode cho Spotify
+**TÃ­nh nÄƒng v1.0.0**
+- âœ… 32+ Apps Premium unlocked
+- âœ… Äá»‹nh dáº¡ng .plugin tá»‘i Æ°u
+- âœ… Tag system dá»… quáº£n lÃ½
+- âœ… Binary mode cho Spotify
 
-**Các bước**
-1. Mở **Loon** → Tab **Configuration**
-2. Chọn **Plugin** → Nút **+**
-3. Dán URL ở trên → **Save**
-4. Bật plugin
+**CÃ¡c bÆ°á»›c**
+1. Má»Ÿ **Loon** â†’ Tab **Configuration**
+2. Chá»n **Plugin** â†’ NÃºt **+**
+3. DÃ¡n URL á»Ÿ trÃªn â†’ **Save**
+4. Báº­t plugin
 
-**Cài đặt MITM**
-1. **Configuration** → **Mitm**
+**CÃ i Ä‘áº·t MITM**
+1. **Configuration** â†’ **Mitm**
 2. **Generate New CA Certificate**
-3. **Install CA Certificate** → Safari mở
-4. **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị**
-5. Cài profile "Loon..."
-6. **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ**
-7. Bật tin cậy cho Loon
+3. **Install CA Certificate** â†’ Safari má»Ÿ
+4. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **VPN & Quáº£n lÃ½ thiáº¿t bá»‹**
+5. CÃ i profile "Loon..."
+6. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **Giá»›i thiá»‡u** â†’ **CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰**
+7. Báº­t tin cáº­y cho Loon
 
-**Xác minh**
-- Mở YouTube → Không có quảng cáo ✅
-- Mở Spotify → Bỏ qua không giới hạn ✅
-- Mở Locket → Premium đã kích hoạt ✅
+**XÃ¡c minh**
+- Má»Ÿ YouTube â†’ KhÃ´ng cÃ³ quáº£ng cÃ¡o âœ…
+- Má»Ÿ Spotify â†’ Bá» qua khÃ´ng giá»›i háº¡n âœ…
+- Má»Ÿ Locket â†’ Premium Ä‘Ã£ kÃ­ch hoáº¡t âœ…
 
 </details>
 
 <details>
 <summary>
-  <h3>⚡ Quantumult X (iOS)</h3>
+  <h3>âš¡ Quantumult X (iOS)</h3>
 </summary>
 
 <br>
 
-**URL cài đặt**
+**URL cÃ i Ä‘áº·t**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
 ```
 
-**Tính năng v8.0.0**
-- ✅ 30 Apps Premium support
-- ✅ Định dạng .snippet nhỏ gọn (2.5KB)
-- ✅ Tối ưu cho QX engine
-- ✅ Sub-Store integration
+**TÃ­nh nÄƒng v1.0.0**
+- âœ… 32+ Apps Premium unlocked
+- âœ… Äá»‹nh dáº¡ng .snippet nhá» gá»n (2.5KB)
+- âœ… Tá»‘i Æ°u cho QX engine
+- âœ… Sub-Store integration
 
-**Các bước**
-1. Mở **Quantumult X** → Tab **Settings**
-2. Chọn **Rewrite** → **引用** (Reference)
-3. Nhấn nút **+** ở góc trên bên phải
-4. Dán URL ở trên → **OK**
-5. Bật snippet
+**CÃ¡c bÆ°á»›c**
+1. Má»Ÿ **Quantumult X** â†’ Tab **Settings**
+2. Chá»n **Rewrite** â†’ **å¼•ç”¨** (Reference)
+3. Nháº¥n nÃºt **+** á»Ÿ gÃ³c trÃªn bÃªn pháº£i
+4. DÃ¡n URL á»Ÿ trÃªn â†’ **OK**
+5. Báº­t snippet
 
-**Cài đặt MITM**
-1. **Settings** → **MitM**
-2. **Generate Certificate** → **配置证书**
-3. Safari mở → Cài đặt profile
-4. **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị**
-5. Cài profile "Quantumult X..."
-6. **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ**
-7. Bật tin cậy cho Quantumult X
-8. Quay lại Quantumult X → Bật **MitM**
+**CÃ i Ä‘áº·t MITM**
+1. **Settings** â†’ **MitM**
+2. **Generate Certificate** â†’ **é…ç½®è¯ä¹¦**
+3. Safari má»Ÿ â†’ CÃ i Ä‘áº·t profile
+4. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **VPN & Quáº£n lÃ½ thiáº¿t bá»‹**
+5. CÃ i profile "Quantumult X..."
+6. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **Giá»›i thiá»‡u** â†’ **CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰**
+7. Báº­t tin cáº­y cho Quantumult X
+8. Quay láº¡i Quantumult X â†’ Báº­t **MitM**
 
-**Xác minh**
-- Mở YouTube → Không có quảng cáo ✅
-- Mở Spotify → Bỏ qua không giới hạn ✅
-- Mở Locket → Premium đã kích hoạt ✅
+**XÃ¡c minh**
+- Má»Ÿ YouTube â†’ KhÃ´ng cÃ³ quáº£ng cÃ¡o âœ…
+- Má»Ÿ Spotify â†’ Bá» qua khÃ´ng giá»›i háº¡n âœ…
+- Má»Ÿ Locket â†’ Premium Ä‘Ã£ kÃ­ch hoáº¡t âœ…
 
 </details>
 
 <details>
 <summary>
-  <h3>💎 Stash (iOS)</h3>
+  <h3>ðŸ’Ž Stash (iOS)</h3>
 </summary>
 
 <br>
 
-**URL cài đặt**
+**URL cÃ i Ä‘áº·t**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
 ```
 
-**Tính năng v8.0.0**
-- ✅ 30 Apps Premium unlocked
-- ✅ Script-providers tự động update
-- ✅ Binary mode cho Spotify
-- ✅ Interval 86400s (24h)
+**TÃ­nh nÄƒng v1.0.0**
+- âœ… 32+ Apps Premium unlocked
+- âœ… Script-providers tá»± Ä‘á»™ng update
+- âœ… Binary mode cho Spotify
+- âœ… Interval 86400s (24h)
 
-**Các bước**
-1. Mở **Stash** → Tab **Overrides**
-2. Nhấn nút **+** → **New Override**
-3. Chọn **Install from URL**
-4. Dán URL ở trên → **Install**
-5. Bật override
+**CÃ¡c bÆ°á»›c**
+1. Má»Ÿ **Stash** â†’ Tab **Overrides**
+2. Nháº¥n nÃºt **+** â†’ **New Override**
+3. Chá»n **Install from URL**
+4. DÃ¡n URL á»Ÿ trÃªn â†’ **Install**
+5. Báº­t override
 
-**Cài đặt MITM**
-1. **Settings** → **MitM**
-2. **HTTPS Decryption** → Bật ON
-3. **Certificates** → **Generate New Certificate**
-4. **Install Certificate** → Safari mở
-5. **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị**
-6. Cài profile "Stash..."
-7. **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ**
-8. Bật tin cậy cho Stash
+**CÃ i Ä‘áº·t MITM**
+1. **Settings** â†’ **MitM**
+2. **HTTPS Decryption** â†’ Báº­t ON
+3. **Certificates** â†’ **Generate New Certificate**
+4. **Install Certificate** â†’ Safari má»Ÿ
+5. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **VPN & Quáº£n lÃ½ thiáº¿t bá»‹**
+6. CÃ i profile "Stash..."
+7. **CÃ i Ä‘áº·t** â†’ **CÃ i Ä‘áº·t chung** â†’ **Giá»›i thiá»‡u** â†’ **CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰**
+8. Báº­t tin cáº­y cho Stash
 
-**Xác minh**
-- Mở YouTube → Không có quảng cáo ✅
-- Mở Spotify → Bỏ qua không giới hạn ✅
-- Mở Locket → Premium đã kích hoạt ✅
+**XÃ¡c minh**
+- Má»Ÿ YouTube â†’ KhÃ´ng cÃ³ quáº£ng cÃ¡o âœ…
+- Má»Ÿ Spotify â†’ Bá» qua khÃ´ng giá»›i háº¡n âœ…
+- Má»Ÿ Locket â†’ Premium Ä‘Ã£ kÃ­ch hoáº¡t âœ…
 
 </details>
 
@@ -735,119 +735,154 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 📋 Changelog
+## ðŸ“‹ Changelog
 
 </div>
+
+
 
 <details open>
 <summary>
-  <h3>🚀 v8.0.0 (2026-05-09) — Ultimate Release</h3>
+  <h3>ðŸŽ‰ v1.0.0 (2026-05-09) â€” Self-hosted Release</h3>
 </summary>
 
 <br>
 
-**✨ Mở rộng 20+ Apps Premium (17 → 20+ apps)**
-- ✅ � VSCO Premium — Unlock all filters & tools
-- ✅ ❄️ Snow Premium — Full features unlocked
-- ✅ 🎨 Meitu XiuXiu Premium — All editing tools
-- ✅ � Djay Pro — Professional DJ features
-- ✅ 📚 Busuu Premium — Language learning pro
-- ✅ ✨ Mojo Pro — Video editing premium
-- ✅ 📱 Widgetsmith Premium — Unlimited widgets
-- ✅ � Funimate Pro — Video effects unlocked
-- ✅ 🎭 Reface Premium — Face swap unlimited
-- ✅ 📱 Unfold Premium — Story templates pro
-- ✅ 🍎 iTunes Premium — App purchases unlock
+**âœ¨ ÄÃ³ng gÃ³i Stable Release**
+- âœ… Äá»•i numbering schema: v8.x â†’ v1.0.0 (initial public release)
+- âœ… Self-hosted 100% trÃªn repo ekaznyra/NguyenNgocAnhTu
+- âœ… Giá»¯ YouTube script á»Ÿ ekaznyra vÃ  Locket Gold (revenuecat_multi)
+- âœ… Sub-Store integration vá»›i daily cron sync
 
-**🔄 Cập nhật toàn diện Scripts**
-- ✅ Thay thế tất cả scripts từ bên thứ 3 → z3rokaze
-- ✅ Tạo mới 18 file JS với credits đầy đủ
-- ✅ Tối ưu hóa Spotify (spotify-json.js + spotify-proto.js)
-- ✅ Cập nhật Lightroom, Photoshop, Emby, Calm, Headspace
-- ✅ Giữ nguyên YouTube (ekaznyra) và Locket Gold
+**ðŸ“± 32+ Apps Premium Ä‘Æ°á»£c verify**
+- âœ… YouTube Premium (ekaznyra)
+- âœ… Spotify Premium (protobuf decode)
+- âœ… Locket Gold + è½¦ç¥¨ç¥¨ VIP (RevenueCat multi-app)
+- âœ… iTunes Premium (unlock 250+ app qua verifyReceipt)
+- âœ… PicsArt, Lightroom, Photoshop Express, Emby, KineMaster
+- âœ… Djay Pro, Calm, Busuu, Headspace, AlightMotion
+- âœ… Wink, Truecaller, CamScanner, BeautyPlus, VSCO
+- âœ… Snow, Meitu XiuXiu, Widgetsmith, Funimate, Unfold
+- âœ… WPS Office, Xmind, Caixin, Caixin Weekly, LiuLiShuo Reading
+- âœ… Nicegram (3 endpoint hooks), SoundCloud Go+
 
-**⚡ Tối ưu hóa toàn bộ Modules**
-- ✅ Cập nhật 7 modules: Premium, Shadowrocket, LanceX, Loon, QuantumultX, Stash, Surge
-- ✅ Đồng bộ version 8.0.0 cho tất cả platforms
-- ✅ Chuẩn hóa timeout và max-size parameters
-- ✅ Thêm Sub-Store Sync cron job
+**ðŸ§¹ Dá»n dáº¹p + Cháº¥t lÆ°á»£ng**
+- âœ… Gá»¡ cÃ¡c script dead-endpoint: Mojo (api.mojo-app.com), Reface (api.reface.video)
+- âœ… 33 JS scripts self-hosted, 0 phá»¥ thuá»™c chxm1023/duyvinh09/I-am-R-E
+- âœ… Full test: 255/255 pass (Node.js syntax + credits + regex + MITM + DNS)
 
-**🎯 Hiệu suất & Tương thích**
-- ✅ 100% tương thích iOS 15-17
-- ✅ Tối ưu memory usage: 256KB average
-- ✅ Response time: < 60ms
-- ✅ Zero conflicts giữa các apps
+**ðŸ“Š Production Stats: 32+ Apps â€¢ 46 Hostnames â€¢ 33 Scripts â€¢ 38 Script Entries**
 
-**📦 Version Update**
-- ✅ Premium.module: 7.2.1 → 8.0.0
-- ✅ All modules: 5.2.1 → 8.0.0
-- ✅ 28 JS files total (18 new + 10 updated)
+</details>
+<details>
+<summary>
+  <h3>ðŸš€ v8.0.0 (2026-05-09) â€” Ultimate Release</h3>
+</summary>
 
-**📊 Production Stats: 20+ Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+<br>
+
+**âœ¨ Má»Ÿ rá»™ng 20+ Apps Premium (17 â†’ 20+ apps)**
+- âœ… ï¿½ VSCO Premium â€” Unlock all filters & tools
+- âœ… â„ï¸ Snow Premium â€” Full features unlocked
+- âœ… ðŸŽ¨ Meitu XiuXiu Premium â€” All editing tools
+- âœ… ï¿½ Djay Pro â€” Professional DJ features
+- âœ… ðŸ“š Busuu Premium â€” Language learning pro
+- âœ… âœ¨ Mojo Pro â€” Video editing premium
+- âœ… ðŸ“± Widgetsmith Premium â€” Unlimited widgets
+- âœ… ï¿½ Funimate Pro â€” Video effects unlocked
+- âœ… ðŸŽ­ Reface Premium â€” Face swap unlimited
+- âœ… ðŸ“± Unfold Premium â€” Story templates pro
+- âœ… ðŸŽ iTunes Premium â€” App purchases unlock
+
+**ðŸ”„ Cáº­p nháº­t toÃ n diá»‡n Scripts**
+- âœ… Thay tháº¿ táº¥t cáº£ scripts tá»« bÃªn thá»© 3 â†’ z3rokaze
+- âœ… Táº¡o má»›i 18 file JS vá»›i credits Ä‘áº§y Ä‘á»§
+- âœ… Tá»‘i Æ°u hÃ³a Spotify (spotify-json.js + spotify-proto.js)
+- âœ… Cáº­p nháº­t Lightroom, Photoshop, Emby, Calm, Headspace
+- âœ… Giá»¯ nguyÃªn YouTube (ekaznyra) vÃ  Locket Gold
+
+**âš¡ Tá»‘i Æ°u hÃ³a toÃ n bá»™ Modules**
+- âœ… Cáº­p nháº­t 7 modules: Premium, Shadowrocket, LanceX, Loon, QuantumultX, Stash, Surge
+- âœ… Äá»“ng bá»™ version 8.0.0 cho táº¥t cáº£ platforms
+- âœ… Chuáº©n hÃ³a timeout vÃ  max-size parameters
+- âœ… ThÃªm Sub-Store Sync cron job
+
+**ðŸŽ¯ Hiá»‡u suáº¥t & TÆ°Æ¡ng thÃ­ch**
+- âœ… 100% tÆ°Æ¡ng thÃ­ch iOS 15-17
+- âœ… Tá»‘i Æ°u memory usage: 256KB average
+- âœ… Response time: < 60ms
+- âœ… Zero conflicts giá»¯a cÃ¡c apps
+
+**ðŸ“¦ Version Update**
+- âœ… Premium.module: 7.2.1 â†’ 8.0.0
+- âœ… All modules: 5.2.1 â†’ 8.0.0
+- âœ… 28 JS files total (18 new + 10 updated)
+
+**ðŸ“Š Production Stats: 20+ Apps â€¢ 35+ Hostnames â€¢ 28 Scripts â€¢ 100% Tested**
 
 </details>
 
 <details>
 <summary>
-  <h3>🌟 v7.1.0 (2026-05-05) — Premium Release</h3>
+  <h3>ðŸŒŸ v7.1.0 (2026-05-05) â€” Premium Release</h3>
 </summary>
 
 <br>
 
-**✨ Mở rộng 17 Apps Premium (13 → 17 apps)**
-- ✅ 🖼️ Lightroom Premium
-- ✅ 🎨 Photoshop Express Premium
-- ✅ 🧘 Calm Premium
-- ✅ 🎧 Headspace Premium
+**âœ¨ Má»Ÿ rá»™ng 17 Apps Premium (13 â†’ 17 apps)**
+- âœ… ðŸ–¼ï¸ Lightroom Premium
+- âœ… ðŸŽ¨ Photoshop Express Premium
+- âœ… ðŸ§˜ Calm Premium
+- âœ… ðŸŽ§ Headspace Premium
 
-**⚡ Tối ưu hóa Parameters**
-- ✅ Chuẩn hóa timeout: 10s/15s/30s/60s/120s
-- ✅ Thêm max-size=131072 cho YouTube, Spotify, Locket
-- ✅ Thêm max-size=0 cho PicsArt, BeautyPlus
+**âš¡ Tá»‘i Æ°u hÃ³a Parameters**
+- âœ… Chuáº©n hÃ³a timeout: 10s/15s/30s/60s/120s
+- âœ… ThÃªm max-size=131072 cho YouTube, Spotify, Locket
+- âœ… ThÃªm max-size=0 cho PicsArt, BeautyPlus
 
-**📊 Production Stats: 17 Apps • 21 Hostnames • 10 Scripts • 100% Tested**
+**ðŸ“Š Production Stats: 17 Apps â€¢ 21 Hostnames â€¢ 10 Scripts â€¢ 100% Tested**
 
 </details>
 
 <details>
 <summary>
-  <h3>🔄 v3.0.0 (2026-04-08)</h3>
+  <h3>ðŸ”„ v3.0.0 (2026-04-08)</h3>
 </summary>
 
 <br>
 
-**🔐 Locket Gold - Cải tiến lớn**
-- ✅ Thêm `non_subscriptions` cho lifetime purchase (RevenueCat API v1 spec)
-- ✅ Triple entitlements: `Gold` + `pro` + `premium` (tương thích Locket v2.41+)
-- ✅ Thêm `management_url`, `first_seen`, `request_date` fields
-- ✅ Thêm `original_application_version` cho store validation
-- ✅ Thêm `product_plan_identifier` mới
+**ðŸ” Locket Gold - Cáº£i tiáº¿n lá»›n**
+- âœ… ThÃªm `non_subscriptions` cho lifetime purchase (RevenueCat API v1 spec)
+- âœ… Triple entitlements: `Gold` + `pro` + `premium` (tÆ°Æ¡ng thÃ­ch Locket v2.41+)
+- âœ… ThÃªm `management_url`, `first_seen`, `request_date` fields
+- âœ… ThÃªm `original_application_version` cho store validation
+- âœ… ThÃªm `product_plan_identifier` má»›i
 
-**🔒 DNS Profile - Tính năng mới**
-- ✅ `LocketGoldDNS.mobileconfig` v3.0 — Giữ Gold khi tắt Shadowrocket
-- ✅ Chặn 25 domains (RevenueCat API + Analytics + Telemetry)
-- ✅ AdGuard DNS-over-HTTPS làm DNS mặc định
+**ðŸ”’ DNS Profile - TÃ­nh nÄƒng má»›i**
+- âœ… `LocketGoldDNS.mobileconfig` v3.0 â€” Giá»¯ Gold khi táº¯t Shadowrocket
+- âœ… Cháº·n 25 domains (RevenueCat API + Analytics + Telemetry)
+- âœ… AdGuard DNS-over-HTTPS lÃ m DNS máº·c Ä‘á»‹nh
 
-**⚡ deleteHeader.js v2.0**
-- ✅ Thêm `If-Modified-Since` removal cho aggressive cache bypass
+**âš¡ deleteHeader.js v2.0**
+- âœ… ThÃªm `If-Modified-Since` removal cho aggressive cache bypass
 
-**📦 Module configs**
-- ✅ Đồng bộ version v3.0.0 cho tất cả 6 platform configs
+**ðŸ“¦ Module configs**
+- âœ… Äá»“ng bá»™ version v3.0.0 cho táº¥t cáº£ 6 platform configs
 
 </details>
 
 <details>
 <summary>
-  <h3>📁 v2.7.0 (2026-03-20)</h3>
+  <h3>ðŸ“ v2.7.0 (2026-03-20)</h3>
 </summary>
 
 <br>
 
-- 🎶 24 Apps Premium support
-- 📺 YouTube: Synced with Maasea upstream
-- 🎵 Spotify: Enhanced header-del rules
-- 🔐 RevenueCat Multi-App: 8 apps support
-- ⚡ Performance: Ultra-fast IIFE pattern
+- ðŸŽ¶ 24 Apps Premium support
+- ðŸ“º YouTube: Synced with Maasea upstream
+- ðŸŽµ Spotify: Enhanced header-del rules
+- ðŸ” RevenueCat Multi-App: 8 apps support
+- âš¡ Performance: Ultra-fast IIFE pattern
 
 </details>
 
@@ -858,37 +893,37 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## Cấu hình
+## Cáº¥u hÃ¬nh
 
 </div>
 
 <details>
 <summary>
-  <h3>🎨 Tùy chỉnh cài đặt YouTube</h3>
+  <h3>ðŸŽ¨ TÃ¹y chá»‰nh cÃ i Ä‘áº·t YouTube</h3>
 </summary>
 
 <br>
 
-Bạn có thể tùy chỉnh tính năng YouTube bằng cách chỉnh sửa tham số `argument` trong module:
+Báº¡n cÃ³ thá»ƒ tÃ¹y chá»‰nh tÃ­nh nÄƒng YouTube báº±ng cÃ¡ch chá»‰nh sá»­a tham sá»‘ `argument` trong module:
 
 ```json
 {
-  "lyricLang": "vi",        // Ngôn ngữ dịch lời bài hát
-  "captionLang": "vi",      // Ngôn ngữ dịch phụ đề
-  "blockUpload": true,      // Ẩn nút tải lên
-  "blockImmersive": true,   // Ẩn giao diện immersive
-  "blockShorts": false,     // Ẩn Shorts (thử nghiệm)
-  "debug": false            // Bật chế độ debug
+  "lyricLang": "vi",        // NgÃ´n ngá»¯ dá»‹ch lá»i bÃ i hÃ¡t
+  "captionLang": "vi",      // NgÃ´n ngá»¯ dá»‹ch phá»¥ Ä‘á»
+  "blockUpload": true,      // áº¨n nÃºt táº£i lÃªn
+  "blockImmersive": true,   // áº¨n giao diá»‡n immersive
+  "blockShorts": false,     // áº¨n Shorts (thá»­ nghiá»‡m)
+  "debug": false            // Báº­t cháº¿ Ä‘á»™ debug
 }
 ```
 
-**Ngôn ngữ hỗ trợ**
+**NgÃ´n ngá»¯ há»— trá»£**
 
-| Mã | Ngôn ngữ | Mã | Ngôn ngữ | Mã | Ngôn ngữ |
+| MÃ£ | NgÃ´n ngá»¯ | MÃ£ | NgÃ´n ngá»¯ | MÃ£ | NgÃ´n ngá»¯ |
 |:----:|:--------:|:----:|:--------:|:----:|:--------:|
-| `vi` | 🇻🇳 Tiếng Việt | `en` | 🇺🇸 Tiếng Anh | `zh-Hans` | 🇨🇳 简体中文 |
-| `zh-Hant` | 🇹🇼 繁體中文 | `ja` | 🇯🇵 日本語 | `ko` | 🇰🇷 한국어 |
-| `fr` | 🇫🇷 Français | `de` | 🇩🇪 Deutsch | `ru` | 🇷🇺 Русский |
+| `vi` | ðŸ‡»ðŸ‡³ Tiáº¿ng Viá»‡t | `en` | ðŸ‡ºðŸ‡¸ Tiáº¿ng Anh | `zh-Hans` | ðŸ‡¨ðŸ‡³ ç®€ä½“ä¸­æ–‡ |
+| `zh-Hant` | ðŸ‡¹ðŸ‡¼ ç¹é«”ä¸­æ–‡ | `ja` | ðŸ‡¯ðŸ‡µ æ—¥æœ¬èªž | `ko` | ðŸ‡°ðŸ‡· í•œêµ­ì–´ |
+| `fr` | ðŸ‡«ðŸ‡· FranÃ§ais | `de` | ðŸ‡©ðŸ‡ª Deutsch | `ru` | ðŸ‡·ðŸ‡º Ð ÑƒÑÑÐºÐ¸Ð¹ |
 
 </details>
 
@@ -899,120 +934,120 @@ Bạn có thể tùy chỉnh tính năng YouTube bằng cách chỉnh sửa tham
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## Câu hỏi thường gặp
+## CÃ¢u há»i thÆ°á»ng gáº·p
 
 </div>
 
 <details>
 <summary>
-  <h3>❓ Tại sao YouTube vẫn có quảng cáo?</h3>
+  <h3>â“ Táº¡i sao YouTube váº«n cÃ³ quáº£ng cÃ¡o?</h3>
 </summary>
 
 <br>
 
-### 🔍 Chẩn đoán vấn đề
+### ðŸ” Cháº©n Ä‘oÃ¡n váº¥n Ä‘á»
 
-**Bước 1: Kiểm tra MITM**
+**BÆ°á»›c 1: Kiá»ƒm tra MITM**
 ```
-Settings → MITM → Kiểm tra trạng thái
-✅ Phải hiển thị "ON" hoặc "Enabled"
-✅ Certificate phải được cài đặt
-```
-
-**Bước 2: Kiểm tra Certificate**
-```
-iOS Settings → General → VPN & Device Management
-✅ Phải có profile của app proxy (Surge/Shadowrocket/...)
-✅ Profile phải có trạng thái "Verified"
+Settings â†’ MITM â†’ Kiá»ƒm tra tráº¡ng thÃ¡i
+âœ… Pháº£i hiá»ƒn thá»‹ "ON" hoáº·c "Enabled"
+âœ… Certificate pháº£i Ä‘Æ°á»£c cÃ i Ä‘áº·t
 ```
 
-**Bước 3: Kiểm tra Certificate Trust**
+**BÆ°á»›c 2: Kiá»ƒm tra Certificate**
 ```
-iOS Settings → General → About → Certificate Trust Settings
-✅ Phải BẬT tin cậy cho certificate của app
-⚠️ Nếu không bật, MITM sẽ không hoạt động!
-```
-
-**Bước 4: Kiểm tra Module**
-```
-App → Configuration → Modules
-✅ Module phải có trạng thái "ON" 
-✅ Kiểm tra URL module có đúng không
+iOS Settings â†’ General â†’ VPN & Device Management
+âœ… Pháº£i cÃ³ profile cá»§a app proxy (Surge/Shadowrocket/...)
+âœ… Profile pháº£i cÃ³ tráº¡ng thÃ¡i "Verified"
 ```
 
-### 🛠️ Giải pháp từng bước
+**BÆ°á»›c 3: Kiá»ƒm tra Certificate Trust**
+```
+iOS Settings â†’ General â†’ About â†’ Certificate Trust Settings
+âœ… Pháº£i Báº¬T tin cáº­y cho certificate cá»§a app
+âš ï¸ Náº¿u khÃ´ng báº­t, MITM sáº½ khÃ´ng hoáº¡t Ä‘á»™ng!
+```
+
+**BÆ°á»›c 4: Kiá»ƒm tra Module**
+```
+App â†’ Configuration â†’ Modules
+âœ… Module pháº£i cÃ³ tráº¡ng thÃ¡i "ON" 
+âœ… Kiá»ƒm tra URL module cÃ³ Ä‘Ãºng khÃ´ng
+```
+
+### ðŸ› ï¸ Giáº£i phÃ¡p tá»«ng bÆ°á»›c
 
 <table>
 <tr>
 <td width="50%">
 
-**Giải pháp 1: Xóa Cache**
-1. Mở **Cài đặt iOS**
-2. Tìm app **YouTube**
-3. Chọn **Xóa Cache** hoặc **Clear Cache**
-4. Mở lại YouTube
+**Giáº£i phÃ¡p 1: XÃ³a Cache**
+1. Má»Ÿ **CÃ i Ä‘áº·t iOS**
+2. TÃ¬m app **YouTube**
+3. Chá»n **XÃ³a Cache** hoáº·c **Clear Cache**
+4. Má»Ÿ láº¡i YouTube
 
 </td>
 <td width="50%">
 
-**Giải pháp 2: Reinstall Certificate**
-1. Xóa certificate cũ trong proxy app
-2. Generate certificate mới
-3. Cài lại và trust certificate
-4. Khởi động lại thiết bị
+**Giáº£i phÃ¡p 2: Reinstall Certificate**
+1. XÃ³a certificate cÅ© trong proxy app
+2. Generate certificate má»›i
+3. CÃ i láº¡i vÃ  trust certificate
+4. Khá»Ÿi Ä‘á»™ng láº¡i thiáº¿t bá»‹
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**Giải pháp 3: Reinstall Module**
-1. Xóa module cũ
-2. Cài lại module từ URL
-3. Bật module
-4. Force quit YouTube và mở lại
+**Giáº£i phÃ¡p 3: Reinstall Module**
+1. XÃ³a module cÅ©
+2. CÃ i láº¡i module tá»« URL
+3. Báº­t module
+4. Force quit YouTube vÃ  má»Ÿ láº¡i
 
 </td>
 <td width="50%">
 
-**Giải pháp 4: Kiểm tra Network**
-1. Thử trên WiFi (không dùng 4G/5G)
-2. Tắt VPN khác (nếu có)
-3. Tắt iCloud Private Relay
-4. Restart router nếu cần
+**Giáº£i phÃ¡p 4: Kiá»ƒm tra Network**
+1. Thá»­ trÃªn WiFi (khÃ´ng dÃ¹ng 4G/5G)
+2. Táº¯t VPN khÃ¡c (náº¿u cÃ³)
+3. Táº¯t iCloud Private Relay
+4. Restart router náº¿u cáº§n
 
 </td>
 </tr>
 </table>
 
-### Lời khuyên quan trọng
+### Lá»i khuyÃªn quan trá»ng
 
 > [!IMPORTANT]
-> **Tại sao BẮT BUỘC phải tin cậy Certificate?**
+> **Táº¡i sao Báº®T BUá»˜C pháº£i tin cáº­y Certificate?**
 > 
-> Rất nhiều bạn quên bước này! Việc mở khoá Premium và chặn quảng cáo bắt buộc phải phân tích được dữ liệu mạng. Bằng cách vào `Cài đặt > Cài đặt chung > Giới thiệu > Cài đặt tin cậy chứng chỉ` và bật xanh lên, bạn đang cấp quyền cho App hoạt động. Nếu quên bật, iOS sẽ CHẶN KẾT NỐI MẠNG và không có tính năng nào sử dụng được!
+> Ráº¥t nhiá»u báº¡n quÃªn bÆ°á»›c nÃ y! Viá»‡c má»Ÿ khoÃ¡ Premium vÃ  cháº·n quáº£ng cÃ¡o báº¯t buá»™c pháº£i phÃ¢n tÃ­ch Ä‘Æ°á»£c dá»¯ liá»‡u máº¡ng. Báº±ng cÃ¡ch vÃ o `CÃ i Ä‘áº·t > CÃ i Ä‘áº·t chung > Giá»›i thiá»‡u > CÃ i Ä‘áº·t tin cáº­y chá»©ng chá»‰` vÃ  báº­t xanh lÃªn, báº¡n Ä‘ang cáº¥p quyá»n cho App hoáº¡t Ä‘á»™ng. Náº¿u quÃªn báº­t, iOS sáº½ CHáº¶N Káº¾T Ná»I Máº NG vÃ  khÃ´ng cÃ³ tÃ­nh nÄƒng nÃ o sá»­ dá»¥ng Ä‘Æ°á»£c!
 
 > [!NOTE]
-> **Certificate có an toàn không?**
+> **Certificate cÃ³ an toÃ n khÃ´ng?**
 > 
-> Hoàn toàn an toàn! Mọi cấu hình chặn quảng cáo đều xử lý **100% Offline** ngay trên thiết bị của bạn. App không hề gửi dữ liệu cá nhân hay lịch sử đi đâu cả. Bạn đang làm chủ hoàn toàn dữ liệu của mình.
+> HoÃ n toÃ n an toÃ n! Má»i cáº¥u hÃ¬nh cháº·n quáº£ng cÃ¡o Ä‘á»u xá»­ lÃ½ **100% Offline** ngay trÃªn thiáº¿t bá»‹ cá»§a báº¡n. App khÃ´ng há» gá»­i dá»¯ liá»‡u cÃ¡ nhÃ¢n hay lá»‹ch sá»­ Ä‘i Ä‘Ã¢u cáº£. Báº¡n Ä‘ang lÃ m chá»§ hoÃ n toÃ n dá»¯ liá»‡u cá»§a mÃ¬nh.
 
 </details>
 
 <details>
 <summary>
-  <h3>🛡️ Có an toàn không?</h3>
+  <h3>ðŸ›¡ï¸ CÃ³ an toÃ n khÃ´ng?</h3>
 </summary>
 
 <br>
 
-**✅ 100% An toàn & Bảo mật**
+**âœ… 100% An toÃ n & Báº£o máº­t**
 
-- **Mã nguồn mở** — Tất cả code đều công khai trên GitHub
-- **Không thu thập dữ liệu** — Không có analytics hoặc tracking
-- **Ưu tiên riêng tư** — Scripts chạy cục bộ trên thiết bị
-- **Không có server từ xa** — Không gửi dữ liệu đến server ngoài
-- **Đã được cộng đồng xem xét** — Code được người dùng review
+- **MÃ£ nguá»“n má»Ÿ** â€” Táº¥t cáº£ code Ä‘á»u cÃ´ng khai trÃªn GitHub
+- **KhÃ´ng thu tháº­p dá»¯ liá»‡u** â€” KhÃ´ng cÃ³ analytics hoáº·c tracking
+- **Æ¯u tiÃªn riÃªng tÆ°** â€” Scripts cháº¡y cá»¥c bá»™ trÃªn thiáº¿t bá»‹
+- **KhÃ´ng cÃ³ server tá»« xa** â€” KhÃ´ng gá»­i dá»¯ liá»‡u Ä‘áº¿n server ngoÃ i
+- **ÄÃ£ Ä‘Æ°á»£c cá»™ng Ä‘á»“ng xem xÃ©t** â€” Code Ä‘Æ°á»£c ngÆ°á»i dÃ¹ng review
 
 </details>
 
@@ -1023,17 +1058,17 @@ App → Configuration → Modules
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## Hỗ trợ
+## Há»— trá»£
 
-### Kênh hỗ trợ
+### KÃªnh há»— trá»£
 
 <table>
 <tr>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/facebook-messenger.png" width="80"/>
 <br><br>
-<h3>📨 Live Chat</h3>
-<sub>⭐ Response: < 1 hour</sub>
+<h3>ðŸ“¨ Live Chat</h3>
+<sub>â­ Response: < 1 hour</sub>
 <br><br>
 <a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
 <img src="https://img.shields.io/badge/Chat_on_Messenger-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
@@ -1042,8 +1077,8 @@ App → Configuration → Modules
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/technical-support.png" width="80"/>
 <br><br>
-<h3>🔧 Bug Reports</h3>
-<sub>🛡️ Technical issues only</sub>
+<h3>ðŸ”§ Bug Reports</h3>
+<sub>ðŸ›¡ï¸ Technical issues only</sub>
 <br><br>
 <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
 <img src="https://img.shields.io/badge/Report_Issue-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
@@ -1052,8 +1087,8 @@ App → Configuration → Modules
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/comments.png" width="80"/>
 <br><br>
-<h3>💬 Community</h3>
-<sub>🚀 Questions & ideas</sub>
+<h3>ðŸ’¬ Community</h3>
+<sub>ðŸš€ Questions & ideas</sub>
 <br><br>
 <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
 <img src="https://img.shields.io/badge/Join_Discussion-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
@@ -1097,15 +1132,15 @@ App → Configuration → Modules
 <details>
 <summary><b>Click to expand</b></summary>
 
-- [✨ Features](#-features-1)
-- [🚀 Performance](#-performance-1)
-- [📱 Supported Apps](#-supported-apps-1)
-- [📥 Quick Installation](#-quick-installation-1)
-- [🔒 Locket Gold DNS](#-locket-gold-dns---keep-gold-when-proxy-is-off)
-- [📋 Changelog](#-changelog-1)
-- [⚙️ Configuration](#️-configuration-1)
-- [❓ FAQ](#-faq-1)
-- [💬 Support](#-support-1)
+- [âœ¨ Features](#-features-1)
+- [ðŸš€ Performance](#-performance-1)
+- [ðŸ“± Supported Apps](#-supported-apps-1)
+- [ðŸ“¥ Quick Installation](#-quick-installation-1)
+- [ðŸ”’ Locket Gold DNS](#-locket-gold-dns---keep-gold-when-proxy-is-off)
+- [ðŸ“‹ Changelog](#-changelog-1)
+- [âš™ï¸ Configuration](#ï¸-configuration-1)
+- [â“ FAQ](#-faq-1)
+- [ðŸ’¬ Support](#-support-1)
 
 </details>
 
@@ -1139,66 +1174,66 @@ App → Configuration → Modules
 <td valign="top">
 
 **Ad Blocking**
-- ✅ Video ads blocked
-- ✅ Banner ads removed
-- ✅ Popup ads eliminated
-- ✅ Sponsored content hidden
+- âœ… Video ads blocked
+- âœ… Banner ads removed
+- âœ… Popup ads eliminated
+- âœ… Sponsored content hidden
 
 **Premium Features**
-- ✅ Picture in Picture (PiP)
-- ✅ Background playback
-- ✅ Caption translation (VI/EN)
-- ✅ Lyric translation
-- ✅ Hide upload button
-- ✅ Remove shorts (optional)
+- âœ… Picture in Picture (PiP)
+- âœ… Background playback
+- âœ… Caption translation (VI/EN)
+- âœ… Lyric translation
+- âœ… Hide upload button
+- âœ… Remove shorts (optional)
 
 </td>
 <td valign="top">
 
 **Ad Blocking**
-- ✅ Audio ads removed
-- ✅ Video ads blocked
-- ✅ Banner ads eliminated
-- ✅ Clean interface
+- âœ… Audio ads removed
+- âœ… Video ads blocked
+- âœ… Banner ads eliminated
+- âœ… Clean interface
 
 **Premium Features**
-- ✅ Unlimited skips
-- ✅ High quality audio
-- ✅ Lyrics display
-- ✅ Seek anywhere
-- ✅ All features unlocked
+- âœ… Unlimited skips
+- âœ… High quality audio
+- âœ… Lyrics display
+- âœ… Seek anywhere
+- âœ… All features unlocked
 
 </td>
 <td valign="top">
 
 **Premium Unlock**
-- ✅ Gold subscription
-- ✅ No watermarks
-- ✅ Unlimited widgets
-- ✅ All features unlocked
-- ✅ Lifetime access
+- âœ… Gold subscription
+- âœ… No watermarks
+- âœ… Unlimited widgets
+- âœ… All features unlocked
+- âœ… Lifetime access
 
 **Performance**
-- ⚡ 60ms response time
-- 💾 256KB memory usage
-- 🔥 IIFE optimized
-- 📅 Valid until 2099
+- âš¡ 60ms response time
+- ðŸ’¾ 256KB memory usage
+- ðŸ”¥ IIFE optimized
+- ðŸ“… Valid until 2099
 
 </td>
 <td valign="top">
 
 **Go+ Unlock**
-- ✅ Ad-free listening
-- ✅ Offline playback
-- ✅ High quality audio
-- ✅ Unlimited skips
-- ✅ All Pro features
+- âœ… Ad-free listening
+- âœ… Offline playback
+- âœ… High quality audio
+- âœ… Unlimited skips
+- âœ… All Pro features
 
 **Performance**
-- ⚡ Fast response
-- 💾 Optimized bandwidth
-- 🔥 Smooth streaming
-- 📊 API configuration
+- âš¡ Fast response
+- ðŸ’¾ Optimized bandwidth
+- ðŸ”¥ Smooth streaming
+- ðŸ“Š API configuration
 
 </td>
 </tr>
@@ -1227,36 +1262,36 @@ App → Configuration → Modules
 <td><b>Response Time</b></td>
 <td><code>150ms</code></td>
 <td><code>60ms</code></td>
-<td><img src="https://img.shields.io/badge/↓_60%25-success?style=flat-square" alt="60% faster"></td>
+<td><img src="https://img.shields.io/badge/â†“_60%25-success?style=flat-square" alt="60% faster"></td>
 </tr>
 <tr>
 <td><b>Memory Usage</b></td>
 <td><code>512KB</code></td>
 <td><code>256KB</code></td>
-<td><img src="https://img.shields.io/badge/↓_50%25-success?style=flat-square" alt="50% less"></td>
+<td><img src="https://img.shields.io/badge/â†“_50%25-success?style=flat-square" alt="50% less"></td>
 </tr>
 <tr>
 <td><b>File Size</b></td>
 <td><code>5.0KB</code></td>
 <td><code>2.3KB</code></td>
-<td><img src="https://img.shields.io/badge/↓_54%25-success?style=flat-square" alt="54% smaller"></td>
+<td><img src="https://img.shields.io/badge/â†“_54%25-success?style=flat-square" alt="54% smaller"></td>
 </tr>
 <tr>
 <td><b>Execution Speed</b></td>
 <td><code>50ms</code></td>
 <td><code>15ms</code></td>
-<td><img src="https://img.shields.io/badge/↓_70%25-success?style=flat-square" alt="70% faster"></td>
+<td><img src="https://img.shields.io/badge/â†“_70%25-success?style=flat-square" alt="70% faster"></td>
 </tr>
 </tbody>
 </table>
 
 **Optimization Techniques**
 
-![IIFE Pattern](https://img.shields.io/badge/✓-IIFE_Pattern-4A90E2?style=flat-square)
-![Strict Mode](https://img.shields.io/badge/✓-Strict_Mode-50C878?style=flat-square)
-![Pre-built Objects](https://img.shields.io/badge/✓-Pre--built_Objects-F39C12?style=flat-square)
-![Native Loops](https://img.shields.io/badge/✓-Native_Loops-7F52FF?style=flat-square)
-![Zero I/O](https://img.shields.io/badge/✓-Zero_I/O-E74C3C?style=flat-square)
+![IIFE Pattern](https://img.shields.io/badge/âœ“-IIFE_Pattern-4A90E2?style=flat-square)
+![Strict Mode](https://img.shields.io/badge/âœ“-Strict_Mode-50C878?style=flat-square)
+![Pre-built Objects](https://img.shields.io/badge/âœ“-Pre--built_Objects-F39C12?style=flat-square)
+![Native Loops](https://img.shields.io/badge/âœ“-Native_Loops-7F52FF?style=flat-square)
+![Zero I/O](https://img.shields.io/badge/âœ“-Zero_I/O-E74C3C?style=flat-square)
 
 </div>
 
@@ -1270,12 +1305,12 @@ Choose the right module for your proxy app:
 
 | App | Format | Size | Platform | Status |
 |:---:|:------:|:----:|:--------:|:------:|
-| **Surge** | `.sgmodule` | ![Size](https://img.shields.io/badge/3.5KB-4A90E2?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-Optimized-50C878?style=flat-square) |
-| **Loon** | `.plugin` | ![Size](https://img.shields.io/badge/3.2KB-F39C12?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-Optimized-50C878?style=flat-square) |
-| **Shadowrocket** | `.module` | ![Size](https://img.shields.io/badge/5.6KB-E74C3C?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/★-Recommended-FFD700?style=flat-square) |
-| **LanceX** | `.module` | ![Size](https://img.shields.io/badge/5.7KB-9B59B6?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-Cheapest-50C878?style=flat-square) |
-| **Quantumult X** | `.snippet` | ![Size](https://img.shields.io/badge/2.5KB-7F52FF?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-Smallest-50C878?style=flat-square) |
-| **Stash** | `.stoverride` | ![Size](https://img.shields.io/badge/3.6KB-50C878?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-Optimized-50C878?style=flat-square) |
+| **Surge** | `.sgmodule` | ![Size](https://img.shields.io/badge/3.5KB-4A90E2?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-Optimized-50C878?style=flat-square) |
+| **Loon** | `.plugin` | ![Size](https://img.shields.io/badge/3.2KB-F39C12?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-Optimized-50C878?style=flat-square) |
+| **Shadowrocket** | `.module` | ![Size](https://img.shields.io/badge/5.6KB-E74C3C?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/â˜…-Recommended-FFD700?style=flat-square) |
+| **LanceX** | `.module` | ![Size](https://img.shields.io/badge/5.7KB-9B59B6?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-Cheapest-50C878?style=flat-square) |
+| **Quantumult X** | `.snippet` | ![Size](https://img.shields.io/badge/2.5KB-7F52FF?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-Smallest-50C878?style=flat-square) |
+| **Stash** | `.stoverride` | ![Size](https://img.shields.io/badge/3.6KB-50C878?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-Optimized-50C878?style=flat-square) |
 
 </div>
 
@@ -1284,7 +1319,7 @@ Choose the right module for your proxy app:
 ## Installation
 
 <details>
-<summary><b>🌊 Surge (iOS)</b></summary>
+<summary><b>ðŸŒŠ Surge (iOS)</b></summary>
 
 <br>
 
@@ -1294,27 +1329,27 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Steps**
-1. Open **Surge** → **Home** tab
-2. Tap **Modules** → **+** button
+1. Open **Surge** â†’ **Home** tab
+2. Tap **Modules** â†’ **+** button
 3. Select **Install Module from URL**
-4. Paste the URL above → **OK**
+4. Paste the URL above â†’ **OK**
 5. Enable the module
 
 **MITM Setup**
-1. **Settings** → **MITM** → **Install Certificate**
+1. **Settings** â†’ **MITM** â†’ **Install Certificate**
 2. Follow iOS prompts to install profile
-3. **Settings** → **General** → **About** → **Certificate Trust Settings**
+3. **Settings** â†’ **General** â†’ **About** â†’ **Certificate Trust Settings**
 4. Enable trust for Surge certificate
 
 **Verification**
-- Open YouTube → No ads ✅
-- Open Spotify → Skip unlimited ✅
-- Open Locket → Premium active ✅
+- Open YouTube â†’ No ads âœ…
+- Open Spotify â†’ Skip unlimited âœ…
+- Open Locket â†’ Premium active âœ…
 
 </details>
 
 <details>
-<summary><b>🚀 Shadowrocket (iOS) — ⭐ Recommended</b></summary>
+<summary><b>ðŸš€ Shadowrocket (iOS) â€” â­ Recommended</b></summary>
 
 <br>
 
@@ -1324,29 +1359,29 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Steps**
-1. Open **Shadowrocket** → **Configuration** tab
-2. Select your active config → **Edit Configuration**
-3. Scroll to **[Module]** section → **+** button
-4. Choose **Add Module URL** → Paste URL → **Save**
+1. Open **Shadowrocket** â†’ **Configuration** tab
+2. Select your active config â†’ **Edit Configuration**
+3. Scroll to **[Module]** section â†’ **+** button
+4. Choose **Add Module URL** â†’ Paste URL â†’ **Save**
 
 **MITM Setup**
-1. **Settings** → **Certificate** → **Generate New Certificate**
-2. **Install Certificate** → Safari opens
-3. **Settings** → **General** → **VPN & Device Management**
+1. **Settings** â†’ **Certificate** â†’ **Generate New Certificate**
+2. **Install Certificate** â†’ Safari opens
+3. **Settings** â†’ **General** â†’ **VPN & Device Management**
 4. Install "Shadowrocket..." profile
-5. **Settings** → **General** → **About** → **Certificate Trust Settings**
+5. **Settings** â†’ **General** â†’ **About** â†’ **Certificate Trust Settings**
 6. Enable trust for Shadowrocket
 
 **Why .module for Shadowrocket?**
-- ✅ Native format (best compatibility)
-- ✅ Full features (5.6KB)
-- ✅ Fast loading
-- ✅ Supports 4 apps
+- âœ… Native format (best compatibility)
+- âœ… Full features (5.6KB)
+- âœ… Fast loading
+- âœ… Supports 4 apps
 
 </details>
 
 <details>
-<summary><b>💰 LanceX (iOS) — Cheapest Option</b></summary>
+<summary><b>ðŸ’° LanceX (iOS) â€” Cheapest Option</b></summary>
 
 <br>
 
@@ -1356,29 +1391,29 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Steps**
-1. Open **LanceX** → **配置** (Configuration) tab
-2. Select your active config → **编辑配置** (Edit)
-3. Scroll to **[Module]** section → **+** button
-4. Choose **URL** → Paste URL → **完成** (Done)
+1. Open **LanceX** â†’ **é…ç½®** (Configuration) tab
+2. Select your active config â†’ **ç¼–è¾‘é…ç½®** (Edit)
+3. Scroll to **[Module]** section â†’ **+** button
+4. Choose **URL** â†’ Paste URL â†’ **å®Œæˆ** (Done)
 
 **MITM Setup**
-1. **设置** (Settings) → **证书** (Certificate) → **生成新的证书** (Generate)
-2. **安装证书** (Install Certificate) → Safari opens
-3. **Settings** → **General** → **VPN & Device Management**
+1. **è®¾ç½®** (Settings) â†’ **è¯ä¹¦** (Certificate) â†’ **ç”Ÿæˆæ–°çš„è¯ä¹¦** (Generate)
+2. **å®‰è£…è¯ä¹¦** (Install Certificate) â†’ Safari opens
+3. **Settings** â†’ **General** â†’ **VPN & Device Management**
 4. Install "LanceX..." profile
-5. **Settings** → **General** → **About** → **Certificate Trust Settings**
+5. **Settings** â†’ **General** â†’ **About** â†’ **Certificate Trust Settings**
 6. Enable trust for LanceX
 
 **Why use LanceX?**
-- ✅ Cheapest price ($1.99 vs $2.99)
-- ✅ 100% Shadowrocket compatible
-- ✅ Same .module file
-- ✅ Chinese/English UI
+- âœ… Cheapest price ($1.99 vs $2.99)
+- âœ… 100% Shadowrocket compatible
+- âœ… Same .module file
+- âœ… Chinese/English UI
 
 </details>
 
 <details>
-<summary><b>🎈 Loon (iOS)</b></summary>
+<summary><b>ðŸŽˆ Loon (iOS)</b></summary>
 
 <br>
 
@@ -1388,29 +1423,29 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Steps**
-1. Open **Loon** → **Configuration** tab
-2. Select **Plugin** → **+** button
-3. Paste the URL above → **Save**
+1. Open **Loon** â†’ **Configuration** tab
+2. Select **Plugin** â†’ **+** button
+3. Paste the URL above â†’ **Save**
 4. Enable the plugin
 
 **MITM Setup**
-1. **Configuration** → **Mitm**
+1. **Configuration** â†’ **Mitm**
 2. **Generate New CA Certificate**
-3. **Install CA Certificate** → Safari opens
-4. **Settings** → **General** → **VPN & Device Management**
+3. **Install CA Certificate** â†’ Safari opens
+4. **Settings** â†’ **General** â†’ **VPN & Device Management**
 5. Install "Loon..." profile
-6. **Settings** → **General** → **About** → **Certificate Trust Settings**
+6. **Settings** â†’ **General** â†’ **About** â†’ **Certificate Trust Settings**
 7. Enable trust for Loon
 
 **Verification**
-- Open YouTube → No ads ✅
-- Open Spotify → Skip unlimited ✅
-- Open Locket → Premium active ✅
+- Open YouTube â†’ No ads âœ…
+- Open Spotify â†’ Skip unlimited âœ…
+- Open Locket â†’ Premium active âœ…
 
 </details>
 
 <details>
-<summary><b>⚡ Quantumult X (iOS)</b></summary>
+<summary><b>âš¡ Quantumult X (iOS)</b></summary>
 
 <br>
 
@@ -1420,31 +1455,31 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Steps**
-1. Open **Quantumult X** → **Settings** tab
-2. Select **Rewrite** → **引用** (Reference)
+1. Open **Quantumult X** â†’ **Settings** tab
+2. Select **Rewrite** â†’ **å¼•ç”¨** (Reference)
 3. Tap **+** button at top right
-4. Paste the URL above → **OK**
+4. Paste the URL above â†’ **OK**
 5. Enable the snippet
 
 **MITM Setup**
-1. **Settings** → **MitM**
-2. **Generate Certificate** → **配置证书**
-3. Safari opens → Install profile
-4. **Settings** → **General** → **VPN & Device Management**
+1. **Settings** â†’ **MitM**
+2. **Generate Certificate** â†’ **é…ç½®è¯ä¹¦**
+3. Safari opens â†’ Install profile
+4. **Settings** â†’ **General** â†’ **VPN & Device Management**
 5. Install "Quantumult X..." profile
-6. **Settings** → **General** → **About** → **Certificate Trust Settings**
+6. **Settings** â†’ **General** â†’ **About** â†’ **Certificate Trust Settings**
 7. Enable trust for Quantumult X
-8. Back to Quantumult X → Enable **MitM**
+8. Back to Quantumult X â†’ Enable **MitM**
 
 **Verification**
-- Open YouTube → No ads ✅
-- Open Spotify → Skip unlimited ✅
-- Open Locket → Premium active ✅
+- Open YouTube â†’ No ads âœ…
+- Open Spotify â†’ Skip unlimited âœ…
+- Open Locket â†’ Premium active âœ…
 
 </details>
 
 <details>
-<summary><b>💎 Stash (iOS)</b></summary>
+<summary><b>ðŸ’Ž Stash (iOS)</b></summary>
 
 <br>
 
@@ -1454,26 +1489,26 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Steps**
-1. Open **Stash** → **Overrides** tab
-2. Tap **+** button → **New Override**
+1. Open **Stash** â†’ **Overrides** tab
+2. Tap **+** button â†’ **New Override**
 3. Select **Install from URL**
-4. Paste the URL above → **Install**
+4. Paste the URL above â†’ **Install**
 5. Enable the override
 
 **MITM Setup**
-1. **Settings** → **MitM**
-2. **HTTPS Decryption** → Turn ON
-3. **Certificates** → **Generate New Certificate**
-4. **Install Certificate** → Safari opens
-5. **Settings** → **General** → **VPN & Device Management**
+1. **Settings** â†’ **MitM**
+2. **HTTPS Decryption** â†’ Turn ON
+3. **Certificates** â†’ **Generate New Certificate**
+4. **Install Certificate** â†’ Safari opens
+5. **Settings** â†’ **General** â†’ **VPN & Device Management**
 6. Install "Stash..." profile
-7. **Settings** → **General** → **About** → **Certificate Trust Settings**
+7. **Settings** â†’ **General** â†’ **About** â†’ **Certificate Trust Settings**
 8. Enable trust for Stash
 
 **Verification**
-- Open YouTube → No ads ✅
-- Open Spotify → Skip unlimited ✅
-- Open Locket → Premium active ✅
+- Open YouTube â†’ No ads âœ…
+- Open Spotify â†’ Skip unlimited âœ…
+- Open Locket â†’ Premium active âœ…
 
 </details>
 
@@ -1484,39 +1519,39 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 🔒 Locket Gold DNS - Keep Gold when Proxy is Off
+## ðŸ”’ Locket Gold DNS - Keep Gold when Proxy is Off
 
 </div>
 
 > [!TIP]
-> **New Feature v3.0** — DNS Profile helps keep Locket Gold even when Shadowrocket/Surge is disabled.
+> **New Feature v3.0** â€” DNS Profile helps keep Locket Gold even when Shadowrocket/Surge is disabled.
 
 ### How it works
 
 ```
-Shadowrocket ON → Proxy intercepts RevenueCat → Injects Gold → App caches
-Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps Gold ✅
+Shadowrocket ON â†’ Proxy intercepts RevenueCat â†’ Injects Gold â†’ App caches
+Shadowrocket OFF â†’ DNS blocks api.revenuecat.com â†’ App uses cache â†’ Keeps Gold âœ…
 ```
 
 ### Install DNS Profile
 
 1. Download `LocketGoldDNS.mobileconfig` from the repo
 2. **AirDrop** or open directly on iPhone
-3. Go to **Settings → General → VPN & Device Management**
-4. Install profile **"🔒 Locket Gold DNS v3.0"**
-5. Turn ON Shadowrocket → Open Locket once to cache Gold
-6. Turn OFF Shadowrocket → Gold remains ✅
+3. Go to **Settings â†’ General â†’ VPN & Device Management**
+4. Install profile **"ðŸ”’ Locket Gold DNS v3.0"**
+5. Turn ON Shadowrocket â†’ Open Locket once to cache Gold
+6. Turn OFF Shadowrocket â†’ Gold remains âœ…
 
 ### Blocked Domains (25 domains)
 
 | Group | Count | Purpose |
 |------|:--------:|---------|
-| 🔐 RevenueCat API | 3 | Block subscription verification when proxy is off |
-| 🔥 Firebase Analytics | 4 | Block analytics tracking |
-| 📊 Google Analytics | 4 | Block reporting |
-| 🎯 Google Ads | 4 | Block fraud detection |
-| 📱 AppsFlyer | 6 | Block attribution |
-| 📈 Adjust/Mixpanel/Amplitude | 4 | Block event tracking |
+| ðŸ” RevenueCat API | 3 | Block subscription verification when proxy is off |
+| ðŸ”¥ Firebase Analytics | 4 | Block analytics tracking |
+| ðŸ“Š Google Analytics | 4 | Block reporting |
+| ðŸŽ¯ Google Ads | 4 | Block fraud detection |
+| ðŸ“± AppsFlyer | 6 | Block attribution |
+| ðŸ“ˆ Adjust/Mixpanel/Amplitude | 4 | Block event tracking |
 
 <br>
 
@@ -1525,81 +1560,81 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 📋 Changelog
+## ðŸ“‹ Changelog
 
 </div>
 
 <details open>
 <summary>
-  <h3>🌟 v7.1.0 (2026-05-05) — Premium Release</h3>
+  <h3>ðŸŒŸ v7.1.0 (2026-05-05) â€” Premium Release</h3>
 </summary>
 
 <br>
 
-**✨ Expanded to 17 Premium Apps (from 13)**
-- ✅ 🖼️ Lightroom Premium — iSteal-it
-- ✅ 🎨 Photoshop Express Premium — iSteal-it
-- ✅ 🧘 Calm Premium — iSteal-it
-- ✅ 🎧 Headspace Premium — iSteal-it
+**âœ¨ Expanded to 17 Premium Apps (from 13)**
+- âœ… ðŸ–¼ï¸ Lightroom Premium â€” iSteal-it
+- âœ… ðŸŽ¨ Photoshop Express Premium â€” iSteal-it
+- âœ… ðŸ§˜ Calm Premium â€” iSteal-it
+- âœ… ðŸŽ§ Headspace Premium â€” iSteal-it
 
-**⚡ Optimized Parameters for All 17 Apps**
-- ✅ Standardized timeout values (10s/15s/30s/60s/120s)
-- ✅ Added max-size=131072 for YouTube, Spotify, Locket
-- ✅ Added max-size=0 for PicsArt, BeautyPlus
+**âš¡ Optimized Parameters for All 17 Apps**
+- âœ… Standardized timeout values (10s/15s/30s/60s/120s)
+- âœ… Added max-size=131072 for YouTube, Spotify, Locket
+- âœ… Added max-size=0 for PicsArt, BeautyPlus
 
-**🐛 Bug Fixes**
-- ✅ Fixed DOMAIN-KEYWORD,spotify.com/ad (syntax error)
-- ✅ Removed unsupported cron rule
-- ✅ Fixed Spotify-json requires-body=false
-- ✅ Added regex anchors to all patterns
+**ðŸ› Bug Fixes**
+- âœ… Fixed DOMAIN-KEYWORD,spotify.com/ad (syntax error)
+- âœ… Removed unsupported cron rule
+- âœ… Fixed Spotify-json requires-body=false
+- âœ… Added regex anchors to all patterns
 
-**📦 Version Update**
-- ✅ Premium.module: 7.0.2 → 7.1.0
-- ✅ All proxy modules: 5.2.0 → 5.2.1
+**ðŸ“¦ Version Update**
+- âœ… Premium.module: 7.0.2 â†’ 7.1.0
+- âœ… All proxy modules: 5.2.0 â†’ 5.2.1
 
-**📊 Production Stats: 17 Apps • 21 Hostnames • 10 Scripts • Fully Tested**
+**ðŸ“Š Production Stats: 17 Apps â€¢ 21 Hostnames â€¢ 10 Scripts â€¢ Fully Tested**
 
 </details>
 
 <details>
 <summary>
-  <h3>🔄 v3.0.0 (2026-04-08)</h3>
+  <h3>ðŸ”„ v3.0.0 (2026-04-08)</h3>
 </summary>
 
 <br>
 
-**🔐 Locket Gold - Major Improvements**
-- ✅ Added `non_subscriptions` for lifetime purchases (RevenueCat API v1 spec)
-- ✅ Triple entitlements: `Gold` + `pro` + `premium` (Locket v2.41+ compatible)
-- ✅ Added `management_url`, `first_seen`, `request_date` fields
-- ✅ Added `original_application_version` for store validation
-- ✅ Added new `product_plan_identifier`
+**ðŸ” Locket Gold - Major Improvements**
+- âœ… Added `non_subscriptions` for lifetime purchases (RevenueCat API v1 spec)
+- âœ… Triple entitlements: `Gold` + `pro` + `premium` (Locket v2.41+ compatible)
+- âœ… Added `management_url`, `first_seen`, `request_date` fields
+- âœ… Added `original_application_version` for store validation
+- âœ… Added new `product_plan_identifier`
 
-**🔒 DNS Profile - New Feature**
-- ✅ `LocketGoldDNS.mobileconfig` v3.0 — Keep Gold when Shadowrocket is off
-- ✅ Blocks 25 domains (RevenueCat API + Analytics + Telemetry)
-- ✅ Uses AdGuard DNS-over-HTTPS by default
+**ðŸ”’ DNS Profile - New Feature**
+- âœ… `LocketGoldDNS.mobileconfig` v3.0 â€” Keep Gold when Shadowrocket is off
+- âœ… Blocks 25 domains (RevenueCat API + Analytics + Telemetry)
+- âœ… Uses AdGuard DNS-over-HTTPS by default
 
-**⚡ deleteHeader.js v2.0**
-- ✅ Added `If-Modified-Since` removal for aggressive cache bypass
+**âš¡ deleteHeader.js v2.0**
+- âœ… Added `If-Modified-Since` removal for aggressive cache bypass
 
-**📦 Module configs**
-- ✅ Synced v3.0.0 version for all 6 platform configs
+**ðŸ“¦ Module configs**
+- âœ… Synced v3.0.0 version for all 6 platform configs
 
 </details>
 
 <details>
 <summary>
-  <h3>📁 v2.7.0 (2026-03-20)</h3>
+  <h3>ðŸ“ v2.7.0 (2026-03-20)</h3>
 </summary>
 
 <br>
 
-- 🎶 24 Apps Premium support
-- 📺 YouTube: Synced with Maasea upstream
-- 🎵 Spotify: Enhanced header-del rules
-- 🔐 RevenueCat Multi-App: 8 apps support
-- ⚡ Performance: Ultra-fast IIFE pattern
+- ðŸŽ¶ 24 Apps Premium support
+- ðŸ“º YouTube: Synced with Maasea upstream
+- ðŸŽµ Spotify: Enhanced header-del rules
+- ðŸ” RevenueCat Multi-App: 8 apps support
+- âš¡ Performance: Ultra-fast IIFE pattern
 
 </details>
 
@@ -1613,7 +1648,7 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 ## Configuration
 
 <details>
-<summary><b>🎨 Customize YouTube Settings</b></summary>
+<summary><b>ðŸŽ¨ Customize YouTube Settings</b></summary>
 
 <br>
 
@@ -1634,9 +1669,9 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 | Code | Language | Code | Language | Code | Language |
 |:----:|:--------:|:----:|:--------:|:----:|:--------:|
-| `vi` | 🇻🇳 Vietnamese | `en` | 🇬🇧 English | `zh-Hans` | 🇨🇳 Simplified Chinese |
-| `zh-Hant` | 🇹🇼 Traditional Chinese | `ja` | 🇯🇵 Japanese | `ko` | 🇰🇷 Korean |
-| `fr` | 🇫🇷 French | `de` | 🇩🇪 German | `ru` | 🇷🇺 Russian |
+| `vi` | ðŸ‡»ðŸ‡³ Vietnamese | `en` | ðŸ‡¬ðŸ‡§ English | `zh-Hans` | ðŸ‡¨ðŸ‡³ Simplified Chinese |
+| `zh-Hant` | ðŸ‡¹ðŸ‡¼ Traditional Chinese | `ja` | ðŸ‡¯ðŸ‡µ Japanese | `ko` | ðŸ‡°ðŸ‡· Korean |
+| `fr` | ðŸ‡«ðŸ‡· French | `de` | ðŸ‡©ðŸ‡ª German | `ru` | ðŸ‡·ðŸ‡º Russian |
 
 </details>
 
@@ -1651,15 +1686,15 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 **Troubleshooting Checklist**
 
-- [ ] **MITM is enabled** → Settings → MITM → Toggle ON
-- [ ] **Certificate installed** → iOS Settings → Profile installed
-- [ ] **Certificate trusted** → Settings → General → About → Certificate Trust Settings
-- [ ] **Hostnames added** → Check `youtubei.googleapis.com` exists
-- [ ] **Module enabled** → Configuration → Module → Toggle ON
-- [ ] **App restarted** → Force quit and reopen YouTube
+- [ ] **MITM is enabled** â†’ Settings â†’ MITM â†’ Toggle ON
+- [ ] **Certificate installed** â†’ iOS Settings â†’ Profile installed
+- [ ] **Certificate trusted** â†’ Settings â†’ General â†’ About â†’ Certificate Trust Settings
+- [ ] **Hostnames added** â†’ Check `youtubei.googleapis.com` exists
+- [ ] **Module enabled** â†’ Configuration â†’ Module â†’ Toggle ON
+- [ ] **App restarted** â†’ Force quit and reopen YouTube
 
 **Solutions**
-1. Clear YouTube cache: iOS Settings → YouTube → Clear Cache
+1. Clear YouTube cache: iOS Settings â†’ YouTube â†’ Clear Cache
 2. Restart your device
 3. Reinstall the module
 4. Test on WiFi first (cellular may have issues)
@@ -1685,13 +1720,13 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 <br>
 
-**✅ 100% Safe & Secure**
+**âœ… 100% Safe & Secure**
 
-- **Open Source** — All code is publicly available on GitHub
-- **No Data Collection** — Zero analytics or tracking
-- **Privacy First** — Scripts run locally on your device
-- **No Remote Servers** — No data sent to external servers
-- **Community Reviewed** — Code reviewed by users
+- **Open Source** â€” All code is publicly available on GitHub
+- **No Data Collection** â€” Zero analytics or tracking
+- **Privacy First** â€” Scripts run locally on your device
+- **No Remote Servers** â€” No data sent to external servers
+- **Community Reviewed** â€” Code reviewed by users
 
 </details>
 
@@ -1708,8 +1743,8 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/facebook-messenger.png" width="80"/>
 <br><br>
-<h3>📨 Live Chat</h3>
-<sub>⭐ Response: < 1 hour</sub>
+<h3>ðŸ“¨ Live Chat</h3>
+<sub>â­ Response: < 1 hour</sub>
 <br><br>
 <a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
 <img src="https://img.shields.io/badge/Chat_on_Messenger-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
@@ -1718,8 +1753,8 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/technical-support.png" width="80"/>
 <br><br>
-<h3>🔧 Bug Reports</h3>
-<sub>🛡️ Technical issues only</sub>
+<h3>ðŸ”§ Bug Reports</h3>
+<sub>ðŸ›¡ï¸ Technical issues only</sub>
 <br><br>
 <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
 <img src="https://img.shields.io/badge/Report_Issue-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
@@ -1728,8 +1763,8 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/comments.png" width="80"/>
 <br><br>
-<h3>💬 Community</h3>
-<sub>🚀 Questions & ideas</sub>
+<h3>ðŸ’¬ Community</h3>
+<sub>ðŸš€ Questions & ideas</sub>
 <br><br>
 <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
 <img src="https://img.shields.io/badge/Join_Discussion-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
@@ -1757,7 +1792,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <div align="center">
   <h1>
     <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/356/flag-japan_1f1ef-1f1f5.gif" width="40"/>
-    日本語
+    æ—¥æœ¬èªž
     <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/356/flag-japan_1f1ef-1f1f5.gif" width="40"/>
   </h1>
 </div>
@@ -1768,26 +1803,26 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 <br>
 
-## 目次
+## ç›®æ¬¡
 
 <details>
-<summary><b>クリックして展開</b></summary>
+<summary><b>ã‚¯ãƒªãƒƒã‚¯ã—ã¦å±•é–‹</b></summary>
 
-- [✨ 機能](#-機能)
-- [🚀 パフォーマンス](#-パフォーマンス)
-- [📱 対応アプリ](#-対応アプリ)
-- [📥 クイックインストール](#-クイックインストール)
-- [🔒 Locket Gold DNS](#-locket-gold-dns---プロキシ非接続時もgoldを維持)
-- [📋 変更履歴](#-変更履歴)
-- [⚙️ 設定](#️-設定)
-- [❓ よくある質問](#-よくある質問)
-- [💬 サポート](#-サポート)
+- [âœ¨ æ©Ÿèƒ½](#-æ©Ÿèƒ½)
+- [ðŸš€ ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹](#-ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹)
+- [ðŸ“± å¯¾å¿œã‚¢ãƒ—ãƒª](#-å¯¾å¿œã‚¢ãƒ—ãƒª)
+- [ðŸ“¥ ã‚¯ã‚¤ãƒƒã‚¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«](#-ã‚¯ã‚¤ãƒƒã‚¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«)
+- [ðŸ”’ Locket Gold DNS](#-locket-gold-dns---ãƒ—ãƒ­ã‚­ã‚·éžæŽ¥ç¶šæ™‚ã‚‚goldã‚’ç¶­æŒ)
+- [ðŸ“‹ å¤‰æ›´å±¥æ­´](#-å¤‰æ›´å±¥æ­´)
+- [âš™ï¸ è¨­å®š](#ï¸-è¨­å®š)
+- [â“ ã‚ˆãã‚ã‚‹è³ªå•](#-ã‚ˆãã‚ã‚‹è³ªå•)
+- [ðŸ’¬ ã‚µãƒãƒ¼ãƒˆ](#-ã‚µãƒãƒ¼ãƒˆ)
 
 </details>
 
 <br>
 
-## 機能
+## æ©Ÿèƒ½
 
 <table>
 <thead>
@@ -1814,67 +1849,67 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <tr>
 <td valign="top">
 
-**広告ブロック**
-- ✅ 動画広告をブロック
-- ✅ バナー広告を削除
-- ✅ ポップアップ広告を排除
-- ✅ スポンサーコンテンツを非表示
+**åºƒå‘Šãƒ–ãƒ­ãƒƒã‚¯**
+- âœ… å‹•ç”»åºƒå‘Šã‚’ãƒ–ãƒ­ãƒƒã‚¯
+- âœ… ãƒãƒŠãƒ¼åºƒå‘Šã‚’å‰Šé™¤
+- âœ… ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—åºƒå‘Šã‚’æŽ’é™¤
+- âœ… ã‚¹ãƒãƒ³ã‚µãƒ¼ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚’éžè¡¨ç¤º
 
-**プレミアム機能**
-- ✅ ピクチャインピクチャ (PiP)
-- ✅ バックグラウンド再生
-- ✅ 字幕翻訳 (VI/EN)
-- ✅ 歌詞翻訳
-- ✅ アップロードボタンを非表示
-- ✅ Shortsを削除 (オプション)
-
-</td>
-<td valign="top">
-
-**広告ブロック**
-- ✅ 音声広告を削除
-- ✅ 動画広告をブロック
-- ✅ バナー広告を排除
-- ✅ クリーンなインターフェース
-
-**プレミアム機能**
-- ✅ 無制限スキップ
-- ✅ 高音質オーディオ
-- ✅ 歌詞表示
-- ✅ どこでもシーク
-- ✅ すべての機能がアンロック
+**ãƒ—ãƒ¬ãƒŸã‚¢ãƒ æ©Ÿèƒ½**
+- âœ… ãƒ”ã‚¯ãƒãƒ£ã‚¤ãƒ³ãƒ”ã‚¯ãƒãƒ£ (PiP)
+- âœ… ãƒãƒƒã‚¯ã‚°ãƒ©ã‚¦ãƒ³ãƒ‰å†ç”Ÿ
+- âœ… å­—å¹•ç¿»è¨³ (VI/EN)
+- âœ… æ­Œè©žç¿»è¨³
+- âœ… ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ãƒœã‚¿ãƒ³ã‚’éžè¡¨ç¤º
+- âœ… Shortsã‚’å‰Šé™¤ (ã‚ªãƒ—ã‚·ãƒ§ãƒ³)
 
 </td>
 <td valign="top">
 
-**プレミアムアンロック**
-- ✅ Goldサブスクリプション
-- ✅ ウォーターマークなし
-- ✅ 無制限ウィジェット
-- ✅ すべての機能がアンロック
-- ✅ 生涯アクセス
+**åºƒå‘Šãƒ–ãƒ­ãƒƒã‚¯**
+- âœ… éŸ³å£°åºƒå‘Šã‚’å‰Šé™¤
+- âœ… å‹•ç”»åºƒå‘Šã‚’ãƒ–ãƒ­ãƒƒã‚¯
+- âœ… ãƒãƒŠãƒ¼åºƒå‘Šã‚’æŽ’é™¤
+- âœ… ã‚¯ãƒªãƒ¼ãƒ³ãªã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹
 
-**パフォーマンス**
-- ⚡ 60ms応答時間
-- 💾 256KBメモリ使用量
-- 🔥 IIFE最適化
-- 📅 2099年まで有効
+**ãƒ—ãƒ¬ãƒŸã‚¢ãƒ æ©Ÿèƒ½**
+- âœ… ç„¡åˆ¶é™ã‚¹ã‚­ãƒƒãƒ—
+- âœ… é«˜éŸ³è³ªã‚ªãƒ¼ãƒ‡ã‚£ã‚ª
+- âœ… æ­Œè©žè¡¨ç¤º
+- âœ… ã©ã“ã§ã‚‚ã‚·ãƒ¼ã‚¯
+- âœ… ã™ã¹ã¦ã®æ©Ÿèƒ½ãŒã‚¢ãƒ³ãƒ­ãƒƒã‚¯
 
 </td>
 <td valign="top">
 
-**Go+アンロック**
-- ✅ 広告なし
-- ✅ オフライン再生
-- ✅ 高音質オーディオ
-- ✅ 無制限スキップ
-- ✅ すべてのPro機能
+**ãƒ—ãƒ¬ãƒŸã‚¢ãƒ ã‚¢ãƒ³ãƒ­ãƒƒã‚¯**
+- âœ… Goldã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³
+- âœ… ã‚¦ã‚©ãƒ¼ã‚¿ãƒ¼ãƒžãƒ¼ã‚¯ãªã—
+- âœ… ç„¡åˆ¶é™ã‚¦ã‚£ã‚¸ã‚§ãƒƒãƒˆ
+- âœ… ã™ã¹ã¦ã®æ©Ÿèƒ½ãŒã‚¢ãƒ³ãƒ­ãƒƒã‚¯
+- âœ… ç”Ÿæ¶¯ã‚¢ã‚¯ã‚»ã‚¹
 
-**パフォーマンス**
-- ⚡ 高速レスポンス
-- 💾 最適化された帯域幅
-- 🔥 スムーズなストリーミング
-- 📊 API設定
+**ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹**
+- âš¡ 60mså¿œç­”æ™‚é–“
+- ðŸ’¾ 256KBãƒ¡ãƒ¢ãƒªä½¿ç”¨é‡
+- ðŸ”¥ IIFEæœ€é©åŒ–
+- ðŸ“… 2099å¹´ã¾ã§æœ‰åŠ¹
+
+</td>
+<td valign="top">
+
+**Go+ã‚¢ãƒ³ãƒ­ãƒƒã‚¯**
+- âœ… åºƒå‘Šãªã—
+- âœ… ã‚ªãƒ•ãƒ©ã‚¤ãƒ³å†ç”Ÿ
+- âœ… é«˜éŸ³è³ªã‚ªãƒ¼ãƒ‡ã‚£ã‚ª
+- âœ… ç„¡åˆ¶é™ã‚¹ã‚­ãƒƒãƒ—
+- âœ… ã™ã¹ã¦ã®Proæ©Ÿèƒ½
+
+**ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹**
+- âš¡ é«˜é€Ÿãƒ¬ã‚¹ãƒãƒ³ã‚¹
+- ðŸ’¾ æœ€é©åŒ–ã•ã‚ŒãŸå¸¯åŸŸå¹…
+- ðŸ”¥ ã‚¹ãƒ ãƒ¼ã‚ºãªã‚¹ãƒˆãƒªãƒ¼ãƒŸãƒ³ã‚°
+- ðŸ“Š APIè¨­å®š
 
 </td>
 </tr>
@@ -1883,273 +1918,273 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 <br>
 
-## パフォーマンス
+## ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹
 
 <div align="center">
 
-### **ベンチマーク結果**
+### **ãƒ™ãƒ³ãƒãƒžãƒ¼ã‚¯çµæžœ**
 
 <table>
 <thead>
 <tr>
-<th width="25%">指標</th>
-<th width="25%">前</th>
-<th width="25%">後</th>
-<th width="25%">改善</th>
+<th width="25%">æŒ‡æ¨™</th>
+<th width="25%">å‰</th>
+<th width="25%">å¾Œ</th>
+<th width="25%">æ”¹å–„</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><b>応答時間</b></td>
+<td><b>å¿œç­”æ™‚é–“</b></td>
 <td><code>150ms</code></td>
 <td><code>60ms</code></td>
-<td><img src="https://img.shields.io/badge/↓_60%25-success?style=flat-square" alt="60%高速化"></td>
+<td><img src="https://img.shields.io/badge/â†“_60%25-success?style=flat-square" alt="60%é«˜é€ŸåŒ–"></td>
 </tr>
 <tr>
-<td><b>メモリ使用量</b></td>
+<td><b>ãƒ¡ãƒ¢ãƒªä½¿ç”¨é‡</b></td>
 <td><code>512KB</code></td>
 <td><code>256KB</code></td>
-<td><img src="https://img.shields.io/badge/↓_50%25-success?style=flat-square" alt="50%削減"></td>
+<td><img src="https://img.shields.io/badge/â†“_50%25-success?style=flat-square" alt="50%å‰Šæ¸›"></td>
 </tr>
 <tr>
-<td><b>ファイルサイズ</b></td>
+<td><b>ãƒ•ã‚¡ã‚¤ãƒ«ã‚µã‚¤ã‚º</b></td>
 <td><code>5.0KB</code></td>
 <td><code>2.3KB</code></td>
-<td><img src="https://img.shields.io/badge/↓_54%25-success?style=flat-square" alt="54%小型化"></td>
+<td><img src="https://img.shields.io/badge/â†“_54%25-success?style=flat-square" alt="54%å°åž‹åŒ–"></td>
 </tr>
 <tr>
-<td><b>実行速度</b></td>
+<td><b>å®Ÿè¡Œé€Ÿåº¦</b></td>
 <td><code>50ms</code></td>
 <td><code>15ms</code></td>
-<td><img src="https://img.shields.io/badge/↓_70%25-success?style=flat-square" alt="70%高速化"></td>
+<td><img src="https://img.shields.io/badge/â†“_70%25-success?style=flat-square" alt="70%é«˜é€ŸåŒ–"></td>
 </tr>
 </tbody>
 </table>
 
-**最適化技術**
+**æœ€é©åŒ–æŠ€è¡“**
 
-![IIFE Pattern](https://img.shields.io/badge/✓-IIFE_Pattern-4A90E2?style=flat-square)
-![Strict Mode](https://img.shields.io/badge/✓-Strict_Mode-50C878?style=flat-square)
-![Pre-built Objects](https://img.shields.io/badge/✓-Pre--built_Objects-F39C12?style=flat-square)
-![Native Loops](https://img.shields.io/badge/✓-Native_Loops-7F52FF?style=flat-square)
-![Zero I/O](https://img.shields.io/badge/✓-Zero_I/O-E74C3C?style=flat-square)
+![IIFE Pattern](https://img.shields.io/badge/âœ“-IIFE_Pattern-4A90E2?style=flat-square)
+![Strict Mode](https://img.shields.io/badge/âœ“-Strict_Mode-50C878?style=flat-square)
+![Pre-built Objects](https://img.shields.io/badge/âœ“-Pre--built_Objects-F39C12?style=flat-square)
+![Native Loops](https://img.shields.io/badge/âœ“-Native_Loops-7F52FF?style=flat-square)
+![Zero I/O](https://img.shields.io/badge/âœ“-Zero_I/O-E74C3C?style=flat-square)
 
 </div>
 
 <br>
 
-## 対応アプリ
+## å¯¾å¿œã‚¢ãƒ—ãƒª
 
-プロキシアプリに適したモジュールを選択してください:
+ãƒ—ãƒ­ã‚­ã‚·ã‚¢ãƒ—ãƒªã«é©ã—ãŸãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’é¸æŠžã—ã¦ãã ã•ã„:
 
 <div align="center">
 
-| アプリ | フォーマット | サイズ | プラットフォーム | ステータス |
+| ã‚¢ãƒ—ãƒª | ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ | ã‚µã‚¤ã‚º | ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ  | ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ |
 |:---:|:------:|:----:|:--------:|:------:|
-| **Surge** | `.sgmodule` | ![Size](https://img.shields.io/badge/3.5KB-4A90E2?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-最適化済み-50C878?style=flat-square) |
-| **Loon** | `.plugin` | ![Size](https://img.shields.io/badge/3.2KB-F39C12?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-最適化済み-50C878?style=flat-square) |
-| **Shadowrocket** | `.module` | ![Size](https://img.shields.io/badge/5.6KB-E74C3C?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/★-推奨-FFD700?style=flat-square) |
-| **LanceX** | `.module` | ![Size](https://img.shields.io/badge/5.7KB-9B59B6?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-最安値-50C878?style=flat-square) |
-| **Quantumult X** | `.snippet` | ![Size](https://img.shields.io/badge/2.5KB-7F52FF?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-最小-50C878?style=flat-square) |
-| **Stash** | `.stoverride` | ![Size](https://img.shields.io/badge/3.6KB-50C878?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/✓-最適化済み-50C878?style=flat-square) |
+| **Surge** | `.sgmodule` | ![Size](https://img.shields.io/badge/3.5KB-4A90E2?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-æœ€é©åŒ–æ¸ˆã¿-50C878?style=flat-square) |
+| **Loon** | `.plugin` | ![Size](https://img.shields.io/badge/3.2KB-F39C12?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-æœ€é©åŒ–æ¸ˆã¿-50C878?style=flat-square) |
+| **Shadowrocket** | `.module` | ![Size](https://img.shields.io/badge/5.6KB-E74C3C?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/â˜…-æŽ¨å¥¨-FFD700?style=flat-square) |
+| **LanceX** | `.module` | ![Size](https://img.shields.io/badge/5.7KB-9B59B6?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-æœ€å®‰å€¤-50C878?style=flat-square) |
+| **Quantumult X** | `.snippet` | ![Size](https://img.shields.io/badge/2.5KB-7F52FF?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-æœ€å°-50C878?style=flat-square) |
+| **Stash** | `.stoverride` | ![Size](https://img.shields.io/badge/3.6KB-50C878?style=flat-square) | iOS | ![Status](https://img.shields.io/badge/âœ“-æœ€é©åŒ–æ¸ˆã¿-50C878?style=flat-square) |
 
 </div>
 
 <br>
 
-## インストール
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 <details>
-<summary><b>🌊 Surge (iOS)</b></summary>
+<summary><b>ðŸŒŠ Surge (iOS)</b></summary>
 
 <br>
 
-**インストールURL**
+**ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«URL**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
 ```
 
-**手順**
-1. **Surge**を開く → **Home**タブ
-2. **Modules** → **+**ボタンをタップ
-3. **Install Module from URL**を選択
-4. 上記のURLを貼り付け → **OK**
-5. モジュールを有効にする
+**æ‰‹é †**
+1. **Surge**ã‚’é–‹ã â†’ **Home**ã‚¿ãƒ–
+2. **Modules** â†’ **+**ãƒœã‚¿ãƒ³ã‚’ã‚¿ãƒƒãƒ—
+3. **Install Module from URL**ã‚’é¸æŠž
+4. ä¸Šè¨˜ã®URLã‚’è²¼ã‚Šä»˜ã‘ â†’ **OK**
+5. ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**MITM設定**
-1. **Settings** → **MITM** → **Install Certificate**
-2. iOSのプロンプトに従ってプロファイルをインストール
-3. **設定** → **一般** → **情報** → **証明書信頼設定**
-4. Surge証明書の信頼を有効にする
+**MITMè¨­å®š**
+1. **Settings** â†’ **MITM** â†’ **Install Certificate**
+2. iOSã®ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã«å¾“ã£ã¦ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+3. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **æƒ…å ±** â†’ **è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š**
+4. Surgeè¨¼æ˜Žæ›¸ã®ä¿¡é ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**確認**
-- YouTubeを開く → 広告なし ✅
-- Spotifyを開く → 無制限スキップ ✅
-- Locketを開く → Premium有効 ✅
+**ç¢ºèª**
+- YouTubeã‚’é–‹ã â†’ åºƒå‘Šãªã— âœ…
+- Spotifyã‚’é–‹ã â†’ ç„¡åˆ¶é™ã‚¹ã‚­ãƒƒãƒ— âœ…
+- Locketã‚’é–‹ã â†’ Premiumæœ‰åŠ¹ âœ…
 
 </details>
 
 <details>
-<summary><b>🚀 Shadowrocket (iOS) — ⭐ 推奨</b></summary>
+<summary><b>ðŸš€ Shadowrocket (iOS) â€” â­ æŽ¨å¥¨</b></summary>
 
 <br>
 
-**インストールURL**
+**ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«URL**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
 ```
 
-**手順**
-1. **Shadowrocket**を開く → **Configuration**タブ
-2. アクティブな設定を選択 → **Edit Configuration**
-3. **[Module]**セクションまでスクロール → **+**ボタン
-4. **Add Module URL**を選択 → URLを貼り付け → **Save**
+**æ‰‹é †**
+1. **Shadowrocket**ã‚’é–‹ã â†’ **Configuration**ã‚¿ãƒ–
+2. ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ãªè¨­å®šã‚’é¸æŠž â†’ **Edit Configuration**
+3. **[Module]**ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã¾ã§ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« â†’ **+**ãƒœã‚¿ãƒ³
+4. **Add Module URL**ã‚’é¸æŠž â†’ URLã‚’è²¼ã‚Šä»˜ã‘ â†’ **Save**
 
-**MITM設定**
-1. **Settings** → **Certificate** → **Generate New Certificate**
-2. **Install Certificate** → Safariが開く
-3. **設定** → **一般** → **VPNとデバイス管理**
-4. "Shadowrocket..."プロファイルをインストール
-5. **設定** → **一般** → **情報** → **証明書信頼設定**
-6. Shadowrocketの信頼を有効にする
+**MITMè¨­å®š**
+1. **Settings** â†’ **Certificate** â†’ **Generate New Certificate**
+2. **Install Certificate** â†’ SafariãŒé–‹ã
+3. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **VPNã¨ãƒ‡ãƒã‚¤ã‚¹ç®¡ç†**
+4. "Shadowrocket..."ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+5. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **æƒ…å ±** â†’ **è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š**
+6. Shadowrocketã®ä¿¡é ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**Shadowrocketに.moduleを使用する理由**
-- ✅ ネイティブフォーマット（最高の互換性）
-- ✅ フル機能（5.6KB）
-- ✅ 高速読み込み
-- ✅ 4アプリ対応
+**Shadowrocketã«.moduleã‚’ä½¿ç”¨ã™ã‚‹ç†ç”±**
+- âœ… ãƒã‚¤ãƒ†ã‚£ãƒ–ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆï¼ˆæœ€é«˜ã®äº’æ›æ€§ï¼‰
+- âœ… ãƒ•ãƒ«æ©Ÿèƒ½ï¼ˆ5.6KBï¼‰
+- âœ… é«˜é€Ÿèª­ã¿è¾¼ã¿
+- âœ… 4ã‚¢ãƒ—ãƒªå¯¾å¿œ
 
 </details>
 
 <details>
-<summary><b>💰 LanceX (iOS) — 最安値</b></summary>
+<summary><b>ðŸ’° LanceX (iOS) â€” æœ€å®‰å€¤</b></summary>
 
 <br>
 
-**インストールURL**
+**ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«URL**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
 ```
 
-**手順**
-1. **LanceX**を開く → **配置** (Configuration) タブ
-2. アクティブな設定を選択 → **编辑配置** (Edit)
-3. **[Module]**セクションまでスクロール → **+**ボタン
-4. **URL**を選択 → URLを貼り付け → **完成** (Done)
+**æ‰‹é †**
+1. **LanceX**ã‚’é–‹ã â†’ **é…ç½®** (Configuration) ã‚¿ãƒ–
+2. ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ãªè¨­å®šã‚’é¸æŠž â†’ **ç¼–è¾‘é…ç½®** (Edit)
+3. **[Module]**ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã¾ã§ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« â†’ **+**ãƒœã‚¿ãƒ³
+4. **URL**ã‚’é¸æŠž â†’ URLã‚’è²¼ã‚Šä»˜ã‘ â†’ **å®Œæˆ** (Done)
 
-**MITM設定**
-1. **设置** (Settings) → **证书** (Certificate) → **生成新的证书** (Generate)
-2. **安装证书** (Install Certificate) → Safariが開く
-3. **設定** → **一般** → **VPNとデバイス管理**
-4. "LanceX..."プロファイルをインストール
-5. **設定** → **一般** → **情報** → **証明書信頼設定**
-6. LanceXの信頼を有効にする
+**MITMè¨­å®š**
+1. **è®¾ç½®** (Settings) â†’ **è¯ä¹¦** (Certificate) â†’ **ç”Ÿæˆæ–°çš„è¯ä¹¦** (Generate)
+2. **å®‰è£…è¯ä¹¦** (Install Certificate) â†’ SafariãŒé–‹ã
+3. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **VPNã¨ãƒ‡ãƒã‚¤ã‚¹ç®¡ç†**
+4. "LanceX..."ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+5. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **æƒ…å ±** â†’ **è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š**
+6. LanceXã®ä¿¡é ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**LanceXを使用する理由**
-- ✅ 最安値（$1.99 vs $2.99）
-- ✅ 100% Shadowrocket互換
-- ✅ 同じ.moduleファイル
-- ✅ 中国語/英語UI
+**LanceXã‚’ä½¿ç”¨ã™ã‚‹ç†ç”±**
+- âœ… æœ€å®‰å€¤ï¼ˆ$1.99 vs $2.99ï¼‰
+- âœ… 100% Shadowrocketäº’æ›
+- âœ… åŒã˜.moduleãƒ•ã‚¡ã‚¤ãƒ«
+- âœ… ä¸­å›½èªž/è‹±èªžUI
 
 </details>
 
 <details>
-<summary><b>🎈 Loon (iOS)</b></summary>
+<summary><b>ðŸŽˆ Loon (iOS)</b></summary>
 
 <br>
 
-**インストールURL**
+**ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«URL**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
 ```
 
-**手順**
-1. **Loon**を開く → **Configuration**タブ
-2. **Plugin** → **+**ボタンを選択
-3. 上記のURLを貼り付け → **Save**
-4. プラグインを有効にする
+**æ‰‹é †**
+1. **Loon**ã‚’é–‹ã â†’ **Configuration**ã‚¿ãƒ–
+2. **Plugin** â†’ **+**ãƒœã‚¿ãƒ³ã‚’é¸æŠž
+3. ä¸Šè¨˜ã®URLã‚’è²¼ã‚Šä»˜ã‘ â†’ **Save**
+4. ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**MITM設定**
-1. **Configuration** → **Mitm**
+**MITMè¨­å®š**
+1. **Configuration** â†’ **Mitm**
 2. **Generate New CA Certificate**
-3. **Install CA Certificate** → Safariが開く
-4. **設定** → **一般** → **VPNとデバイス管理**
-5. "Loon..."プロファイルをインストール
-6. **設定** → **一般** → **情報** → **証明書信頼設定**
-7. Loonの信頼を有効にする
+3. **Install CA Certificate** â†’ SafariãŒé–‹ã
+4. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **VPNã¨ãƒ‡ãƒã‚¤ã‚¹ç®¡ç†**
+5. "Loon..."ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+6. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **æƒ…å ±** â†’ **è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š**
+7. Loonã®ä¿¡é ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**確認**
-- YouTubeを開く → 広告なし ✅
-- Spotifyを開く → 無制限スキップ ✅
-- Locketを開く → Premium有効 ✅
+**ç¢ºèª**
+- YouTubeã‚’é–‹ã â†’ åºƒå‘Šãªã— âœ…
+- Spotifyã‚’é–‹ã â†’ ç„¡åˆ¶é™ã‚¹ã‚­ãƒƒãƒ— âœ…
+- Locketã‚’é–‹ã â†’ Premiumæœ‰åŠ¹ âœ…
 
 </details>
 
 <details>
-<summary><b>⚡ Quantumult X (iOS)</b></summary>
+<summary><b>âš¡ Quantumult X (iOS)</b></summary>
 
 <br>
 
-**インストールURL**
+**ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«URL**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
 ```
 
-**手順**
-1. **Quantumult X**を開く → **Settings**タブ
-2. **Rewrite** → **引用** (Reference)を選択
-3. 右上の**+**ボタンをタップ
-4. 上記のURLを貼り付け → **OK**
-5. スニペットを有効にする
+**æ‰‹é †**
+1. **Quantumult X**ã‚’é–‹ã â†’ **Settings**ã‚¿ãƒ–
+2. **Rewrite** â†’ **å¼•ç”¨** (Reference)ã‚’é¸æŠž
+3. å³ä¸Šã®**+**ãƒœã‚¿ãƒ³ã‚’ã‚¿ãƒƒãƒ—
+4. ä¸Šè¨˜ã®URLã‚’è²¼ã‚Šä»˜ã‘ â†’ **OK**
+5. ã‚¹ãƒ‹ãƒšãƒƒãƒˆã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**MITM設定**
-1. **Settings** → **MitM**
-2. **Generate Certificate** → **配置证书**
-3. Safariが開く → プロファイルをインストール
-4. **設定** → **一般** → **VPNとデバイス管理**
-5. "Quantumult X..."プロファイルをインストール
-6. **設定** → **一般** → **情報** → **証明書信頼設定**
-7. Quantumult Xの信頼を有効にする
-8. Quantumult Xに戻る → **MitM**を有効にする
+**MITMè¨­å®š**
+1. **Settings** â†’ **MitM**
+2. **Generate Certificate** â†’ **é…ç½®è¯ä¹¦**
+3. SafariãŒé–‹ã â†’ ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+4. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **VPNã¨ãƒ‡ãƒã‚¤ã‚¹ç®¡ç†**
+5. "Quantumult X..."ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+6. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **æƒ…å ±** â†’ **è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š**
+7. Quantumult Xã®ä¿¡é ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹
+8. Quantumult Xã«æˆ»ã‚‹ â†’ **MitM**ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**確認**
-- YouTubeを開く → 広告なし ✅
-- Spotifyを開く → 無制限スキップ ✅
-- Locketを開く → Premium有効 ✅
+**ç¢ºèª**
+- YouTubeã‚’é–‹ã â†’ åºƒå‘Šãªã— âœ…
+- Spotifyã‚’é–‹ã â†’ ç„¡åˆ¶é™ã‚¹ã‚­ãƒƒãƒ— âœ…
+- Locketã‚’é–‹ã â†’ Premiumæœ‰åŠ¹ âœ…
 
 </details>
 
 <details>
-<summary><b>💎 Stash (iOS)</b></summary>
+<summary><b>ðŸ’Ž Stash (iOS)</b></summary>
 
 <br>
 
-**インストールURL**
+**ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«URL**
 ```
 https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
 ```
 
-**手順**
-1. **Stash**を開く → **Overrides**タブ
-2. **+**ボタン → **New Override**をタップ
-3. **Install from URL**を選択
-4. 上記のURLを貼り付け → **Install**
-5. オーバーライドを有効にする
+**æ‰‹é †**
+1. **Stash**ã‚’é–‹ã â†’ **Overrides**ã‚¿ãƒ–
+2. **+**ãƒœã‚¿ãƒ³ â†’ **New Override**ã‚’ã‚¿ãƒƒãƒ—
+3. **Install from URL**ã‚’é¸æŠž
+4. ä¸Šè¨˜ã®URLã‚’è²¼ã‚Šä»˜ã‘ â†’ **Install**
+5. ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**MITM設定**
-1. **Settings** → **MitM**
-2. **HTTPS Decryption** → ONにする
-3. **Certificates** → **Generate New Certificate**
-4. **Install Certificate** → Safariが開く
-5. **設定** → **一般** → **VPNとデバイス管理**
-6. "Stash..."プロファイルをインストール
-7. **設定** → **一般** → **情報** → **証明書信頼設定**
-8. Stashの信頼を有効にする
+**MITMè¨­å®š**
+1. **Settings** â†’ **MitM**
+2. **HTTPS Decryption** â†’ ONã«ã™ã‚‹
+3. **Certificates** â†’ **Generate New Certificate**
+4. **Install Certificate** â†’ SafariãŒé–‹ã
+5. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **VPNã¨ãƒ‡ãƒã‚¤ã‚¹ç®¡ç†**
+6. "Stash..."ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+7. **è¨­å®š** â†’ **ä¸€èˆ¬** â†’ **æƒ…å ±** â†’ **è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š**
+8. Stashã®ä¿¡é ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹
 
-**確認**
-- YouTubeを開く → 広告なし ✅
-- Spotifyを開く → 無制限スキップ ✅
-- Locketを開く → Premium有効 ✅
+**ç¢ºèª**
+- YouTubeã‚’é–‹ã â†’ åºƒå‘Šãªã— âœ…
+- Spotifyã‚’é–‹ã â†’ ç„¡åˆ¶é™ã‚¹ã‚­ãƒƒãƒ— âœ…
+- Locketã‚’é–‹ã â†’ Premiumæœ‰åŠ¹ âœ…
 
 </details>
 
@@ -2160,39 +2195,39 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 🔒 Locket Gold DNS - プロキシ非接続時もGoldを維持
+## ðŸ”’ Locket Gold DNS - ãƒ—ãƒ­ã‚­ã‚·éžæŽ¥ç¶šæ™‚ã‚‚Goldã‚’ç¶­æŒ
 
 </div>
 
 > [!TIP]
-> **新機能 v3.0** — Shadowrocket/Surgeが無効の場合でもLocket Goldを維持するDNSプロファイル。
+> **æ–°æ©Ÿèƒ½ v3.0** â€” Shadowrocket/SurgeãŒç„¡åŠ¹ã®å ´åˆã§ã‚‚Locket Goldã‚’ç¶­æŒã™ã‚‹DNSãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã€‚
 
-### 仕組み
+### ä»•çµ„ã¿
 
 ```
-Shadowrocket オン → プロキシがRevenueCatを傍受 → Goldを注入 → アプリがキャッシュ
-Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリがキャッシュを使用 → Gold維持 ✅
+Shadowrocket ã‚ªãƒ³ â†’ ãƒ—ãƒ­ã‚­ã‚·ãŒRevenueCatã‚’å‚å— â†’ Goldã‚’æ³¨å…¥ â†’ ã‚¢ãƒ—ãƒªãŒã‚­ãƒ£ãƒƒã‚·ãƒ¥
+Shadowrocket ã‚ªãƒ• â†’ DNSãŒapi.revenuecat.comã‚’ãƒ–ãƒ­ãƒƒã‚¯ â†’ ã‚¢ãƒ—ãƒªãŒã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’ä½¿ç”¨ â†’ Goldç¶­æŒ âœ…
 ```
 
-### DNSプロファイルのインストール
+### DNSãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-1. リポジトリから `LocketGoldDNS.mobileconfig` をダウンロード
-2. iPhoneに直接開くか **AirDrop**で送信
-3. **設定 → 一般 → VPNとデバイス管理** を開く
-4. **"🔒 Locket Gold DNS v3.0"** プロファイルをインストール
-5. Shadowrocketをオンにする → Locketを1回開いてGoldをキャッシュ
-6. Shadowrocketをオフにする → Gold維持 ✅
+1. ãƒªãƒã‚¸ãƒˆãƒªã‹ã‚‰ `LocketGoldDNS.mobileconfig` ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
+2. iPhoneã«ç›´æŽ¥é–‹ãã‹ **AirDrop**ã§é€ä¿¡
+3. **è¨­å®š â†’ ä¸€èˆ¬ â†’ VPNã¨ãƒ‡ãƒã‚¤ã‚¹ç®¡ç†** ã‚’é–‹ã
+4. **"ðŸ”’ Locket Gold DNS v3.0"** ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+5. Shadowrocketã‚’ã‚ªãƒ³ã«ã™ã‚‹ â†’ Locketã‚’1å›žé–‹ã„ã¦Goldã‚’ã‚­ãƒ£ãƒƒã‚·ãƒ¥
+6. Shadowrocketã‚’ã‚ªãƒ•ã«ã™ã‚‹ â†’ Goldç¶­æŒ âœ…
 
-### ブロック対象ドメイン（25ドメイン）
+### ãƒ–ãƒ­ãƒƒã‚¯å¯¾è±¡ãƒ‰ãƒ¡ã‚¤ãƒ³ï¼ˆ25ãƒ‰ãƒ¡ã‚¤ãƒ³ï¼‰
 
-| グループ | 数 | 目的 |
+| ã‚°ãƒ«ãƒ¼ãƒ— | æ•° | ç›®çš„ |
 |------|:--------:|---------|
-| 🔐 RevenueCat API | 3 | プロキシオフ時にサブスクリプション検証をブロック |
-| 🔥 Firebase Analytics | 4 | 分析トラッキングをブロック |
-| 📊 Google Analytics | 4 | レポート機能をブロック |
-| 🎯 Google Ads | 4 | 不正検出をブロック |
-| 📱 AppsFlyer | 6 | アトリビューションをブロック |
-| 📈 Adjust/Mixpanel/Amplitude | 4 | イベントトラッキングをブロック |
+| ðŸ” RevenueCat API | 3 | ãƒ—ãƒ­ã‚­ã‚·ã‚ªãƒ•æ™‚ã«ã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³æ¤œè¨¼ã‚’ãƒ–ãƒ­ãƒƒã‚¯ |
+| ðŸ”¥ Firebase Analytics | 4 | åˆ†æžãƒˆãƒ©ãƒƒã‚­ãƒ³ã‚°ã‚’ãƒ–ãƒ­ãƒƒã‚¯ |
+| ðŸ“Š Google Analytics | 4 | ãƒ¬ãƒãƒ¼ãƒˆæ©Ÿèƒ½ã‚’ãƒ–ãƒ­ãƒƒã‚¯ |
+| ðŸŽ¯ Google Ads | 4 | ä¸æ­£æ¤œå‡ºã‚’ãƒ–ãƒ­ãƒƒã‚¯ |
+| ðŸ“± AppsFlyer | 6 | ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ãƒ–ãƒ­ãƒƒã‚¯ |
+| ðŸ“ˆ Adjust/Mixpanel/Amplitude | 4 | ã‚¤ãƒ™ãƒ³ãƒˆãƒˆãƒ©ãƒƒã‚­ãƒ³ã‚°ã‚’ãƒ–ãƒ­ãƒƒã‚¯ |
 
 <br>
 
@@ -2201,49 +2236,49 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 📋 変更履歴
+## ðŸ“‹ å¤‰æ›´å±¥æ­´
 
 </div>
 
 <details open>
 <summary>
-  <h3>🔄 v3.0.0 (2026-04-08)</h3>
+  <h3>ðŸ”„ v3.0.0 (2026-04-08)</h3>
 </summary>
 
 <br>
 
-**🔐 Locket Gold - 主な改善点**
-- ✅ 生涯購入用の `non_subscriptions` を追加 (RevenueCat API v1仕様)
-- ✅ トリプルエンタイトルメント：`Gold` + `pro` + `premium` (Locket v2.41+ と互換)
-- ✅ `management_url`, `first_seen`, `request_date` フィールドを追加
-- ✅ ストア検証用の `original_application_version` を追加
-- ✅ 新しい `product_plan_identifier` を追加
+**ðŸ” Locket Gold - ä¸»ãªæ”¹å–„ç‚¹**
+- âœ… ç”Ÿæ¶¯è³¼å…¥ç”¨ã® `non_subscriptions` ã‚’è¿½åŠ  (RevenueCat API v1ä»•æ§˜)
+- âœ… ãƒˆãƒªãƒ—ãƒ«ã‚¨ãƒ³ã‚¿ã‚¤ãƒˆãƒ«ãƒ¡ãƒ³ãƒˆï¼š`Gold` + `pro` + `premium` (Locket v2.41+ ã¨äº’æ›)
+- âœ… `management_url`, `first_seen`, `request_date` ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’è¿½åŠ 
+- âœ… ã‚¹ãƒˆã‚¢æ¤œè¨¼ç”¨ã® `original_application_version` ã‚’è¿½åŠ 
+- âœ… æ–°ã—ã„ `product_plan_identifier` ã‚’è¿½åŠ 
 
-**🔒 DNS プロファイル - 新機能**
-- ✅ `LocketGoldDNS.mobileconfig` v3.0 — ShadowrocketがオフのときにGoldを維持
-- ✅ 25のドメインをブロック (RevenueCat API + アナリティクス + テレメトリ)
-- ✅ デフォルトでAdGuard DNS-over-HTTPSを使用
+**ðŸ”’ DNS ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ« - æ–°æ©Ÿèƒ½**
+- âœ… `LocketGoldDNS.mobileconfig` v3.0 â€” ShadowrocketãŒã‚ªãƒ•ã®ã¨ãã«Goldã‚’ç¶­æŒ
+- âœ… 25ã®ãƒ‰ãƒ¡ã‚¤ãƒ³ã‚’ãƒ–ãƒ­ãƒƒã‚¯ (RevenueCat API + ã‚¢ãƒŠãƒªãƒ†ã‚£ã‚¯ã‚¹ + ãƒ†ãƒ¬ãƒ¡ãƒˆãƒª)
+- âœ… ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§AdGuard DNS-over-HTTPSã‚’ä½¿ç”¨
 
-**⚡ deleteHeader.js v2.0**
-- ✅ キャッシュを強制的にバイパスするための `If-Modified-Since` の削除を追加
+**âš¡ deleteHeader.js v2.0**
+- âœ… ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’å¼·åˆ¶çš„ã«ãƒã‚¤ãƒ‘ã‚¹ã™ã‚‹ãŸã‚ã® `If-Modified-Since` ã®å‰Šé™¤ã‚’è¿½åŠ 
 
-**📦 モジュール設定**
-- ✅ 全ての6プラットフォーム設定でv3.0.0バージョンを同期
+**ðŸ“¦ ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«è¨­å®š**
+- âœ… å…¨ã¦ã®6ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ è¨­å®šã§v3.0.0ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’åŒæœŸ
 
 </details>
 
 <details>
 <summary>
-  <h3>📁 v2.7.0 (2026-03-20)</h3>
+  <h3>ðŸ“ v2.7.0 (2026-03-20)</h3>
 </summary>
 
 <br>
 
-- 🎶 24アプリのプレミアムサポート
-- 📺 YouTube: Maaseaアップストリームと同期
-- 🎵 Spotify: header-delルールの強化
-- 🔐 RevenueCatマルチアプリ: 8アプリのサポート
-- ⚡ パフォーマンス: 超高速IIFEパターン
+- ðŸŽ¶ 24ã‚¢ãƒ—ãƒªã®ãƒ—ãƒ¬ãƒŸã‚¢ãƒ ã‚µãƒãƒ¼ãƒˆ
+- ðŸ“º YouTube: Maaseaã‚¢ãƒƒãƒ—ã‚¹ãƒˆãƒªãƒ¼ãƒ ã¨åŒæœŸ
+- ðŸŽµ Spotify: header-delãƒ«ãƒ¼ãƒ«ã®å¼·åŒ–
+- ðŸ” RevenueCatãƒžãƒ«ãƒã‚¢ãƒ—ãƒª: 8ã‚¢ãƒ—ãƒªã®ã‚µãƒãƒ¼ãƒˆ
+- âš¡ ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹: è¶…é«˜é€ŸIIFEãƒ‘ã‚¿ãƒ¼ãƒ³
 
 </details>
 
@@ -2254,129 +2289,129 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 設定
+## è¨­å®š
 
 <details>
-<summary><b>🎨 YouTube設定のカスタマイズ</b></summary>
+<summary><b>ðŸŽ¨ YouTubeè¨­å®šã®ã‚«ã‚¹ã‚¿ãƒžã‚¤ã‚º</b></summary>
 
 <br>
 
-モジュール内の`argument`パラメータを編集してYouTube機能をカスタマイズできます:
+ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«å†…ã®`argument`ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ç·¨é›†ã—ã¦YouTubeæ©Ÿèƒ½ã‚’ã‚«ã‚¹ã‚¿ãƒžã‚¤ã‚ºã§ãã¾ã™:
 
 ```json
 {
-  "lyricLang": "vi",        // 歌詞翻訳言語
-  "captionLang": "vi",      // 字幕翻訳言語
-  "blockUpload": true,      // アップロードボタンを非表示
-  "blockImmersive": true,   // イマーシブUIを非表示
-  "blockShorts": false,     // Shortsを非表示（実験的）
-  "debug": false            // デバッグモードを有効化
+  "lyricLang": "vi",        // æ­Œè©žç¿»è¨³è¨€èªž
+  "captionLang": "vi",      // å­—å¹•ç¿»è¨³è¨€èªž
+  "blockUpload": true,      // ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ãƒœã‚¿ãƒ³ã‚’éžè¡¨ç¤º
+  "blockImmersive": true,   // ã‚¤ãƒžãƒ¼ã‚·ãƒ–UIã‚’éžè¡¨ç¤º
+  "blockShorts": false,     // Shortsã‚’éžè¡¨ç¤ºï¼ˆå®Ÿé¨“çš„ï¼‰
+  "debug": false            // ãƒ‡ãƒãƒƒã‚°ãƒ¢ãƒ¼ãƒ‰ã‚’æœ‰åŠ¹åŒ–
 }
 ```
 
-**対応言語**
+**å¯¾å¿œè¨€èªž**
 
-| コード | 言語 | コード | 言語 | コード | 言語 |
+| ã‚³ãƒ¼ãƒ‰ | è¨€èªž | ã‚³ãƒ¼ãƒ‰ | è¨€èªž | ã‚³ãƒ¼ãƒ‰ | è¨€èªž |
 |:----:|:--------:|:----:|:--------:|:----:|:--------:|
-| `vi` | 🇻🇳 ベトナム語 | `en` | 🇬🇧 英語 | `zh-Hans` | 🇨🇳 簡体字中国語 |
-| `zh-Hant` | 🇹🇼 繁体字中国語 | `ja` | 🇯🇵 日本語 | `ko` | 🇰🇷 韓国語 |
-| `fr` | 🇫🇷 フランス語 | `de` | 🇩🇪 ドイツ語 | `ru` | 🇷🇺 ロシア語 |
+| `vi` | ðŸ‡»ðŸ‡³ ãƒ™ãƒˆãƒŠãƒ èªž | `en` | ðŸ‡¬ðŸ‡§ è‹±èªž | `zh-Hans` | ðŸ‡¨ðŸ‡³ ç°¡ä½“å­—ä¸­å›½èªž |
+| `zh-Hant` | ðŸ‡¹ðŸ‡¼ ç¹ä½“å­—ä¸­å›½èªž | `ja` | ðŸ‡¯ðŸ‡µ æ—¥æœ¬èªž | `ko` | ðŸ‡°ðŸ‡· éŸ“å›½èªž |
+| `fr` | ðŸ‡«ðŸ‡· ãƒ•ãƒ©ãƒ³ã‚¹èªž | `de` | ðŸ‡©ðŸ‡ª ãƒ‰ã‚¤ãƒ„èªž | `ru` | ðŸ‡·ðŸ‡º ãƒ­ã‚·ã‚¢èªž |
 
 </details>
 
 <br>
 
-## よくある質問
+## ã‚ˆãã‚ã‚‹è³ªå•
 
 <details>
-<summary><b>YouTubeの広告がまだ表示されるのはなぜですか？</b></summary>
+<summary><b>YouTubeã®åºƒå‘ŠãŒã¾ã è¡¨ç¤ºã•ã‚Œã‚‹ã®ã¯ãªãœã§ã™ã‹ï¼Ÿ</b></summary>
 
 <br>
 
-**トラブルシューティングチェックリスト**
+**ãƒˆãƒ©ãƒ–ãƒ«ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ãƒã‚§ãƒƒã‚¯ãƒªã‚¹ãƒˆ**
 
-- [ ] **MITMが有効** → 設定 → MITM → トグルON
-- [ ] **証明書がインストール済み** → iOS設定 → プロファイルがインストール済み
-- [ ] **証明書が信頼済み** → 設定 → 一般 → 情報 → 証明書信頼設定
-- [ ] **ホスト名が追加済み** → `youtubei.googleapis.com`が存在することを確認
-- [ ] **モジュールが有効** → Configuration → Module → トグルON
-- [ ] **アプリを再起動済み** → YouTubeを強制終了して再起動
+- [ ] **MITMãŒæœ‰åŠ¹** â†’ è¨­å®š â†’ MITM â†’ ãƒˆã‚°ãƒ«ON
+- [ ] **è¨¼æ˜Žæ›¸ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿** â†’ iOSè¨­å®š â†’ ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿
+- [ ] **è¨¼æ˜Žæ›¸ãŒä¿¡é ¼æ¸ˆã¿** â†’ è¨­å®š â†’ ä¸€èˆ¬ â†’ æƒ…å ± â†’ è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š
+- [ ] **ãƒ›ã‚¹ãƒˆåãŒè¿½åŠ æ¸ˆã¿** â†’ `youtubei.googleapis.com`ãŒå­˜åœ¨ã™ã‚‹ã“ã¨ã‚’ç¢ºèª
+- [ ] **ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ãŒæœ‰åŠ¹** â†’ Configuration â†’ Module â†’ ãƒˆã‚°ãƒ«ON
+- [ ] **ã‚¢ãƒ—ãƒªã‚’å†èµ·å‹•æ¸ˆã¿** â†’ YouTubeã‚’å¼·åˆ¶çµ‚äº†ã—ã¦å†èµ·å‹•
 
-**解決策**
-1. YouTubeキャッシュをクリア: iOS設定 → YouTube → キャッシュをクリア
-2. デバイスを再起動
-3. モジュールを再インストール
-4. WiFiで最初にテスト（セルラーに問題がある可能性）
+**è§£æ±ºç­–**
+1. YouTubeã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’ã‚¯ãƒªã‚¢: iOSè¨­å®š â†’ YouTube â†’ ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’ã‚¯ãƒªã‚¢
+2. ãƒ‡ãƒã‚¤ã‚¹ã‚’å†èµ·å‹•
+3. ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+4. WiFiã§æœ€åˆã«ãƒ†ã‚¹ãƒˆï¼ˆã‚»ãƒ«ãƒ©ãƒ¼ã«å•é¡ŒãŒã‚ã‚‹å¯èƒ½æ€§ï¼‰
 
 </details>
 
 <br>
 
 > [!IMPORTANT]
-> **なぜ証明書を信頼する必要があるのですか？**
+> **ãªãœè¨¼æ˜Žæ›¸ã‚’ä¿¡é ¼ã™ã‚‹å¿…è¦ãŒã‚ã‚‹ã®ã§ã™ã‹ï¼Ÿ**
 > 
-> 広告をブロックし、プレミアムのロックを解除するには、プロキシアプリがネットワークトラフィックを傍受する必要があります。`設定 > 一般 > 情報 > 証明書信頼設定` に進み、アプリの証明書を有効にする必要があります。この手順をスキップすると、iOSはすべてのネットワーク接続をブロックします！
+> åºƒå‘Šã‚’ãƒ–ãƒ­ãƒƒã‚¯ã—ã€ãƒ—ãƒ¬ãƒŸã‚¢ãƒ ã®ãƒ­ãƒƒã‚¯ã‚’è§£é™¤ã™ã‚‹ã«ã¯ã€ãƒ—ãƒ­ã‚­ã‚·ã‚¢ãƒ—ãƒªãŒãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ãƒˆãƒ©ãƒ•ã‚£ãƒƒã‚¯ã‚’å‚å—ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚`è¨­å®š > ä¸€èˆ¬ > æƒ…å ± > è¨¼æ˜Žæ›¸ä¿¡é ¼è¨­å®š` ã«é€²ã¿ã€ã‚¢ãƒ—ãƒªã®è¨¼æ˜Žæ›¸ã‚’æœ‰åŠ¹ã«ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã“ã®æ‰‹é †ã‚’ã‚¹ã‚­ãƒƒãƒ—ã™ã‚‹ã¨ã€iOSã¯ã™ã¹ã¦ã®ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æŽ¥ç¶šã‚’ãƒ–ãƒ­ãƒƒã‚¯ã—ã¾ã™ï¼
 
 > [!NOTE]
-> **証明書は安全ですか？**
+> **è¨¼æ˜Žæ›¸ã¯å®‰å…¨ã§ã™ã‹ï¼Ÿ**
 > 
-> 完全に安全です！すべての広告ブロックルールはデバイス上で **100% ローカル** に処理されます。アプリはあなたの個人データや閲覧履歴を外部に送信しません。あなたはデータを完全にコントロールしています。
+> å®Œå…¨ã«å®‰å…¨ã§ã™ï¼ã™ã¹ã¦ã®åºƒå‘Šãƒ–ãƒ­ãƒƒã‚¯ãƒ«ãƒ¼ãƒ«ã¯ãƒ‡ãƒã‚¤ã‚¹ä¸Šã§ **100% ãƒ­ãƒ¼ã‚«ãƒ«** ã«å‡¦ç†ã•ã‚Œã¾ã™ã€‚ã‚¢ãƒ—ãƒªã¯ã‚ãªãŸã®å€‹äººãƒ‡ãƒ¼ã‚¿ã‚„é–²è¦§å±¥æ­´ã‚’å¤–éƒ¨ã«é€ä¿¡ã—ã¾ã›ã‚“ã€‚ã‚ãªãŸã¯ãƒ‡ãƒ¼ã‚¿ã‚’å®Œå…¨ã«ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã—ã¦ã„ã¾ã™ã€‚
 
 <br>
 
 <details>
-<summary><b>これは安全に使用できますか？</b></summary>
+<summary><b>ã“ã‚Œã¯å®‰å…¨ã«ä½¿ç”¨ã§ãã¾ã™ã‹ï¼Ÿ</b></summary>
 
 <br>
 
-**✅ 100%安全＆セキュア**
+**âœ… 100%å®‰å…¨ï¼†ã‚»ã‚­ãƒ¥ã‚¢**
 
-- **オープンソース** — すべてのコードはGitHubで公開
-- **データ収集なし** — アナリティクスやトラッキングゼロ
-- **プライバシー優先** — スクリプトはデバイス上でローカルに実行
-- **リモートサーバーなし** — 外部サーバーにデータを送信しない
-- **コミュニティレビュー済み** — ユーザーによってコードがレビュー済み
+- **ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹** â€” ã™ã¹ã¦ã®ã‚³ãƒ¼ãƒ‰ã¯GitHubã§å…¬é–‹
+- **ãƒ‡ãƒ¼ã‚¿åŽé›†ãªã—** â€” ã‚¢ãƒŠãƒªãƒ†ã‚£ã‚¯ã‚¹ã‚„ãƒˆãƒ©ãƒƒã‚­ãƒ³ã‚°ã‚¼ãƒ­
+- **ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼å„ªå…ˆ** â€” ã‚¹ã‚¯ãƒªãƒ—ãƒˆã¯ãƒ‡ãƒã‚¤ã‚¹ä¸Šã§ãƒ­ãƒ¼ã‚«ãƒ«ã«å®Ÿè¡Œ
+- **ãƒªãƒ¢ãƒ¼ãƒˆã‚µãƒ¼ãƒãƒ¼ãªã—** â€” å¤–éƒ¨ã‚µãƒ¼ãƒãƒ¼ã«ãƒ‡ãƒ¼ã‚¿ã‚’é€ä¿¡ã—ãªã„
+- **ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ãƒ¬ãƒ“ãƒ¥ãƒ¼æ¸ˆã¿** â€” ãƒ¦ãƒ¼ã‚¶ãƒ¼ã«ã‚ˆã£ã¦ã‚³ãƒ¼ãƒ‰ãŒãƒ¬ãƒ“ãƒ¥ãƒ¼æ¸ˆã¿
 
 </details>
 
 <br>
 
-## サポート
+## ã‚µãƒãƒ¼ãƒˆ
 
 <div align="center">
 
-### ヘルプを取得
+### ãƒ˜ãƒ«ãƒ—ã‚’å–å¾—
 
 <table>
 <tr>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/facebook-messenger.png" width="80"/>
 <br><br>
-<h3>📨 ライブチャット</h3>
-<sub>⭐ 応答: < 1時間</sub>
+<h3>ðŸ“¨ ãƒ©ã‚¤ãƒ–ãƒãƒ£ãƒƒãƒˆ</h3>
+<sub>â­ å¿œç­”: < 1æ™‚é–“</sub>
 <br><br>
 <a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
-<img src="https://img.shields.io/badge/Messengerでチャット-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
+<img src="https://img.shields.io/badge/Messengerã§ãƒãƒ£ãƒƒãƒˆ-0084FF?style=for-the-badge&logo=messenger&logoColor=white"/>
 </a>
 </td>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/technical-support.png" width="80"/>
 <br><br>
-<h3>🔧 バグ報告</h3>
-<sub>🛡️ 技術的な問題のみ</sub>
+<h3>ðŸ”§ ãƒã‚°å ±å‘Š</h3>
+<sub>ðŸ›¡ï¸ æŠ€è¡“çš„ãªå•é¡Œã®ã¿</sub>
 <br><br>
 <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
-<img src="https://img.shields.io/badge/Issueを報告-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Issueã‚’å ±å‘Š-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/3d-fluency/94/comments.png" width="80"/>
 <br><br>
-<h3>💬 コミュニティ</h3>
-<sub>🚀 質問とアイデア</sub>
+<h3>ðŸ’¬ ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£</h3>
+<sub>ðŸš€ è³ªå•ã¨ã‚¢ã‚¤ãƒ‡ã‚¢</sub>
 <br><br>
 <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
-<img src="https://img.shields.io/badge/Discussionに参加-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Discussionã«å‚åŠ -8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
 </tr>
@@ -2391,7 +2426,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Glowing Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-## 📄 License
+## ðŸ“„ License
 
 <p align="center">
 <a href="LICENSE">
@@ -2400,7 +2435,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </p>
 
 <p align="center">
-  <b>Free to use • Modify • Distribute • Must keep open source</b>
+  <b>Free to use â€¢ Modify â€¢ Distribute â€¢ Must keep open source</b>
 </p>
 
 <!-- Glowing Divider -->
@@ -2414,7 +2449,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 
 
 <!-- Feature Highlights -->
-<h3 align="center">✨ Project Highlights</h3>
+<h3 align="center">âœ¨ Project Highlights</h3>
 
 <table>
 <tr>
@@ -2460,9 +2495,9 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Copyright -->
 <p align="center">
   <sub>
-    Copyright © 2025 
-    <a href="https://github.com/z3rokaze">Nguyễn Ngọc Anh Tú</a> 
-    • All Rights Reserved
+    Copyright Â© 2025 
+    <a href="https://github.com/z3rokaze">Nguyá»…n Ngá»c Anh TÃº</a> 
+    â€¢ All Rights Reserved
   </sub>
 </p>
 
@@ -2521,7 +2556,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </p>
 
 <p align="center">
-  <sub>Open Source • MIT License • Community Driven</sub>
+  <sub>Open Source â€¢ MIT License â€¢ Community Driven</sub>
 </p>
 
 <br>
@@ -2529,7 +2564,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <div align="center">
 
 <!-- Contributors -->
-<h3>👥 Contributors / Người đóng góp</h3>
+<h3>ðŸ‘¥ Contributors / NgÆ°á»i Ä‘Ã³ng gÃ³p</h3>
 <p align="center">
   <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=z3rokaze/NguyenNgocAnhTu" alt="Contributors" />
@@ -2537,7 +2572,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </p>
 
 <!-- Star History -->
-<h3>📈 Growth / Tăng trưởng (Star History)</h3>
+<h3>ðŸ“ˆ Growth / TÄƒng trÆ°á»Ÿng (Star History)</h3>
 <p align="center">
   <a href="https://star-history.com/#z3rokaze/NguyenNgocAnhTu&Date">
     <picture>
@@ -2552,7 +2587,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 
 <!-- Back to top -->
 <a href="#readme">
-  <img src="https://img.shields.io/badge/⬆_Quay_lại_đầu_trang-1C1C1E?style=for-the-badge&logoColor=white" alt="Back to Top" />
+  <img src="https://img.shields.io/badge/â¬†_Quay_láº¡i_Ä‘áº§u_trang-1C1C1E?style=for-the-badge&logoColor=white" alt="Back to Top" />
 </a>
 
 </div>
