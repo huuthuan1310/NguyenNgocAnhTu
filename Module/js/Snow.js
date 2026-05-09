@@ -1,27 +1,46 @@
 /*
- * @name: Snow Premium Unlock
+ * @name: Snow / Epik AI Premium Unlock
+ * @desc: Hỗ trợ cả 2 app: Snow (ảnh chụp AI) & Epik-AI (chỉnh sửa ảnh/video)
  * @author: Nguyễn Ngọc Anh Tú (z3rokaze)
  * @homepage: https://github.com/z3rokaze/NguyenNgocAnhTu
  * @date: 2026-05-09
  */
 
 var objc = JSON.parse($response.body);
+const ua = $request.headers["User-Agent"] || $request.headers["user-agent"];
+const times = Date.now();
 
-objc = {
-    "result": "SUCCESS",
-    "data": {
-        "subscriber_status": "ACTIVE",
-        "subscription_type": "PREMIUM",
-        "product_id": "com.snow.premium.yearly",
-        "original_purchase_date": "2024-01-09T02:00:00Z",
-        "purchase_date": "2024-01-09T02:00:00Z",
-        "expires_date": "9999-01-09T02:00:00Z",
-        "is_trial_period": false,
-        "is_in_intro_offer_period": false,
-        "auto_renew_status": true,
-        "store": "app_store",
-        "environment": "Production"
-    }
+const list = {
+    "iphoneapp.epik": { id: "com.snowcorp.epik.subscribe.plan.oneyear" },   // Epik-AI Chỉnh sửa ảnh và video
+    "iphoneapp.snow": { id: "com.campmobile.snow.subscribe.oneyear" }       // SNOW-AI ảnh chụp
 };
+
+for (const key of Object.keys(list)) {
+    if (new RegExp(`^${key}`, "i").test(ua)) {
+        objc.result = {
+            "products": [
+                {
+                    "managed": true,
+                    "status": "ACTIVE",
+                    "startDate": times,
+                    "productId": list[key].id,
+                    "expireDate": 32662137600000
+                }
+            ],
+            "tickets": [
+                {
+                    "managed": true,
+                    "status": "ACTIVE",
+                    "startDate": times,
+                    "productId": list[key].id,
+                    "expireDate": 32662137600000
+                }
+            ],
+            "activated": true
+        };
+        console.log("✅ Unlock thành công — z3rokaze");
+        break;
+    }
+}
 
 $done({ body: JSON.stringify(objc) });
