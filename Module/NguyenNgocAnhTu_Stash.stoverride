@@ -86,9 +86,10 @@ http:
     # 🎵 Spotify Premium
     - match: ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
       name: sp-json
-      type: request
-      require-body: false
+      type: response
+      require-body: true
       timeout: 10
+      max-size: 131072
     - match: ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
       name: sp-proto
       type: response
