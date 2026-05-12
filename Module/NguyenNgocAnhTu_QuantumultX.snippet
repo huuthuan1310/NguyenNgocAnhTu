@@ -1,8 +1,9 @@
 # ⚡ Anh Tú Premium - Quantumult X
-# 30 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Emby + KineMaster + Lightroom + Photoshop + Djay + Calm + Bussu + VSCO + Mojo + Widgetsmith + Headspace + Funimate + Reface + Unfold + HTTPBot + 1Blocker + Structured + Splice + Facetune + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + Sub-Store | v5.2.1 (2026-05-05)
-# https://github.com/z3rokaze/NguyenNgocAnhTu
+# 25 Apps: Locket Gold + 车票票 + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + Meitu + Funimate + iTunes + WPS + Xmind + Sub-Store
+# v1.0.3 (2026-05-13)
+# https://github.com/ekaznyra/NguyenNgocAnhTu
 
-hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.picsart.c*,api.meiease.c*,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,vsco.co,api.mojo-app.com,widgetsmith.com,mb3admin.com,api.prod.headspace.com,api.funimate.com,lcs-mobile-cops.adobe.io,api.reface.video,api.unfold.app,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,sub.store
+hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.c*,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,sub.store
 
 # Spotify Ads Block
 host-suffix, audio-ak-spotify-com.akamaized.net, reject
@@ -16,106 +17,92 @@ host-keyword, spotify-ads, reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject-200
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject-200
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject-200
-
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-dict
 
-# RevenueCat Header
+# RevenueCat ETag Header strip
 ^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)x-revenuecat-etag:.+(\r\n) request-header $1
 ^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1
+^https?://api\.rc-backup\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)x-revenuecat-etag:.+(\r\n) request-header $1
 
-# ═══════════════════════════════════════
-# 📦 Sub-Store (NMS)
-# ═══════════════════════════════════════
+# 📦 Sub-Store
 ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-request-body https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
 ^https?:\/\/sub\.store url script-request-body https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
 
-# ═══════════════════════════════════════
-# 📺 YouTube Premium (NMS Method)
-# ═══════════════════════════════════════
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/youtube.response.js
+# 📺 YouTube Premium - ekaznyra
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js
 
-# ═══════════════════════════════════════
-# 🎵 Spotify Premium - z3rokaze (2026-05-09)
-# ═══════════════════════════════════════
-^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-json.js
-^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/spotify-proto.js
+# 🎵 Spotify Premium
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/spotify-json.js
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/spotify-proto.js
 
-# ═══════════════════════════════════════
-# 🎧 SoundCloud Go+ (NMS)
-# ═══════════════════════════════════════
-^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
+# 🔐 RevenueCat Multi-App (Locket Gold + 车票票)
+^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
+^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/deleteHeader.js
+^https:\/\/api\.rc-backup\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
 
-# ═══════════════════════════════════════
-# 🎨 PicsArt Gold (NMS)
-# ═══════════════════════════════════════
-^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases url script-request-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/PicsArt.js
+# 🎧 SoundCloud Go+
+^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
 
-# ═══════════════════════════════════════
-# 🎬 Emby Premiere - z3rokaze (2026-05-09)
-# ═══════════════════════════════════════
-^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/emby.js
+# 🎨 PicsArt Gold
+^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js
+^https:\/\/api\.picsart\.com\/gw-v2\/cloud-storage\/v1\/me\/storages url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js
 
-# ═══════════════════════════════════════
-# 🎬 KineMaster Pro (NMS)
-# ═══════════════════════════════════════
-^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
+# 🎨 Lightroom
+^https:\/\/photos\.adobe\.io\/v2\/accounts url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/lightroom.js
 
-# 🎨 Lightroom - z3rokaze (2026-05-09)
-^https:\/\/photos\.adobe\.io\/v2\/accounts url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/lightroom.js
+# 🎨 Photoshop Express
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/photoshop.js
 
-# 🎨 Photoshop Express - z3rokaze (2026-05-09)
-^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/photoshop.js
+# 🎬 Emby Premiere
+^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/emby.js
 
-# 🎵 Djay Pro - z3rokaze (2026-05-09)
-^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/djay.js
+# 🎬 KineMaster Pro
+^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
 
-# 🧘 Calm - z3rokaze (2026-05-09)
-^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/calm.js
+# 🎵 Djay Pro
+^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/djay.js
 
-# 📚 Bussu - z3rokaze (2026-05-09)
-^https:\/\/api\.busuu\.com\/users\/me url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/bussu.js
+# 🧘 Calm
+^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/calm.js
 
-# 📸 VSCO X - z3rokaze (2026-05-09)
-^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/vsco.js
+# 📚 Busuu
+^https:\/\/api\.busuu\.com\/users\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/bussu.js
 
-# ✨ Mojo Pro - z3rokaze (2026-05-09)
-^https:\/\/api\.mojo-app\.com\/v\d\/subscription url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/mojo.js
+# 🧘 Headspace
+^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/headspace.js
 
-# 📱 Widgetsmith Premium - z3rokaze (2026-05-09)
-^https:\/\/widgetsmith\.com\/api\/subscription url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/widgetsmith.js
+# 🎬 AlightMotion Pro
+^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
 
-# 🧘 Headspace Premium - z3rokaze (2026-05-09)
-^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/headspace.js
+# 💄 Wink VIP
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js
 
-# 🎬 Funimate Pro - z3rokaze (2026-05-09)
-^https:\/\/api\.funimate\.com\/users\/me url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/funimate.js
+# 📞 Truecaller Premium
+^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
 
-# 🎭 Reface Premium - z3rokaze (2026-05-09)
-^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/reface.js
+# 📄 CamScanner Premium
+^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/camScanner.js
 
-# 📱 Unfold Premium - z3rokaze (2026-05-09)
-^https:\/\/api\.unfold\.app\/v1\/ios\/receipts url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/unfold.js
+# 💄 BeautyPlus Premium
+^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
 
-# ═══════════════════════════════════════
-# 🎬 AlightMotion Pro (NMS)
-# ═══════════════════════════════════════
-^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
+# 📸 VSCO X
+^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/VSCO.js
 
-# 💄 Wink VIP (NMS)
-^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js
+# ❄️ Snow / Epik
+^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Snow.js
 
-# 📞 Truecaller Premium (NMS)
-^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple) url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
+# 🎨 Meitu XiuXiu
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/MeiTuXiuXiu.js
 
-# 📄 CamScanner Premium (NMS)
-^https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/camScanner.js
+# 🎬 Funimate Pro
+^https:\/\/api\.funimate\.com\/users\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/funimate.js
 
-# 💄 BeautyPlus Premium (NMS)
-^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
+# 🍎 iTunes Premium (250+ Apps)
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/iTunes.js
 
-# ═══════════════════════════════════════
-# 🔐 RevenueCat Multi-App - z3rokaze (v5.2)
-# Locket Gold + 车票票 VIP
-# ═══════════════════════════════════════
-^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
-^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/js/deleteHeader.js
+# 📝 WPS Office
+^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/wps.js
+
+# 🧠 Xmind
+^https?:\/\/www\.xmind\.(cn|net|app)\/_res\/devices url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js
