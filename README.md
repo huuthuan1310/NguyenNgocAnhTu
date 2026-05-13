@@ -499,7 +499,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Tính năng v1.0.3**
-- ✅ 25 Apps Premium unlocked
+- ✅ 26 Apps Premium unlocked
 - ✅ Tất cả scripts từ z3rokaze
 - ✅ Tối ưu hiệu suất cao
 - ✅ Sub-Store Sync tự động
@@ -537,7 +537,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Tính năng v1.0.3**
-- ✅ 25 Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes, WPS, Xmind, Caixin...
+- ✅ 26 Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes, WPS, Xmind, Caixin...
 - ✅ Tất cả scripts tối ưu từ z3rokaze
 - ✅ Giữ YouTube (ekaznyra) & Locket Gold
 - ✅ Sub-Store Sync tự động mỗi ngày
@@ -577,7 +577,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Tính năng v1.0.3**
-- ✅ 25 Apps Premium unlocked
+- ✅ 26 Apps Premium unlocked
 - ✅ Tương thích 100% Shadowrocket
 - ✅ Giá rẻ nhất ($1.99)
 - ✅ Giao diện tiếng Trung/Anh
@@ -617,7 +617,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Tính năng v1.0.3**
-- ✅ 25 Apps Premium unlocked
+- ✅ 26 Apps Premium unlocked
 - ✅ Định dạng .plugin tối ưu
 - ✅ Tag system dễ quản lý
 - ✅ Binary mode cho Spotify
@@ -657,7 +657,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Tính năng v1.0.3**
-- ✅ 25 Apps Premium unlocked
+- ✅ 26 Apps Premium unlocked
 - ✅ Định dạng .snippet nhỏ gọn (2.5KB)
 - ✅ Tối ưu cho QX engine
 - ✅ Sub-Store integration
@@ -699,7 +699,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 ```
 
 **Tính năng v1.0.3**
-- ✅ 25 Apps Premium unlocked
+- ✅ 26 Apps Premium unlocked
 - ✅ Script-providers tự động update
 - ✅ Binary mode cho Spotify
 - ✅ Interval 86400s (24h)
@@ -743,11 +743,36 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 <details open>
 <summary>
-  <h3>⚡ v1.0.3 (2026-05-13) — RevenueCat Backup & Spotify Polish</h3>
+  <h3>🎵 v1.0.4 (2026-05-13) — Spotify app2smile & Alarmy Premium</h3>
 </summary>
 
 <br>
 
+**🎵 Spotify — Chuyển về app2smile upstream**
+- ✅ `script-path` trỏ thẳng về `app2smile/rules/master/js/`
+- ✅ `script-update-interval=0` — luôn lấy bản mới nhất
+- ✅ Xóa file local, dùng trực tiếp upstream (giống NMS)
+- ✅ Header Rewrite: chỉ del `if-none-match` cho `customize`
+
+**🔔 Alarmy Premium — App mới**
+- ✅ Unlock Alarmy Premium (báo thức thông minh)
+- ✅ Pattern: `ars.alar.my/api/v2/user/sync`
+- ✅ Script: Marol62926/MarScrpt (ổn định)
+
+**🧹 Dọn dẹp**
+- ✅ Xóa hết tiếng Trung trong tất cả module files
+- ✅ Cập nhật tất cả 7 module files đồng bộ
+
+**📊 Production Stats: 26 Apps • 47 Hostnames • 34 Scripts**
+
+</details>
+
+<details>
+<summary>
+  <h3>⚡ v1.0.3 (2026-05-13) — RevenueCat Backup & Spotify Polish</h3>
+</summary>
+
+<br>
 **🔐 RevenueCat — Thêm domain dự phòng**
 - ✅ Thêm `api.rc-backup.com` làm fallback khi `api.revenuecat.com` lỗi
 - ✅ Hook `revenuecat-backup` dùng chung script `revenuecat_multi.js`
@@ -769,7 +794,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ Date: `2026-05-13`
 - ✅ README badge & install sections cập nhật
 
-**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 Production Stats: 26 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 
@@ -786,10 +811,10 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ Giữ YouTube script ở ekaznyra và Locket Gold (revenuecat_multi)
 - ✅ Sub-Store integration với daily cron sync
 
-**📱 25 Apps Premium được verify**
+**📱 26 Apps Premium được verify**
 - ✅ YouTube Premium (ekaznyra)
 - ✅ Spotify Premium (protobuf decode)
-- ✅ Locket Gold + 车票票 VIP (RevenueCat multi-app)
+- ✅ Locket Gold +  VIP (RevenueCat multi-app)
 - ✅ iTunes Premium (unlock 250+ app qua verifyReceipt)
 - ✅ PicsArt, Lightroom, Photoshop Express, Emby, KineMaster
 - ✅ Djay Pro, Calm, Busuu, Headspace, AlightMotion
@@ -803,7 +828,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ 33 JS scripts self-hosted, 0 phụ thuộc chxm1023/duyvinh09/I-am-R-E
 - ✅ Full test: 255/255 pass (Node.js syntax + credits + regex + MITM + DNS)
 
-**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 Production Stats: 26 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 <details>
@@ -813,7 +838,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 <br>
 
-**✨ Mở rộng 25 Apps Premium (17 → 25 apps)**
+**✨ Mở rộng 26 Apps Premium (17 → 26 Apps)**
 - ✅ 📸 VSCO Premium — Unlock all filters & tools
 - ✅ ❄️ Snow Premium — Full features unlocked
 - ✅ 🎨 Meitu XiuXiu Premium — All editing tools
@@ -850,7 +875,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ All modules: 5.2.1 → 8.0.0
 - ✅ 28 JS files total (18 new + 10 updated)
 
-**📊 Production Stats: 25 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+**📊 Production Stats: 26 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
 
 </details>
 
@@ -1624,7 +1649,7 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 - ✅ Date: `2026-05-13`
 - ✅ README badge & install sections updated
 
-**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 Production Stats: 26 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 
@@ -1644,7 +1669,7 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 **📱 25 Verified Premium Apps**
 - ✅ YouTube Premium (ekaznyra)
 - ✅ Spotify Premium (protobuf decode)
-- ✅ Locket Gold + 车票票 VIP (RevenueCat multi-app)
+- ✅ Locket Gold +  VIP (RevenueCat multi-app)
 - ✅ iTunes Premium (250+ apps via verifyReceipt)
 - ✅ PicsArt, Lightroom, Photoshop Express, Emby, KineMaster
 - ✅ Djay Pro, Calm, Busuu, Headspace, AlightMotion
@@ -1657,7 +1682,7 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 - ✅ 33 JS scripts self-hosted, zero third-party dependency
 - ✅ Full test: 255/255 pass (syntax + credits + regex + MITM + DNS)
 
-**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 Production Stats: 26 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 
@@ -1689,7 +1714,7 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 - ✅ Standardized timeout and max-size parameters
 - ✅ Added Sub-Store Sync cron job
 
-**📊 Production Stats: 25 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+**📊 Production Stats: 26 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
 
 </details>
 
@@ -2397,7 +2422,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 - ✅ 日付: `2026-05-13`
 - ✅ READMEバッジとインストールセクションを更新
 
-**📊 プロダクション統計: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 プロダクション統計: 26 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 
@@ -2415,7 +2440,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 - ✅ Sub-Store統合と毎日のクロン同期
 
 **📱 検証済み25プレミアムアプリ**
-- ✅ YouTube / Spotify / Locket Gold / 车票票 VIP
+- ✅ YouTube / Spotify / Locket Gold /  VIP
 - ✅ iTunes Premium (verifyReceiptで250+アプリ)
 - ✅ PicsArt / Lightroom / Photoshop Express / Emby / KineMaster
 - ✅ Djay Pro / Calm / Busuu / Headspace / AlightMotion
@@ -2428,7 +2453,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 - ✅ 33 JSスクリプトをセルフホスト、第三者依存ゼロ
 - ✅ 完全テスト: 255/255 合格
 
-**📊 プロダクション統計: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 プロダクション統計: 26 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 
@@ -2453,7 +2478,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 - ✅ 全プラットフォームで8.0.0に同期
 - ✅ Sub-Store Sync cronジョブを追加
 
-**📊 プロダクション統計: 25 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+**📊 プロダクション統計: 26 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
 
 </details>
 
