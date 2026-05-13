@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- Animated  Header Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,25&height=180&section=header&text=Premium%20Unlocker&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=YouTube%20•%20Spotify%20•%20Locket%20•%2020%2B%20Apps&descAlignY=55&descSize=20"/>
@@ -46,24 +46,24 @@
 <!-- Status Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version-1.0.0-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
-  <img src="https://img.shields.io/github/license/z3rokaze/NguyenNgocAnhTu?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
+  <img src="https://img.shields.io/badge/Version-1.0.3-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
+  <img src="https://img.shields.io/github/license/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
   <img src="https://img.shields.io/badge/Status-Active-FFD700?style=for-the-badge&logo=statuspage&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/z3rokaze/NguyenNgocAnhTu?style=social"/>
-  <img src="https://img.shields.io/github/forks/z3rokaze/NguyenNgocAnhTu?style=social"/>
-  <img src="https://img.shields.io/github/watchers/z3rokaze/NguyenNgocAnhTu?style=social"/>
+  <img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=social"/>
+  <img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=social"/>
+  <img src="https://img.shields.io/github/watchers/ekaznyra/NguyenNgocAnhTu?style=social"/>
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=z3rokaze-nguyenngocanhtu&label=Profile%20Views&color=0084FF&style=flat-square&icon=github" alt="Visitors"/>
+  <img src="https://komarev.com/ghpvc/?username=ekaznyra-nguyenngocanhtu&label=Profile%20Views&color=0084FF&style=flat-square&icon=github" alt="Visitors"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
-    <img src="https://img.shields.io/github/issues/z3rokaze/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=white&labelColor=32383E&color=F39C12"/>
+  <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues">
+    <img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=white&labelColor=32383E&color=F39C12"/>
   </a>
-  <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+  <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/discussions">
     <img src="https://img.shields.io/badge/Discussions-Active-7F52FF?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://www.facebook.com/NguyenNgocAnhTu.VN">
@@ -495,11 +495,11 @@ Performance Metrics
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
 ```
 
-**Tính năng v1.0.0**
-- ✅ 32+ Apps Premium unlocked
+**Tính năng v1.0.3**
+- ✅ 25 Apps Premium unlocked
 - ✅ Tất cả scripts từ z3rokaze
 - ✅ Tối ưu hiệu suất cao
 - ✅ Sub-Store Sync tự động
@@ -533,11 +533,11 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
 ```
 
-**Tính năng v1.0.0**
-- ✅ 32+ Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes, WPS, Xmind, Caixin...
+**Tính năng v1.0.3**
+- ✅ 25 Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes, WPS, Xmind, Caixin...
 - ✅ Tất cả scripts tối ưu từ z3rokaze
 - ✅ Giữ YouTube (ekaznyra) & Locket Gold
 - ✅ Sub-Store Sync tự động mỗi ngày
@@ -573,11 +573,11 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
 ```
 
-**Tính năng v1.0.0**
-- ✅ 32+ Apps Premium unlocked
+**Tính năng v1.0.3**
+- ✅ 25 Apps Premium unlocked
 - ✅ Tương thích 100% Shadowrocket
 - ✅ Giá rẻ nhất ($1.99)
 - ✅ Giao diện tiếng Trung/Anh
@@ -613,11 +613,11 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
 ```
 
-**Tính năng v1.0.0**
-- ✅ 32+ Apps Premium unlocked
+**Tính năng v1.0.3**
+- ✅ 25 Apps Premium unlocked
 - ✅ Định dạng .plugin tối ưu
 - ✅ Tag system dễ quản lý
 - ✅ Binary mode cho Spotify
@@ -653,11 +653,11 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
 ```
 
-**Tính năng v1.0.0**
-- ✅ 32+ Apps Premium unlocked
+**Tính năng v1.0.3**
+- ✅ 25 Apps Premium unlocked
 - ✅ Định dạng .snippet nhỏ gọn (2.5KB)
 - ✅ Tối ưu cho QX engine
 - ✅ Sub-Store integration
@@ -695,11 +695,11 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **URL cài đặt**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
 ```
 
-**Tính năng v1.0.0**
-- ✅ 32+ Apps Premium unlocked
+**Tính năng v1.0.3**
+- ✅ 25 Apps Premium unlocked
 - ✅ Script-providers tự động update
 - ✅ Binary mode cho Spotify
 - ✅ Interval 86400s (24h)
@@ -743,6 +743,38 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 <details open>
 <summary>
+  <h3>⚡ v1.0.3 (2026-05-13) — RevenueCat Backup & Spotify Polish</h3>
+</summary>
+
+<br>
+
+**🔐 RevenueCat — Thêm domain dự phòng**
+- ✅ Thêm `api.rc-backup.com` làm fallback khi `api.revenuecat.com` lỗi
+- ✅ Hook `revenuecat-backup` dùng chung script `revenuecat_multi.js`
+- ✅ Header-Rewrite xoá `x-revenuecat-etag` cho cả 2 domain
+- ✅ `max-size=131072` cho response chính, giảm cắt dữ liệu
+
+**🎵 Spotify — Ổn định hơn**
+- ✅ `spclient.wg.spotify.com` → DIRECT (tránh loop proxy)
+- ✅ Xoá `if-none-match` cho `bootstrap` & `user-customization-service`
+- ✅ Cập nhật pattern `*-spclient.spotify.com` cho host mới
+
+**📱 Cập nhật scripts z3rokaze (2026-05-09)**
+- ✅ Refresh Lightroom / Photoshop / Emby / Djay / Calm / Busuu / Headspace
+- ✅ Refresh VSCO / Snow / Meitu XiuXiu / Funimate / iTunes / WPS / Xmind
+- ✅ Giữ YouTube script ở ekaznyra (không phụ thuộc upstream)
+
+**📦 Đồng bộ version**
+- ✅ Tất cả 7 modules: `1.0.0 → 1.0.3`
+- ✅ Date: `2026-05-13`
+- ✅ README badge & install sections cập nhật
+
+**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+
+</details>
+
+<details>
+<summary>
   <h3>🎉 v1.0.0 (2026-05-09) — Self-hosted Release</h3>
 </summary>
 
@@ -754,7 +786,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ Giữ YouTube script ở ekaznyra và Locket Gold (revenuecat_multi)
 - ✅ Sub-Store integration với daily cron sync
 
-**📱 32+ Apps Premium được verify**
+**📱 25 Apps Premium được verify**
 - ✅ YouTube Premium (ekaznyra)
 - ✅ Spotify Premium (protobuf decode)
 - ✅ Locket Gold + 车票票 VIP (RevenueCat multi-app)
@@ -771,7 +803,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ 33 JS scripts self-hosted, 0 phụ thuộc chxm1023/duyvinh09/I-am-R-E
 - ✅ Full test: 255/255 pass (Node.js syntax + credits + regex + MITM + DNS)
 
-**📊 Production Stats: 32+ Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
 
 </details>
 <details>
@@ -781,15 +813,15 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 <br>
 
-**✨ Mở rộng 20+ Apps Premium (17 → 20+ apps)**
-- ✅ � VSCO Premium — Unlock all filters & tools
+**✨ Mở rộng 25 Apps Premium (17 → 25 apps)**
+- ✅ 📸 VSCO Premium — Unlock all filters & tools
 - ✅ ❄️ Snow Premium — Full features unlocked
 - ✅ 🎨 Meitu XiuXiu Premium — All editing tools
-- ✅ � Djay Pro — Professional DJ features
+- ✅ 🎧 Djay Pro — Professional DJ features
 - ✅ 📚 Busuu Premium — Language learning pro
 - ✅ ✨ Mojo Pro — Video editing premium
 - ✅ 📱 Widgetsmith Premium — Unlimited widgets
-- ✅ � Funimate Pro — Video effects unlocked
+- ✅ 🎬 Funimate Pro — Video effects unlocked
 - ✅ 🎭 Reface Premium — Face swap unlimited
 - ✅ 📱 Unfold Premium — Story templates pro
 - ✅ 🍎 iTunes Premium — App purchases unlock
@@ -818,7 +850,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 - ✅ All modules: 5.2.1 → 8.0.0
 - ✅ 28 JS files total (18 new + 10 updated)
 
-**📊 Production Stats: 20+ Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+**📊 Production Stats: 25 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
 
 </details>
 
@@ -1080,7 +1112,7 @@ App → Configuration → Modules
 <h3>🔧 Bug Reports</h3>
 <sub>🛡️ Technical issues only</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues">
 <img src="https://img.shields.io/badge/Report_Issue-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1090,7 +1122,7 @@ App → Configuration → Modules
 <h3>💬 Community</h3>
 <sub>🚀 Questions & ideas</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/discussions">
 <img src="https://img.shields.io/badge/Join_Discussion-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1325,7 +1357,7 @@ Choose the right module for your proxy app:
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
 ```
 
 **Steps**
@@ -1355,7 +1387,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
 ```
 
 **Steps**
@@ -1387,7 +1419,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
 ```
 
 **Steps**
@@ -1419,7 +1451,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
 ```
 
 **Steps**
@@ -1451,7 +1483,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
 ```
 
 **Steps**
@@ -1485,7 +1517,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **Installation URL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
 ```
 
 **Steps**
@@ -1565,6 +1597,103 @@ Shadowrocket OFF → DNS blocks api.revenuecat.com → App uses cache → Keeps 
 </div>
 
 <details open>
+<summary>
+  <h3>⚡ v1.0.3 (2026-05-13) — RevenueCat Backup & Spotify Polish</h3>
+</summary>
+
+<br>
+
+**🔐 RevenueCat — Backup domain added**
+- ✅ Added `api.rc-backup.com` as fallback when `api.revenuecat.com` fails
+- ✅ New `revenuecat-backup` hook reuses `revenuecat_multi.js`
+- ✅ Header-Rewrite strips `x-revenuecat-etag` on both domains
+- ✅ `max-size=131072` on main response to avoid truncation
+
+**🎵 Spotify — Stability**
+- ✅ `spclient.wg.spotify.com` → DIRECT (no proxy loop)
+- ✅ Strips `if-none-match` on `bootstrap` & `user-customization-service`
+- ✅ Updated pattern to match `*-spclient.spotify.com` new hosts
+
+**📱 z3rokaze scripts refresh (2026-05-09)**
+- ✅ Refreshed Lightroom / Photoshop / Emby / Djay / Calm / Busuu / Headspace
+- ✅ Refreshed VSCO / Snow / Meitu XiuXiu / Funimate / iTunes / WPS / Xmind
+- ✅ YouTube script still hosted on ekaznyra (no upstream dependency)
+
+**📦 Version sync**
+- ✅ All 7 modules: `1.0.0 → 1.0.3`
+- ✅ Date: `2026-05-13`
+- ✅ README badge & install sections updated
+
+**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+
+</details>
+
+<details>
+<summary>
+  <h3>🎉 v1.0.0 (2026-05-09) — Self-hosted Release</h3>
+</summary>
+
+<br>
+
+**✨ Stable Release Packaging**
+- ✅ New numbering schema: v8.x → v1.0.0 (initial public release)
+- ✅ 100% self-hosted on ekaznyra/NguyenNgocAnhTu repo
+- ✅ YouTube script stays on ekaznyra, Locket Gold via `revenuecat_multi`
+- ✅ Sub-Store integration with daily cron sync
+
+**📱 25 Verified Premium Apps**
+- ✅ YouTube Premium (ekaznyra)
+- ✅ Spotify Premium (protobuf decode)
+- ✅ Locket Gold + 车票票 VIP (RevenueCat multi-app)
+- ✅ iTunes Premium (250+ apps via verifyReceipt)
+- ✅ PicsArt, Lightroom, Photoshop Express, Emby, KineMaster
+- ✅ Djay Pro, Calm, Busuu, Headspace, AlightMotion
+- ✅ Wink, Truecaller, CamScanner, BeautyPlus, VSCO
+- ✅ Snow, Meitu XiuXiu, Funimate, SoundCloud Go+
+- ✅ WPS Office, Xmind
+
+**🧹 Cleanup + Quality**
+- ✅ Removed dead-endpoint scripts: Mojo, Reface
+- ✅ 33 JS scripts self-hosted, zero third-party dependency
+- ✅ Full test: 255/255 pass (syntax + credits + regex + MITM + DNS)
+
+**📊 Production Stats: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+
+</details>
+
+<details>
+<summary>
+  <h3>🚀 v8.0.0 (2026-05-09) — Ultimate Release</h3>
+</summary>
+
+<br>
+
+**✨ Expanded to 25 Premium Apps (from 17)**
+- ✅ 📸 VSCO Premium — Unlock all filters & tools
+- ✅ ❄️ Snow Premium — Full features unlocked
+- ✅ 🎨 Meitu XiuXiu Premium — All editing tools
+- ✅ 🎧 Djay Pro — Professional DJ features
+- ✅ 📚 Busuu Premium — Language learning pro
+- ✅ 🎬 Funimate Pro — Video effects unlocked
+- ✅ 🍎 iTunes Premium — App purchases unlock
+
+**🔄 Scripts overhaul**
+- ✅ Replaced all third-party scripts → z3rokaze
+- ✅ Created 18 new JS files with full credits
+- ✅ Spotify split into `spotify-json.js` + `spotify-proto.js`
+- ✅ Refreshed Lightroom, Photoshop, Emby, Calm, Headspace
+
+**⚡ All modules optimized**
+- ✅ Updated 7 modules: Premium, Shadowrocket, LanceX, Loon, QuantumultX, Stash, Surge
+- ✅ Synced version 8.0.0 across all platforms
+- ✅ Standardized timeout and max-size parameters
+- ✅ Added Sub-Store Sync cron job
+
+**📊 Production Stats: 25 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+
+</details>
+
+<details>
 <summary>
   <h3>🌟 v7.1.0 (2026-05-05) — Premium Release</h3>
 </summary>
@@ -1756,7 +1885,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <h3>🔧 Bug Reports</h3>
 <sub>🛡️ Technical issues only</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues">
 <img src="https://img.shields.io/badge/Report_Issue-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -1766,7 +1895,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 <h3>💬 Community</h3>
 <sub>🚀 Questions & ideas</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/discussions">
 <img src="https://img.shields.io/badge/Join_Discussion-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -2001,7 +2130,7 @@ You can customize YouTube features by editing the `argument` parameter in the mo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
 ```
 
 **手順**
@@ -2031,7 +2160,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
 ```
 
 **手順**
@@ -2063,7 +2192,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
 ```
 
 **手順**
@@ -2095,7 +2224,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
 ```
 
 **手順**
@@ -2127,7 +2256,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
 ```
 
 **手順**
@@ -2161,7 +2290,7 @@ https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 **インストールURL**
 ```
-https://raw.githubusercontent.com/z3rokaze/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
 ```
 
 **手順**
@@ -2241,6 +2370,114 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </div>
 
 <details open>
+<summary>
+  <h3>⚡ v1.0.3 (2026-05-13) — RevenueCatバックアップ & Spotify調整</h3>
+</summary>
+
+<br>
+
+**🔐 RevenueCat — バックアップドメインを追加**
+- ✅ `api.revenuecat.com` が失敗した時のフォールバックとして `api.rc-backup.com` を追加
+- ✅ 新しい `revenuecat-backup` フックは `revenuecat_multi.js` を再利用
+- ✅ Header-Rewriteで両ドメインの `x-revenuecat-etag` を削除
+- ✅ メインレスポンスに `max-size=131072` を設定し切り捨てを防止
+
+**🎵 Spotify — 安定性向上**
+- ✅ `spclient.wg.spotify.com` → DIRECT(プロキシループ回避)
+- ✅ `bootstrap` と `user-customization-service` の `if-none-match` を削除
+- ✅ 新しい `*-spclient.spotify.com` ホストに対応するパターンに更新
+
+**📱 z3rokazeスクリプト更新 (2026-05-09)**
+- ✅ Lightroom / Photoshop / Emby / Djay / Calm / Busuu / Headspace を更新
+- ✅ VSCO / Snow / Meitu XiuXiu / Funimate / iTunes / WPS / Xmind を更新
+- ✅ YouTubeスクリプトはekaznyraにホスト(上流依存なし)
+
+**📦 バージョン同期**
+- ✅ 全7モジュール: `1.0.0 → 1.0.3`
+- ✅ 日付: `2026-05-13`
+- ✅ READMEバッジとインストールセクションを更新
+
+**📊 プロダクション統計: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+
+</details>
+
+<details>
+<summary>
+  <h3>🎉 v1.0.0 (2026-05-09) — セルフホスト版リリース</h3>
+</summary>
+
+<br>
+
+**✨ 安定版リリース**
+- ✅ バージョン体系変更: v8.x → v1.0.0 (初の公開リリース)
+- ✅ ekaznyra/NguyenNgocAnhTu リポジトリで100%セルフホスト
+- ✅ YouTubeスクリプトはekaznyra、Locket Goldは `revenuecat_multi` を継続
+- ✅ Sub-Store統合と毎日のクロン同期
+
+**📱 検証済み25プレミアムアプリ**
+- ✅ YouTube / Spotify / Locket Gold / 车票票 VIP
+- ✅ iTunes Premium (verifyReceiptで250+アプリ)
+- ✅ PicsArt / Lightroom / Photoshop Express / Emby / KineMaster
+- ✅ Djay Pro / Calm / Busuu / Headspace / AlightMotion
+- ✅ Wink / Truecaller / CamScanner / BeautyPlus / VSCO
+- ✅ Snow / Meitu XiuXiu / Funimate / SoundCloud Go+
+- ✅ WPS Office / Xmind
+
+**🧹 クリーンアップ + 品質**
+- ✅ デッドエンドポイントスクリプトを削除: Mojo、Reface
+- ✅ 33 JSスクリプトをセルフホスト、第三者依存ゼロ
+- ✅ 完全テスト: 255/255 合格
+
+**📊 プロダクション統計: 25 Apps • 46 Hostnames • 33 Scripts • 38 Script Entries**
+
+</details>
+
+<details>
+<summary>
+  <h3>🚀 v8.0.0 (2026-05-09) — アルティメットリリース</h3>
+</summary>
+
+<br>
+
+**✨ 25プレミアムアプリに拡張 (17 → 25)**
+- ✅ 📸 VSCO Premium / ❄️ Snow Premium / 🎨 Meitu XiuXiu Premium
+- ✅ 🎧 Djay Pro / 📚 Busuu / 🎬 Funimate Pro / 🍎 iTunes Premium
+
+**🔄 スクリプト全面刷新**
+- ✅ 第三者スクリプトを全てz3rokazeに置換
+- ✅ 18の新規JSファイル(完全なクレジット付き)
+- ✅ Spotifyを `spotify-json.js` + `spotify-proto.js` に分割
+
+**⚡ 全モジュール最適化**
+- ✅ 7モジュールを更新: Premium, Shadowrocket, LanceX, Loon, QuantumultX, Stash, Surge
+- ✅ 全プラットフォームで8.0.0に同期
+- ✅ Sub-Store Sync cronジョブを追加
+
+**📊 プロダクション統計: 25 Apps • 35+ Hostnames • 28 Scripts • 100% Tested**
+
+</details>
+
+<details>
+<summary>
+  <h3>🌟 v7.1.0 (2026-05-05) — プレミアムリリース</h3>
+</summary>
+
+<br>
+
+**✨ 17プレミアムアプリに拡張 (13 → 17)**
+- ✅ 🖼️ Lightroom Premium / 🎨 Photoshop Express Premium
+- ✅ 🧘 Calm Premium / 🎧 Headspace Premium
+
+**⚡ 全17アプリのパラメータ最適化**
+- ✅ タイムアウト値を標準化 (10s/15s/30s/60s/120s)
+- ✅ YouTube、Spotify、Locketに `max-size=131072` を追加
+- ✅ PicsArt、BeautyPlusに `max-size=0` を追加
+
+**📊 プロダクション統計: 17 Apps • 21 Hostnames • 10 Scripts • Fully Tested**
+
+</details>
+
+<details>
 <summary>
   <h3>🔄 v3.0.0 (2026-04-08)</h3>
 </summary>
@@ -2400,7 +2637,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <h3>🔧 バグ報告</h3>
 <sub>🛡️ 技術的な問題のみ</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues">
 <img src="https://img.shields.io/badge/Issueを報告-FF453A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -2410,7 +2647,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <h3>💬 コミュニティ</h3>
 <sub>🚀 質問とアイデア</sub>
 <br><br>
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/discussions">
 <img src="https://img.shields.io/badge/Discussionに参加-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </td>
@@ -2495,8 +2732,8 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Copyright -->
 <p align="center">
   <sub>
-    Copyright © 2025 
-    <a href="https://github.com/z3rokaze">Nguyễn Ngọc Anh Tú</a> 
+    Copyright (c) 2026 
+    <a href="https://github.com/ekaznyra">Nguyễn Ngọc Anh Tú</a> 
     • All Rights Reserved
   </sub>
 </p>
@@ -2513,7 +2750,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/issues">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues">
 <img src="https://img.icons8.com/fluency/96/bug.png" width="64"/>
 <br><br>
 <b>Report Bug</b>
@@ -2522,7 +2759,7 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/z3rokaze/NguyenNgocAnhTu/discussions">
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/discussions">
 <img src="https://img.icons8.com/fluency/96/chat.png" width="64"/>
 <br><br>
 <b>Discussions</b>
@@ -2566,19 +2803,19 @@ Shadowrocket オフ → DNSがapi.revenuecat.comをブロック → アプリが
 <!-- Contributors -->
 <h3>👥 Contributors / Người đóng góp</h3>
 <p align="center">
-  <a href="https://github.com/z3rokaze/NguyenNgocAnhTu/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=z3rokaze/NguyenNgocAnhTu" alt="Contributors" />
+  <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=ekaznyra/NguyenNgocAnhTu" alt="Contributors" />
   </a>
 </p>
 
 <!-- Star History -->
 <h3>📈 Growth / Tăng trưởng (Star History)</h3>
 <p align="center">
-  <a href="https://star-history.com/#z3rokaze/NguyenNgocAnhTu&Date">
+  <a href="https://star-history.com/#ekaznyra/NguyenNgocAnhTu&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=z3rokaze/NguyenNgocAnhTu&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=z3rokaze/NguyenNgocAnhTu&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=z3rokaze/NguyenNgocAnhTu&type=Date" width="80%"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ekaznyra/NguyenNgocAnhTu&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ekaznyra/NguyenNgocAnhTu&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ekaznyra/NguyenNgocAnhTu&type=Date" width="80%"/>
     </picture>
   </a>
 </p>

@@ -1,5 +1,5 @@
-name: ⚡ Anh Tú Premium - Stash
-desc: 25 Apps - Locket Gold + 车票票 + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + Meitu + Funimate + iTunes + WPS + Xmind + Sub-Store | v1.0.3 (2026-05-13)
+﻿name: ⚡ Anh Tú Premium - Stash
+desc: 25 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + Meitu + Funimate + iTunes + WPS + Xmind + Sub-Store | v1.0.3 (2026-05-13)
 author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -51,6 +51,7 @@ http:
     - "www.xmind.cn"
     - "www.xmind.net"
     - "www.xmind.app"
+    - "ars.alar.my"
     - "sub.store"
 
   url-rewrite:
@@ -96,7 +97,7 @@ http:
       timeout: 10
       max-size: 0
       binary-mode: true
-    # 🔐 RevenueCat Multi-App (Locket Gold + 车票票)
+    # 🔐 RevenueCat Multi-App (Locket Gold)
     - match: ^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$)
       name: rc-res
       type: response
@@ -269,6 +270,13 @@ http:
       require-body: true
       timeout: 10
       max-size: 0
+    # 🔔 Alarmy Premium
+    - match: ^https:\/\/ars\.alar\.my\/api\/v2\/user\/sync
+      name: alarmy-res
+      type: response
+      require-body: true
+      timeout: 10
+      max-size: 0
 
 script-providers:
   yt-req:
@@ -278,11 +286,11 @@ script-providers:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js
     interval: 86400
   sp-json:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/spotify-json.js
-    interval: 86400
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+    interval: 0
   sp-proto:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/spotify-proto.js
-    interval: 86400
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+    interval: 0
   rc-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
     interval: 86400
@@ -360,4 +368,7 @@ script-providers:
     interval: 86400
   xmind-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js
+    interval: 86400
+  alarmy-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/alarmy.js
     interval: 86400
