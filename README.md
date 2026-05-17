@@ -46,7 +46,7 @@
 <!-- Status Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS-0A84FF?style=for-the-badge&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version-1.0.3-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Version-1.0.4-34C759?style=for-the-badge&logo=semantic-release&logoColor=white"/>
   <img src="https://img.shields.io/github/license/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=50C878"/>
   <img src="https://img.shields.io/badge/Status-Active-FFD700?style=for-the-badge&logo=statuspage&logoColor=white"/>
 </p>
@@ -498,7 +498,7 @@ Performance Metrics
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule
 ```
 
-**Tính năng v1.0.3**
+**Tính năng v1.0.4**
 - ✅ 26 Apps Premium unlocked
 - ✅ Tất cả scripts từ z3rokaze
 - ✅ Tối ưu hiệu suất cao
@@ -536,7 +536,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
 ```
 
-**Tính năng v1.0.3**
+**Tính năng v1.0.4**
 - ✅ 26 Apps Premium: YouTube, Spotify, Locket, VSCO, Snow, Meitu, iTunes, WPS, Xmind, Caixin...
 - ✅ Tất cả scripts tối ưu từ z3rokaze
 - ✅ Giữ YouTube (ekaznyra) & Locket Gold
@@ -576,7 +576,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module
 ```
 
-**Tính năng v1.0.3**
+**Tính năng v1.0.4**
 - ✅ 26 Apps Premium unlocked
 - ✅ Tương thích 100% Shadowrocket
 - ✅ Giá rẻ nhất ($1.99)
@@ -616,7 +616,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin
 ```
 
-**Tính năng v1.0.3**
+**Tính năng v1.0.4**
 - ✅ 26 Apps Premium unlocked
 - ✅ Định dạng .plugin tối ưu
 - ✅ Tag system dễ quản lý
@@ -656,7 +656,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_QuantumultX.snippet
 ```
 
-**Tính năng v1.0.3**
+**Tính năng v1.0.4**
 - ✅ 26 Apps Premium unlocked
 - ✅ Định dạng .snippet nhỏ gọn (2.5KB)
 - ✅ Tối ưu cho QX engine
@@ -698,7 +698,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride
 ```
 
-**Tính năng v1.0.3**
+**Tính năng v1.0.4**
 - ✅ 26 Apps Premium unlocked
 - ✅ Script-providers tự động update
 - ✅ Binary mode cho Spotify
