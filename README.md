@@ -1,92 +1,80 @@
 ﻿<div align="center">
 
-<!-- HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:845EC2,100:4ECDC4&height=200&section=header&text=⚡%20PREMIUM%20UNLOCKER%20⚡&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Nguyễn%20Ngọc%20Anh%20Tú%20|%2037%20Apps%20|%208%20Platforms%20|%20iOS&descAlignY=55&descSize=16&descColor=fff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:F97316&height=200&section=header&text=⚡%20PREMIUM%20UNLOCKER&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=32&desc=by%20Nguyễn%20Ngọc%20Anh%20Tú%20(z3rokaze)&descAlignY=52&descSize=16&descColor=FFFFFF"/>
+
+### 🌸 37 Apps Premium • 8 Platforms • iOS 15+ • Free & Open Source
 
 <br>
 
-<!-- BADGES -->
-<img src="https://img.shields.io/badge/VERSION-1.0.6-FF6B6B?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/APPS-37-845EC2?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/PLATFORMS-8-4ECDC4?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/iOS-15%2B-FFFFFF?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/UPDATED-2026--05--19-34C759?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/FREE-Open_Source-E3B341?style=for-the-badge&labelColor=0D1117"/>
+[![Version](https://img.shields.io/badge/v1.0.6-8B5CF6?style=for-the-badge)](https://github.com/ekaznyra/NguyenNgocAnhTu/releases)
+[![Apps](https://img.shields.io/badge/37_Apps-EC4899?style=for-the-badge)](https://github.com/ekaznyra/NguyenNgocAnhTu)
+[![Platforms](https://img.shields.io/badge/8_Platforms-F97316?style=for-the-badge)](https://github.com/ekaznyra/NguyenNgocAnhTu)
+[![iOS](https://img.shields.io/badge/iOS_15+-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/ekaznyra/NguyenNgocAnhTu)
 
-<br><br>
-
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&color=E3B341&labelColor=0D1117&label=STARS"/></a>
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network/members"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&color=845EC2&labelColor=0D1117&label=FORKS"/></a>
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&color=FF6B6B&labelColor=0D1117&label=ISSUES"/></a>
-
-<br><br>
-
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/FACEBOOK-Cộng_đồng-0084FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/discussions"><img src="https://img.shields.io/badge/DISCUSSIONS-Thảo_luận-7F52FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/></a>
-
-<br>
-
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+[![Stars](https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&label=Stars&color=E3B341)](https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers)
+[![Forks](https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&label=Forks&color=8B5CF6)](https://github.com/ekaznyra/NguyenNgocAnhTu/network)
+[![Facebook](https://img.shields.io/badge/Facebook-Cộng_đồng-0866FF?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/NguyenNgocAnhTu.VN)
 
 </div>
 
----
+<br>
 
-## ✨ Tính năng
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## ✨ Tính năng chính
 
 <table>
 <tr>
-<td align="center" width="25%">
-<h3>📺 YouTube</h3>
-✅ Chặn mọi quảng cáo<br>
-✅ Picture-in-Picture<br>
-✅ Phát nền<br>
-✅ Dịch phụ đề VI<br>
-✅ Dịch lời bài hát<br>
-✅ Ẩn Shorts
+<td width="25%">
+
+### 📺 YouTube
+- ✅ Chặn mọi quảng cáo
+- ✅ Picture-in-Picture
+- ✅ Phát nền
+- ✅ Dịch phụ đề tiếng Việt
+- ✅ Dịch lời bài hát
+
 </td>
-<td align="center" width="25%">
-<h3>🎵 Spotify</h3>
-✅ Không quảng cáo<br>
-✅ Skip không giới hạn<br>
-✅ Chất lượng cao<br>
-✅ Lời bài hát<br>
-✅ Tua tới bất kỳ<br>
-✅ Phát nhạc bất kỳ
+<td width="25%">
+
+### 🎵 Spotify
+- ✅ Không quảng cáo
+- ✅ Skip không giới hạn
+- ✅ Chất lượng cao
+- ✅ Lời bài hát
+- ✅ Phát nhạc bất kỳ
+
 </td>
-<td align="center" width="25%">
-<h3>🔐 Locket Gold</h3>
-✅ Gold trọn đời<br>
-✅ Widget vô hạn<br>
-✅ Không watermark<br>
-✅ Hiệu lực 2099<br>
-✅ Giữ Gold tắt proxy<br>
-✅ DNS Profile hỗ trợ
+<td width="25%">
+
+### 🔐 Locket Gold
+- ✅ Gold trọn đời (2099)
+- ✅ Widget vô hạn
+- ✅ Không watermark
+- ✅ Giữ Gold tắt proxy
+- ✅ DNS Profile hỗ trợ
+
 </td>
-<td align="center" width="25%">
-<h3>🍎 iTunes 250+</h3>
-✅ Unlock 250+ apps<br>
-✅ verifyReceipt bypass<br>
-✅ Auto-renewable<br>
-✅ Lifetime access<br>
-✅ Không jailbreak<br>
-✅ Restore purchase
+<td width="25%">
+
+### 🍎 iTunes 250+
+- ✅ Unlock 250+ apps
+- ✅ verifyReceipt bypass
+- ✅ Lifetime access
+- ✅ Không jailbreak
+- ✅ Auto-renewable
+
 </td>
 </tr>
 </table>
 
----
-
-## 📥 Cài đặt nhanh
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
 
-| | Phần mềm | Giá | Link cài đặt |
+## 📥 Cài đặt
+
+| | Phần mềm | Giá | Link |
 |:---:|:---|:---:|:---|
-| 🚀 | **Shadowrocket** ⭐ | $2.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module` |
+| ⭐ | **Shadowrocket** | $2.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module` |
 | 💰 | **LanceX** | $1.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_LanceX.module` |
 | 🌊 | **Surge** | $49.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Surge.sgmodule` |
 | 🎈 | **Loon** | $5.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Loon.plugin` |
@@ -94,161 +82,120 @@
 | 💎 | **Stash** | $5.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Stash.stoverride` |
 | 🔮 | **Egern** | $2.99 | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Egern.yaml` |
 
-> 💡 **Người mới** → dùng **Shadowrocket** ($2.99) hoặc **LanceX** ($1.99)
+> 💡 **Người mới** → chọn **Shadowrocket** ($2.99) hoặc **LanceX** ($1.99) — dễ nhất, rẻ nhất.
 
----
-
-## 📖 Hướng dẫn chi tiết
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
 
+## 📖 Hướng dẫn từng bước
 
 <details open>
-<summary><b>🚀 Shadowrocket — Khuyên dùng</b></summary>
+<summary><b>🚀 Shadowrocket (Khuyên dùng)</b></summary>
+<br>
 
-| # | Thao tác |
-|:---:|:---|
-| 1 | Mở **Shadowrocket** → tab **Cấu hình** (thanh dưới) |
-| 2 | Nhấn config đang dùng (có dấu ✓) → **Sửa cấu hình** |
-| 3 | Kéo xuống **[Module]** → nhấn **＋** → **Thêm URL Module** |
-| 4 | Dán link → **Lưu** → bật toggle ✅ |
+**Bước 1 — Cài Module:**
+1. Mở Shadowrocket → tab **Cấu hình** (thanh dưới)
+2. Nhấn config đang dùng (có ✓) → **Sửa cấu hình**
+3. Kéo xuống **[Module]** → nhấn **＋** → **Thêm URL Module**
+4. Dán link ở bảng trên → **Lưu** → bật toggle ✅
 
+**Bước 2 — Cài MITM (bắt buộc):**
+1. Shadowrocket → **Cài đặt** → **Chứng chỉ** → **Tạo chứng chỉ mới**
+2. **Cài đặt chứng chỉ** → Safari mở → **Cho phép**
+3. iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → cài profile
+4. iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ** → **BẬT**
+
+**Bước 3 — Xác minh:**
+- Bật Shadowrocket → mở YouTube → không ads ✅
+- Mở Spotify → skip không giới hạn ✅
+- Mở Locket → Gold hiện ✅
 </details>
 
 <details>
-<summary><b>💰 LanceX — Giá rẻ nhất</b></summary>
+<summary><b>💰 LanceX (Giá rẻ nhất $1.99)</b></summary>
+<br>
 
-| # | Thao tác | Tiếng Trung |
-|:---:|:---|:---|
-| 1 | Mở **LanceX** → tab **Cấu hình** | 配置 |
-| 2 | Nhấn config → **Sửa cấu hình** | 编辑配置 |
-| 3 | Kéo xuống **[Module]** → **＋** → dán URL | |
-| 4 | Nhấn **Hoàn tất** → bật toggle ✅ | 完成 |
-
+1. Mở LanceX → tab **配置** → nhấn config → **编辑配置**
+2. Kéo xuống **[Module]** → **＋** → dán URL → **完成**
+3. Cài MITM: **设置** → **证书** → **生成新的证书** → **安装证书** → trust trong iOS Settings
 </details>
 
 <details>
-<summary><b>🌊 Surge</b></summary>
+<summary><b>🌊 Surge ($49.99)</b></summary>
+<br>
 
-| # | Thao tác |
-|:---:|:---|
-| 1 | **Home** → **Modules** → **＋** → **Install Module from URL** |
-| 2 | Dán link → **OK** → bật module ✅ |
-
+1. **Home** → **Modules** → **＋** → **Install Module from URL** → dán link → **OK**
+2. Cài MITM: **Settings** → **MITM** → bật → **Generate Certificate** → **Install** → trust
 </details>
 
 <details>
-<summary><b>🎈 Loon</b></summary>
+<summary><b>🎈 Loon ($5.99)</b></summary>
+<br>
 
-| # | Thao tác |
-|:---:|:---|
-| 1 | **Configuration** → **Plugin** → **＋** |
-| 2 | Dán link → **Save** ✅ |
-
+1. **Configuration** → **Plugin** → **＋** → dán link → **Save**
+2. Cài MITM: **Configuration** → **MitM** → bật → **Generate CA** → **Install** → trust
 </details>
 
 <details>
-<summary><b>⚡ Quantumult X</b></summary>
+<summary><b>⚡ Quantumult X ($7.99)</b></summary>
+<br>
 
-| # | Thao tác |
-|:---:|:---|
-| 1 | **Settings** → **Rewrite** → **引用** → **＋** |
-| 2 | Dán link → **OK** ✅ |
-
+1. **Settings** → **Rewrite** → **引用** → **＋** → dán link → **OK**
+2. Cài MITM: **Settings** → **MitM** → bật → **Generate Certificate** → cài → trust
 </details>
 
 <details>
-<summary><b>💎 Stash</b></summary>
+<summary><b>💎 Stash ($5.99)</b></summary>
+<br>
 
-| # | Thao tác |
-|:---:|:---|
-| 1 | **Overrides** → **＋** → **Install from URL** |
-| 2 | Dán link → **Install** ✅ |
-
+1. **Overrides** → **＋** → **Install from URL** → dán link → **Install**
+2. Cài MITM: **Settings** → **HTTPS Decryption** → bật → **Generate** → **Install** → trust
 </details>
 
 <details>
-<summary><b>🔮 Egern</b></summary>
+<summary><b>🔮 Egern ($2.99)</b></summary>
+<br>
 
-| # | Thao tác |
-|:---:|:---|
-| 1 | **Settings** → **Modules** → **＋** |
-| 2 | Dán link → **Save** ✅ |
-
+1. **Settings** → **Modules** → **＋** → dán link → **Save**
+2. Cài MITM: **Settings** → **MITM** → bật → **Generate** → **Install** → trust
 </details>
 
----
-
-### ⚠️ Cài MITM Certificate (BẮT BUỘC)
-
-> **Không cài MITM = Scripts KHÔNG hoạt động!**
-
-| # | Thao tác |
-|:---:|:---|
-| 1 | App proxy → **Cài đặt** → **Chứng chỉ** → **Tạo chứng chỉ mới** |
-| 2 | **Cài đặt chứng chỉ** → Safari mở → nhấn **Cho phép** |
-| 3 | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → cài profile |
-| 4 | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Cài đặt tin cậy chứng chỉ** → **BẬT** ✅ |
-
----
-
-## 📱 37 Apps Premium
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
 
-<div align="center">
+## 🔒 Locket Gold DNS — Giữ Gold khi tắt proxy
 
-| | | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 📺 YouTube | 🎵 Spotify | 🔐 Locket | 🎧 SoundCloud | 🎨 PicsArt | 🎨 Lightroom | 🎨 Photoshop |
-| 🎬 Emby | 🎬 KineMaster | 🎵 Djay | 🧘 Calm | 📚 Busuu | 🧘 Headspace | 🎬 Alight |
-| 💄 Wink | 📞 Truecaller | 📄 CamScanner | 💄 BeautyPlus | 📸 VSCO | ❄️ Snow | 📷 B612 |
-| 🎨 Meitu | 🎬 Funimate | 🍎 iTunes | 📝 WPS | 🧠 Xmind | 🔔 Alarmy | ✍️ Grammarly |
-| 📒 Notability | 🧮 Photomath | 📄 Smallpdf | 🧠 Peak | 🎨 Polarr | 🏃 MFP | 🎼 Musixmatch |
-| 📷 Fimo | 📷 Varlens | 📦 Sub-Store | | | | |
-
-</div>
-
----
-
-## 🔒 Locket Gold DNS — Giữ Gold vĩnh viễn
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
-
-> 💡 Giữ Locket Gold **mãi mãi** ngay cả khi tắt proxy!
+> Kết hợp DNS Block + App Cache → Locket giữ Gold **vĩnh viễn** không cần proxy.
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│  🟢 PROXY BẬT → Bơm Gold vào Cache                  │
-│  🔴 PROXY TẮT → DNS chặn API → Dùng Cache → Gold ✅ │
-│                                                     │
-└─────────────────────────────────────────────────────┘
+🟢 Proxy BẬT  →  Script bơm Gold vào cache  →  App ghi nhớ
+🔴 Proxy TẮT  →  DNS chặn API kiểm tra     →  App dùng cache  →  Gold giữ ✅
 ```
 
 **Cách dùng:**
-
-| # | Thao tác | Kết quả |
-|:---:|:---|:---|
-| 1 | Cài `LocketGoldDNS.mobileconfig` | DNS Profile cài xong |
-| 2 | BẬT proxy → mở Locket | Gold hiện ✅ |
-| 3 | TẮT proxy → mở Locket | Gold vẫn còn ✅ |
+1. Cài `LocketGoldDNS.mobileconfig` vào iPhone
+2. BẬT proxy → mở Locket → Gold hiện
+3. TẮT proxy → Gold vẫn còn ✅
 
 **25 domains bị chặn:** RevenueCat (3) • Firebase (4) • Google Analytics (4) • Google Ads (4) • AppsFlyer (6) • Mixpanel (4)
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 📱 Danh sách 37 Apps
+
+| | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 📺 YouTube | 🎵 Spotify | 🔐 Locket Gold | 🎧 SoundCloud | 🎨 PicsArt | 🎨 Lightroom |
+| 🎨 Photoshop | 🎬 Emby | 🎬 KineMaster | 🎵 Djay | 🧘 Calm | 📚 Busuu |
+| 🧘 Headspace | 🎬 AlightMotion | 💄 Wink | 📞 Truecaller | 📄 CamScanner | 💄 BeautyPlus |
+| 📸 VSCO | ❄️ Snow | 📷 B612 | 🎨 Meitu | 🎬 Funimate | 🍎 iTunes (250+) |
+| 📝 WPS Office | 🧠 Xmind | 🔔 Alarmy | ✍️ Grammarly | 📒 Notability | 🧮 Photomath |
+| 📄 Smallpdf | 🧠 Peak | 🎨 Polarr | 🏃 MyFitnessPal | 🎼 Musixmatch | 📷 Fimo |
+| 📷 Varlens | 📦 Sub-Store | | | | |
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## ⚙️ Tùy chỉnh YouTube
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
+Sửa `argument` trong module:
 
 ```json
 {"lyricLang":"vi","captionLang":"vi","blockUpload":false,"blockImmersive":false,"debug":false}
@@ -260,80 +207,57 @@
 | `captionLang` | Dịch phụ đề | `vi` `en` `ja` `ko` `zh-Hans` |
 | `blockUpload` | Ẩn nút camera | `true` / `false` |
 | `blockImmersive` | Ẩn immersive | `true` / `false` |
-| `debug` | Log debug | `true` / `false` |
 
----
-
-## 📋 Changelog
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
 
-| Version | Ngày | Nội dung |
-|:---|:---|:---|
-| **v1.0.6** 🆕 | 2026-05-19 | +11 apps, Egern, cập nhật scripts — **37 Apps • 8 Platforms** |
-| v1.0.4 | 2026-05-13 | Spotify app2smile, Alarmy |
-| v1.0.3 | 2026-05-13 | RevenueCat backup, Spotify polish |
-| v1.0.0 | 2026-05-09 | Initial release — 26 Apps • 7 Platforms |
-
----
-
-## ❓ Hỏi đáp
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
+## ❓ FAQ
 
 | Vấn đề | Giải pháp |
 |:---|:---|
-| 🔴 YouTube vẫn ads | Kiểm tra MITM + Certificate Trust + Module bật. Xóa cache YouTube → mở lại |
-| 🔴 Locket không Gold | BẬT proxy → force quit Locket → mở lại → đợi 3s |
-| 🔴 Spotify có ads | Force quit → mở lại → đợi 5-10s |
-| 🟡 Cần jailbreak? | **KHÔNG.** Chỉ cần app proxy từ App Store |
-| 🟡 An toàn? | Scripts chỉ sửa response. Rủi ro ban ≈ 0% |
-| 🟡 Tại sao cần MITM? | Proxy cần decrypt HTTPS để scripts hoạt động. An toàn 100% local |
+| YouTube vẫn ads | Kiểm tra MITM + Trust + Module bật. Xóa cache YouTube → mở lại |
+| Locket không Gold | BẬT proxy → force quit Locket → mở lại → đợi 3s |
+| Spotify có ads | Force quit → mở lại → đợi 5-10s |
+| Cần jailbreak? | **Không.** Chỉ cần app proxy từ App Store |
+| An toàn? | Scripts chỉ sửa response. Rủi ro ban ≈ 0% |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 📋 Changelog
+
+| Version | Ngày | Nội dung |
+|:---|:---|:---|
+| **v1.0.6** | 2026-05-19 | +11 apps, Egern support — **37 Apps • 8 Platforms** |
+| v1.0.4 | 2026-05-13 | Spotify app2smile, Alarmy |
+| v1.0.0 | 2026-05-09 | Initial release — 26 Apps |
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🙏 Credits
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
-
-| | Tác giả | Scripts |
-|:---:|:---|:---|
-| 🌟 | **ekaznyra** | YouTube, Locket, PicsArt, Photoshop, Emby, KineMaster, Djay, Busuu, Headspace, AlightMotion, Truecaller, CamScanner, BeautyPlus, VSCO, Snow, Meitu, Funimate, iTunes, Xmind |
-| 🎵 | **app2smile** | Spotify |
-| 🔧 | **Marol62926** | SoundCloud, Alarmy, Smallpdf, MyFitnessPal, Musixmatch |
-| 🔧 | **NobyDa** | PicsArt, Polarr |
-| 🔧 | **yqc007** | Wink, Grammarly |
-| 🔧 | **litieyin** | Lightroom, Notability |
-| 🔧 | **ddgksf2013** | B612, Photomath, Fimo, Peak |
-| 🔧 | **I-am-R-E** | WPS Office |
-| 🔧 | **Alex0510** | Calm |
-| 🔧 | **89996462** | Varlens |
+| Tác giả | Scripts |
+|:---|:---|
+| **ekaznyra** | YouTube, Locket, PicsArt, Photoshop, Emby, KineMaster, Djay, Busuu, Headspace, AlightMotion, Truecaller, CamScanner, BeautyPlus, VSCO, Snow, Meitu, Funimate, iTunes, Xmind |
+| **app2smile** | Spotify |
+| **Marol62926** | SoundCloud, Alarmy, Smallpdf, MyFitnessPal, Musixmatch |
+| **NobyDa** | PicsArt, Polarr |
+| **yqc007** | Wink, Grammarly |
+| **litieyin** | Lightroom, Notability |
+| **ddgksf2013** | B612, Photomath, Fimo, Peak |
+| **I-am-R-E** | WPS Office |
+| **Alex0510** | Calm |
+| **89996462** | Varlens |
 
 ---
 
 <div align="center">
 
-<br>
+**⭐ Star repo này nếu thấy hữu ích! ⭐**
 
-**⭐ Nhấn Star nếu thấy hữu ích! ⭐**
+[![GitHub](https://img.shields.io/badge/GitHub-ekaznyra-181717?style=for-the-badge&logo=github)](https://github.com/ekaznyra/NguyenNgocAnhTu)
+[![Facebook](https://img.shields.io/badge/Facebook-Anh_Tú-0866FF?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/NguyenNgocAnhTu.VN)
 
-<br>
+`MIT License © 2026 Nguyễn Ngọc Anh Tú`
 
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/GITHUB-ekaznyra-0D1117?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/FACEBOOK-Anh_Tú-0084FF?style=for-the-badge&logo=facebook&logoColor=white"/></a>
-
-<br><br>
-
-`MIT License © 2026 Nguyễn Ngọc Anh Tú (z3rokaze)`
-
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:845EC2,100:4ECDC4&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:F97316&height=100&section=footer"/>
 
 </div>
