@@ -1,0 +1,473 @@
+name: "⚡ Anh Tú Premium - Egern"
+description: "37 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Sub-Store | v1.0.6 (2026-05-19)"
+author: "Nguyễn Ngọc Anh Tú"
+homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
+icon: "lock.open.fill"
+
+rules:
+  # Spotify Ads Block
+  - domain_suffix:
+      match: "audio-ak-spotify-com.akamaized.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "audio4-ak-spotify-com.akamaized.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "heads-ak-spotify-com.akamaized.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "heads4-ak-spotify-com.akamaized.net"
+      policy: REJECT
+  - domain:
+      match: "spclient.wg.spotify.com"
+      policy: DIRECT
+  - domain_keyword:
+      match: "spotify-ads"
+      policy: REJECT
+
+url_rewrites:
+  # YouTube Ads Block
+  - match: "^https?://[\\w-]+\\.googlevideo\\.com/(?!(dclk_video_ads|videoplayback\\?)).+&oad"
+    location: "reject-200"
+    status_code: 200
+  - match: "^https?://(www|s)\\.youtube\\.com/api/stats/ads"
+    location: "reject-200"
+    status_code: 200
+  - match: "^https?://(www|s)\\.youtube\\.com/(pagead|ptracking)"
+    location: "reject-200"
+    status_code: 200
+  - match: "^https?://s\\.youtube\\.com/api/stats/qoe\\?adcontext"
+    location: "reject-200"
+    status_code: 200
+
+header_rewrites:
+  # RevenueCat Remove ETag
+  - match: "^https?://api\\.revenuecat\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+    action: del
+    field: "x-revenuecat-etag"
+  - match: "^https?://api\\.revenuecat\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+    action: del
+    field: "X-RevenueCat-ETag"
+  - match: "^https?://api\\.rc-backup\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+    action: del
+    field: "x-revenuecat-etag"
+  - match: "^https?://api\\.rc-backup\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+    action: del
+    field: "X-RevenueCat-ETag"
+  # Spotify Remove Cache
+  - match: "^https://(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)/user-customization-service/v1/customize$"
+    action: del
+    field: "if-none-match"
+
+scriptings:
+  # 📦 Sub-Store
+  - http_request:
+      name: "Sub-Store Core"
+      match: "^https?://sub\\.store/((download)|api/(preview|sync|(utils/node-info)))"
+      script_url: "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js"
+      body_required: true
+      timeout: 120
+  - http_request:
+      name: "Sub-Store Simple"
+      match: "^https?://sub\\.store"
+      script_url: "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js"
+      body_required: true
+      timeout: 10
+  - schedule:
+      name: "Sub-Store Sync"
+      cron: "0 0 * * *"
+      script_url: "https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js"
+      timeout: 120
+
+  # 📺 YouTube Premium - ekaznyra
+  - http_request:
+      name: "YouTube Request"
+      match: "^https://youtubei\\.googleapis\\.com/youtubei/v1/(browse|next|player|reel/reel_watch_sequence|get_watch)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js"
+      body_required: true
+      binary_body: true
+      max_size: 5242880
+      timeout: 20
+  - http_response:
+      name: "YouTube Response"
+      match: "^https://youtubei\\.googleapis\\.com/youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js"
+      body_required: true
+      binary_body: true
+      max_size: 5242880
+      timeout: 30
+      env:
+        lyricLang: "vi"
+        captionLang: "vi"
+        blockUpload: "false"
+        blockImmersive: "false"
+        debug: "false"
+
+  # 🎵 Spotify Premium (app2smile)
+  - http_request:
+      name: "Spotify JSON"
+      match: "^https://(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)/(artistview/v1/artist|album-entity-view/v2/album)/"
+      script_url: "https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js"
+      timeout: 10
+  - http_response:
+      name: "Spotify Proto"
+      match: "^https://(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)/(bootstrap/v1/bootstrap|user-customization-service/v1/customize)$"
+      script_url: "https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js"
+      body_required: true
+      binary_body: true
+      timeout: 10
+
+  # 🔐 RevenueCat Multi-App (Locket Gold)
+  - http_response:
+      name: "RevenueCat Response"
+      match: "^https://api\\.revenuecat\\.com/.+/(receipts$|subscribers/[^/]+$)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js"
+      body_required: true
+      timeout: 60
+  - http_request:
+      name: "RevenueCat Header"
+      match: "^https://api\\.revenuecat\\.com/.+/(receipts|subscribers)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/deleteHeader.js"
+      timeout: 60
+  - http_response:
+      name: "RevenueCat Backup"
+      match: "^https://api\\.rc-backup\\.com/.+/(receipts$|subscribers/[^/]+$)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js"
+      body_required: true
+      timeout: 60
+
+  # 🎧 SoundCloud Go+ (yfamilys)
+  - http_response:
+      name: "SoundCloud Go+"
+      match: "^https?://api-mobile\\.soundcloud\\.com/configuration/ios"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/soundcloud.js"
+      body_required: true
+      timeout: 15
+
+  # 🎨 PicsArt Gold
+  - http_response:
+      name: "PicsArt Subscription"
+      match: "^https://api\\.picsart\\.com/gw-v2/shop/subscription/apple/purchases"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js"
+      body_required: true
+      timeout: 60
+  - http_response:
+      name: "PicsArt Storages"
+      match: "^https://api\\.picsart\\.com/gw-v2/cloud-storage/v1/me/storages"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js"
+      body_required: true
+      timeout: 60
+  - http_response:
+      name: "PicsArt NobyDa"
+      match: "^https?://api\\.(picsart|meiease)\\.c(n|om)/users/show/me\\.json"
+      script_url: "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js"
+      body_required: true
+      timeout: 60
+
+  # 🎨 Lightroom (yfamilys)
+  - http_response:
+      name: "Lightroom Premium"
+      match: "^https://photos\\.adobe\\.io/v2/accounts"
+      script_url: "https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js"
+      body_required: true
+      timeout: 10
+
+  # 🎨 Photoshop Express
+  - http_response:
+      name: "Photoshop Express"
+      match: "^https://lcs-mobile-cops\\.adobe\\.io/mobile_profile"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/photoshop.js"
+      body_required: true
+      timeout: 10
+
+  # 🎬 Emby Premiere
+  - http_response:
+      name: "Emby Premiere"
+      match: "^https?://mb3admin\\.com/admin/service/registration/validateDevice"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/emby.js"
+      body_required: true
+      timeout: 10
+
+  # 🎬 KineMaster Pro
+  - http_response:
+      name: "KineMaster Pro"
+      match: "^https://api-account\\.kinemasters\\.com/v\\d/user/subscribe$"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Kinemaster.js"
+      body_required: true
+      timeout: 10
+
+  # 🎵 Djay Pro
+  - http_response:
+      name: "Djay Pro"
+      match: "^https://app\\.algoriddim\\.com/api/v1/validate-receipt"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/djay.js"
+      body_required: true
+      timeout: 10
+
+  # 🧘 Calm (yfamilys)
+  - http_response:
+      name: "Calm Premium"
+      match: "^https?://api\\.calm\\.com/(me|device|ios/receipt)"
+      script_url: "https://raw.githubusercontent.com/Alex0510/Eric/Alex0510/surge/surge/Script/caml.js"
+      body_required: true
+      timeout: 10
+
+  # 📚 Busuu
+  - http_response:
+      name: "Busuu Premium"
+      match: "^https://api\\.busuu\\.com/users/me"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/bussu.js"
+      body_required: true
+      timeout: 10
+
+  # 🧘 Headspace
+  - http_response:
+      name: "Headspace Premium"
+      match: "^https://api\\.prod\\.headspace\\.com/.*/user-subscriptions"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/headspace.js"
+      body_required: true
+      timeout: 10
+
+  # 🎬 AlightMotion Pro
+  - http_response:
+      name: "AlightMotion Pro"
+      match: "^https://us-central1-alight-creative\\.cloudfunctions\\.net/getAccountStatusAndLicenses"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/AlightMotion.js"
+      body_required: true
+      timeout: 10
+
+  # 💄 Wink Forever VIP (yfamilys)
+  - http_response:
+      name: "Wink VIP"
+      match: "^https?://api-sub\\.meitu\\.com/v2/user/vip_info_by_group\\.json"
+      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js"
+      body_required: true
+      timeout: 10
+
+  # 📞 Truecaller Premium
+  - http_response:
+      name: "Truecaller Premium"
+      match: "^https://premium-(.+)\\.truecaller\\.com/v\\d/(subscriptions|products/apple)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/TrueCaller.js"
+      body_required: true
+      timeout: 10
+
+  # 📄 CamScanner Premium
+  - http_response:
+      name: "CamScanner Premium"
+      match: "^https://(api|api-cs.*)\\.intsig\\.net/(purchase/cs/query_prop|queryProperty|getPrivilegeItem)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/camScanner.js"
+      body_required: true
+      timeout: 15
+
+  # 💄 BeautyPlus Premium
+  - http_response:
+      name: "BeautyPlus Premium"
+      match: "^https://(api\\.mr\\.pixocial\\.com/v1/manual_unlock|newbeee-api\\.beautyplus\\.com/api/v1/asset/balance)"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js"
+      body_required: true
+      timeout: 60
+
+  # 📸 VSCO X
+  - http_response:
+      name: "VSCO Premium"
+      match: "^https://vsco\\.co/api/subscriptions/2\\.1/user-subscriptions"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/VSCO.js"
+      body_required: true
+      timeout: 10
+
+  # ❄️ Snow / Epik
+  - http_response:
+      name: "Snow Premium"
+      match: "^https?://user-snow-api\\.snow\\.me/v\\d/purchase/subscription/subscriber/status"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Snow.js"
+      body_required: true
+      timeout: 60
+
+  # 📷 B612 Kaji VIP (yfamilys)
+  - http_response:
+      name: "B612 VIP"
+      match: "^https?://user-kaji-api\\.b612kaji\\.com/v\\d/purchase/subscription/subscriber/status"
+      script_url: "https://github.com/deezertidal/private/raw/master/js-backup/Crack/612.js"
+      body_required: true
+      timeout: 60
+
+  # 🎨 Meitu XiuXiu
+  - http_response:
+      name: "Meitu XiuXiu"
+      match: "^https?://(h5|api)\\.xiuxiu\\.meitu\\.com/v\\d/(h\\d/vip|vip|user)/"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/MeiTuXiuXiu.js"
+      body_required: true
+      timeout: 60
+
+  # 🎬 Funimate Pro
+  - http_response:
+      name: "Funimate Pro"
+      match: "^https://api\\.funimate\\.com/users/me"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/funimate.js"
+      body_required: true
+      timeout: 10
+
+  # 🍎 iTunes Premium (250+ Apps)
+  - http_response:
+      name: "iTunes Premium"
+      match: "^https?://buy\\.itunes\\.apple\\.com/verifyReceipt$"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/iTunes.js"
+      body_required: true
+      timeout: 60
+
+  # 📝 WPS Office (yfamilys)
+  - http_response:
+      name: "WPS Office"
+      match: "^https?://.*?account\\.wps\\.(com|cn)(:\\d+)?/api/users/\\w+/overview$"
+      script_url: "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js"
+      body_required: true
+      timeout: 10
+
+  # 🧠 Xmind
+  - http_response:
+      name: "Xmind Premium"
+      match: "^https?://www\\.xmind\\.(cn|net|app)/_res/devices"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js"
+      body_required: true
+      timeout: 10
+
+  # 🔔 Alarmy Premium
+  - http_response:
+      name: "Alarmy Premium"
+      match: "^https://ars\\.alar\\.my/api/v2/user/sync"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/alarmy.js"
+      body_required: true
+      timeout: 10
+
+  # ✍️ Grammarly Premium (yfamilys)
+  - http_response:
+      name: "Grammarly Premium"
+      match: "^https?://subscription\\.grammarly\\.com/api/v1/subscription$"
+      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js"
+      body_required: true
+      timeout: 10
+
+  # 📒 Notability Plus (yfamilys)
+  - http_response:
+      name: "Notability Plus"
+      match: "^https://notability\\.com/subscriptions"
+      script_url: "https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js"
+      body_required: true
+      timeout: 10
+
+  # 🧮 Photomath Plus (yfamilys)
+  - http_response:
+      name: "Photomath Plus"
+      match: "^https?://lapi\\.photomath\\.net/v4/me"
+      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js"
+      body_required: true
+      timeout: 10
+
+  # 📄 Smallpdf Pro (yfamilys)
+  - http_response:
+      name: "Smallpdf Pro"
+      match: "^https?://pro\\.smallpdf\\.com/pro/account"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js"
+      body_required: true
+      timeout: 10
+
+  # 🧠 Peak Pro (yfamilys)
+  - http_response:
+      name: "Peak Pro"
+      match: "^https://billing\\.peakcloud\\.org/billing/2/user/me"
+      script_url: "https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/peak.js"
+      body_required: true
+      timeout: 10
+
+  # 🎨 Polarr Pro (yfamilys)
+  - http_response:
+      name: "Polarr Pro"
+      match: "^https://api\\.polaxiong\\.com/v1/payments/appleiap/receipts/confirmation"
+      script_url: "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js"
+      body_required: true
+      timeout: 10
+
+  # 🏃 MyFitnessPal Premium (yfamilys)
+  - http_response:
+      name: "MyFitnessPal Premium"
+      match: "^https?://premium-api\\.myfitnesspal\\.com/v3/subscriptions/MFP/"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myFitnessPal.js"
+      body_required: true
+      timeout: 10
+
+  # 🎼 Musixmatch Premium (yfamilys)
+  - http_response:
+      name: "Musixmatch Premium"
+      match: "^https?://apic\\.musixmatch\\.com/ws/1\\.1/config\\.get"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/musixmatch.js"
+      body_required: true
+      timeout: 10
+
+  # 📷 Fimo Camera (yfamilys)
+  - http_response:
+      name: "Fimo Camera"
+      match: "^https://server\\.yoyiapp\\.com/fimo-user/user$"
+      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fimo.js"
+      body_required: true
+      timeout: 10
+
+  # 📷 Varlens Premium (yfamilys)
+  - http_response:
+      name: "Varlens Premium"
+      match: "^https://mid\\.zineapi\\.com/@varlens/api/user/info/"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js"
+      body_required: true
+      timeout: 10
+
+mitm:
+  hostnames:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
+    - "spclient.wg.spotify.com"
+    - "*-spclient.spotify.com"
+    - "api.revenuecat.com"
+    - "api.rc-backup.com"
+    - "buy.itunes.apple.com"
+    - "api.picsart.c*"
+    - "api.meiease.c*"
+    - "api-mobile.soundcloud.com"
+    - "mb3admin.com"
+    - "api-account.kinemasters.com"
+    - "photos.adobe.io"
+    - "lcs-mobile-cops.adobe.io"
+    - "app.algoriddim.com"
+    - "api.calm.com"
+    - "api.busuu.com"
+    - "api.prod.headspace.com"
+    - "vsco.co"
+    - "api.funimate.com"
+    - "us-central1-alight-creative.cloudfunctions.net"
+    - "api-sub.meitu.com"
+    - "premium*.truecaller.com"
+    - "ap*.intsig.net"
+    - "api.mr.pixocial.com"
+    - "newbeee-api.beautyplus.com"
+    - "user-snow-api.snow.me"
+    - "user-kaji-api.b612kaji.com"
+    - "h5.xiuxiu.meitu.com"
+    - "api.xiuxiu.meitu.com"
+    - "account.wps.cn"
+    - "*account.wps.com"
+    - "www.xmind.cn"
+    - "www.xmind.net"
+    - "www.xmind.app"
+    - "ars.alar.my"
+    - "sub.store"
+    - "subscription.grammarly.com"
+    - "notability.com"
+    - "lapi.photomath.net"
+    - "pro.smallpdf.com"
+    - "billing.peakcloud.org"
+    - "api.polaxiong.com"
+    - "premium-api.myfitnesspal.com"
+    - "apic.musixmatch.com"
+    - "server.yoyiapp.com"
+    - "mid.zineapi.com"

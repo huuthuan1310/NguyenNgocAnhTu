@@ -1,5 +1,5 @@
 ﻿name: ⚡ Anh Tú Premium - Stash
-desc: 26 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Sub-Store | v1.0.4 (2026-05-13)
+desc: 37 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Sub-Store | v1.0.6 (2026-05-19)
 author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -26,6 +26,7 @@ http:
     - "api.rc-backup.com"
     - "buy.itunes.apple.com"
     - "api.picsart.c*"
+    - "api.meiease.c*"
     - "api-mobile.soundcloud.com"
     - "api-account.kinemasters.com"
     - "photos.adobe.io"
@@ -44,6 +45,7 @@ http:
     - "api.mr.pixocial.com"
     - "newbeee-api.beautyplus.com"
     - "user-snow-api.snow.me"
+    - "user-kaji-api.b612kaji.com"
     - "h5.xiuxiu.meitu.com"
     - "api.xiuxiu.meitu.com"
     - "account.wps.cn"
@@ -53,6 +55,16 @@ http:
     - "www.xmind.app"
     - "ars.alar.my"
     - "sub.store"
+    - "subscription.grammarly.com"
+    - "notability.com"
+    - "lapi.photomath.net"
+    - "pro.smallpdf.com"
+    - "billing.peakcloud.org"
+    - "api.polaxiong.com"
+    - "premium-api.myfitnesspal.com"
+    - "apic.musixmatch.com"
+    - "server.yoyiapp.com"
+    - "mid.zineapi.com"
 
   url-rewrite:
     - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
@@ -115,8 +127,8 @@ http:
       require-body: true
       timeout: 60
       max-size: -1
-    # 🎧 SoundCloud Go+
-    - match: ^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios$
+    # 🎧 SoundCloud Go+ (yfamilys)
+    - match: ^https?:\/\/api-mobile\.soundcloud\.com\/configuration\/ios
       name: sc-res
       type: response
       require-body: true
@@ -133,7 +145,13 @@ http:
       type: response
       require-body: true
       timeout: 60
-    # 🎨 Lightroom
+    - match: ^https?:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json
+      name: pa-nobyda
+      type: response
+      require-body: true
+      timeout: 60
+      max-size: 0
+    # 🎨 Lightroom (yfamilys)
     - match: ^https:\/\/photos\.adobe\.io\/v2\/accounts
       name: lr-res
       type: response
@@ -168,13 +186,13 @@ http:
       require-body: true
       timeout: 10
       max-size: 131072
-    # 🧘 Calm
-    - match: ^https:\/\/api\.calm\.com\/me$
+    # 🧘 Calm (yfamilys)
+    - match: ^https?:\/\/api\.calm\.com\/(me|device|ios\/receipt)
       name: calm-res
       type: response
       require-body: true
       timeout: 10
-      max-size: 131072
+      max-size: 0
     # 📚 Busuu
     - match: ^https:\/\/api\.busuu\.com\/users\/me
       name: busuu-res
@@ -196,7 +214,7 @@ http:
       require-body: true
       timeout: 10
       max-size: 131072
-    # 💄 Wink VIP
+    # 💄 Wink Forever VIP (yfamilys)
     - match: ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json
       name: wink-res
       type: response
@@ -236,6 +254,13 @@ http:
       require-body: true
       timeout: 60
       max-size: -1
+    # 📷 B612 Kaji VIP (yfamilys)
+    - match: ^https?:\/\/user-kaji-api\.b612kaji\.com\/v\d\/purchase\/subscription\/subscriber\/status
+      name: b612-res
+      type: response
+      require-body: true
+      timeout: 60
+      max-size: -1
     # 🎨 Meitu XiuXiu
     - match: ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/
       name: meitu-res
@@ -256,7 +281,7 @@ http:
       require-body: true
       timeout: 60
       max-size: -1
-    # 📝 WPS Office
+    # 📝 WPS Office (yfamilys)
     - match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
       name: wps-res
       type: response
@@ -277,6 +302,66 @@ http:
       require-body: true
       timeout: 10
       max-size: 0
+    # ✍️ Grammarly Premium (yfamilys)
+    - match: ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$
+      name: grammarly-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📒 Notability Plus (yfamilys)
+    - match: ^https:\/\/notability\.com\/subscriptions
+      name: notability-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🧮 Photomath Plus (yfamilys)
+    - match: ^https?:\/\/lapi\.photomath\.net\/v4\/me
+      name: photomath-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📄 Smallpdf Pro (yfamilys)
+    - match: ^https?:\/\/pro\.smallpdf\.com\/pro\/account
+      name: smallpdf-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🧠 Peak Pro (yfamilys)
+    - match: ^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me
+      name: peak-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎨 Polarr Pro (yfamilys)
+    - match: ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation
+      name: polarr-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🏃 MyFitnessPal Premium (yfamilys)
+    - match: ^https?:\/\/premium-api\.myfitnesspal\.com\/v3\/subscriptions\/MFP\/
+      name: mfp-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎼 Musixmatch Premium (yfamilys)
+    - match: ^https?:\/\/apic\.musixmatch\.com\/ws\/1\.1\/config\.get
+      name: mxm-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📷 Fimo Camera (yfamilys)
+    - match: ^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$
+      name: fimo-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📷 Varlens Premium (yfamilys)
+    - match: ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/
+      name: varlens-res
+      type: response
+      require-body: true
+      timeout: 10
 
 script-providers:
   yt-req:
@@ -301,7 +386,7 @@ script-providers:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
     interval: 86400
   sc-res:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/SoundCloudGoPlus.js
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/soundcloud.js
     interval: 86400
   pa-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js
@@ -309,8 +394,11 @@ script-providers:
   pa-storages:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js
     interval: 86400
+  pa-nobyda:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
+    interval: 86400
   lr-res:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/lightroom.js
+    url: https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
     interval: 86400
   ps-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/photoshop.js
@@ -325,7 +413,7 @@ script-providers:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/djay.js
     interval: 86400
   calm-res:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/calm.js
+    url: https://raw.githubusercontent.com/Alex0510/Eric/Alex0510/surge/surge/Script/caml.js
     interval: 86400
   busuu-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/bussu.js
@@ -337,7 +425,7 @@ script-providers:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
     interval: 86400
   wink-res:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/WinkVipCrack.js
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js
     interval: 86400
   tc-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
@@ -354,6 +442,9 @@ script-providers:
   snow-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Snow.js
     interval: 86400
+  b612-res:
+    url: https://github.com/deezertidal/private/raw/master/js-backup/Crack/612.js
+    interval: 86400
   meitu-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/MeiTuXiuXiu.js
     interval: 86400
@@ -364,11 +455,41 @@ script-providers:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/iTunes.js
     interval: 86400
   wps-res:
-    url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/wps.js
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
     interval: 86400
   xmind-res:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js
     interval: 86400
   alarmy-res:
     url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/alarmy.js
+    interval: 86400
+  grammarly-res:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
+    interval: 86400
+  notability-res:
+    url: https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
+    interval: 86400
+  photomath-res:
+    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js
+    interval: 86400
+  smallpdf-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js
+    interval: 86400
+  peak-res:
+    url: https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/peak.js
+    interval: 86400
+  polarr-res:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
+    interval: 86400
+  mfp-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myFitnessPal.js
+    interval: 86400
+  mxm-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/musixmatch.js
+    interval: 86400
+  fimo-res:
+    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fimo.js
+    interval: 86400
+  varlens-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js
     interval: 86400
