@@ -1,6 +1,6 @@
-name: ? Anh T� Premium - Stash
+﻿name: ⚡ Anh Tú Premium - Stash
 desc: 37 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Sub-Store | v1.0.7 (2026-05-21)
-author: Nguy?n Ng?c Anh T�
+author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 
@@ -80,7 +80,7 @@ http:
     - ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(user-customization-service\/v1\/customize|bootstrap\/v1\/bootstrap)$ header-del if-none-match
 
   script:
-    # ?? YouTube Premium - ekaznyra
+    # 📺 YouTube Premium - ekaznyra
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch)
       name: yt-req
       type: request
@@ -96,7 +96,7 @@ http:
       max-size: -1
       binary-mode: true
       argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":false,"blockImmersive":false,"debug":false}'
-    # ?? Spotify Premium
+    # 🎵 Spotify Premium
     - match: ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
       name: sp-json
       type: request
@@ -109,7 +109,7 @@ http:
       timeout: 10
       max-size: 0
       binary-mode: true
-    # ?? RevenueCat Multi-App (Locket Gold)
+    # 🔐 RevenueCat Multi-App (Locket Gold)
     - match: ^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$)
       name: rc-res
       type: response
@@ -127,14 +127,14 @@ http:
       require-body: true
       timeout: 60
       max-size: -1
-    # ?? SoundCloud Go+ (yfamilys)
+    # 🎧 SoundCloud Go+ (yfamilys)
     - match: ^https?:\/\/api-mobile\.soundcloud\.com\/configuration\/ios
       name: sc-res
       type: response
       require-body: true
       timeout: 15
       max-size: 262144
-    # ?? PicsArt Gold
+    # 🎨 PicsArt Gold
     - match: ^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases
       name: pa-res
       type: response
@@ -151,212 +151,212 @@ http:
       require-body: true
       timeout: 60
       max-size: 0
-    # ?? Lightroom (yfamilys)
+    # 🎨 Lightroom (yfamilys)
     - match: ^https:\/\/photos\.adobe\.io\/v2\/accounts
       name: lr-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Photoshop Express
+    # 🎨 Photoshop Express
     - match: ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile
       name: ps-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Emby Premiere
+    # 🎬 Emby Premiere
     - match: ^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice
       name: emby-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? KineMaster Pro
+    # 🎬 KineMaster Pro
     - match: ^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$
       name: km-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Djay Pro
+    # 🎵 Djay Pro
     - match: ^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt
       name: dj-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Calm (yfamilys)
+    # 🧘 Calm (yfamilys)
     - match: ^https?:\/\/api\.calm\.com\/(me|device|ios\/receipt)
       name: calm-res
       type: response
       require-body: true
       timeout: 10
       max-size: 0
-    # ?? Busuu
+    # 📚 Busuu
     - match: ^https:\/\/api\.busuu\.com\/users\/me
       name: busuu-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Headspace
+    # 🧘 Headspace
     - match: ^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions
       name: hs-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? AlightMotion Pro
+    # 🎬 AlightMotion Pro
     - match: ^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses
       name: am-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Wink Forever VIP (yfamilys)
+    # 💄 Wink Forever VIP (yfamilys)
     - match: ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json
       name: wink-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Truecaller Premium
+    # 📞 Truecaller Premium
     - match: ^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple)
       name: tc-res
       type: response
       require-body: true
       timeout: 10
       max-size: 0
-    # ?? CamScanner Premium
+    # 📄 CamScanner Premium
     - match: ^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem)
       name: cs-res
       type: response
       require-body: true
       timeout: 15
-    # ?? BeautyPlus Premium
+    # 💄 BeautyPlus Premium
     - match: ^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance)
       name: bp-res
       type: response
       require-body: true
       timeout: 60
       max-size: -1
-    # ?? VSCO X
+    # 📸 VSCO X
     - match: ^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions
       name: vsco-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? Snow / Epik
+    # ❄️ Snow / Epik
     - match: ^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status
       name: snow-res
       type: response
       require-body: true
       timeout: 60
       max-size: -1
-    # ?? B612 Kaji VIP (yfamilys)
+    # 📷 B612 Kaji VIP (yfamilys)
     - match: ^https?:\/\/user-kaji-api\.b612kaji\.com\/v\d\/purchase\/subscription\/subscriber\/status
       name: b612-res
       type: response
       require-body: true
       timeout: 60
       max-size: -1
-    # ?? Meitu XiuXiu
+    # 🎨 Meitu XiuXiu
     - match: ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/
       name: meitu-res
       type: response
       require-body: true
       timeout: 60
-    # ?? Funimate Pro
+    # 🎬 Funimate Pro
     - match: ^https:\/\/api\.funimate\.com\/users\/me
       name: fun-res
       type: response
       require-body: true
       timeout: 10
       max-size: 131072
-    # ?? iTunes Premium (250+ Apps)
+    # 🍎 iTunes Premium (250+ Apps)
     - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
       name: itunes-res
       type: response
       require-body: true
       timeout: 60
       max-size: -1
-    # ?? WPS Office (yfamilys)
+    # 📝 WPS Office (yfamilys)
     - match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
       name: wps-res
       type: response
       require-body: true
       timeout: 10
       max-size: 0
-    # ?? Xmind
+    # 🧠 Xmind
     - match: ^https?:\/\/www\.xmind\.(cn|net|app)\/_res\/devices
       name: xmind-res
       type: response
       require-body: true
       timeout: 10
       max-size: 0
-    # ?? Alarmy Premium
+    # 🔔 Alarmy Premium
     - match: ^https:\/\/ars\.alar\.my\/api\/v2\/user\/sync
       name: alarmy-res
       type: response
       require-body: true
       timeout: 10
       max-size: 0
-    # ?? Grammarly Premium (yfamilys)
+    # ✍️ Grammarly Premium (yfamilys)
     - match: ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$
       name: grammarly-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Notability Plus (yfamilys)
+    # 📒 Notability Plus (yfamilys)
     - match: ^https:\/\/notability\.com\/subscriptions
       name: notability-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Photomath Plus (yfamilys)
+    # 🧮 Photomath Plus (yfamilys)
     - match: ^https?:\/\/lapi\.photomath\.net\/v4\/me
       name: photomath-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Smallpdf Pro (yfamilys)
+    # 📄 Smallpdf Pro (yfamilys)
     - match: ^https?:\/\/pro\.smallpdf\.com\/pro\/account
       name: smallpdf-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Peak Pro (yfamilys)
+    # 🧠 Peak Pro (yfamilys)
     - match: ^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me
       name: peak-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Polarr Pro (yfamilys)
+    # 🎨 Polarr Pro (yfamilys)
     - match: ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation
       name: polarr-res
       type: response
       require-body: true
       timeout: 10
-    # ?? MyFitnessPal Premium (yfamilys)
+    # 🏃 MyFitnessPal Premium (yfamilys)
     - match: ^https?:\/\/premium-api\.myfitnesspal\.com\/v3\/subscriptions\/MFP\/
       name: mfp-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Musixmatch Premium (yfamilys)
+    # 🎼 Musixmatch Premium (yfamilys)
     - match: ^https?:\/\/apic\.musixmatch\.com\/ws\/1\.1\/config\.get
       name: mxm-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Fimo Camera (yfamilys)
+    # 📷 Fimo Camera (yfamilys)
     - match: ^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$
       name: fimo-res
       type: response
       require-body: true
       timeout: 10
-    # ?? Varlens Premium (yfamilys)
+    # 📷 Varlens Premium (yfamilys)
     - match: ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/
       name: varlens-res
       type: response

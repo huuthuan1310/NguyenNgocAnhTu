@@ -1,35 +1,35 @@
-<div align="center">
+﻿<div align="center">
 
-<!-- ------------------------------------------------------------------- -->
-<!-- ��+  ��+�������+ �����+ ������+ �������+������+                   -->
-<!-- ���  �����+----+��+--��+��+--��+��+----+��+--��+                  -->
-<!-- �������������+  �����������  ��������+  ������++                  -->
-<!-- ��+--�����+--+  ��+--������  �����+--+  ��+--��+                  -->
-<!-- ���  ����������+���  ���������++�������+���  ���                  -->
-<!-- +-+  +-++------++-+  +-++-----+ +------++-+  +-+                  -->
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗                   -->
+<!-- ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗                  -->
+<!-- ███████║█████╗  ███████║██║  ██║█████╗  ██████╔╝                  -->
+<!-- ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══╝  ██╔══██╗                  -->
+<!-- ██║  ██║███████╗██║  ██║██████╔╝███████╗██║  ██║                  -->
+<!-- ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,15:FF00FF,30:8B5CF6,50:6366F1,70:3B82F6,85:06B6D4,100:10B981&height=280&section=header&text=?%20PREMIUM%20UNLOCKER&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=25&desc=?%20M?%20Kho�%20Premium%20�%2037%2B%20Apps%20�%208%20N?n%20T?ng%20�%20iOS%2015%2B&descAlignY=48&descSize=18&descColor=FFFFFF&stroke=FFFFFF&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,15:FF00FF,30:8B5CF6,50:6366F1,70:3B82F6,85:06B6D4,100:10B981&height=280&section=header&text=⚡%20PREMIUM%20UNLOCKER&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=25&desc=✨%20Mở%20Khoá%20Premium%20•%2037%2B%20Apps%20•%208%20Nền%20Tảng%20•%20iOS%2015%2B&descAlignY=48&descSize=18&descColor=FFFFFF&stroke=FFFFFF&strokeWidth=1"/>
 
 <br>
 
 <!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=??+Premium+Unlocker+by+Nguy?n+Ng?c+Anh+T�;?+Mi?n+Ph�+�+M�+Ngu?n+M?+�+Kh�ng+Jailbreak;??+37%2B+?ng+D?ng+�+8+N?n+T?ng+�+C?p+Nh?t+Li�n+T?c" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🔮+Premium+Unlocker+by+Nguyễn+Ngọc+Anh+Tú;⚡+Miễn+Phí+•+Mã+Nguồn+Mở+•+Không+Jailbreak;🌸+37%2B+Ứng+Dụng+•+8+Nền+Tảng+•+Cập+Nhật+Liên+Tục" alt="Typing SVG" />
 
 <br><br>
 
-<!-- BADGES H�NG 1 -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/?_PHI�N_B?N-v1.0.7-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
+<!-- BADGES HÀNG 1 -->
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/⚡_PHIÊN_BẢN-v1.0.7-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/??_?NG_D?NG-37+-8B5CF6?style=for-the-badge&labelColor=0d1117" alt="apps"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/📱_ỨNG_DỤNG-37+-8B5CF6?style=for-the-badge&labelColor=0d1117" alt="apps"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/???_N?N_T?NG-8-6366F1?style=for-the-badge&labelColor=0d1117" alt="platforms"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/🖥️_NỀN_TẢNG-8-6366F1?style=for-the-badge&labelColor=0d1117" alt="platforms"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/??_iOS-15+-3B82F6?style=for-the-badge&labelColor=0d1117" alt="ios"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/🍎_iOS-15+-3B82F6?style=for-the-badge&labelColor=0d1117" alt="ios"/></a>
 
 <br><br>
 
-<!-- BADGES H�NG 2 -->
+<!-- BADGES HÀNG 2 -->
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=F59E0B&label=Stars&color=F59E0B&labelColor=0d1117" alt="stars"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=A855F7&label=Forks&color=A855F7&labelColor=0d1117" alt="forks"/></a>
@@ -38,62 +38,62 @@
 
 <br><br>
 
-<!-- BADGES H�NG 3 - SOCIAL -->
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/??_Facebook-C?ng_�?ng-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
+<!-- BADGES HÀNG 3 - SOCIAL -->
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-Cộng_Đồng-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/??_T�c_Gi?-ekaznyra-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="author"/></a>
+<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/👤_Tác_Giả-ekaznyra-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="author"/></a>
 
 <br><br>
 
 <!-- HIGHLIGHT BOX -->
-<img src="https://img.shields.io/badge/??_KH�NG_C?N_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
-<img src="https://img.shields.io/badge/??_MODULE_MI?N_PH�-0d1117?style=flat-square&labelColor=8B5CF6" alt=""/>
-<img src="https://img.shields.io/badge/??_CH?_C?N_1_APP_PROXY-0d1117?style=flat-square&labelColor=3B82F6" alt=""/>
-<img src="https://img.shields.io/badge/??_iOS_15_TR?_L�N-0d1117?style=flat-square&labelColor=10B981" alt=""/>
+<img src="https://img.shields.io/badge/🔓_KHÔNG_CẦN_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
+<img src="https://img.shields.io/badge/💰_MODULE_MIỄN_PHÍ-0d1117?style=flat-square&labelColor=8B5CF6" alt=""/>
+<img src="https://img.shields.io/badge/📲_CHỈ_CẦN_1_APP_PROXY-0d1117?style=flat-square&labelColor=3B82F6" alt=""/>
+<img src="https://img.shields.io/badge/🍎_iOS_15_TRỞ_LÊN-0d1117?style=flat-square&labelColor=10B981" alt=""/>
 
 </div>
 
 <br>
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <div align="center">
 
-## ?? M?c L?c �i?u Hu?ng
+## 📋 Mục Lục Điều Hướng
 
 </div>
 
 <div align="center">
 
-| | M?c | M� t? nhanh |
+| | Mục | Mô tả nhanh |
 |:---:|:---|:---|
-| [`01`](#-t�nh-nang-n?i-b?t) | ? **T�nh nang n?i b?t** | Module l�m du?c nh?ng g� |
-| [`02`](#?-y�u-c?u-tru?c-khi-c�i) | ??? **Y�u c?u tru?c khi c�i** | C?n chu?n b? g� |
-| [`03`](#-nguy�n-l�-ho?t-d?ng) | ?? **Nguy�n l� ho?t d?ng** | Hi?u c�ch module v?n h�nh |
-| [`04`](#-ch?n-?ng-d?ng-proxy) | ?? **Ch?n ?ng d?ng proxy** | So s�nh 7 ?ng d?ng chi ti?t |
-| [`05`](#-hu?ng-d?n-c�i-d?t-chi-ti?t) | ?? **Hu?ng d?n c�i d?t** | T?ng bu?c c?c k? chi ti?t |
-| [`06`](#-danh-s�ch-37-?ng-d?ng-h?-tr?) | ?? **Danh s�ch 37+ ?ng d?ng** | T?t c? app du?c h? tr? |
-| [`07`](#-locket-gold-dns--gi?-gold-vinh-vi?n) | ?? **Locket Gold DNS** | Gi? Gold kh�ng c?n proxy |
-| [`08`](#?-tu?-ch?nh-youtube-n�ng-cao) | ?? **Tu? ch?nh YouTube** | �?i ng�n ng?, ?n n�t |
-| [`09`](#-x?-l�-s?-c?--faq) | ? **X? l� s? c? & FAQ** | G?p l?i? Xem d�y |
-| [`10`](#-l?ch-s?-c?p-nh?t) | ?? **L?ch s? c?p nh?t** | C� g� m?i |
-| [`11`](#-ghi-c�ng--credits) | ?? **Ghi c�ng** | C?m on t�c gi? |
+| [`01`](#-tính-năng-nổi-bật) | ✨ **Tính năng nổi bật** | Module làm được những gì |
+| [`02`](#️-yêu-cầu-trước-khi-cài) | 🛠️ **Yêu cầu trước khi cài** | Cần chuẩn bị gì |
+| [`03`](#-nguyên-lý-hoạt-động) | 🧠 **Nguyên lý hoạt động** | Hiểu cách module vận hành |
+| [`04`](#-chọn-ứng-dụng-proxy) | 📥 **Chọn ứng dụng proxy** | So sánh 7 ứng dụng chi tiết |
+| [`05`](#-hướng-dẫn-cài-đặt-chi-tiết) | 📖 **Hướng dẫn cài đặt** | Từng bước cực kỳ chi tiết |
+| [`06`](#-danh-sách-37-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 37+ ứng dụng** | Tất cả app được hỗ trợ |
+| [`07`](#-locket-gold-dns--giữ-gold-vĩnh-viễn) | 🔒 **Locket Gold DNS** | Giữ Gold không cần proxy |
+| [`08`](#️-tuỳ-chỉnh-youtube-nâng-cao) | ⚙️ **Tuỳ chỉnh YouTube** | Đổi ngôn ngữ, ẩn nút |
+| [`09`](#-xử-lý-sự-cố--faq) | ❓ **Xử lý sự cố & FAQ** | Gặp lỗi? Xem đây |
+| [`10`](#-lịch-sử-cập-nhật) | 📋 **Lịch sử cập nhật** | Có gì mới |
+| [`11`](#-ghi-công--credits) | 🙏 **Ghi công** | Cảm ơn tác giả |
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ? T�nh nang n?i b?t
+## ✨ Tính năng nổi bật
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=EC4899&center=true&vCenter=true&repeat=true&width=550&height=30&lines=YouTube+�+Spotify+�+Locket+�+iTunes+�+v�+33%2B+?ng+d?ng+kh�c..." alt="apps" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=EC4899&center=true&vCenter=true&repeat=true&width=550&height=30&lines=YouTube+•+Spotify+•+Locket+•+iTunes+•+và+33%2B+ứng+dụng+khác..." alt="apps" />
 
 </div>
 
@@ -104,42 +104,42 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_YouTube-Premium-FF0000?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📺_YouTube-Premium-FF0000?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
 ```diff
-@@ YouTube Premium � Tr?i nghi?m ho�n h?o @@
+@@ YouTube Premium — Trải nghiệm hoàn hảo @@
 
-+ ? Ch?n TO�N B? qu?ng c�o video & banner
-+ ? Thu nh? video (Picture-in-Picture)
-+ ? Ph�t nh?c/video khi t?t m�n h�nh
-+ ? T? d?ng d?ch ph? d? ? Ti?ng Vi?t
-+ ? D?ch l?i b�i h�t ? Ti?ng Vi?t
-+ ? Tu? ch?nh ?n n�t Upload/Immersive
-+ ? Ch?n c? qu?ng c�o YouTube Shorts
++ ✅ Chặn TOÀN BỘ quảng cáo video & banner
++ ✅ Thu nhỏ video (Picture-in-Picture)
++ ✅ Phát nhạc/video khi tắt màn hình
++ ✅ Tự động dịch phụ đề → Tiếng Việt
++ ✅ Dịch lời bài hát → Tiếng Việt
++ ✅ Tuỳ chỉnh ẩn nút Upload/Immersive
++ ✅ Chặn cả quảng cáo YouTube Shorts
 ```
 
 </td>
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_Spotify-Premium-1DB954?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🎵_Spotify-Premium-1DB954?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
 ```diff
-@@ Spotify Premium � Nghe nh?c kh�ng gi?i h?n @@
+@@ Spotify Premium — Nghe nhạc không giới hạn @@
 
-+ ? Lo?i b? ho�n to�n qu?ng c�o
-+ ? B? qua b�i h�t kh�ng gi?i h?n
-+ ? Ch?t lu?ng �m thanh cao nh?t
-+ ? Hi?n th? l?i b�i h�t d?ng b?
-+ ? Ph�t b�i b?t k? tu? th�ch
-+ ? Kh�ng c?n t�i kho?n Premium th?t
-+ ? Ho?t d?ng v?i m?i t�i kho?n Free
++ ✅ Loại bỏ hoàn toàn quảng cáo
++ ✅ Bỏ qua bài hát không giới hạn
++ ✅ Chất lượng âm thanh cao nhất
++ ✅ Hiển thị lời bài hát đồng bộ
++ ✅ Phát bài bất kỳ tuỳ thích
++ ✅ Không cần tài khoản Premium thật
++ ✅ Hoạt động với mọi tài khoản Free
 ```
 
 </td>
@@ -148,42 +148,42 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_Locket-Gold-FFD700?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_Locket-Gold-FFD700?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
 ```diff
-@@ Locket Gold � Widget b?n b� Premium @@
+@@ Locket Gold — Widget bạn bè Premium @@
 
-+ ? Gold tr?n d?i (h?t h?n nam 2099)
-+ ? Widget kh�ng gi?i h?n s? lu?ng
-+ ? Kh�ng d�nh watermark tr�n ?nh
-+ ? Gi? Gold khi t?t proxy (DNS Profile)
-+ ? Ho?t d?ng c? tr�n API d? ph�ng
-+ ? H? tr? RevenueCat + RC-Backup
-+ ? Xo� header ETag ch?ng cache l?i
++ ✅ Gold trọn đời (hết hạn năm 2099)
++ ✅ Widget không giới hạn số lượng
++ ✅ Không dính watermark trên ảnh
++ ✅ Giữ Gold khi tắt proxy (DNS Profile)
++ ✅ Hoạt động cả trên API dự phòng
++ ✅ Hỗ trợ RevenueCat + RC-Backup
++ ✅ Xoá header ETag chống cache lỗi
 ```
 
 </td>
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_iTunes-250+_Apps-000000?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🍎_iTunes-250+_Apps-000000?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
 ```diff
-@@ iTunes verifyReceipt � M? kho� h�ng lo?t @@
+@@ iTunes verifyReceipt — Mở khoá hàng loạt @@
 
-+ ? M? kho� 250+ ?ng d?ng c�ng l�c
-+ ? Vu?t qua ki?m tra verifyReceipt
-+ ? Truy c?p vinh vi?n (kh�ng h?t h?n)
-+ ? Gi? l?p dang k� t? d?ng gia h?n
-+ ? Kh�ng c?n jailbreak hay sideload
-+ ? Ho?t d?ng v?i h?u h?t ?ng d?ng
-+ ? Tuong th�ch iOS 15 ? iOS 18+
++ ✅ Mở khoá 250+ ứng dụng cùng lúc
++ ✅ Vượt qua kiểm tra verifyReceipt
++ ✅ Truy cập vĩnh viễn (không hết hạn)
++ ✅ Giả lập đăng ký tự động gia hạn
++ ✅ Không cần jailbreak hay sideload
++ ✅ Hoạt động với hầu hết ứng dụng
++ ✅ Tương thích iOS 15 → iOS 18+
 ```
 
 </td>
@@ -193,11 +193,11 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ??? Y�u c?u tru?c khi c�i
+## 🛠️ Yêu cầu trước khi cài
 
 </div>
 
@@ -205,14 +205,14 @@
 
 <div align="center">
 
-| | Y�u c?u | Chi ti?t | B?t bu?c? |
+| | Yêu cầu | Chi tiết | Bắt buộc? |
 |:---:|:---|:---|:---:|
-| ?? | **Thi?t b?** | iPhone ho?c iPad ch?y **iOS 15** tr? l�n | ? B?t bu?c |
-| ?? | **?ng d?ng Proxy** | Mua 1 trong 7 ?ng d?ng proxy tr�n App Store | ? B?t bu?c |
-| ?? | **Ch?ng ch? MITM** | C�i d?t v� tin c?y ch?ng ch? trong iOS | ? B?t bu?c |
-| ?? | **Jailbreak** | **KH�NG C?N** � ho?t d?ng tr�n m�y g?c | ? Kh�ng c?n |
-| ?? | **Chi ph� module** | **MI?N PH�** ho�n to�n | ?? Mi?n ph� |
-| ?? | **Apple ID nu?c ngo�i** | C?n n?u App Store VN kh�ng c� ?ng d?ng proxy | ?? C� th? c?n |
+| 📱 | **Thiết bị** | iPhone hoặc iPad chạy **iOS 15** trở lên | ✅ Bắt buộc |
+| 🌐 | **Ứng dụng Proxy** | Mua 1 trong 7 ứng dụng proxy trên App Store | ✅ Bắt buộc |
+| 🔑 | **Chứng chỉ MITM** | Cài đặt và tin cậy chứng chỉ trong iOS | ✅ Bắt buộc |
+| 🚫 | **Jailbreak** | **KHÔNG CẦN** — hoạt động trên máy gốc | ❌ Không cần |
+| 💰 | **Chi phí module** | **MIỄN PHÍ** hoàn toàn | 🆓 Miễn phí |
+| 🌍 | **Apple ID nước ngoài** | Cần nếu App Store VN không có ứng dụng proxy | ⚠️ Có thể cần |
 
 </div>
 
@@ -220,17 +220,17 @@
 
 <div align="center">
 
-> ?? **T�m t?t:** B?n ch? c?n iPhone iOS 15+ v� mua 1 ?ng d?ng proxy (r? nh?t $1.99). Kh�ng c?n jailbreak, kh�ng c?n m�y t�nh, kh�ng c?n ki?n th?c k? thu?t.
+> 💡 **Tóm tắt:** Bạn chỉ cần iPhone iOS 15+ và mua 1 ứng dụng proxy (rẻ nhất $1.99). Không cần jailbreak, không cần máy tính, không cần kiến thức kỹ thuật.
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Nguy�n l� ho?t d?ng
+## 🧠 Nguyên lý hoạt động
 
 </div>
 
@@ -238,79 +238,79 @@
 
 <div align="center">
 
-> ?? **Hi?u don gi?n:** Module ho?t d?ng b?ng c�ch **ch?n v� s?a d? li?u** tr? v? t? m�y ch?.
-> ?ng d?ng nh?n du?c d? li?u d� s?a ? hi?n th? giao di?n Premium.
-> **Kh�ng hack m�y ch?. Kh�ng s?a ?ng d?ng. Kh�ng jailbreak.**
+> 🔍 **Hiểu đơn giản:** Module hoạt động bằng cách **chặn và sửa dữ liệu** trả về từ máy chủ.
+> Ứng dụng nhận được dữ liệu đã sửa → hiển thị giao diện Premium.
+> **Không hack máy chủ. Không sửa ứng dụng. Không jailbreak.**
 
 </div>
 
 <br>
 
 ```
-+-----------------------------------------------------------------------------------+
-�                                                                                 �
-�   ?? BU?C 1                ??? BU?C 2                  ?? BU?C 3                �
-�   ---------               ---------                  ---------                  �
-�   ?ng d?ng g?c           ?ng d?ng Proxy             M�y ch? g?c               �
-�   (YouTube, Spotify...)   (Shadowrocket...)          (Google, Spotify...)       �
-�                                                                                 �
-�        �                        �                          �                    �
-�        �   ? G?i y�u c?u       �    ? Chuy?n ti?p         �                    �
-�        � ---------------------? � ------------------------?�                    �
-�        �                        �                          �                    �
-�        �                        �    ? Tr? v? response     �                    �
-�        �                        � ?------------------------�                    �
-�        �                        �                          �                    �
-�        �                   +---------+                     �                    �
-�        �                   � ?? SCRIPT�                     �                    �
-�        �                   � S?a d?  �                     �                    �
-�        �                   � li?u tr?�                     �                    �
-�        �                   � v?      �                     �                    �
-�        �                   +---------+                     �                    �
-�        �                        �                          �                    �
-�        �   ? Response d� s?a    �                          �                    �
-�        � ?----------------------�                          �                    �
-�        �                        �                          �                    �
-�   +---------+                                                                   �
-�   � ?? APP  �                                                                   �
-�   � "Tu?ng" �  ? Hi?n th? giao di?n Premium                                    �
-�   � d� mua  �  ? M? kho� t?t c? t�nh nang                                     �
-�   � Premium �  ? Ho?t d?ng b�nh thu?ng                                         �
-�   +---------+                                                                   �
-�                                                                                 �
-�---------------------------------------------------------------------------------�
-�  ?? AN TO�N: Kh�ng hack server � Kh�ng s?a app � Kh�ng luu d? li?u c� nh�n   �
-+-----------------------------------------------------------------------------------+
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                 ║
+║   📱 BƯỚC 1                🛡️ BƯỚC 2                  🌐 BƯỚC 3                ║
+║   ─────────               ─────────                  ─────────                  ║
+║   Ứng dụng gốc           Ứng dụng Proxy             Máy chủ gốc               ║
+║   (YouTube, Spotify...)   (Shadowrocket...)          (Google, Spotify...)       ║
+║                                                                                 ║
+║        │                        │                          │                    ║
+║        │   ① Gửi yêu cầu       │    ② Chuyển tiếp         │                    ║
+║        │ ─────────────────────▶ │ ────────────────────────▶│                    ║
+║        │                        │                          │                    ║
+║        │                        │    ③ Trả về response     │                    ║
+║        │                        │ ◀────────────────────────│                    ║
+║        │                        │                          │                    ║
+║        │                   ┌────┴────┐                     │                    ║
+║        │                   │ 🔧 SCRIPT│                     │                    ║
+║        │                   │ Sửa dữ  │                     │                    ║
+║        │                   │ liệu trả│                     │                    ║
+║        │                   │ về      │                     │                    ║
+║        │                   └────┬────┘                     │                    ║
+║        │                        │                          │                    ║
+║        │   ④ Response đã sửa    │                          │                    ║
+║        │ ◀──────────────────────│                          │                    ║
+║        │                        │                          │                    ║
+║   ┌────┴────┐                                                                   ║
+║   │ 🎉 APP  │                                                                   ║
+║   │ "Tưởng" │  → Hiển thị giao diện Premium                                    ║
+║   │ đã mua  │  → Mở khoá tất cả tính năng                                     ║
+║   │ Premium │  → Hoạt động bình thường                                         ║
+║   └─────────┘                                                                   ║
+║                                                                                 ║
+╠═════════════════════════════════════════════════════════════════════════════════╣
+║  🔒 AN TOÀN: Không hack server • Không sửa app • Không lưu dữ liệu cá nhân   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 <br>
 
 <div align="center">
 
-### ?? T?i sao c?n ch?ng ch? MITM?
+### 🔐 Tại sao cần chứng chỉ MITM?
 
 </div>
 
-> **MITM** (Man-in-the-Middle) cho ph�p ?ng d?ng proxy **d?c du?c d? li?u HTTPS** (d? li?u m� ho�).
-> N?u kh�ng c� ch?ng ch? MITM, proxy kh�ng th? d?c/s?a response ? module **kh�ng ho?t d?ng**.
+> **MITM** (Man-in-the-Middle) cho phép ứng dụng proxy **đọc được dữ liệu HTTPS** (dữ liệu mã hoá).
+> Nếu không có chứng chỉ MITM, proxy không thể đọc/sửa response → module **không hoạt động**.
 >
 > ```
-> Kh�ng c� MITM:  App ---- [?? M� ho�] ---- Server    ? Proxy kh�ng d?c du?c ? ? Th?t b?i
-> C� MITM:        App ---- [?? Gi?i m�] ---- Server    ? Proxy d?c & s?a du?c ? ? Th�nh c�ng
+> Không có MITM:  App ──── [🔒 Mã hoá] ──── Server    → Proxy không đọc được → ❌ Thất bại
+> Có MITM:        App ──── [🔓 Giải mã] ──── Server    → Proxy đọc & sửa được → ✅ Thành công
 > ```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Ch?n ?ng d?ng proxy
+## 📥 Chọn ứng dụng proxy
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=10B981&center=true&vCenter=true&repeat=true&width=500&height=25&lines=??+Ngu?i+m?i+n�n+ch?n+Shadowrocket+($2.99)+�+D?+nh?t,+ph?+bi?n+nh?t" alt="tip" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=10B981&center=true&vCenter=true&repeat=true&width=500&height=25&lines=💡+Người+mới+nên+chọn+Shadowrocket+($2.99)+—+Dễ+nhất,+phổ+biến+nhất" alt="tip" />
 
 </div>
 
@@ -320,68 +320,68 @@
 
 <table>
 <tr>
-<th align="center">??</th>
-<th align="center">?ng d?ng</th>
-<th align="center">Gi�</th>
-<th align="center">�? kh�</th>
-<th align="left">Uu di?m</th>
-<th align="left">Nhu?c di?m</th>
+<th align="center">🏆</th>
+<th align="center">Ứng dụng</th>
+<th align="center">Giá</th>
+<th align="center">Độ khó</th>
+<th align="left">Ưu điểm</th>
+<th align="left">Nhược điểm</th>
 </tr>
 <tr>
-<td align="center">??</td>
+<td align="center">🥇</td>
 <td align="center"><b>Shadowrocket</b></td>
 <td align="center"><code>$2.99</code></td>
-<td align="center">??????</td>
-<td>Ph? bi?n nh?t, nhi?u hu?ng d?n VN, c?ng d?ng l?n</td>
-<td>Giao di?n hoi cu</td>
+<td align="center">🟢🟢🟢</td>
+<td>Phổ biến nhất, nhiều hướng dẫn VN, cộng đồng lớn</td>
+<td>Giao diện hơi cũ</td>
 </tr>
 <tr>
-<td align="center">??</td>
+<td align="center">🥈</td>
 <td align="center"><b>LanceX</b></td>
 <td align="center"><code>$1.99</code></td>
-<td align="center">??????</td>
-<td>R? nh?t, giao di?n gi?ng Shadowrocket</td>
-<td>�t ngu?i d�ng hon</td>
+<td align="center">🟢🟢🟢</td>
+<td>Rẻ nhất, giao diện giống Shadowrocket</td>
+<td>Ít người dùng hơn</td>
 </tr>
 <tr>
-<td align="center">??</td>
+<td align="center">🥉</td>
 <td align="center"><b>Egern</b></td>
 <td align="center"><code>$2.99</code></td>
-<td align="center">?????</td>
-<td>Giao di?n hi?n d?i, d?p m?t</td>
-<td>?ng d?ng m?i, �t t�i li?u</td>
+<td align="center">🟢🟢⚪</td>
+<td>Giao diện hiện đại, đẹp mắt</td>
+<td>Ứng dụng mới, ít tài liệu</td>
 </tr>
 <tr>
 <td align="center">4</td>
 <td align="center"><b>Loon</b></td>
 <td align="center"><code>$5.99</code></td>
-<td align="center">?????</td>
-<td>Nhi?u t�nh nang n�ng cao, ?n d?nh</td>
-<td>Gi� cao hon, ph?c t?p hon</td>
+<td align="center">🟡🟡⚪</td>
+<td>Nhiều tính năng nâng cao, ổn định</td>
+<td>Giá cao hơn, phức tạp hơn</td>
 </tr>
 <tr>
 <td align="center">5</td>
 <td align="center"><b>Quantumult X</b></td>
 <td align="center"><code>$7.99</code></td>
-<td align="center">?????</td>
-<td>M?nh m? nh?t, c?ng d?ng qu?c t? l?n</td>
-<td>Giao di?n kh� d�ng ban d?u</td>
+<td align="center">🟡🟡⚪</td>
+<td>Mạnh mẽ nhất, cộng đồng quốc tế lớn</td>
+<td>Giao diện khó dùng ban đầu</td>
 </tr>
 <tr>
 <td align="center">6</td>
 <td align="center"><b>Stash</b></td>
 <td align="center"><code>$5.99</code></td>
-<td align="center">?????</td>
-<td>Giao di?n d?p nh?t, d? d�ng</td>
-<td>T?n pin hon</td>
+<td align="center">🟡🟡⚪</td>
+<td>Giao diện đẹp nhất, dễ dùng</td>
+<td>Tốn pin hơn</td>
 </tr>
 <tr>
 <td align="center">7</td>
 <td align="center"><b>Surge</b></td>
 <td align="center"><code>$49.99</code></td>
-<td align="center">?????</td>
-<td>Chuy�n nghi?p nh?t, d?y d? nh?t</td>
-<td>�?t nh?t, d�nh cho pro</td>
+<td align="center">🔴🔴⚪</td>
+<td>Chuyên nghiệp nhất, đầy đủ nhất</td>
+<td>Đắt nhất, dành cho pro</td>
 </tr>
 </table>
 
@@ -391,35 +391,35 @@
 
 <div align="center">
 
-> ? **Khuy?n ngh? cho ngu?i m?i:**
+> ⭐ **Khuyến nghị cho người mới:**
 >
-> | Ng�n s�ch | N�n ch?n | L� do |
+> | Ngân sách | Nên chọn | Lý do |
 > |:---:|:---:|:---|
-> | Ti?t ki?m nh?t | **LanceX** ($1.99) | R? nh?t, d? d�ng |
-> | T?t nh?t | **Shadowrocket** ($2.99) | Ph? bi?n nh?t, d? t�m hu?ng d?n |
-> | �?p nh?t | **Egern** ($2.99) | Giao di?n hi?n d?i |
+> | Tiết kiệm nhất | **LanceX** ($1.99) | Rẻ nhất, đủ dùng |
+> | Tốt nhất | **Shadowrocket** ($2.99) | Phổ biến nhất, dễ tìm hướng dẫn |
+> | Đẹp nhất | **Egern** ($2.99) | Giao diện hiện đại |
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Hu?ng d?n c�i d?t chi ti?t
+## 📖 Hướng dẫn cài đặt chi tiết
 
 <br>
 
-> ?? **QUAN TR?NG � �?C TRU?C KHI C�I:**
+> ⚠️ **QUAN TRỌNG — ĐỌC TRƯỚC KHI CÀI:**
 >
-> M?i ?ng d?ng proxy d?u c?n l�m **2 vi?c ch�nh:**
+> Mỗi ứng dụng proxy đều cần làm **2 việc chính:**
 >
-> | Bu?c | Vi?c c?n l�m | B?t bu?c? | N?u b? qua? |
+> | Bước | Việc cần làm | Bắt buộc? | Nếu bỏ qua? |
 > |:---:|:---|:---:|:---|
-> | ? | C�i module (th�m link URL) | ? B?t bu?c | Kh�ng c� script ? kh�ng ho?t d?ng |
-> | ? | C�i ch?ng ch? MITM | ? B?t bu?c | Proxy kh�ng d?c du?c HTTPS ? th?t b?i |
+> | ① | Cài module (thêm link URL) | ✅ Bắt buộc | Không có script → không hoạt động |
+> | ② | Cài chứng chỉ MITM | ✅ Bắt buộc | Proxy không đọc được HTTPS → thất bại |
 
 </div>
 
@@ -430,40 +430,40 @@
 <details open>
 <summary>
 
-### ? SHADOWROCKET � Hu?ng d?n d?y d? nh?t (Khuy�n d�ng � $2.99)
+### ⭐ SHADOWROCKET — Hướng dẫn đầy đủ nhất (Khuyên dùng • $2.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-> ?? **M?c ti�u:** Th�m module v�o Shadowrocket d? ?ng d?ng proxy bi?t c?n ch?n/s?a nh?ng g�.
+> 📌 **Mục tiêu:** Thêm module vào Shadowrocket để ứng dụng proxy biết cần chặn/sửa những gì.
 
 <br>
 
-| Bu?c | Thao t�c chi ti?t | Ghi ch� |
+| Bước | Thao tác chi tiết | Ghi chú |
 |:---:|:---|:---|
-| `1.1` | M? ?ng d?ng **Shadowrocket** tr�n iPhone/iPad | Bi?u tu?ng t�n l?a |
-| `1.2` | Nh?n v�o tab **?C?u h�nh?** ? thanh di?u hu?ng ph�a du?i | Bi?u tu?ng trang gi?y, tab th? 2 t? ph?i |
-| `1.3` | Nh?n v�o file config dang d�ng (c� d?u **? xanh**) | Thu?ng l� `default.conf` |
-| `1.4` | Menu hi?n ra ? Ch?n **?S?a c?u h�nh?** | Ho?c "Edit Plain Text" |
-| `1.5` | K�o xu?ng t�m d�ng **`[Module]`** | N?u kh�ng c�, t? th�m d�ng `[Module]` |
-| `1.6` | Nh?n n�t **+** b�n c?nh m?c Module | D?u c?ng m�u xanh |
-| `1.7` | Ch?n **?Th�m URL Module?** | "Add Module URL" |
-| `1.8` | **D�n du?ng link** v�o � nh?p ?? | Copy ch�nh x�c, kh�ng th?a d?u c�ch |
-| `1.9` | Nh?n **?Luu?** (Save) | �?i module t?i xong |
-| `1.10` | �?m b?o toggle module d� **B?T** (xanh) ? | N?u t?t ? module kh�ng ho?t d?ng |
+| `1.1` | Mở ứng dụng **Shadowrocket** trên iPhone/iPad | Biểu tượng tên lửa |
+| `1.2` | Nhấn vào tab **「Cấu hình」** ở thanh điều hướng phía dưới | Biểu tượng trang giấy, tab thứ 2 từ phải |
+| `1.3` | Nhấn vào file config đang dùng (có dấu **✓ xanh**) | Thường là `default.conf` |
+| `1.4` | Menu hiện ra → Chọn **「Sửa cấu hình」** | Hoặc "Edit Plain Text" |
+| `1.5` | Kéo xuống tìm dòng **`[Module]`** | Nếu không có, tự thêm dòng `[Module]` |
+| `1.6` | Nhấn nút **＋** bên cạnh mục Module | Dấu cộng màu xanh |
+| `1.7` | Chọn **「Thêm URL Module」** | "Add Module URL" |
+| `1.8` | **Dán đường link** vào ô nhập ⬇️ | Copy chính xác, không thừa dấu cách |
+| `1.9` | Nhấn **「Lưu」** (Save) | Đợi module tải xong |
+| `1.10` | Đảm bảo toggle module đã **BẬT** (xanh) ✅ | Nếu tắt → module không hoạt động |
 
 <br>
 
 <div align="center">
 
-**?? Link module cho Shadowrocket:**
+**🔗 Link module cho Shadowrocket:**
 
 </div>
 
@@ -476,60 +476,60 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 ---
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-> ?? **KH�NG C�I PH?N N�Y = MODULE KH�NG HO?T �?NG.**
-> Ch?ng ch? MITM cho ph�p Shadowrocket d?c v� s?a d? li?u HTTPS (m� ho�).
+> ⚠️ **KHÔNG CÀI PHẦN NÀY = MODULE KHÔNG HOẠT ĐỘNG.**
+> Chứng chỉ MITM cho phép Shadowrocket đọc và sửa dữ liệu HTTPS (mã hoá).
 
 <br>
 
-| Bu?c | Thao t�c chi ti?t | Ghi ch� |
+| Bước | Thao tác chi tiết | Ghi chú |
 |:---:|:---|:---|
-| `2.1` | M? Shadowrocket ? Tab **?C�i d?t?** (Settings) | Bi?u tu?ng b�nh rang |
-| `2.2` | Nh?n **?Ch?ng ch??** (Certificate) | M?c d?u ti�n ho?c th? 2 |
-| `2.3` | Nh?n **?T?o ch?ng ch? m?i?** | �?i 2-3 gi�y d? t?o xong |
-| `2.4` | Nh?n **?C�i d?t ch?ng ch??** | Safari s? t? d?ng m? |
-| `2.5` | Safari hi?n popup ? Nh?n **?Cho ph�p?** (Allow) | Cho ph�p t?i c?u h�nh |
-| `2.6` | Tho�t Safari ? M? **?C�i d?t?** iOS (Settings) | ?ng d?ng C�i d?t c?a iPhone |
-| `2.7` | Nh?n **?�� t?i v? h? so?** (ngay du?i t�n Apple ID) | ?? N?u kh�ng th?y: C�i d?t ? C�i d?t chung ? VPN & Qu?n l� thi?t b? |
-| `2.8` | Nh?n **?C�i d?t?** ? Nh?p m?t kh?u ? **?C�i d?t?** ? **?Xong?** | Nh?p m?t kh?u m? kho� iPhone |
-| `2.9` | Quay l?i: **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** (About) | K�o xu?ng cu?i danh s�ch |
-| `2.10` | K�o xu?ng **cu?i c�ng** ? Nh?n **?C�i d?t tin c?y ch?ng ch??** | "Certificate Trust Settings" |
-| `2.11` | T�m ch?ng ch? **Shadowrocket** ? **B?T** toggle (xanh) | Quan tr?ng nh?t! |
-| `2.12` | H? th?ng h?i x�c nh?n ? Nh?n **?Ti?p t?c?** | Xong! ? |
+| `2.1` | Mở Shadowrocket → Tab **「Cài đặt」** (Settings) | Biểu tượng bánh răng |
+| `2.2` | Nhấn **「Chứng chỉ」** (Certificate) | Mục đầu tiên hoặc thứ 2 |
+| `2.3` | Nhấn **「Tạo chứng chỉ mới」** | Đợi 2-3 giây để tạo xong |
+| `2.4` | Nhấn **「Cài đặt chứng chỉ」** | Safari sẽ tự động mở |
+| `2.5` | Safari hiện popup → Nhấn **「Cho phép」** (Allow) | Cho phép tải cấu hình |
+| `2.6` | Thoát Safari → Mở **「Cài đặt」** iOS (Settings) | Ứng dụng Cài đặt của iPhone |
+| `2.7` | Nhấn **「Đã tải về hồ sơ」** (ngay dưới tên Apple ID) | ⚠️ Nếu không thấy: Cài đặt → Cài đặt chung → VPN & Quản lý thiết bị |
+| `2.8` | Nhấn **「Cài đặt」** → Nhập mật khẩu → **「Cài đặt」** → **「Xong」** | Nhập mật khẩu mở khoá iPhone |
+| `2.9` | Quay lại: **Cài đặt** → **Cài đặt chung** → **Giới thiệu** (About) | Kéo xuống cuối danh sách |
+| `2.10` | Kéo xuống **cuối cùng** → Nhấn **「Cài đặt tin cậy chứng chỉ」** | "Certificate Trust Settings" |
+| `2.11` | Tìm chứng chỉ **Shadowrocket** → **BẬT** toggle (xanh) | Quan trọng nhất! |
+| `2.12` | Hệ thống hỏi xác nhận → Nhấn **「Tiếp tục」** | Xong! ✅ |
 
 <br>
 
 ---
 
 <div align="center">
-<img src="https://img.shields.io/badge/?_PH?N_3-KI?M_TRA_HO?T_�?NG-10B981?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/✅_PHẦN_3-KIỂM_TRA_HOẠT_ĐỘNG-10B981?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-> ?? **�� c�i xong! Gi? ki?m tra xem module c� ho?t d?ng kh�ng.**
+> 🎉 **Đã cài xong! Giờ kiểm tra xem module có hoạt động không.**
 
 <br>
 
-| Bu?c | Thao t�c | K?t qu? mong d?i |
+| Bước | Thao tác | Kết quả mong đợi |
 |:---:|:---|:---|
-| `3.1` | Quay l?i Shadowrocket ? **B?T** c�ng t?c k?t n?i | Bi?u tu?ng VPN hi?n tr�n thanh tr?ng th�i |
-| `3.2` | M? **YouTube** ? Xem video b?t k? | ? Kh�ng qu?ng c�o, thu nh? video du?c |
-| `3.3` | M? **Spotify** ? Ph�t nh?c | ? B? qua b�i tho?i m�i, kh�ng ads |
-| `3.4` | M? **Locket** | ? Hi?n huy hi?u Gold |
-| `3.5` | M? **PicsArt** ho?c **Lightroom** | ? Hi?n Premium, m? kho� b? l?c |
+| `3.1` | Quay lại Shadowrocket → **BẬT** công tắc kết nối | Biểu tượng VPN hiện trên thanh trạng thái |
+| `3.2` | Mở **YouTube** → Xem video bất kỳ | ✅ Không quảng cáo, thu nhỏ video được |
+| `3.3` | Mở **Spotify** → Phát nhạc | ✅ Bỏ qua bài thoải mái, không ads |
+| `3.4` | Mở **Locket** | ✅ Hiện huy hiệu Gold |
+| `3.5` | Mở **PicsArt** hoặc **Lightroom** | ✅ Hiện Premium, mở khoá bộ lọc |
 
 <br>
 
-> ?? **N?u kh�ng nh?n Premium ngay:**
-> 1. T?t ho�n to�n ?ng d?ng (vu?t l�n kill)
-> 2. �?i 3-5 gi�y
-> 3. M? l?i ?ng d?ng
-> 4. N?u v?n kh�ng du?c ? xem ph?n [X? l� s? c?](#-x?-l�-s?-c?--faq)
+> 💡 **Nếu không nhận Premium ngay:**
+> 1. Tắt hoàn toàn ứng dụng (vuốt lên kill)
+> 2. Đợi 3-5 giây
+> 3. Mở lại ứng dụng
+> 4. Nếu vẫn không được → xem phần [Xử lý sự cố](#-xử-lý-sự-cố--faq)
 
 </details>
 
@@ -539,26 +539,26 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### ?? LANCEX � R? nh?t ($1.99)
+### 💰 LANCEX — Rẻ nhất ($1.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c | Ghi ch� |
+| Bước | Thao tác | Ghi chú |
 |:---:|:---|:---|
-| `1.1` | M? **LanceX** ? Tab **????** (C?u h�nh) ? thanh du?i | Giao di?n ti?ng Trung |
-| `1.2` | Nh?n v�o file config dang d�ng (c� d?u ?) | � |
-| `1.3` | Ch?n **??????** (S?a c?u h�nh) | � |
-| `1.4` | K�o xu?ng m?c **`[Module]`** ? Nh?n **+** | � |
-| `1.5` | D�n link module ?? | � |
-| `1.6` | Nh?n **????** (Xong) ? �?m b?o module b?t ? | � |
+| `1.1` | Mở **LanceX** → Tab **「配置」** (Cấu hình) ở thanh dưới | Giao diện tiếng Trung |
+| `1.2` | Nhấn vào file config đang dùng (có dấu ✓) | — |
+| `1.3` | Chọn **「编辑配置」** (Sửa cấu hình) | — |
+| `1.4` | Kéo xuống mục **`[Module]`** → Nhấn **＋** | — |
+| `1.5` | Dán link module ⬇️ | — |
+| `1.6` | Nhấn **「完成」** (Xong) → Đảm bảo module bật ✅ | — |
 
 ```
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_LanceX.module
@@ -567,19 +567,19 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c | Ghi ch� |
+| Bước | Thao tác | Ghi chú |
 |:---:|:---|:---|
-| `2.1` | LanceX ? **????** (C�i d?t) ? **????** (Ch?ng ch?) | � |
-| `2.2` | Nh?n **????????** (T?o ch?ng ch? m?i) | �?i 2-3 gi�y |
-| `2.3` | Nh?n **??????** (C�i ch?ng ch?) ? Safari m? | � |
-| `2.4` | Cho ph�p t?i profile | � |
-| `2.5` | iOS **C�i d?t** ? **C�i d?t chung** ? **VPN & Qu?n l� thi?t b?** ? C�i | Nh?p m?t kh?u |
-| `2.6` | iOS **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** ? **Tin c?y ch?ng ch?** ? B?T | ? Xong! |
+| `2.1` | LanceX → **「设置」** (Cài đặt) → **「证书」** (Chứng chỉ) | — |
+| `2.2` | Nhấn **「生成新的证书」** (Tạo chứng chỉ mới) | Đợi 2-3 giây |
+| `2.3` | Nhấn **「安装证书」** (Cài chứng chỉ) → Safari mở | — |
+| `2.4` | Cho phép tải profile | — |
+| `2.5` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài | Nhập mật khẩu |
+| `2.6` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT | ✅ Xong! |
 
 </details>
 
@@ -588,24 +588,24 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### ?? SURGE ($49.99)
+### 🌊 SURGE ($49.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `1.1` | M? **Surge** ? Tab **?Home?** |
-| `1.2` | Nh?n **?Modules?** |
-| `1.3` | Nh?n **+** ? **?Install Module from URL?** |
-| `1.4` | D�n link ?? ? Nh?n **?OK?** |
+| `1.1` | Mở **Surge** → Tab **「Home」** |
+| `1.2` | Nhấn **「Modules」** |
+| `1.3` | Nhấn **＋** → **「Install Module from URL」** |
+| `1.4` | Dán link ⬇️ → Nhấn **「OK」** |
 
 ```
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Surge.sgmodule
@@ -614,17 +614,17 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `2.1` | Surge ? **?Settings?** ? **?MITM?** ? B?t toggle |
-| `2.2` | **?Generate New Certificate?** ? **?Install Certificate?** ? Safari m? |
-| `2.3` | iOS **C�i d?t** ? **C�i d?t chung** ? **VPN & Qu?n l� thi?t b?** ? C�i profile |
-| `2.4` | iOS **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** ? **Tin c?y ch?ng ch?** ? B?T |
+| `2.1` | Surge → **「Settings」** → **「MITM」** → Bật toggle |
+| `2.2` | **「Generate New Certificate」** → **「Install Certificate」** → Safari mở |
+| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
+| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
 
 </details>
 
@@ -633,23 +633,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### ?? LOON ($5.99)
+### 🎈 LOON ($5.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_PLUGIN-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_PLUGIN-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `1.1` | M? **Loon** ? Tab **?Configuration?** |
-| `1.2` | Nh?n **?Plugin?** ? Nh?n **+** |
-| `1.3` | D�n link ?? ? Nh?n **?Save?** ? �?m b?o b?t ? |
+| `1.1` | Mở **Loon** → Tab **「Configuration」** |
+| `1.2` | Nhấn **「Plugin」** → Nhấn **＋** |
+| `1.3` | Dán link ⬇️ → Nhấn **「Save」** → Đảm bảo bật ✅ |
 
 ```
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Loon.plugin
@@ -658,17 +658,17 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `2.1` | Loon ? **?Configuration?** ? **?MitM?** ? B?t toggle |
-| `2.2` | **?Generate CA Certificate?** ? **?Install CA Certificate?** ? Safari m? |
-| `2.3` | iOS **C�i d?t** ? **C�i d?t chung** ? **VPN & Qu?n l� thi?t b?** ? C�i profile |
-| `2.4` | iOS **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** ? **Tin c?y ch?ng ch?** ? B?T |
+| `2.1` | Loon → **「Configuration」** → **「MitM」** → Bật toggle |
+| `2.2` | **「Generate CA Certificate」** → **「Install CA Certificate」** → Safari mở |
+| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
+| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
 
 </details>
 
@@ -677,23 +677,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### ? QUANTUMULT X ($7.99)
+### ⚡ QUANTUMULT X ($7.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_REWRITE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_REWRITE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `1.1` | M? **Quantumult X** ? Nh?n ?? (g�c du?i ph?i) |
-| `1.2` | K�o xu?ng **?Rewrite?** ? Nh?n **????** (Tham chi?u) |
-| `1.3` | Nh?n **+** ? D�n link ?? ? **?OK?** |
+| `1.1` | Mở **Quantumult X** → Nhấn ⚙️ (góc dưới phải) |
+| `1.2` | Kéo xuống **「Rewrite」** → Nhấn **「引用」** (Tham chiếu) |
+| `1.3` | Nhấn **＋** → Dán link ⬇️ → **「OK」** |
 
 ```
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_QuantumultX.snippet
@@ -702,17 +702,17 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `2.1` | C�i d?t ? **?MitM?** ? B?t toggle |
-| `2.2` | **?Generate Certificate?** ? **?Configure Certificate?** ? Safari m? |
-| `2.3` | iOS **C�i d?t** ? **C�i d?t chung** ? **VPN & Qu?n l� thi?t b?** ? C�i profile |
-| `2.4` | iOS **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** ? **Tin c?y ch?ng ch?** ? B?T |
+| `2.1` | Cài đặt → **「MitM」** → Bật toggle |
+| `2.2` | **「Generate Certificate」** → **「Configure Certificate」** → Safari mở |
+| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
+| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
 
 </details>
 
@@ -721,23 +721,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### ?? STASH ($5.99)
+### 💎 STASH ($5.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_OVERRIDE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_OVERRIDE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `1.1` | M? **Stash** ? Tab **?Home?** |
-| `1.2` | Nh?n **?Overrides?** ? Nh?n **+** ? **?Install from URL?** |
-| `1.3` | D�n link ?? ? **?Install?** |
+| `1.1` | Mở **Stash** → Tab **「Home」** |
+| `1.2` | Nhấn **「Overrides」** → Nhấn **＋** → **「Install from URL」** |
+| `1.3` | Dán link ⬇️ → **「Install」** |
 
 ```
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Stash.stoverride
@@ -746,17 +746,17 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `2.1` | Stash ? **?Settings?** ? **?HTTPS Decryption?** ? B?t toggle |
-| `2.2` | **?Generate New Certificate?** ? **?Install Certificate?** ? Safari m? |
-| `2.3` | iOS **C�i d?t** ? **C�i d?t chung** ? **VPN & Qu?n l� thi?t b?** ? C�i profile |
-| `2.4` | iOS **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** ? **Tin c?y ch?ng ch?** ? B?T |
+| `2.1` | Stash → **「Settings」** → **「HTTPS Decryption」** → Bật toggle |
+| `2.2` | **「Generate New Certificate」** → **「Install Certificate」** → Safari mở |
+| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
+| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
 
 </details>
 
@@ -765,23 +765,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### ?? EGERN ($2.99)
+### 🔮 EGERN ($2.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_1-C�I_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `1.1` | M? **Egern** ? Nh?n ?? (C�i d?t) |
-| `1.2` | Nh?n **?Modules?** ? Nh?n **+** ? **?Add from URL?** |
-| `1.3` | D�n link ?? ? **?Save?** |
+| `1.1` | Mở **Egern** → Nhấn ⚙️ (Cài đặt) |
+| `1.2` | Nhấn **「Modules」** → Nhấn **＋** → **「Add from URL」** |
+| `1.3` | Dán link ⬇️ → **「Save」** |
 
 ```
 https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Egern.yaml
@@ -790,32 +790,32 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_PH?N_2-C�I_CH?NG_CH?_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| `2.1` | Egern ? **?Settings?** ? **?MITM?** ? B?t toggle |
-| `2.2` | **?Generate Certificate?** ? **?Install?** ? Safari m? |
-| `2.3` | iOS **C�i d?t** ? **C�i d?t chung** ? **VPN & Qu?n l� thi?t b?** ? C�i profile |
-| `2.4` | iOS **C�i d?t** ? **C�i d?t chung** ? **Gi?i thi?u** ? **Tin c?y ch?ng ch?** ? B?T |
+| `2.1` | Egern → **「Settings」** → **「MITM」** → Bật toggle |
+| `2.2` | **「Generate Certificate」** → **「Install」** → Safari mở |
+| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
+| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
 
 </details>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Danh s�ch 37+ ?ng d?ng h? tr?
+## 📱 Danh sách 37+ ứng dụng hỗ trợ
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=F59E0B&center=true&vCenter=true&repeat=true&width=600&height=25&lines=??+Gi?i+tr�+�+??+Ch?nh+?nh+�+??+H?c+t?p+�+??+S?c+kho?+�+??+�?c+bi?t" alt="categories" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=F59E0B&center=true&vCenter=true&repeat=true&width=600&height=25&lines=🎬+Giải+trí+•+🎨+Chỉnh+ảnh+•+📚+Học+tập+•+🧘+Sức+khoẻ+•+🍎+Đặc+biệt" alt="categories" />
 
 </div>
 
@@ -824,224 +824,224 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details open>
 <summary>
 
-#### ?? Gi?i tr� & �m nh?c � 6 ?ng d?ng
+#### 🎬 Giải trí & Âm nhạc — 6 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | ?ng d?ng | M� t? chi ti?t | G�i m? kho� | T�c gi? |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 01 | ?? | **YouTube** | Xem video, nghe nh?c � ch?n ads, PiP, ph�t n?n | `Premium` | ekaznyra |
-| 02 | ?? | **Spotify** | Nghe nh?c tr?c tuy?n � skip v� h?n, kh�ng ads | `Premium` | app2smile |
-| 03 | ?? | **SoundCloud** | Nghe nh?c, podcast � ch?t lu?ng cao, offline | `Go+` | Marol62926 |
-| 04 | ?? | **Emby** | M�y ch? phim c� nh�n � stream kh�ng gi?i h?n | `Premiere` | ekaznyra |
-| 05 | ?? | **Djay** | Tr?n nh?c DJ chuy�n nghi?p � d?y d? hi?u ?ng | `Pro` | ekaznyra |
-| 06 | ?? | **Musixmatch** | L?i b�i h�t d?ng b? th?i gian th?c | `Premium` | Marol62926 |
+| 01 | 📺 | **YouTube** | Xem video, nghe nhạc — chặn ads, PiP, phát nền | `Premium` | ekaznyra |
+| 02 | 🎵 | **Spotify** | Nghe nhạc trực tuyến — skip vô hạn, không ads | `Premium` | app2smile |
+| 03 | 🎧 | **SoundCloud** | Nghe nhạc, podcast — chất lượng cao, offline | `Go+` | Marol62926 |
+| 04 | 🎬 | **Emby** | Máy chủ phim cá nhân — stream không giới hạn | `Premiere` | ekaznyra |
+| 05 | 🎵 | **Djay** | Trộn nhạc DJ chuyên nghiệp — đầy đủ hiệu ứng | `Pro` | ekaznyra |
+| 06 | 🎼 | **Musixmatch** | Lời bài hát đồng bộ thời gian thực | `Premium` | Marol62926 |
 
 </details>
 
 <details open>
 <summary>
 
-#### ?? Ch?nh s?a ?nh & Video � 15 ?ng d?ng
+#### 🎨 Chỉnh sửa ảnh & Video — 15 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | ?ng d?ng | M� t? chi ti?t | G�i m? kho� | T�c gi? |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 07 | ?? | **PicsArt** | Ch?nh ?nh, thi?t k? d? ho? � sticker, b? l?c | `Gold` | ekaznyra + NobyDa |
-| 08 | ?? | **Lightroom** | Ch?nh ?nh chuy�n nghi?p Adobe � preset, RAW | `Premium` | litieyin |
-| 09 | ?? | **Photoshop Express** | Ch?nh ?nh nhanh Adobe � xo� n?n, retouch | `Premium` | ekaznyra |
-| 10 | ?? | **KineMaster** | Ch?nh s?a video da l?p � chroma key, 4K | `Pro` | ekaznyra |
-| 11 | ?? | **AlightMotion** | �? ho? chuy?n d?ng, animation � keyframe | `Pro` | ekaznyra |
-| 12 | ?? | **Funimate** | Hi?u ?ng video s�ng t?o � transition, text | `Pro` | ekaznyra |
-| 13 | ?? | **VSCO** | B? l?c ?nh ngh? thu?t � 200+ preset film | `X Membership` | ekaznyra |
-| 14 | ?? | **Wink** | Ch?nh ?nh selfie, l�m d?p � da, m?t, m�i | `VIP` | yqc007 |
-| 15 | ?? | **BeautyPlus** | L�m d?p ?nh ch�n dung � AI retouch | `Premium` | ekaznyra |
-| 16 | ?? | **Snow** | B? l?c camera th?i gian th?c � AR sticker | `Premium` | ekaznyra |
-| 17 | ?? | **B612** | Camera selfie v?i sticker � beauty mode | `VIP` | ddgksf2013 |
-| 18 | ?? | **Meitu XiuXiu** | Ch?nh ?nh da nang � collage, sticker | `VIP` | ekaznyra |
-| 19 | ?? | **Polarr** | Ch?nh ?nh n�ng cao � mask, blend, curve | `Pro` | NobyDa |
-| 20 | ?? | **Fimo** | Camera phim c? di?n � m� ph?ng film th?t | `Premium` | ddgksf2013 |
-| 21 | ?? | **Varlens** | B? l?c camera chuy�n nghi?p � cinematic | `Premium` | 89996462 |
+| 07 | 🎨 | **PicsArt** | Chỉnh ảnh, thiết kế đồ hoạ — sticker, bộ lọc | `Gold` | ekaznyra + NobyDa |
+| 08 | 🎨 | **Lightroom** | Chỉnh ảnh chuyên nghiệp Adobe — preset, RAW | `Premium` | litieyin |
+| 09 | 🎨 | **Photoshop Express** | Chỉnh ảnh nhanh Adobe — xoá nền, retouch | `Premium` | ekaznyra |
+| 10 | 🎬 | **KineMaster** | Chỉnh sửa video đa lớp — chroma key, 4K | `Pro` | ekaznyra |
+| 11 | 🎬 | **AlightMotion** | Đồ hoạ chuyển động, animation — keyframe | `Pro` | ekaznyra |
+| 12 | 🎬 | **Funimate** | Hiệu ứng video sáng tạo — transition, text | `Pro` | ekaznyra |
+| 13 | 📸 | **VSCO** | Bộ lọc ảnh nghệ thuật — 200+ preset film | `X Membership` | ekaznyra |
+| 14 | 💄 | **Wink** | Chỉnh ảnh selfie, làm đẹp — da, mắt, môi | `VIP` | yqc007 |
+| 15 | 💄 | **BeautyPlus** | Làm đẹp ảnh chân dung — AI retouch | `Premium` | ekaznyra |
+| 16 | ❄️ | **Snow** | Bộ lọc camera thời gian thực — AR sticker | `Premium` | ekaznyra |
+| 17 | 📷 | **B612** | Camera selfie với sticker — beauty mode | `VIP` | ddgksf2013 |
+| 18 | 🎨 | **Meitu XiuXiu** | Chỉnh ảnh đa năng — collage, sticker | `VIP` | ekaznyra |
+| 19 | 🎨 | **Polarr** | Chỉnh ảnh nâng cao — mask, blend, curve | `Pro` | NobyDa |
+| 20 | 📷 | **Fimo** | Camera phim cổ điển — mô phỏng film thật | `Premium` | ddgksf2013 |
+| 21 | 📷 | **Varlens** | Bộ lọc camera chuyên nghiệp — cinematic | `Premium` | 89996462 |
 
 </details>
 
 <details open>
 <summary>
 
-#### ?? H?c t?p & Nang su?t � 9 ?ng d?ng
+#### 📚 Học tập & Năng suất — 9 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | ?ng d?ng | M� t? chi ti?t | G�i m? kho� | T�c gi? |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 22 | ?? | **Busuu** | H?c ngo?i ng? v?i ngu?i b?n x? � 14 ng�n ng? | `Premium` | ekaznyra |
-| 23 | ?? | **Grammarly** | Ki?m tra ng? ph�p ti?ng Anh � AI g?i � | `Premium` | yqc007 |
-| 24 | ?? | **WPS Office** | So?n th?o van b?n, b?ng t�nh � tuong th�ch MS | `Premium` | I-am-R-E |
-| 25 | ?? | **Xmind** | So d? tu duy, brainstorm � xu?t PDF/PNG | `Pro` | ekaznyra |
-| 26 | ?? | **Notability** | Ghi ch� vi?t tay, d�nh d?u PDF � Apple Pencil | `Plus` | litieyin |
-| 27 | ?? | **Photomath** | Gi?i to�n b?ng camera � gi?i th�ch t?ng bu?c | `Plus` | ddgksf2013 |
-| 28 | ?? | **CamScanner** | Qu�t t�i li?u th�nh PDF � OCR nh?n d?ng ch? | `Premium` | ekaznyra |
-| 29 | ?? | **Smallpdf** | X? l�, chuy?n d?i, n�n file PDF | `Pro` | Marol62926 |
-| 30 | ?? | **Peak** | Luy?n tr� n�o, tr� nh? � 40+ tr� choi | `Pro` | ddgksf2013 |
+| 22 | 📚 | **Busuu** | Học ngoại ngữ với người bản xứ — 14 ngôn ngữ | `Premium` | ekaznyra |
+| 23 | ✍️ | **Grammarly** | Kiểm tra ngữ pháp tiếng Anh — AI gợi ý | `Premium` | yqc007 |
+| 24 | 📝 | **WPS Office** | Soạn thảo văn bản, bảng tính — tương thích MS | `Premium` | I-am-R-E |
+| 25 | 🧠 | **Xmind** | Sơ đồ tư duy, brainstorm — xuất PDF/PNG | `Pro` | ekaznyra |
+| 26 | 📒 | **Notability** | Ghi chú viết tay, đánh dấu PDF — Apple Pencil | `Plus` | litieyin |
+| 27 | 🧮 | **Photomath** | Giải toán bằng camera — giải thích từng bước | `Plus` | ddgksf2013 |
+| 28 | 📄 | **CamScanner** | Quét tài liệu thành PDF — OCR nhận dạng chữ | `Premium` | ekaznyra |
+| 29 | 📄 | **Smallpdf** | Xử lý, chuyển đổi, nén file PDF | `Pro` | Marol62926 |
+| 30 | 🧠 | **Peak** | Luyện trí não, trí nhớ — 40+ trò chơi | `Pro` | ddgksf2013 |
 
 </details>
 
 <details open>
 <summary>
 
-#### ?? S?c kho? & Ti?n �ch � 5 ?ng d?ng
+#### 🧘 Sức khoẻ & Tiện ích — 5 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | ?ng d?ng | M� t? chi ti?t | G�i m? kho� | T�c gi? |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 31 | ?? | **Calm** | Thi?n d?nh, c?i thi?n gi?c ng? � nh?c thu gi�n | `Premium` | Alex0510 |
-| 32 | ?? | **Headspace** | Thi?n, ch�nh ni?m h�ng ng�y � kho� h?c c� hu?ng d?n | `Premium` | ekaznyra |
-| 33 | ?? | **MyFitnessPal** | Theo d�i dinh du?ng, calo � qu�t barcode | `Premium` | Marol62926 |
-| 34 | ?? | **Alarmy** | B�o th?c th�ng minh � th? th�ch d? t?t | `Premium` | Marol62926 |
-| 35 | ?? | **Truecaller** | Nh?n di?n s? di?n tho?i l? � ch?n spam | `Premium` | ekaznyra |
+| 31 | 🧘 | **Calm** | Thiền định, cải thiện giấc ngủ — nhạc thư giãn | `Premium` | Alex0510 |
+| 32 | 🧘 | **Headspace** | Thiền, chánh niệm hàng ngày — khoá học có hướng dẫn | `Premium` | ekaznyra |
+| 33 | 🏃 | **MyFitnessPal** | Theo dõi dinh dưỡng, calo — quét barcode | `Premium` | Marol62926 |
+| 34 | 🔔 | **Alarmy** | Báo thức thông minh — thử thách để tắt | `Premium` | Marol62926 |
+| 35 | 📞 | **Truecaller** | Nhận diện số điện thoại lạ — chặn spam | `Premium` | ekaznyra |
 
 </details>
 
 <details open>
 <summary>
 
-#### ?? �?c bi?t � 3 ?ng d?ng
+#### 🍎 Đặc biệt — 3 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | ?ng d?ng | M� t? chi ti?t | G�i m? kho� | T�c gi? |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 36 | ?? | **Locket Gold** | Widget ?nh b?n b� tr�n m�n h�nh ch�nh � v� h?n | `Gold` | ekaznyra |
-| 37 | ?? | **iTunes** | Vu?t qua verifyReceipt � m? kho� 250+ ?ng d?ng | `Tr?n d?i` | ekaznyra |
-| 38 | ?? | **Sub-Store** | Qu?n l� dang k� proxy n�ng cao � d?ng b? | `�?y d?` | sub-store-org |
+| 36 | 🔐 | **Locket Gold** | Widget ảnh bạn bè trên màn hình chính — vô hạn | `Gold` | ekaznyra |
+| 37 | 🍎 | **iTunes** | Vượt qua verifyReceipt — mở khoá 250+ ứng dụng | `Trọn đời` | ekaznyra |
+| 38 | 📦 | **Sub-Store** | Quản lý đăng ký proxy nâng cao — đồng bộ | `Đầy đủ` | sub-store-org |
 
 </details>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Locket Gold DNS � Gi? Gold vinh vi?n
+## 🔒 Locket Gold DNS — Giữ Gold vĩnh viễn
 
 </div>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/??_V?N_�?-T?t_proxy_=_M?t_Gold-EF4444?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/⚠️_VẤN_ĐỀ-Tắt_proxy_=_Mất_Gold-EF4444?style=for-the-badge&labelColor=0d1117" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/?_GI?I_PH�P-DNS_Profile_ch?n_ki?m_tra-10B981?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/✅_GIẢI_PHÁP-DNS_Profile_chặn_kiểm_tra-10B981?style=for-the-badge&labelColor=0d1117" alt=""/>
 </div>
 
 <br>
 
-> ?? **V?n d?:** Khi t?t proxy, Locket ki?m tra l?i dang k� ? ph�t hi?n kh�ng c� Gold ? m?t Gold.
+> 💡 **Vấn đề:** Khi tắt proxy, Locket kiểm tra lại đăng ký → phát hiện không có Gold → mất Gold.
 >
-> **Gi?i ph�p:** C�i DNS Profile d? ch?n lu�n vi?c ki?m tra khi kh�ng c� proxy ? Gold gi? vinh vi?n.
+> **Giải pháp:** Cài DNS Profile để chặn luôn việc kiểm tra khi không có proxy → Gold giữ vĩnh viễn.
 
 <br>
 
 ```
-+---------------------------------------------------------------------------+
-�                                                                         �
-�  ?? BU?C 1 � KHI PROXY B?T:                                           �
-�  +----------+      +----------------+      +-------------------+       �
-�  �  Locket  �-----?�  Script s?a    �-----?�  Gold = C� ?     �       �
-�  �   App    �      �  response      �      �  Luu v�o b? nh?  �       �
-�  +----------+      +----------------+      +-------------------+       �
-�                                                                         �
-�  ?? BU?C 2 � KHI PROXY T?T:                                           �
-�  +----------+      +----------------+      +-------------------+       �
-�  �  Locket  �-----?�  DNS ch?n API  �-----?�  D�ng b? nh? cu  �       �
-�  �   App    �      �  ki?m tra      �      �  Gold v?n gi? ?  �       �
-�  +----------+      +----------------+      +-------------------+       �
-�                                                                         �
-�  ?? K?T QU?: Gold gi? vinh vi?n d� proxy b?t hay t?t!                 �
-�                                                                         �
-+---------------------------------------------------------------------------+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                         ║
+║  🟢 BƯỚC 1 — KHI PROXY BẬT:                                           ║
+║  ┌──────────┐      ┌────────────────┐      ┌───────────────────┐       ║
+║  │  Locket  │─────▶│  Script sửa    │─────▶│  Gold = CÓ ✅     │       ║
+║  │   App    │      │  response      │      │  Lưu vào bộ nhớ  │       ║
+║  └──────────┘      └────────────────┘      └───────────────────┘       ║
+║                                                                         ║
+║  🔴 BƯỚC 2 — KHI PROXY TẮT:                                           ║
+║  ┌──────────┐      ┌────────────────┐      ┌───────────────────┐       ║
+║  │  Locket  │─────▶│  DNS chặn API  │─────▶│  Dùng bộ nhớ cũ  │       ║
+║  │   App    │      │  kiểm tra      │      │  Gold vẫn giữ ✅  │       ║
+║  └──────────┘      └────────────────┘      └───────────────────┘       ║
+║                                                                         ║
+║  📌 KẾT QUẢ: Gold giữ vĩnh viễn dù proxy bật hay tắt!                 ║
+║                                                                         ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
 <br>
 
 <div align="center">
 
-### ?? Hu?ng d?n s? d?ng DNS Profile
+### 📋 Hướng dẫn sử dụng DNS Profile
 
 </div>
 
 <br>
 
-| Bu?c | Thao t�c | Chi ti?t | K?t qu? |
+| Bước | Thao tác | Chi tiết | Kết quả |
 |:---:|:---|:---|:---:|
-| ? | T?i file **`LocketGoldDNS.mobileconfig`** | ?? S? du?c c?p nh?t trong phi�n b?n t?i | ?? |
-| ? | C�i v�o iPhone | C�i d?t ? C�i d?t chung ? VPN & Qu?n l� thi?t b? | ? |
-| ? | **B?T** proxy ? M? Locket | �?i Gold hi?n l�n (l?n d?u ti�n) | ?? |
-| ? | **T?T** proxy ? M? l?i Locket | Gold v?n c�n! | ?? |
+| ① | Tải file **`LocketGoldDNS.mobileconfig`** | ⚠️ Sẽ được cập nhật trong phiên bản tới | 📥 |
+| ② | Cài vào iPhone | Cài đặt → Cài đặt chung → VPN & Quản lý thiết bị | ✅ |
+| ③ | **BẬT** proxy → Mở Locket | Đợi Gold hiện lên (lần đầu tiên) | 🟢 |
+| ④ | **TẮT** proxy → Mở lại Locket | Gold vẫn còn! | 🎉 |
 
 <br>
 
 <div align="center">
 
-### ?? 25 t�n mi?n b? ch?n b?i DNS Profile
+### 🚫 25 tên miền bị chặn bởi DNS Profile
 
 </div>
 
 <br>
 
-| | Nh�m | M?c d�ch ch?n | T�n mi?n ti�u bi?u | SL |
+| | Nhóm | Mục đích chặn | Tên miền tiêu biểu | SL |
 |:---:|:---|:---|:---|:---:|
-| ?? | **RevenueCat** | Ki?m tra dang k� Premium | `api.revenuecat.com` | 3 |
-| ?? | **Firebase** | Theo d�i c�i d?t ?ng d?ng | `firebaseinstallations.googleapis.com` | 4 |
-| ?? | **Google Analytics** | Ph�n t�ch h�nh vi ngu?i d�ng | `app-measurement.com` | 4 |
-| ?? | **Google Ads** | Qu?ng c�o trong ?ng d?ng | `googleads.g.doubleclick.net` | 4 |
-| ?? | **AppsFlyer** | Theo d�i ngu?n c�i d?t | `launches.appsflyer.com` | 6 |
-| ?? | **Mixpanel** | Ph�n t�ch d? li?u s? d?ng | `api.mixpanel.com` | 4 |
+| 🔐 | **RevenueCat** | Kiểm tra đăng ký Premium | `api.revenuecat.com` | 3 |
+| 🔥 | **Firebase** | Theo dõi cài đặt ứng dụng | `firebaseinstallations.googleapis.com` | 4 |
+| 📊 | **Google Analytics** | Phân tích hành vi người dùng | `app-measurement.com` | 4 |
+| 📢 | **Google Ads** | Quảng cáo trong ứng dụng | `googleads.g.doubleclick.net` | 4 |
+| 📈 | **AppsFlyer** | Theo dõi nguồn cài đặt | `launches.appsflyer.com` | 6 |
+| 📉 | **Mixpanel** | Phân tích dữ liệu sử dụng | `api.mixpanel.com` | 4 |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Tu? ch?nh YouTube n�ng cao
+## ⚙️ Tuỳ chỉnh YouTube nâng cao
 
 </div>
 
 <br>
 
-> ?? B?n c� th? tu? ch?nh h�nh vi c?a YouTube Premium b?ng c�ch s?a ph?n `argument` trong module.
+> 💡 Bạn có thể tuỳ chỉnh hành vi của YouTube Premium bằng cách sửa phần `argument` trong module.
 
 <br>
 
 <div align="center">
 
-### ?? C?u h�nh m?c d?nh
+### 📝 Cấu hình mặc định
 
 </div>
 
 ```json
 {
-  "lyricLang": "vi",        // D?ch l?i b�i h�t sang ti?ng Vi?t
-  "captionLang": "vi",      // D?ch ph? d? sang ti?ng Vi?t
-  "blockUpload": false,     // Kh�ng ?n n�t camera
-  "blockImmersive": false,  // Kh�ng ?n immersive header
-  "debug": false            // Kh�ng b?t log debug
+  "lyricLang": "vi",        // Dịch lời bài hát sang tiếng Việt
+  "captionLang": "vi",      // Dịch phụ đề sang tiếng Việt
+  "blockUpload": false,     // Không ẩn nút camera
+  "blockImmersive": false,  // Không ẩn immersive header
+  "debug": false            // Không bật log debug
 }
 ```
 
@@ -1049,136 +1049,136 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 <div align="center">
 
-### ?? B?ng tham s? chi ti?t
+### 📊 Bảng tham số chi tiết
 
 </div>
 
 <br>
 
-| Tham s? | � nghia | M?c d?nh | Gi� tr? c� th? d�ng | V� d? |
+| Tham số | Ý nghĩa | Mặc định | Giá trị có thể dùng | Ví dụ |
 |:---|:---|:---:|:---|:---|
-| `lyricLang` | ?? Ng�n ng? d?ch **l?i b�i h�t** | `vi` | `vi` `en` `ja` `ko` `zh-Hans` `zh-Hant` `fr` `de` `es` | �?i sang ti?ng Nh?t: `"ja"` |
-| `captionLang` | ?? Ng�n ng? d?ch **ph? d? video** | `vi` | `vi` `en` `ja` `ko` `zh-Hans` `zh-Hant` `fr` `de` `es` | �?i sang ti?ng Anh: `"en"` |
-| `blockUpload` | ?? ?n n�t camera/t?i l�n | `false` | `true` (?n) / `false` (hi?n) | ?n n�t: `true` |
-| `blockImmersive` | ??? ?n ph?n immersive header | `false` | `true` (?n) / `false` (hi?n) | ?n header: `true` |
-| `debug` | ?? B?t ghi log d? g? l?i | `false` | `true` (b?t) / `false` (t?t) | Ch? b?t khi c?n debug |
+| `lyricLang` | 🎵 Ngôn ngữ dịch **lời bài hát** | `vi` | `vi` `en` `ja` `ko` `zh-Hans` `zh-Hant` `fr` `de` `es` | Đổi sang tiếng Nhật: `"ja"` |
+| `captionLang` | 📝 Ngôn ngữ dịch **phụ đề video** | `vi` | `vi` `en` `ja` `ko` `zh-Hans` `zh-Hant` `fr` `de` `es` | Đổi sang tiếng Anh: `"en"` |
+| `blockUpload` | 📷 Ẩn nút camera/tải lên | `false` | `true` (ẩn) / `false` (hiện) | Ẩn nút: `true` |
+| `blockImmersive` | 🖼️ Ẩn phần immersive header | `false` | `true` (ẩn) / `false` (hiện) | Ẩn header: `true` |
+| `debug` | 🐛 Bật ghi log để gỡ lỗi | `false` | `true` (bật) / `false` (tắt) | Chỉ bật khi cần debug |
 
 <br>
 
 <div align="center">
 
-### ?? C�ch s?a argument
+### 🔧 Cách sửa argument
 
 </div>
 
 <br>
 
 <details>
-<summary><b>?? Shadowrocket / LanceX</b></summary>
+<summary><b>📱 Shadowrocket / LanceX</b></summary>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| 1 | V�o **C?u h�nh** ? Nh?n config dang d�ng ? **S?a c?u h�nh** |
-| 2 | T�m d�ng ch?a `argument=` trong ph?n YouTube (d�ng c� `yt-res`) |
-| 3 | S?a n?i dung JSON theo � mu?n |
-| 4 | Nh?n **Luu** |
+| 1 | Vào **Cấu hình** → Nhấn config đang dùng → **Sửa cấu hình** |
+| 2 | Tìm dòng chứa `argument=` trong phần YouTube (dòng có `yt-res`) |
+| 3 | Sửa nội dung JSON theo ý muốn |
+| 4 | Nhấn **Lưu** |
 
 </details>
 
 <details>
-<summary><b>?? Surge / ?? Loon / ?? Stash / ?? Egern / ? Quantumult X</b></summary>
+<summary><b>🌊 Surge / 🎈 Loon / 💎 Stash / 🔮 Egern / ⚡ Quantumult X</b></summary>
 
 <br>
 
-| Bu?c | Thao t�c |
+| Bước | Thao tác |
 |:---:|:---|
-| 1 | V�o ph?n qu?n l� Module/Plugin/Override |
-| 2 | Nh?n v�o module d� c�i ? T�m ph?n `argument` |
-| 3 | S?a JSON theo � mu?n |
-| 4 | Luu l?i |
+| 1 | Vào phần quản lý Module/Plugin/Override |
+| 2 | Nhấn vào module đã cài → Tìm phần `argument` |
+| 3 | Sửa JSON theo ý muốn |
+| 4 | Lưu lại |
 
 </details>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ? X? l� s? c? & FAQ
+## ❓ Xử lý sự cố & FAQ
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&repeat=true&width=400&height=25&lines=G?p+l?i?+�?ng+lo,+xem+hu?ng+d?n+b�n+du?i+??" alt="faq" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&repeat=true&width=400&height=25&lines=Gặp+lỗi?+Đừng+lo,+xem+hướng+dẫn+bên+dưới+👇" alt="faq" />
 
 </div>
 
 <br>
 
 <details>
-<summary><b>?? YouTube v?n c� qu?ng c�o � C�ch s?a</b></summary>
+<summary><b>🔴 YouTube vẫn có quảng cáo — Cách sửa</b></summary>
 
 <br>
 
-| # | Nguy�n nh�n c� th? | C�ch kh?c ph?c chi ti?t |
+| # | Nguyên nhân có thể | Cách khắc phục chi tiết |
 |:---:|:---|:---|
-| 1 | Module chua b?t | V�o c?u h�nh ? Ki?m tra toggle module ph?i **B?T** (xanh) |
-| 2 | Ch?ng ch? MITM chua tin c?y | iOS C�i d?t ? Gi?i thi?u ? C�i d?t tin c?y ch?ng ch? ? Ph?i **B?T** |
-| 3 | Proxy chua k?t n?i | Ki?m tra bi?u tu?ng VPN tr�n thanh tr?ng th�i iPhone |
-| 4 | B? nh? d?m YouTube cu | **G? c�i d?t** YouTube ho�n to�n ? C�i l?i t? App Store |
-| 5 | Phi�n b?n YouTube qu� m?i | Th? h? phi�n b?n YouTube (d�ng App Store version cu) |
-| 6 | Hostname MITM thi?u | Ki?m tra `youtubei.googleapis.com` c� trong danh s�ch MITM |
+| 1 | Module chưa bật | Vào cấu hình → Kiểm tra toggle module phải **BẬT** (xanh) |
+| 2 | Chứng chỉ MITM chưa tin cậy | iOS Cài đặt → Giới thiệu → Cài đặt tin cậy chứng chỉ → Phải **BẬT** |
+| 3 | Proxy chưa kết nối | Kiểm tra biểu tượng VPN trên thanh trạng thái iPhone |
+| 4 | Bộ nhớ đệm YouTube cũ | **Gỡ cài đặt** YouTube hoàn toàn → Cài lại từ App Store |
+| 5 | Phiên bản YouTube quá mới | Thử hạ phiên bản YouTube (dùng App Store version cũ) |
+| 6 | Hostname MITM thiếu | Kiểm tra `youtubei.googleapis.com` có trong danh sách MITM |
 
-> ?? **M?o nhanh:** 90% tru?ng h?p ch? c?n **g? c�i d?t YouTube ? c�i l?i** l� xong.
+> 💡 **Mẹo nhanh:** 90% trường hợp chỉ cần **gỡ cài đặt YouTube → cài lại** là xong.
 
 </details>
 
 <details>
-<summary><b>?? Locket kh�ng hi?n Gold � C�ch s?a</b></summary>
+<summary><b>🔴 Locket không hiện Gold — Cách sửa</b></summary>
 
 <br>
 
-| # | Nguy�n nh�n c� th? | C�ch kh?c ph?c chi ti?t |
+| # | Nguyên nhân có thể | Cách khắc phục chi tiết |
 |:---:|:---|:---|
-| 1 | Proxy chua b?t | Ph?i **B?T** proxy **tru?c** khi m? Locket |
-| 2 | Locket chua t?t h?n | Vu?t l�n t?t ho�n to�n Locket ? M? l?i ? �?i **3-5 gi�y** |
-| 3 | Module chua b?t | Ki?m tra module/plugin d� b?t trong ?ng d?ng proxy |
-| 4 | Hostname MITM thi?u | �?m b?o `api.revenuecat.com` c� trong danh s�ch MITM |
-| 5 | Locket phi�n b?n m?i | Th? h? phi�n b?n Locket |
+| 1 | Proxy chưa bật | Phải **BẬT** proxy **trước** khi mở Locket |
+| 2 | Locket chưa tắt hẳn | Vuốt lên tắt hoàn toàn Locket → Mở lại → Đợi **3-5 giây** |
+| 3 | Module chưa bật | Kiểm tra module/plugin đã bật trong ứng dụng proxy |
+| 4 | Hostname MITM thiếu | Đảm bảo `api.revenuecat.com` có trong danh sách MITM |
+| 5 | Locket phiên bản mới | Thử hạ phiên bản Locket |
 
-> ?? **M?o nhanh:** B?T proxy ? T?t h?n Locket ? M? l?i ? �?i 5 gi�y. 95% s? th�nh c�ng.
+> 💡 **Mẹo nhanh:** BẬT proxy → Tắt hẳn Locket → Mở lại → Đợi 5 giây. 95% sẽ thành công.
 
 </details>
 
 <details>
-<summary><b>?? Spotify v?n c� qu?ng c�o � C�ch s?a</b></summary>
+<summary><b>🔴 Spotify vẫn có quảng cáo — Cách sửa</b></summary>
 
 <br>
 
-| # | Nguy�n nh�n c� th? | C�ch kh?c ph?c chi ti?t |
+| # | Nguyên nhân có thể | Cách khắc phục chi tiết |
 |:---:|:---|:---|
-| 1 | Spotify chua t?t h?n | Vu?t l�n kill Spotify ho�n to�n ? M? l?i ? �?i **5-10 gi�y** |
-| 2 | Cache cu | Spotify ? C�i d?t ? B? nh? ? **Xo� b? nh? d?m** |
-| 3 | C?n dang nh?p l?i | �ang xu?t ? �ang nh?p l?i t�i kho?n |
-| 4 | Hostname MITM thi?u | �?m b?o `spclient.wg.spotify.com` c� trong danh s�ch MITM |
+| 1 | Spotify chưa tắt hẳn | Vuốt lên kill Spotify hoàn toàn → Mở lại → Đợi **5-10 giây** |
+| 2 | Cache cũ | Spotify → Cài đặt → Bộ nhớ → **Xoá bộ nhớ đệm** |
+| 3 | Cần đăng nhập lại | Đăng xuất → Đăng nhập lại tài khoản |
+| 4 | Hostname MITM thiếu | Đảm bảo `spclient.wg.spotify.com` có trong danh sách MITM |
 
 </details>
 
 <details>
-<summary><b>?? ?ng d?ng kh�c kh�ng nh?n Premium � C�ch s?a</b></summary>
+<summary><b>🔴 Ứng dụng khác không nhận Premium — Cách sửa</b></summary>
 
 <br>
 
-| # | Nguy�n nh�n c� th? | C�ch kh?c ph?c chi ti?t |
+| # | Nguyên nhân có thể | Cách khắc phục chi tiết |
 |:---:|:---|:---|
-| 1 | Hostname MITM thi?u | �?m b?o t�n mi?n c?a ?ng d?ng c� trong danh s�ch MITM |
-| 2 | ?ng d?ng chua t?t h?n | Vu?t l�n kill ? M? l?i |
-| 3 | Chua dang nh?p | M?t s? ?ng d?ng c?n dang nh?p t�i kho?n b?t k? tru?c |
-| 4 | Phi�n b?n ?ng d?ng | Th? c?p nh?t ho?c h? phi�n b?n ?ng d?ng |
-| 5 | Module chua b?t | Ki?m tra l?i toggle module trong ?ng d?ng proxy |
+| 1 | Hostname MITM thiếu | Đảm bảo tên miền của ứng dụng có trong danh sách MITM |
+| 2 | Ứng dụng chưa tắt hẳn | Vuốt lên kill → Mở lại |
+| 3 | Chưa đăng nhập | Một số ứng dụng cần đăng nhập tài khoản bất kỳ trước |
+| 4 | Phiên bản ứng dụng | Thử cập nhật hoặc hạ phiên bản ứng dụng |
+| 5 | Module chưa bật | Kiểm tra lại toggle module trong ứng dụng proxy |
 
 </details>
 
@@ -1190,105 +1190,105 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 <div align="center">
 
-### ?? C�u h?i thu?ng g?p
+### 🟡 Câu hỏi thường gặp
 
 </div>
 
 <br>
 
-| | C�u h?i | Tr? l?i |
+| | Câu hỏi | Trả lời |
 |:---:|:---|:---|
-| ?? | C� c?n jailbreak kh�ng? | **Kh�ng.** Ch? c?n ?ng d?ng proxy mua tr�n App Store |
-| ?? | C� b? kho� t�i kho?n kh�ng? | R?i ro g?n nhu **b?ng 0**. Script ch? s?a d? li?u tr? v?, kh�ng hack server |
-| ?? | C� an to�n kh�ng? | **C�.** M� ngu?n m? 100%, ai cung c� th? d?c v� ki?m tra code |
-| ?? | Ho?t d?ng khi kh�ng c� m?ng? | **Kh�ng.** C?n b?t proxy (tr? Locket c� DNS Profile) |
-| ?? | C?p nh?t module th? n�o? | ?ng d?ng proxy **t? d?ng** c?p nh?t module theo URL d� th�m |
-| ?? | D�ng du?c tr�n Android? | **Kh�ng.** Ch? h? tr? iOS/iPadOS |
-| ?? | D�ng du?c tr�n Mac? | **Surge** phi�n b?n Mac c� th? d�ng du?c |
-| ?? | T?i ?ng d?ng proxy ? d�u? | **App Store** � c?n Apple ID v�ng nu?c ngo�i n?u kh�ng t�m th?y |
-| ?? | Mua ?ng d?ng proxy b?ng g�? | Th? Visa/Mastercard, ho?c mua gift card Apple |
-| ?? | iPad c� d�ng du?c kh�ng? | **C�.** T?t c? d?u ho?t d?ng tr�n iPad |
-| ? | Module c� h?t h?n kh�ng? | **Kh�ng.** Mi?n ph� vinh vi?n, c?p nh?t li�n t?c |
-| ?? | C?n VPN nu?c ngo�i kh�ng? | **Kh�ng.** Module ho?t d?ng v?i m?i k?t n?i m?ng |
+| 🔓 | Có cần jailbreak không? | **Không.** Chỉ cần ứng dụng proxy mua trên App Store |
+| 🚨 | Có bị khoá tài khoản không? | Rủi ro gần như **bằng 0**. Script chỉ sửa dữ liệu trả về, không hack server |
+| 🔒 | Có an toàn không? | **Có.** Mã nguồn mở 100%, ai cũng có thể đọc và kiểm tra code |
+| 📶 | Hoạt động khi không có mạng? | **Không.** Cần bật proxy (trừ Locket có DNS Profile) |
+| 🔄 | Cập nhật module thế nào? | Ứng dụng proxy **tự động** cập nhật module theo URL đã thêm |
+| 🤖 | Dùng được trên Android? | **Không.** Chỉ hỗ trợ iOS/iPadOS |
+| 💻 | Dùng được trên Mac? | **Surge** phiên bản Mac có thể dùng được |
+| 🛒 | Tải ứng dụng proxy ở đâu? | **App Store** — cần Apple ID vùng nước ngoài nếu không tìm thấy |
+| 💳 | Mua ứng dụng proxy bằng gì? | Thẻ Visa/Mastercard, hoặc mua gift card Apple |
+| 📱 | iPad có dùng được không? | **Có.** Tất cả đều hoạt động trên iPad |
+| ⏰ | Module có hết hạn không? | **Không.** Miễn phí vĩnh viễn, cập nhật liên tục |
+| 🌍 | Cần VPN nước ngoài không? | **Không.** Module hoạt động với mọi kết nối mạng |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? L?ch s? c?p nh?t
+## 📋 Lịch sử cập nhật
 
 </div>
 
 <br>
 
-| Phi�n b?n | Ng�y | N?i dung c?p nh?t | S? app |
+| Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---|:---:|
-| **`v1.0.7`** ? | `21/05/2026` | ?? Fix l?i B612 tr�ng script (Shadowrocket) � Fix MITM hostname tr�ng l?p � Th�m `engine=jsc` cho YouTube (Premium) � Th�m `enable=true` cho Surge MITM | **37+** |
-| `v1.0.6` | `19/05/2026` | ? Th�m 11 ?ng d?ng m?i � H? tr? Egern � C?i thi?n ?n d?nh | **37+** |
-| `v1.0.4` | `13/05/2026` | ?? Th�m Spotify (app2smile) � ?? Th�m Alarmy | 28 |
-| `v1.0.0` | `09/05/2026` | ?? Ph�t h�nh d?u ti�n � YouTube, Locket, PicsArt... | 26 |
+| **`v1.0.7`** ⭐ | `21/05/2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **37+** |
+| `v1.0.6` | `19/05/2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
+| `v1.0.4` | `13/05/2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |
+| `v1.0.0` | `09/05/2026` | 🚀 Phát hành đầu tiên — YouTube, Locket, PicsArt... | 26 |
 
 <br>
 
 <div align="center">
 
-> ?? Module du?c c?p nh?t thu?ng xuy�n. Theo d�i repo d? nh?n th�ng b�o phi�n b?n m?i!
+> 🔄 Module được cập nhật thường xuyên. Theo dõi repo để nhận thông báo phiên bản mới!
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Ghi c�ng & Credits
+## 🙏 Ghi công & Credits
 
 <br>
 
-> C?m on t?t c? c�c t�c gi? d� d�ng g�p script cho c?ng d?ng.
-> Kh�ng c� h?, module n�y kh�ng th? t?n t?i. ??
+> Cảm ơn tất cả các tác giả đã đóng góp script cho cộng đồng.
+> Không có họ, module này không thể tồn tại. ❤️
 
 </div>
 
 <br>
 
-| | T�c gi? | Vai tr� | ��ng g�p |
+| | Tác giả | Vai trò | Đóng góp |
 |:---:|:---|:---|:---|
-| ?? | **[ekaznyra](https://github.com/ekaznyra)** | T�c gi? ch�nh | YouTube, Locket, PicsArt, Photoshop, Emby, KineMaster, Djay, Busuu, Headspace, AlightMotion, Truecaller, CamScanner, BeautyPlus, VSCO, Snow, Meitu, Funimate, iTunes, Xmind |
-| ?? | **[app2smile](https://github.com/app2smile)** | Script Spotify | Spotify Premium (proto + json) |
-| ?? | **[Marol62926](https://github.com/Marol62926)** | Script da ?ng d?ng | SoundCloud, Alarmy, Smallpdf, MyFitnessPal, Musixmatch |
-| ??? | **[NobyDa](https://github.com/NobyDa)** | Script g?c | PicsArt (phi�n b?n g?c), Polarr |
-| ?? | **[yqc007](https://github.com/yqc007)** | Script l�m d?p | Wink VIP, Grammarly Premium |
-| ?? | **[litieyin](https://github.com/litieyin)** | Script Adobe | Lightroom, Notability |
-| ?? | **[ddgksf2013](https://github.com/ddgksf2013)** | Script camera | B612, Photomath, Fimo, Peak |
-| ?? | **[I-am-R-E](https://github.com/I-am-R-E)** | Script van ph�ng | WPS Office |
-| ?? | **[Alex0510](https://github.com/Alex0510)** | Script s?c kho? | Calm Premium |
-| ?? | **[89996462](https://github.com/89996462)** | Script camera | Varlens Premium |
+| 👑 | **[ekaznyra](https://github.com/ekaznyra)** | Tác giả chính | YouTube, Locket, PicsArt, Photoshop, Emby, KineMaster, Djay, Busuu, Headspace, AlightMotion, Truecaller, CamScanner, BeautyPlus, VSCO, Snow, Meitu, Funimate, iTunes, Xmind |
+| 🎵 | **[app2smile](https://github.com/app2smile)** | Script Spotify | Spotify Premium (proto + json) |
+| 🎧 | **[Marol62926](https://github.com/Marol62926)** | Script đa ứng dụng | SoundCloud, Alarmy, Smallpdf, MyFitnessPal, Musixmatch |
+| 🛡️ | **[NobyDa](https://github.com/NobyDa)** | Script gốc | PicsArt (phiên bản gốc), Polarr |
+| ✍️ | **[yqc007](https://github.com/yqc007)** | Script làm đẹp | Wink VIP, Grammarly Premium |
+| 🎨 | **[litieyin](https://github.com/litieyin)** | Script Adobe | Lightroom, Notability |
+| 📷 | **[ddgksf2013](https://github.com/ddgksf2013)** | Script camera | B612, Photomath, Fimo, Peak |
+| 📝 | **[I-am-R-E](https://github.com/I-am-R-E)** | Script văn phòng | WPS Office |
+| 🧘 | **[Alex0510](https://github.com/Alex0510)** | Script sức khoẻ | Calm Premium |
+| 📸 | **[89996462](https://github.com/89996462)** | Script camera | Varlens Premium |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 
-<!-- ------------------------------------------------------------------- -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## ?? Mi?n tr? tr�ch nhi?m
+## ⚖️ Miễn trừ trách nhiệm
 
 </div>
 
 <br>
 
-> ?? **QUAN TR?NG � VUI L�NG �?C:**
+> ⚠️ **QUAN TRỌNG — VUI LÒNG ĐỌC:**
 >
-> - Module n�y du?c t?o ra cho m?c d�ch **h?c t?p v� nghi�n c?u** v? c�ch ho?t d?ng c?a ?ng d?ng iOS.
-> - Ngu?i d�ng **t? ch?u tr�ch nhi?m** v? vi?c s? d?ng module.
-> - T�c gi? **kh�ng ch?u tr�ch nhi?m** cho b?t k? h?u qu? n�o ph�t sinh.
-> - N?u b?n th?y ?ng d?ng h?u �ch, h�y **?ng h? nh� ph�t tri?n** b?ng c�ch mua g�i Premium ch�nh th?c.
-> - Module c� th? **ng?ng ho?t d?ng** b?t c? l�c n�o n?u nh� ph�t tri?n thay d?i API.
+> - Module này được tạo ra cho mục đích **học tập và nghiên cứu** về cách hoạt động của ứng dụng iOS.
+> - Người dùng **tự chịu trách nhiệm** về việc sử dụng module.
+> - Tác giả **không chịu trách nhiệm** cho bất kỳ hậu quả nào phát sinh.
+> - Nếu bạn thấy ứng dụng hữu ích, hãy **ủng hộ nhà phát triển** bằng cách mua gói Premium chính thức.
+> - Module có thể **ngừng hoạt động** bất cứ lúc nào nếu nhà phát triển thay đổi API.
 
 ---
 
@@ -1300,39 +1300,39 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 <br>
 
-### ? N?u th?y h?u �ch, h�y nh?n Star cho repo n�y! ?
+### ⭐ Nếu thấy hữu ích, hãy nhấn Star cho repo này! ⭐
 
 <br>
 
 <!-- CONTRIBUTION GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ekaznyra&theme=react-dark&hide_border=true&area=true&custom_title=Ho?t%20d?ng%20d�ng%20g�p" width="95%" alt="activity"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ekaznyra&theme=react-dark&hide_border=true&area=true&custom_title=Hoạt%20động%20đóng%20góp" width="95%" alt="activity"/>
 
 <br><br>
 
 <!-- SOCIAL BADGES -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/?_Star_Repo_N�y-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="star"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/⭐_Star_Repo_Này-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="star"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/??_Fork_Repo-A855F7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117" alt="fork"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/🍴_Fork_Repo-A855F7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117" alt="fork"/></a>
 &nbsp;
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/??_Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
 
 <br><br>
 
 <!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=8B5CF6&labelColor=0d1117&label=??+LU?T+XEM" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=8B5CF6&labelColor=0d1117&label=👀+LƯỢT+XEM" alt="views"/>
 
 <br><br>
 
 ```
-+--------------------------------------------------------------+
-�                                                            �
-�        Gi?y ph�p MIT � 2026 Nguy?n Ng?c Anh T�           �
-�                                                            �
-�        Made with ?? in Vietnam ????                         �
-�                                                            �
-�        "Chia s? l� s?c m?nh c?a c?ng d?ng"                �
-�                                                            �
-+--------------------------------------------------------------+
+╔══════════════════════════════════════════════════════════════╗
+║                                                            ║
+║        Giấy phép MIT © 2026 Nguyễn Ngọc Anh Tú           ║
+║                                                            ║
+║        Made with ❤️ in Vietnam 🇻🇳                         ║
+║                                                            ║
+║        "Chia sẻ là sức mạnh của cộng đồng"                ║
+║                                                            ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 <br>
