@@ -30,87 +30,87 @@ host-keyword, spotify-ads, reject
 ^https?:\/\/sub\.store url script-request-body https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
 
 # 📺 YouTube Premium - ekaznyra
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/youtube.response.js
 
 # 🎵 Spotify Premium (app2smile)
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 
 # 🔐 RevenueCat Multi-App (Locket Gold)
-^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
-^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/deleteHeader.js
-^https:\/\/api\.rc-backup\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js
+^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js
+^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/deleteHeader.js
+^https:\/\/api\.rc-backup\.com\/.*\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js
 
 # 🎧 SoundCloud Go+ (yfamilys)
 ^https?:\/\/api-mobile\.soundcloud\.com\/configuration\/ios url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/soundcloud.js
 
 # 🎨 PicsArt Gold
-^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js
-^https:\/\/api\.picsart\.com\/gw-v2\/cloud-storage\/v1\/me\/storages url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js
+^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/PicsArt.js
+^https:\/\/api\.picsart\.com\/gw-v2\/cloud-storage\/v1\/me\/storages url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/PicsArt.js
 ^https?:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 
 # 🎨 Lightroom (yfamilys)
 ^https:\/\/photos\.adobe\.io\/v2\/accounts url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
 
 # 🎨 Photoshop Express
-^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/photoshop.js
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photoshop.js
 
 # 🎬 Emby Premiere
-^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/emby.js
+^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/emby.js
 
 # 🎬 KineMaster Pro
-^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
+^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Kinemaster.js
 
 # 🎵 Djay Pro
-^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/djay.js
+^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/djay.js
 
 # 🧘 Calm (yfamilys)
 ^https?:\/\/api\.calm\.com\/(me|device|ios\/receipt) url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/Alex0510/surge/surge/Script/caml.js
 
 # 📚 Busuu
-^https:\/\/api\.busuu\.com\/users\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/bussu.js
+^https:\/\/api\.busuu\.com\/users\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/bussu.js
 
 # 🧘 Headspace
-^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/headspace.js
+^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/headspace.js
 
 # 🎬 AlightMotion Pro
-^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
+^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/AlightMotion.js
 
 # 💄 Wink Forever VIP (yfamilys)
 ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js
 
 # 📞 Truecaller Premium
-^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
+^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/TrueCaller.js
 
 # 📄 CamScanner Premium
-^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/camScanner.js
+^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/camScanner.js
 
 # 💄 BeautyPlus Premium
-^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
+^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/BeautyPlus.js
 
 # 📸 VSCO X
-^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/VSCO.js
+^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/VSCO.js
 
 # ❄️ Snow / Epik
-^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Snow.js
+^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Snow.js
 
 # 📷 B612 Kaji VIP (yfamilys)
 ^https?:\/\/user-kaji-api\.b612kaji\.com\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://github.com/deezertidal/private/raw/master/js-backup/Crack/612.js
 
 # 🎨 Meitu XiuXiu
-^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/MeiTuXiuXiu.js
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/MeiTuXiuXiu.js
 
 # 🎬 Funimate Pro
-^https:\/\/api\.funimate\.com\/users\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/funimate.js
+^https:\/\/api\.funimate\.com\/users\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/funimate.js
 
 # 🍎 iTunes Premium (250+ Apps)
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/iTunes.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/iTunes.js
 
 # 📝 WPS Office (yfamilys)
 ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
 
 # 🧠 Xmind
-^https?:\/\/www\.xmind\.(cn|net|app)\/_res\/devices url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js
+^https?:\/\/www\.xmind\.(cn|net|app)\/_res\/devices url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/xmind.js
 
 # 🔔 Alarmy Premium
 ^https:\/\/ars\.alar\.my\/api\/v2\/user\/sync url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/alarmy.js

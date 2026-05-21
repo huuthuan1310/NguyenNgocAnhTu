@@ -83,7 +83,7 @@ scriptings:
   - http_request:
       name: "YouTube Request"
       match: "^https://youtubei\\.googleapis\\.com/youtubei/v1/(browse|next|player|reel/reel_watch_sequence|get_watch)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/youtube.response.js"
       body_required: true
       binary_body: true
       max_size: 5242880
@@ -91,7 +91,7 @@ scriptings:
   - http_response:
       name: "YouTube Response"
       match: "^https://youtubei\\.googleapis\\.com/youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/youtube.response.js"
       body_required: true
       binary_body: true
       max_size: 5242880
@@ -121,18 +121,18 @@ scriptings:
   - http_response:
       name: "RevenueCat Response"
       match: "^https://api\\.revenuecat\\.com/.+/(receipts$|subscribers/[^/]+$)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js"
       body_required: true
       timeout: 60
   - http_request:
       name: "RevenueCat Header"
       match: "^https://api\\.revenuecat\\.com/.+/(receipts|subscribers)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/deleteHeader.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/deleteHeader.js"
       timeout: 60
   - http_response:
       name: "RevenueCat Backup"
       match: "^https://api\\.rc-backup\\.com/.+/(receipts$|subscribers/[^/]+$)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js"
       body_required: true
       timeout: 60
 
@@ -148,13 +148,13 @@ scriptings:
   - http_response:
       name: "PicsArt Subscription"
       match: "^https://api\\.picsart\\.com/gw-v2/shop/subscription/apple/purchases"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/PicsArt.js"
       body_required: true
       timeout: 60
   - http_response:
       name: "PicsArt Storages"
       match: "^https://api\\.picsart\\.com/gw-v2/cloud-storage/v1/me/storages"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/PicsArt.js"
       body_required: true
       timeout: 60
   - http_response:
@@ -176,7 +176,7 @@ scriptings:
   - http_response:
       name: "Photoshop Express"
       match: "^https://lcs-mobile-cops\\.adobe\\.io/mobile_profile"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/photoshop.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photoshop.js"
       body_required: true
       timeout: 10
 
@@ -184,7 +184,7 @@ scriptings:
   - http_response:
       name: "Emby Premiere"
       match: "^https?://mb3admin\\.com/admin/service/registration/validateDevice"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/emby.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/emby.js"
       body_required: true
       timeout: 10
 
@@ -192,7 +192,7 @@ scriptings:
   - http_response:
       name: "KineMaster Pro"
       match: "^https://api-account\\.kinemasters\\.com/v\\d/user/subscribe$"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Kinemaster.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Kinemaster.js"
       body_required: true
       timeout: 10
 
@@ -200,7 +200,7 @@ scriptings:
   - http_response:
       name: "Djay Pro"
       match: "^https://app\\.algoriddim\\.com/api/v1/validate-receipt"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/djay.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/djay.js"
       body_required: true
       timeout: 10
 
@@ -216,7 +216,7 @@ scriptings:
   - http_response:
       name: "Busuu Premium"
       match: "^https://api\\.busuu\\.com/users/me"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/bussu.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/bussu.js"
       body_required: true
       timeout: 10
 
@@ -224,7 +224,7 @@ scriptings:
   - http_response:
       name: "Headspace Premium"
       match: "^https://api\\.prod\\.headspace\\.com/.*/user-subscriptions"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/headspace.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/headspace.js"
       body_required: true
       timeout: 10
 
@@ -232,7 +232,7 @@ scriptings:
   - http_response:
       name: "AlightMotion Pro"
       match: "^https://us-central1-alight-creative\\.cloudfunctions\\.net/getAccountStatusAndLicenses"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/AlightMotion.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/AlightMotion.js"
       body_required: true
       timeout: 10
 
@@ -248,7 +248,7 @@ scriptings:
   - http_response:
       name: "Truecaller Premium"
       match: "^https://premium-(.+)\\.truecaller\\.com/v\\d/(subscriptions|products/apple)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/TrueCaller.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/TrueCaller.js"
       body_required: true
       timeout: 10
 
@@ -256,7 +256,7 @@ scriptings:
   - http_response:
       name: "CamScanner Premium"
       match: "^https://(api|api-cs.*)\\.intsig\\.net/(purchase/cs/query_prop|queryProperty|getPrivilegeItem)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/camScanner.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/camScanner.js"
       body_required: true
       timeout: 15
 
@@ -264,7 +264,7 @@ scriptings:
   - http_response:
       name: "BeautyPlus Premium"
       match: "^https://(api\\.mr\\.pixocial\\.com/v1/manual_unlock|newbeee-api\\.beautyplus\\.com/api/v1/asset/balance)"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/BeautyPlus.js"
       body_required: true
       timeout: 60
 
@@ -272,7 +272,7 @@ scriptings:
   - http_response:
       name: "VSCO Premium"
       match: "^https://vsco\\.co/api/subscriptions/2\\.1/user-subscriptions"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/VSCO.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/VSCO.js"
       body_required: true
       timeout: 10
 
@@ -280,7 +280,7 @@ scriptings:
   - http_response:
       name: "Snow Premium"
       match: "^https?://user-snow-api\\.snow\\.me/v\\d/purchase/subscription/subscriber/status"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Snow.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Snow.js"
       body_required: true
       timeout: 60
 
@@ -296,7 +296,7 @@ scriptings:
   - http_response:
       name: "Meitu XiuXiu"
       match: "^https?://(h5|api)\\.xiuxiu\\.meitu\\.com/v\\d/(h\\d/vip|vip|user)/"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/MeiTuXiuXiu.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/MeiTuXiuXiu.js"
       body_required: true
       timeout: 60
 
@@ -304,7 +304,7 @@ scriptings:
   - http_response:
       name: "Funimate Pro"
       match: "^https://api\\.funimate\\.com/users/me"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/funimate.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/funimate.js"
       body_required: true
       timeout: 10
 
@@ -312,7 +312,7 @@ scriptings:
   - http_response:
       name: "iTunes Premium"
       match: "^https?://buy\\.itunes\\.apple\\.com/verifyReceipt$"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/iTunes.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/iTunes.js"
       body_required: true
       timeout: 60
 
@@ -328,7 +328,7 @@ scriptings:
   - http_response:
       name: "Xmind Premium"
       match: "^https?://www\\.xmind\\.(cn|net|app)/_res/devices"
-      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/xmind.js"
       body_required: true
       timeout: 10
 

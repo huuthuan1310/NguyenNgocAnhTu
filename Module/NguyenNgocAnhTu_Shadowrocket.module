@@ -1,8 +1,8 @@
-﻿#!name=⚡ Anh Tú Premium - Shadowrocket
+#!name=? Anh T� Premium - Shadowrocket
 #!desc=37 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Sub-Store
 #!version=1.0.7
 #!date=2026-05-21
-#!author=Nguyễn Ngọc Anh Tú
+#!author=Nguy?n Ng?c Anh T�
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png
 #!system=ios
@@ -32,126 +32,126 @@ DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,www.googleadservices.com,REJECT
 
 [Script]
-# 📦 Sub-Store
+# ?? Sub-Store
 Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120,engine=jsc
 Sub-Store Simple=type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js,requires-body=true,engine=jsc
 Sub-Store Sync=type=cron,cronexp=0 0 * * *,wake-system=1,timeout=120,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
 
-# 📺 YouTube Premium - ekaznyra
-youtube-request = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js
-youtube-response = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/youtube.response.js,argument={"lyricLang":"vi","captionLang":"vi","blockUpload":false,"blockImmersive":false,"debug":false}
+# ?? YouTube Premium - ekaznyra
+youtube-request = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/youtube.response.js
+youtube-response = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/youtube.response.js,argument={"lyricLang":"vi","captionLang":"vi","blockUpload":false,"blockImmersive":false,"debug":false}
 
-# 🎵 Spotify Premium (app2smile)
+# ?? Spotify Premium (app2smile)
 spotify-json = type=http-request,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/,requires-body=0,engine=jsc,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 spotify-proto = type=http-response,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 
-# 🔐 RevenueCat Multi-App (Locket Gold)
-revenuecat-response = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
-revenuecat-header = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/deleteHeader.js,timeout=60,engine=jsc
-revenuecat-backup = type=http-response,pattern=^https:\/\/api\.rc-backup\.com\/.+\/(receipts$|subscribers\/[^/]+$),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/revenuecat_multi.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
+# ?? RevenueCat Multi-App (Locket Gold)
+revenuecat-response = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
+revenuecat-header = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/deleteHeader.js,timeout=60,engine=jsc
+revenuecat-backup = type=http-response,pattern=^https:\/\/api\.rc-backup\.com\/.+\/(receipts$|subscribers\/[^/]+$),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
 
-# 🎧 SoundCloud Go+ (yfamilys)
+# ?? SoundCloud Go+ (yfamilys)
 soundcloud-response = type=http-response,pattern=^https?:\/\/api-mobile\.soundcloud\.com\/configuration\/ios,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/soundcloud.js
 
-# 🎨 PicsArt Gold
-picsart-response = type=http-response,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js,requires-body=true,timeout=60,engine=jsc
-picsart-storages = type=http-response,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/cloud-storage\/v1\/me\/storages,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/PicsArt.js,requires-body=true,timeout=60,engine=jsc
+# ?? PicsArt Gold
+picsart-response = type=http-response,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/PicsArt.js,requires-body=true,timeout=60,engine=jsc
+picsart-storages = type=http-response,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/cloud-storage\/v1\/me\/storages,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/PicsArt.js,requires-body=true,timeout=60,engine=jsc
 picsart-nobyda = type=http-response,pattern=^https?:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js,requires-body=true,max-size=0,timeout=60,engine=jsc
 
-# 🎨 Lightroom (yfamilys)
+# ?? Lightroom (yfamilys)
 lightroom-response = type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🎨 Photoshop Express
-photoshop-response = type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/photoshop.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? Photoshop Express
+photoshop-response = type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photoshop.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🎬 Emby Premiere
-emby-response = type=http-response,pattern=^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/emby.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? Emby Premiere
+emby-response = type=http-response,pattern=^https?:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/emby.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🎬 KineMaster Pro
-kinemaster-response = type=http-response,pattern=^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$,requires-body=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Kinemaster.js
+# ?? KineMaster Pro
+kinemaster-response = type=http-response,pattern=^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$,requires-body=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Kinemaster.js
 
-# 🎵 Djay Pro
-djay-response = type=http-response,pattern=^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/djay.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? Djay Pro
+djay-response = type=http-response,pattern=^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/djay.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🧘 Calm (yfamilys)
+# ?? Calm (yfamilys)
 calm-response = type=http-response,pattern=^https?:\/\/api\.calm\.com\/(me|device|ios\/receipt),script-path=https://raw.githubusercontent.com/Alex0510/Eric/Alex0510/surge/surge/Script/caml.js,requires-body=true,max-size=0,timeout=10,engine=jsc
 
-# 📚 Busuu
-busuu-response = type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/bussu.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? Busuu
+busuu-response = type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/bussu.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🧘 Headspace
-headspace-response = type=http-response,pattern=^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/headspace.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? Headspace
+headspace-response = type=http-response,pattern=^https:\/\/api\.prod\.headspace\.com\/.*\/user-subscriptions,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/headspace.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🎬 AlightMotion Pro
-alightmotion-response = type=http-response,pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,requires-body=true,max-size=131072,timeout=10,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/AlightMotion.js
+# ?? AlightMotion Pro
+alightmotion-response = type=http-response,pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,requires-body=true,max-size=131072,timeout=10,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/AlightMotion.js
 
-# 💄 Wink Forever VIP (yqc007 / yfamilys)
+# ?? Wink Forever VIP (yqc007 / yfamilys)
 wink-response = type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js
 
-# ✍️ Grammarly Premium (yfamilys)
+# ?? Grammarly Premium (yfamilys)
 grammarly-response = type=http-response,pattern=^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
 
-# 📒 Notability Plus (yfamilys)
+# ?? Notability Plus (yfamilys)
 notability-response = type=http-response,pattern=^https:\/\/notability\.com\/subscriptions,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
 
-# 🧮 Photomath Plus (yfamilys)
+# ?? Photomath Plus (yfamilys)
 photomath-response = type=http-response,pattern=^https?:\/\/lapi\.photomath\.net\/v4\/me,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js
 
-# 📄 Smallpdf Pro (yfamilys)
+# ?? Smallpdf Pro (yfamilys)
 smallpdf-response = type=http-response,pattern=^https?:\/\/pro\.smallpdf\.com\/pro\/account,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js
 
-# 🧠 Peak Pro (yfamilys)
+# ?? Peak Pro (yfamilys)
 peak-response = type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/peak.js
 
-# 🎨 Polarr Pro (yfamilys)
+# ?? Polarr Pro (yfamilys)
 polarr-response = type=http-response,pattern=^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
 
-# 🏃 MyFitnessPal Premium (yfamilys)
+# ?? MyFitnessPal Premium (yfamilys)
 myfitnesspal-response = type=http-response,pattern=^https?:\/\/premium-api\.myfitnesspal\.com\/v3\/subscriptions\/MFP\/,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myFitnessPal.js
 
-# 🎼 Musixmatch Premium (yfamilys)
+# ?? Musixmatch Premium (yfamilys)
 musixmatch-response = type=http-response,pattern=^https?:\/\/apic\.musixmatch\.com\/ws\/1\.1\/config\.get,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/musixmatch.js
 
-# 📷 Fimo Camera (yfamilys)
+# ?? Fimo Camera (yfamilys)
 fimo-response = type=http-response,pattern=^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fimo.js
 
-# 📷 Varlens Premium (yfamilys)
+# ?? Varlens Premium (yfamilys)
 varlens-response = type=http-response,pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/,requires-body=1,engine=jsc,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js
 
-# 📞 Truecaller Premium
-truecaller-response = type=http-response,pattern=^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple),requires-body=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/TrueCaller.js
+# ?? Truecaller Premium
+truecaller-response = type=http-response,pattern=^https:\/\/premium-(.+)\.truecaller\.com\/v\d\/(subscriptions|products\/apple),requires-body=1,max-size=0,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/TrueCaller.js
 
-# 📄 CamScanner Premium
-camscanner-response = type=http-response,pattern=^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem),requires-body=1,timeout=15,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/camScanner.js
+# ?? CamScanner Premium
+camscanner-response = type=http-response,pattern=^https:\/\/(api|api-cs.*)\.intsig\.net\/(purchase\/cs\/query_prop|queryProperty|getPrivilegeItem),requires-body=1,timeout=15,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/camScanner.js
 
-# 💄 BeautyPlus Premium
-beautyplus-response = type=http-response,pattern=^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/BeautyPlus.js
+# ?? BeautyPlus Premium
+beautyplus-response = type=http-response,pattern=^https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,engine=jsc,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/BeautyPlus.js
 
-# 📸 VSCO X
-vsco-response = type=http-response,pattern=^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/VSCO.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? VSCO X
+vsco-response = type=http-response,pattern=^https:\/\/vsco\.co\/api\/subscriptions\/2\.1\/user-subscriptions,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/VSCO.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# ❄️ Snow / Epik
-snow-response = type=http-response,pattern=^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/Snow.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
+# ?? Snow / Epik
+snow-response = type=http-response,pattern=^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Snow.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
 
-# 📷 B612 Kaji VIP (yfamilys)
+# ?? B612 Kaji VIP (yfamilys)
 b612-response = type=http-response,pattern=^https?:\/\/user-kaji-api\.b612kaji\.com\/v\d\/purchase\/subscription\/subscriber\/status,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/612.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
 
-# 🎨 Meitu XiuXiu
-meitu-response = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/MeiTuXiuXiu.js,requires-body=true,timeout=60,engine=jsc
+# ?? Meitu XiuXiu
+meitu-response = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/MeiTuXiuXiu.js,requires-body=true,timeout=60,engine=jsc
 
-# 🎬 Funimate Pro
-funimate-response = type=http-response,pattern=^https:\/\/api\.funimate\.com\/users\/me,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/funimate.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
+# ?? Funimate Pro
+funimate-response = type=http-response,pattern=^https:\/\/api\.funimate\.com\/users\/me,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/funimate.js,requires-body=true,max-size=131072,timeout=10,engine=jsc
 
-# 🍎 iTunes Premium (250+ Apps)
-itunes-response = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/iTunes.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
+# ?? iTunes Premium (250+ Apps)
+itunes-response = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/iTunes.js,requires-body=true,max-size=-1,timeout=60,engine=jsc
 
-# 📝 WPS Office (yfamilys)
+# ?? WPS Office (yfamilys)
 wps-response = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js,requires-body=true,max-size=0,timeout=10,engine=jsc
 
-# 🧠 Xmind
-xmind-response = type=http-response,pattern=^https?:\/\/www\.xmind\.(cn|net|app)\/_res\/devices,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/js/xmind.js,requires-body=true,max-size=0,timeout=10,engine=jsc
+# ?? Xmind
+xmind-response = type=http-response,pattern=^https?:\/\/www\.xmind\.(cn|net|app)\/_res\/devices,script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/xmind.js,requires-body=true,max-size=0,timeout=10,engine=jsc
 
-# 🔔 Alarmy Premium
+# ?? Alarmy Premium
 alarmy-response = type=http-response,pattern=^https:\/\/ars\.alar\.my\/api\/v2\/user\/sync,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/alarmy.js,requires-body=true,max-size=0,timeout=10,engine=jsc
 
 [Url Rewrite]
