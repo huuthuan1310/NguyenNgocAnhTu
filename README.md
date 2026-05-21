@@ -19,7 +19,7 @@
 <br><br>
 
 <!-- BADGES HÀNG 1 -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/⚡_PHIÊN_BẢN-v1.0.6-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/⚡_PHIÊN_BẢN-v1.0.7-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/📱_ỨNG_DỤNG-37+-8B5CF6?style=for-the-badge&labelColor=0d1117" alt="apps"/></a>
 &nbsp;
@@ -46,7 +46,7 @@
 <br><br>
 
 <!-- HIGHLIGHT BOX -->
-<img src="https://img.shields.io/badge/�_KHÔNG_CẦN_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
+<img src="https://img.shields.io/badge/🔓_KHÔNG_CẦN_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
 <img src="https://img.shields.io/badge/💰_MODULE_MIỄN_PHÍ-0d1117?style=flat-square&labelColor=8B5CF6" alt=""/>
 <img src="https://img.shields.io/badge/📲_CHỈ_CẦN_1_APP_PROXY-0d1117?style=flat-square&labelColor=3B82F6" alt=""/>
 <img src="https://img.shields.io/badge/🍎_iOS_15_TRỞ_LÊN-0d1117?style=flat-square&labelColor=10B981" alt=""/>
@@ -468,7 +468,7 @@
 </div>
 
 ```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Premium.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgocAnhTu_Shadowrocket.module
 ```
 
 <br>
@@ -988,7 +988,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 | Bước | Thao tác | Chi tiết | Kết quả |
 |:---:|:---|:---|:---:|
-| ① | Tải file **`LocketGoldDNS.mobileconfig`** | Tải từ repo này | 📥 |
+| ① | Tải file **`LocketGoldDNS.mobileconfig`** | ⚠️ Sẽ được cập nhật trong phiên bản tới | 📥 |
 | ② | Cài vào iPhone | Cài đặt → Cài đặt chung → VPN & Quản lý thiết bị | ✅ |
 | ③ | **BẬT** proxy → Mở Locket | Đợi Gold hiện lên (lần đầu tiên) | 🟢 |
 | ④ | **TẮT** proxy → Mở lại Locket | Gold vẫn còn! | 🎉 |
@@ -1226,7 +1226,8 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Module/NguyenNgo
 
 | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---|:---:|
-| **`v1.0.6`** ⭐ | `19/05/2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
+| **`v1.0.7`** ⭐ | `21/05/2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **37+** |
+| `v1.0.6` | `19/05/2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
 | `v1.0.4` | `13/05/2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |
 | `v1.0.0` | `09/05/2026` | 🚀 Phát hành đầu tiên — YouTube, Locket, PicsArt... | 26 |
 
