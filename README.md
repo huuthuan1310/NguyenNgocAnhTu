@@ -30,11 +30,11 @@
 <br><br>
 
 <!-- BADGES HÀNG 2 -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=starship&logoColor=F59E0B&label=⭐+Stars&color=F59E0B&labelColor=0d1117" alt="stars"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=F59E0B&label=Stars&color=F59E0B&labelColor=0d1117" alt="stars"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=git&logoColor=A855F7&label=🍴+Forks&color=A855F7&labelColor=0d1117" alt="forks"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=A855F7&label=Forks&color=A855F7&labelColor=0d1117" alt="forks"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=EF4444&label=🐛+Issues&color=EF4444&labelColor=0d1117" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=EF4444&label=Issues&color=EF4444&labelColor=0d1117" alt="issues"/></a>
 
 <br><br>
 
