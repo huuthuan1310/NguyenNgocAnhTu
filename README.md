@@ -1,55 +1,61 @@
 ﻿<div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗                   -->
-<!-- ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗                  -->
-<!-- ███████║█████╗  ███████║██║  ██║█████╗  ██████╔╝                  -->
-<!-- ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══╝  ██╔══██╗                  -->
-<!-- ██║  ██║███████╗██║  ██║██████╔╝███████╗██║  ██║                  -->
-<!-- ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝                  -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,15:FF00FF,30:8B5CF6,50:6366F1,70:3B82F6,85:06B6D4,100:10B981&height=280&section=header&text=⚡%20PREMIUM%20UNLOCKER&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=25&desc=✨%20Mở%20Khoá%20Premium%20•%2037%2B%20Apps%20•%208%20Nền%20Tảng%20•%20iOS%2015%2B&descAlignY=48&descSize=18&descColor=FFFFFF&stroke=FFFFFF&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,15:FF00FF,30:8B5CF6,50:6366F1,70:3B82F6,85:06B6D4,100:10B981&height=280&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=25&desc=%E2%9C%A8%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2037%2B%20Apps%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=48&descSize=18&descColor=FFFFFF&stroke=FFFFFF&strokeWidth=1"/>
 
 <br>
 
 <!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🔮+Premium+Unlocker+by+Nguyễn+Ngọc+Anh+Tú;⚡+Miễn+Phí+•+Mã+Nguồn+Mở+•+Không+Jailbreak;🌸+37%2B+Ứng+Dụng+•+8+Nền+Tảng+•+Cập+Nhật+Liên+Tục" alt="Typing SVG" />
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&repeat=true&width=700&height=70&lines=Premium+Unlocker+by+ekaznyra+%F0%9F%8C%B8;Free+%E2%80%A2+Open+Source+%E2%80%A2+No+Jailbreak+%E2%9A%A1;37%2B+Apps+%E2%80%A2+8+Platforms+%E2%80%A2+Always+Updated+%F0%9F%94%A5" alt="Typing SVG" />
+</a>
+
+<br>
+
+<!-- SNAKE ANIMATION -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
 
 <br><br>
 
 <!-- BADGES HÀNG 1 -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/⚡_PHIÊN_BẢN-v1.0.7-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_VERSION-v1.0.7-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/📱_ỨNG_DỤNG-37+-8B5CF6?style=for-the-badge&labelColor=0d1117" alt="apps"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%93%B1_APPS-37+-8B5CF6?style=for-the-badge&labelColor=0d1117" alt="apps"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/🖥️_NỀN_TẢNG-8-6366F1?style=for-the-badge&labelColor=0d1117" alt="platforms"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%96%A5%EF%B8%8F_PLATFORMS-8-6366F1?style=for-the-badge&labelColor=0d1117" alt="platforms"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/🍎_iOS-15+-3B82F6?style=for-the-badge&labelColor=0d1117" alt="ios"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%8D%8E_iOS-15+-3B82F6?style=for-the-badge&labelColor=0d1117" alt="ios"/></a>
 
 <br><br>
 
-<!-- BADGES HÀNG 2 -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=F59E0B&label=Stars&color=F59E0B&labelColor=0d1117" alt="stars"/></a>
+<!-- BADGES HÀNG 2 - DYNAMIC -->
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=F59E0B&label=%E2%AD%90+Stars&color=F59E0B&labelColor=0d1117" alt="stars"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=A855F7&label=Forks&color=A855F7&labelColor=0d1117" alt="forks"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=A855F7&label=%F0%9F%8D%B4+Forks&color=A855F7&labelColor=0d1117" alt="forks"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=EF4444&label=Issues&color=EF4444&labelColor=0d1117" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=EF4444&label=%F0%9F%90%9B+Issues&color=EF4444&labelColor=0d1117" alt="issues"/></a>
 
 <br><br>
 
 <!-- BADGES HÀNG 3 - SOCIAL -->
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-Cộng_Đồng-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-Community-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/👤_Tác_Giả-ekaznyra-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="author"/></a>
+<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/%F0%9F%91%A4_Author-ekaznyra-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="author"/></a>
+&nbsp;
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=06B6D4&label=%F0%9F%95%90+Updated&color=06B6D4&labelColor=0d1117" alt="last-commit"/></a>
 
 <br><br>
 
 <!-- HIGHLIGHT BOX -->
-<img src="https://img.shields.io/badge/🔓_KHÔNG_CẦN_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
-<img src="https://img.shields.io/badge/💰_MODULE_MIỄN_PHÍ-0d1117?style=flat-square&labelColor=8B5CF6" alt=""/>
-<img src="https://img.shields.io/badge/📲_CHỈ_CẦN_1_APP_PROXY-0d1117?style=flat-square&labelColor=3B82F6" alt=""/>
-<img src="https://img.shields.io/badge/🍎_iOS_15_TRỞ_LÊN-0d1117?style=flat-square&labelColor=10B981" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%94%93_NO_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%92%B0_FREE_MODULE-0d1117?style=flat-square&labelColor=8B5CF6" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%93%B2_1_PROXY_APP-0d1117?style=flat-square&labelColor=3B82F6" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%8D%8E_iOS_15%2B-0d1117?style=flat-square&labelColor=10B981" alt=""/>
 
 </div>
 
