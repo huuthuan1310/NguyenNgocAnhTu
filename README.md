@@ -40,48 +40,48 @@
 <!-- ✦ ─────────────────── BADGE STATUS ─────────────────── ✦ -->
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/⚡_PHIÊN_BẢN-v1.0.7-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.0.7-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="version"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/📜_GIẤY_PHÉP-AGPL--3.0-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/repo-size/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=📦+DUNG+LƯỢNG&color=5b3a8c&labelColor=0d0a1a" alt="size"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/repo-size/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=%F0%9F%93%A6+DUNG+L%C6%AF%E1%BB%A2NG&color=5b3a8c&labelColor=0d0a1a" alt="size"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/🍎_NỀN_TẢNG-iOS_15+-462670?style=for-the-badge&labelColor=0d0a1a" alt="platform"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%8D%8E_N%E1%BB%80N_T%E1%BA%A2NG-iOS_15+-462670?style=for-the-badge&labelColor=0d0a1a" alt="platform"/></a>
 
 <br><br>
 
 <!-- HÀNG 2 — TRẠNG THÁI ĐỘNG -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=🕐+CẬP+NHẬT&color=c9a84c&labelColor=0d0a1a" alt="last-commit"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=%F0%9F%95%90+C%E1%BA%ACP+NH%E1%BA%ACT&color=c9a84c&labelColor=0d0a1a" alt="last-commit"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=⭐+STARS&color=c9a84c&labelColor=0d0a1a" alt="stars"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=%E2%AD%90+STARS&color=c9a84c&labelColor=0d0a1a" alt="stars"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=7b5ea7&label=🍴+FORKS&color=7b5ea7&labelColor=0d0a1a" alt="forks"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=7b5ea7&label=%F0%9F%8D%B4+FORKS&color=7b5ea7&labelColor=0d0a1a" alt="forks"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=e8d5b0&label=🐛+ISSUES&color=462670&labelColor=0d0a1a" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=e8d5b0&label=%F0%9F%90%9B+ISSUES&color=462670&labelColor=0d0a1a" alt="issues"/></a>
 
 <br><br>
 
 <!-- HÀNG 3 — LIÊN KẾT XÃ HỘI -->
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-Cộng_Đồng-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-C%E1%BB%99ng_%C4%90%E1%BB%93ng-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/👤_Tác_Giả-ekaznyra-c9a84c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="author"/></a>
+<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/%F0%9F%91%A4_T%C3%A1c_Gi%E1%BA%A3-ekaznyra-c9a84c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="author"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/🤝_Đóng_Góp-Welcome-7b5ea7?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d0a1a" alt="contributing"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/%F0%9F%A4%9D_%C4%90%C3%B3ng_G%C3%B3p-Welcome-7b5ea7?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d0a1a" alt="contributing"/></a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=👀+LƯỢT+XEM" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=%F0%9F%91%80+L%C6%AF%E1%BB%A2T+XEM" alt="views"/>
 
 <br><br>
 
 <!-- HÀNG 4 — HIGHLIGHT CAPSULE -->
-<img src="https://img.shields.io/badge/🔓_KHÔNG_JAILBREAK-0d0a1a?style=flat-square&labelColor=c9a84c" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%94%93_KH%C3%94NG_JAILBREAK-0d0a1a?style=flat-square&labelColor=c9a84c" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/💰_MIỄN_PHÍ_TRỌN_ĐỜI-0d0a1a?style=flat-square&labelColor=7b5ea7" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%92%B0_MI%E1%BB%84N_PH%C3%8D_TR%E1%BB%8CN_%C4%90%E1%BB%9CI-0d0a1a?style=flat-square&labelColor=7b5ea7" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/📲_1_ỨNG_DỤNG_PROXY-0d0a1a?style=flat-square&labelColor=5b3a8c" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%93%B2_1_%E1%BB%A8NG_D%E1%BB%A4NG_PROXY-0d0a1a?style=flat-square&labelColor=5b3a8c" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/🍎_iOS_15+-0d0a1a?style=flat-square&labelColor=462670" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%8D%8E_iOS_15+-0d0a1a?style=flat-square&labelColor=462670" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/🔒_MÃ_NGUỒN_MỞ_100%25-0d0a1a?style=flat-square&labelColor=2d1b4e" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%94%92_M%C3%83_NGU%E1%BB%92N_M%E1%BB%9E_100%25-0d0a1a?style=flat-square&labelColor=2d1b4e" alt=""/>
 
 <br><br>
 
@@ -1531,18 +1531,18 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <br><br>
 
 <!-- SOCIAL BADGES -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/⭐_Star_Repo_Này-c9a84c?style=for-the-badge&logo=github&logoColor=0d0a1a&labelColor=0d0a1a" alt="star"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%E2%AD%90_Star_Repo_N%C3%A0y-c9a84c?style=for-the-badge&logo=github&logoColor=0d0a1a&labelColor=0d0a1a" alt="star"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/🍴_Fork_Repo-7b5ea7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0a1a" alt="fork"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/%F0%9F%8D%B4_Fork_Repo-7b5ea7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0a1a" alt="fork"/></a>
 &nbsp;
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/badge/🐛_Báo_Lỗi-462670?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_B%C3%A1o_L%E1%BB%97i-462670?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="issues"/></a>
 
 <br><br>
 
 <!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=👀+LƯỢT+XEM" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=%F0%9F%91%80+L%C6%AF%E1%BB%A2T+XEM" alt="views"/>
 
 <br><br>
 
