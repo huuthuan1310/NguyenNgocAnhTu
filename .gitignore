@@ -26,6 +26,3 @@ desktop.ini
 # Node (if applicable)
 node_modules/
 package-lock.json
-
-# PowerShell
-check_urls.ps1
