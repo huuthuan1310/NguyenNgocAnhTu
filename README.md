@@ -1280,7 +1280,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=%E2%9D%93%20X%E1%BB%AC%20L%C3%9D%20S%E1%BB%B0%20C%E1%BB%90%20%26%20FAQ&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=%E2%9D%93%20X%E1%BB%AC%20L%C3%9D%20S%E1%BB%B0%20C%E1%BB%90%20V%C3%80%20FAQ&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
 
 ## ✦ ── ❓ Xử lý sự cố & FAQ ── ✦
 
@@ -1394,7 +1394,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=%F0%9F%91%91%20T%C3%81C%20GI%E1%BA%A2%20%26%20GHI%20C%C3%94NG&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=%F0%9F%91%91%20T%C3%81C%20GI%E1%BA%A2%20V%C3%80%20GHI%20C%C3%94NG&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 👑 Tác giả & Ghi công ── ✦
 
@@ -1494,7 +1494,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=%F0%9F%A4%9D%20C%E1%BB%98NG%20%C4%90%E1%BB%92NG%20%26%20%C4%90%C3%93NG%20G%C3%93P&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=%F0%9F%A4%9D%20C%E1%BB%98NG%20%C4%90%E1%BB%92NG%20V%C3%80%20%C4%90%C3%93NG%20G%C3%93P&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🤝 Cộng đồng & Đóng góp ── ✦
 
@@ -1593,18 +1593,16 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br><br>
 
-```
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║          💎  Giấy phép AGPL-3.0 © 2026 Nguyễn Ngọc Anh Tú      ║
-    ║                                                                  ║
-    ║                    Made with ❤️ in Vietnam 🇻🇳                   ║
-    ║                                                                  ║
-    ║         ✦  Tinh hoa công nghệ — Đẳng cấp khác biệt  ✦          ║
-    ║         ✦  Bứt phá giới hạn — Trải nghiệm thuần khiết  ✦       ║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+
+> ### 💎 Giấy phép AGPL-3.0 © 2026 Nguyễn Ngọc Anh Tú
+>
+> **Made with ❤️ in Vietnam 🇻🇳**
+>
+> ✦ Tinh hoa công nghệ — Đẳng cấp khác biệt ✦ <br>
+> ✦ Bứt phá giới hạn — Trải nghiệm thuần khiết ✦
+
+</div>
 
 <br>
 
