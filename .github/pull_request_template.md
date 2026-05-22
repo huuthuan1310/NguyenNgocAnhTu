@@ -24,9 +24,11 @@ Fixes #
 
 <!-- Mark all apps you tested on -->
 
+- [ ] Shadowrocket (version: ___)
+- [ ] LanceX (version: ___)
+- [ ] Egern (version: ___)
 - [ ] Surge (version: ___)
 - [ ] Loon (version: ___)
-- [ ] Shadowrocket (version: ___)
 - [ ] Quantumult X (version: ___)
 - [ ] Stash (version: ___)
 
@@ -34,6 +36,8 @@ Fixes #
 - [ ] YouTube
 - [ ] Spotify
 - [ ] Locket
+- [ ] PicsArt
+- [ ] iTunes (verifyReceipt)
 
 **iOS/macOS version:** 
 

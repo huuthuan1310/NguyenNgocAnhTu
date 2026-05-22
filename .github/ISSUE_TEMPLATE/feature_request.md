@@ -29,9 +29,11 @@ assignees: ''
 ## 📱 Target App
 
 **Which app(s) would this apply to?**
+- [ ] Shadowrocket
+- [ ] LanceX
+- [ ] Egern
 - [ ] Surge
 - [ ] Loon
-- [ ] Shadowrocket
 - [ ] Quantumult X
 - [ ] Stash
 - [ ] All apps

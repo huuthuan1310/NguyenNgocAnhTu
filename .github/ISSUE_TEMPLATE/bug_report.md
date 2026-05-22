@@ -13,9 +13,11 @@ assignees: ''
 ## 📱 Environment
 
 **App:**
+- [ ] Shadowrocket
+- [ ] LanceX
+- [ ] Egern
 - [ ] Surge
 - [ ] Loon
-- [ ] Shadowrocket
 - [ ] Quantumult X
 - [ ] Stash
 
@@ -28,6 +30,9 @@ assignees: ''
 - [ ] YouTube
 - [ ] Spotify
 - [ ] Locket
+- [ ] PicsArt
+- [ ] iTunes (verifyReceipt)
+- [ ] Other (specify below)
 
 ## 📝 Steps to Reproduce
 

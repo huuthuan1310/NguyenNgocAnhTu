@@ -1,19 +1,47 @@
-﻿<div align="center">
+<div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦                    HEADER — TIÊU ĐỀ CHÍNH                     ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,15:FF00FF,30:8B5CF6,50:6366F1,70:3B82F6,85:06B6D4,100:10B981&height=280&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=25&desc=%E2%9C%A8%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2037%2B%20Apps%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=48&descSize=18&descColor=FFFFFF&stroke=FFFFFF&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=320&section=header&text=⚡%20PREMIUM%20UNLOCKER&fontSize=68&fontColor=c9a84c&animation=fadeIn&fontAlignY=20&desc=✨%20Tinh%20Hoa%20Mở%20Khoá%20Premium%20•%2037%2B%20Ứng%20Dụng%20•%208%20Nền%20Tảng%20•%20iOS%2015%2B&descAlignY=44&descSize=18&descColor=e8d5b0&stroke=c9a84c&strokeWidth=2"/>
 
 <br>
 
-<!-- TYPING ANIMATION -->
+<!-- ═══════════ ORBITRON BRAND TYPING ═══════════ -->
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=14&duration=4000&pause=1000&color=7B5EA7&center=true&vCenter=true&repeat=true&width=500&height=25&lines=◈+UNLOCK+•+ELEVATE+•+EXPERIENCE+•+PREMIUM+◈" alt="brand" />
+
+<br>
+
+<!-- ═══════════ ASCII ART LOGO ═══════════ -->
+
+```
+                ██████╗ ██████╗ ███████╗███╗   ███╗██╗██╗   ██╗███╗   ███╗
+                ██╔══██╗██╔══██╗██╔════╝████╗ ████║██║██║   ██║████╗ ████║
+                ██████╔╝██████╔╝█████╗  ██╔████╔██║██║██║   ██║██╔████╔██║
+                ██╔═══╝ ██╔══██╗██╔══╝  ██║╚██╔╝██║██║██║   ██║██║╚██╔╝██║
+                ██║     ██║  ██║███████╗██║ ╚═╝ ██║██║╚██████╔╝██║ ╚═╝ ██║
+                ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
+              ██╗   ██╗███╗   ██╗██╗      ██████╗  ██████╗██╗  ██╗███████╗██████╗
+              ██║   ██║████╗  ██║██║     ██╔═══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
+              ██║   ██║██╔██╗ ██║██║     ██║   ██║██║     █████╔╝ █████╗  ██████╔╝
+              ██║   ██║██║╚██╗██║██║     ██║   ██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
+              ╚██████╔╝██║ ╚████║███████╗╚██████╔╝╚██████╗██║  ██╗███████╗██║  ██║
+               ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+```
+
+<br>
+
+<!-- ═══════════ MÔ TẢ NGẮN — GÂY ẤN TƯỢNG MẠNH ═══════════ -->
+
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&repeat=true&width=700&height=70&lines=Premium+Unlocker+by+ekaznyra+%F0%9F%8C%B8;Free+%E2%80%A2+Open+Source+%E2%80%A2+No+Jailbreak+%E2%9A%A1;37%2B+Apps+%E2%80%A2+8+Platforms+%E2%80%A2+Always+Updated+%F0%9F%94%A5" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3500&pause=1200&color=C9A84C&center=true&vCenter=true&repeat=true&width=800&height=70&lines=🏆+Chạm+Tới+Đỉnh+Cao+Trải+Nghiệm+Premium;💎+Bứt+Phá+Giới+Hạn+—+Đẳng+Cấp+Khác+Biệt;⚡+37%2B+Ứng+Dụng+•+8+Nền+Tảng+•+Miễn+Phí+Trọn+Đời;🔐+Không+Jailbreak+•+Mã+Nguồn+Mở+•+Tối+Ưu+Tuyệt+Đối" alt="Typing SVG" />
 </a>
 
 <br>
 
-<!-- SNAKE ANIMATION -->
+<!-- ═══════════ SNAKE ANIMATION ═══════════ -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
@@ -22,51 +50,148 @@
 
 <br><br>
 
-<!-- BADGES HÀNG 1 -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_VERSION-v1.0.7-FF0080?style=for-the-badge&labelColor=0d1117" alt="version"/></a>
-&nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%93%B1_APPS-37+-8B5CF6?style=for-the-badge&labelColor=0d1117" alt="apps"/></a>
-&nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%96%A5%EF%B8%8F_PLATFORMS-8-6366F1?style=for-the-badge&labelColor=0d1117" alt="platforms"/></a>
-&nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%8D%8E_iOS-15+-3B82F6?style=for-the-badge&labelColor=0d1117" alt="ios"/></a>
+<!-- ═══════════ GITHUB TROPHY ═══════════ -->
+
+<img src="https://github-profile-trophy.vercel.app/?username=ekaznyra&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" width="90%" alt="trophy"/>
 
 <br><br>
 
-<!-- BADGES HÀNG 2 - DYNAMIC -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=F59E0B&label=%E2%AD%90+Stars&color=F59E0B&labelColor=0d1117" alt="stars"/></a>
+<!-- ✦ ─────────────────── BADGE STATUS ─────────────────── ✦ -->
+
+<!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/⚡_PHIÊN_BẢN-v1.0.7-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="version"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=A855F7&label=%F0%9F%8D%B4+Forks&color=A855F7&labelColor=0d1117" alt="forks"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/📜_GIẤY_PHÉP-AGPL--3.0-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=EF4444&label=%F0%9F%90%9B+Issues&color=EF4444&labelColor=0d1117" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/repo-size/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=📦+DUNG+LƯỢNG&color=5b3a8c&labelColor=0d0a1a" alt="size"/></a>
+&nbsp;
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/🍎_NỀN_TẢNG-iOS_15+-462670?style=for-the-badge&labelColor=0d0a1a" alt="platform"/></a>
 
 <br><br>
 
-<!-- BADGES HÀNG 3 - SOCIAL -->
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-Community-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
+<!-- HÀNG 2 — TRẠNG THÁI ĐỘNG -->
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=🕐+CẬP+NHẬT&color=c9a84c&labelColor=0d0a1a" alt="last-commit"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/%F0%9F%91%A4_Author-ekaznyra-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="author"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=⭐+STARS&color=c9a84c&labelColor=0d0a1a" alt="stars"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=06B6D4&label=%F0%9F%95%90+Updated&color=06B6D4&labelColor=0d1117" alt="last-commit"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=7b5ea7&label=🍴+FORKS&color=7b5ea7&labelColor=0d0a1a" alt="forks"/></a>
+&nbsp;
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=e8d5b0&label=🐛+ISSUES&color=462670&labelColor=0d0a1a" alt="issues"/></a>
 
 <br><br>
 
-<!-- HIGHLIGHT BOX -->
-<img src="https://img.shields.io/badge/%F0%9F%94%93_NO_JAILBREAK-0d1117?style=flat-square&labelColor=FF0080" alt=""/>
-<img src="https://img.shields.io/badge/%F0%9F%92%B0_FREE_MODULE-0d1117?style=flat-square&labelColor=8B5CF6" alt=""/>
-<img src="https://img.shields.io/badge/%F0%9F%93%B2_1_PROXY_APP-0d1117?style=flat-square&labelColor=3B82F6" alt=""/>
-<img src="https://img.shields.io/badge/%F0%9F%8D%8E_iOS_15%2B-0d1117?style=flat-square&labelColor=10B981" alt=""/>
+<!-- HÀNG 3 — LIÊN KẾT XÃ HỘI -->
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-Cộng_Đồng-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
+&nbsp;
+<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/👤_Tác_Giả-ekaznyra-c9a84c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="author"/></a>
+&nbsp;
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/🤝_Đóng_Góp-Welcome-7b5ea7?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d0a1a" alt="contributing"/></a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=👀+LƯỢT+XEM" alt="views"/>
+
+<br><br>
+
+<!-- HÀNG 4 — HIGHLIGHT CAPSULE -->
+<img src="https://img.shields.io/badge/🔓_KHÔNG_JAILBREAK-0d0a1a?style=flat-square&labelColor=c9a84c" alt=""/>
+&nbsp;
+<img src="https://img.shields.io/badge/💰_MIỄN_PHÍ_TRỌN_ĐỜI-0d0a1a?style=flat-square&labelColor=7b5ea7" alt=""/>
+&nbsp;
+<img src="https://img.shields.io/badge/📲_1_ỨNG_DỤNG_PROXY-0d0a1a?style=flat-square&labelColor=5b3a8c" alt=""/>
+&nbsp;
+<img src="https://img.shields.io/badge/🍎_iOS_15+-0d0a1a?style=flat-square&labelColor=462670" alt=""/>
+&nbsp;
+<img src="https://img.shields.io/badge/🔒_MÃ_NGUỒN_MỞ_100%25-0d0a1a?style=flat-square&labelColor=2d1b4e" alt=""/>
+
+<br><br>
+
+<!-- ═══════════ TECH STACK BADGES ═══════════ -->
+
+### 🛠️ Công nghệ sử dụng
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js"/>
+&nbsp;
+<img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="yaml"/>
+&nbsp;
+<img src="https://img.shields.io/badge/MITM_Proxy-462670?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="mitm"/>
+&nbsp;
+<img src="https://img.shields.io/badge/RevenueCat-FF6600?style=for-the-badge&logo=stripe&logoColor=white" alt="rc"/>
+&nbsp;
+<img src="https://img.shields.io/badge/iOS_15+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="ios"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Protobuf-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="protobuf"/>
 
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦               BẢNG THỐNG KÊ NHANH — DASHBOARD                  ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 📋 Mục Lục Điều Hướng
+<br>
+
+### 💎 ─── Bảng Thống Kê Nhanh ─── 💎
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="16.6%">
+<img src="https://img.shields.io/badge/37+-c9a84c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<b>📱 Ứng dụng</b><br>
+<sub>Hỗ trợ & cập nhật</sub>
+</td>
+<td align="center" width="16.6%">
+<img src="https://img.shields.io/badge/8-7b5ea7?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<b>🖥️ Nền tảng</b><br>
+<sub>Proxy hỗ trợ</sub>
+</td>
+<td align="center" width="16.6%">
+<img src="https://img.shields.io/badge/$0-462670?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<b>💰 Chi phí</b><br>
+<sub>Module miễn phí</sub>
+</td>
+<td align="center" width="16.6%">
+<img src="https://img.shields.io/badge/iOS_15+-5b3a8c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<b>🍎 Tương thích</b><br>
+<sub>iPhone & iPad</sub>
+</td>
+<td align="center" width="16.6%">
+<img src="https://img.shields.io/badge/∞-c9a84c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<b>⏰ Thời hạn</b><br>
+<sub>Vĩnh viễn</sub>
+</td>
+<td align="center" width="16.6%">
+<img src="https://img.shields.io/badge/100%25-7b5ea7?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<b>🔓 Mã nguồn mở</b><br>
+<sub>Minh bạch</sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦               MỤC LỤC ĐIỀU HƯỚNG                               ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=📋%20MỤC%20LỤC%20ĐIỀU%20HƯỚNG&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 📋 Mục Lục Điều Hướng ── ✦
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=12&duration=2000&pause=800&color=7B5EA7&center=true&vCenter=true&repeat=true&width=400&height=20&lines=📌+Nhấn+vào+mục+bất+kỳ+để+chuyển+nhanh" alt="nav" />
 
 </div>
 
@@ -74,32 +199,40 @@
 
 | | Mục | Mô tả nhanh |
 |:---:|:---|:---|
-| [`01`](#-tính-năng-nổi-bật) | ✨ **Tính năng nổi bật** | Module làm được những gì |
-| [`02`](#️-yêu-cầu-trước-khi-cài) | 🛠️ **Yêu cầu trước khi cài** | Cần chuẩn bị gì |
-| [`03`](#-nguyên-lý-hoạt-động) | 🧠 **Nguyên lý hoạt động** | Hiểu cách module vận hành |
-| [`04`](#-chọn-ứng-dụng-proxy) | 📥 **Chọn ứng dụng proxy** | So sánh 7 ứng dụng chi tiết |
-| [`05`](#-hướng-dẫn-cài-đặt-chi-tiết) | 📖 **Hướng dẫn cài đặt** | Từng bước cực kỳ chi tiết |
-| [`06`](#-danh-sách-37-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 37+ ứng dụng** | Tất cả app được hỗ trợ |
-| [`07`](#-locket-gold-dns--giữ-gold-vĩnh-viễn) | 🔒 **Locket Gold DNS** | Giữ Gold không cần proxy |
-| [`08`](#️-tuỳ-chỉnh-youtube-nâng-cao) | ⚙️ **Tuỳ chỉnh YouTube** | Đổi ngôn ngữ, ẩn nút |
-| [`09`](#-xử-lý-sự-cố--faq) | ❓ **Xử lý sự cố & FAQ** | Gặp lỗi? Xem đây |
-| [`10`](#-lịch-sử-cập-nhật) | 📋 **Lịch sử cập nhật** | Có gì mới |
-| [`11`](#-ghi-công--credits) | 🙏 **Ghi công** | Cảm ơn tác giả |
+| [`01`](#-tính-năng-nổi-bật) | ✨ **Tính năng nổi bật** | Những gì module mang lại |
+| [`02`](#--tại-sao-chọn-premium-unlocker--) | 🔥 **Tại sao chọn chúng tôi** | 6 lý do đẳng cấp |
+| [`03`](#-cập-nhật-mới-nhất) | 🆕 **Cập nhật mới nhất** | Lịch sử thay đổi theo dòng thời gian |
+| [`04`](#️-yêu-cầu-trước-khi-cài) | 🛠️ **Yêu cầu trước khi cài** | Chuẩn bị trước khi bắt đầu |
+| [`05`](#-nguyên-lý-hoạt-động) | 🧠 **Nguyên lý hoạt động** | Hiểu cách module vận hành |
+| [`06`](#-chọn-ứng-dụng-proxy) | 📥 **Chọn ứng dụng proxy** | So sánh 7 ứng dụng chi tiết |
+| [`07`](#-cách-sử-dụng--hướng-dẫn-cài-đặt-chi-tiết) | 📖 **Cách sử dụng & Cài đặt** | Từng bước cực kỳ chi tiết |
+| [`08`](#-danh-sách-37-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 37+ ứng dụng** | Tất cả app được hỗ trợ |
+| [`09`](#-locket-gold-dns--giữ-gold-vĩnh-viễn) | 🔒 **Locket Gold DNS** | Giữ Gold không cần proxy |
+| [`10`](#️-tuỳ-chỉnh-youtube-nâng-cao) | ⚙️ **Tuỳ chỉnh YouTube** | Đổi ngôn ngữ, ẩn nút |
+| [`11`](#-xử-lý-sự-cố--faq) | ❓ **Xử lý sự cố & FAQ** | Gặp lỗi? Xem đây |
+| [`12`](#-tác-giả--ghi-công) | 👑 **Tác giả & Ghi công** | Thông tin tác giả & cộng tác viên |
+| [`13`](#️-giấy-phép) | ⚖️ **Giấy phép** | AGPL-3.0 |
+| [`14`](#-đường-dẫn-hỗ-trợ) | 🔗 **Đường dẫn hỗ trợ** | Liên kết nhanh |
+| [`15`](#-cộng-đồng--đóng-góp) | 🤝 **Cộng đồng & Đóng góp** | Cách tham gia đóng góp |
 
 </div>
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              01 — TÍNH NĂNG NỔI BẬT (BẢNG 2 CỘT)             ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=✨%20TÍNH%20NĂNG%20NỔI%20BẬT&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
 
 ## ✨ Tính năng nổi bật
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=EC4899&center=true&vCenter=true&repeat=true&width=550&height=30&lines=YouTube+•+Spotify+•+Locket+•+iTunes+•+và+33%2B+ứng+dụng+khác..." alt="apps" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+•+Spotify+•+Locket+•+iTunes+•+và+33%2B+ứng+dụng+khác..." alt="apps" />
 
 </div>
 
@@ -110,13 +243,13 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/📺_YouTube-Premium-FF0000?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📺_YouTube-Premium-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
 
 ```diff
-@@ YouTube Premium — Trải nghiệm hoàn hảo @@
+@@ YouTube Premium — Trải nghiệm đẳng cấp @@
 
 + ✅ Chặn TOÀN BỘ quảng cáo video & banner
 + ✅ Thu nhỏ video (Picture-in-Picture)
@@ -131,7 +264,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🎵_Spotify-Premium-1DB954?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🎵_Spotify-Premium-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -154,7 +287,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🔐_Locket-Gold-FFD700?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_Locket-Gold-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -175,7 +308,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🍎_iTunes-250+_Apps-000000?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🍎_iTunes-250+_Apps-5b3a8c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -196,14 +329,154 @@
 </tr>
 </table>
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              TẠI SAO CHỌN CHÚNG TÔI — CARD 2 CỘT              ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 🛠️ Yêu cầu trước khi cài
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🔥%20TẠI%20SAO%20CHỌN%20PREMIUM%20UNLOCKER&fontSize=18&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🔥 Tại sao chọn Premium Unlocker? ── ✦
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=💎+Trải+nghiệm+thuần+khiết+—+Không+thoả+hiệp+về+chất+lượng" alt="why" />
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+### 🔓 Không Jailbreak
+
+</div>
+
+> Hoạt động hoàn hảo trên máy **nguyên gốc**. Không cần jailbreak, không cần sideload, không vi phạm bảo hành thiết bị. Chỉ cần 1 ứng dụng proxy từ App Store.
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+### ⚡ Tối Ưu Hiệu Năng
+
+</div>
+
+> Script được viết **tối giản**, chỉ sửa đúng dữ liệu cần thiết. Không gây chậm máy, không tốn pin, không chiếm bộ nhớ. Trải nghiệm mượt mà như máy gốc.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+### 🛡️ An Toàn Tuyệt Đối
+
+</div>
+
+> Mã nguồn mở **100%** — ai cũng có thể đọc và kiểm tra. Không thu thập dữ liệu cá nhân, không gửi thông tin đi đâu, không hack máy chủ.
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+### 🔄 Cập Nhật Liên Tục
+
+</div>
+
+> Đội ngũ tác giả **theo dõi sát** mọi thay đổi API của ứng dụng. Khi có bản cập nhật, module tự động tải về — bạn không cần làm gì thêm.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+### 🌐 Đa Nền Tảng
+
+</div>
+
+> Hỗ trợ **7 ứng dụng proxy** phổ biến nhất: Shadowrocket, LanceX, Egern, Loon, Quantumult X, Stash, Surge. Dùng app nào cũng được.
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+### 💎 Miễn Phí Trọn Đời
+
+</div>
+
+> Module **hoàn toàn miễn phí**, không có bất kỳ ẩn phí nào. Không quảng cáo, không bắt đăng ký, không giới hạn thời gian. Dùng mãi mãi.
+
+</td>
+</tr>
+</table>
+
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              02 — CẬP NHẬT MỚI NHẤT (TIMELINE)                ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🆕%20CẬP%20NHẬT%20MỚI%20NHẤT&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🆕 Cập nhật mới nhất ── ✦
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=🔄+Module+được+cập+nhật+liên+tục+—+Luôn+dẫn+đầu+xu+hướng" alt="update" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+| | Phiên bản | Ngày | Nội dung cập nhật | Số app |
+|:---:|:---:|:---:|:---|:---:|
+| 🏆 | **`v1.0.7`** | `21.05.2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **37+** |
+| ⚡ | `v1.0.6` | `19.05.2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
+| 🎵 | `v1.0.4` | `13.05.2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |
+| 🚀 | `v1.0.0` | `09.05.2026` | 🚀 Phát hành đầu tiên — YouTube, Locket, PicsArt và nhiều ứng dụng khác | 26 |
+
+</div>
+
+<br>
+
+<div align="center">
+
+> 🔔 **Theo dõi repository** để nhận thông báo ngay khi có phiên bản mới. Module được cập nhật thường xuyên, đảm bảo tương thích với bản iOS mới nhất.
+
+</div>
+
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              03 — YÊU CẦU TRƯỚC KHI CÀI                       ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🛠️%20YÊU%20CẦU%20TRƯỚC%20KHI%20CÀI&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🛠️ Yêu cầu trước khi cài ── ✦
 
 </div>
 
@@ -226,17 +499,22 @@
 
 <div align="center">
 
-> 💡 **Tóm tắt:** Bạn chỉ cần iPhone iOS 15+ và mua 1 ứng dụng proxy (rẻ nhất $1.99). Không cần jailbreak, không cần máy tính, không cần kiến thức kỹ thuật.
+> 💎 **Tóm tắt:** Bạn chỉ cần iPhone iOS 15+ và mua 1 ứng dụng proxy (rẻ nhất $1.99). Không cần jailbreak, không cần máy tính, không cần kiến thức kỹ thuật.
 
 </div>
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              04 — NGUYÊN LÝ HOẠT ĐỘNG                         ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 🧠 Nguyên lý hoạt động
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🧠%20NGUYÊN%20LÝ%20HOẠT%20ĐỘNG&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🧠 Nguyên lý hoạt động ── ✦
 
 </div>
 
@@ -305,18 +583,22 @@
 > Có MITM:        App ──── [🔓 Giải mã] ──── Server    → Proxy đọc & sửa được → ✅ Thành công
 > ```
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              05 — CHỌN ỨNG DỤNG PROXY                         ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 📥 Chọn ứng dụng proxy
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=📥%20CHỌN%20ỨNG%20DỤNG%20PROXY&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 📥 Chọn ứng dụng proxy ── ✦
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=10B981&center=true&vCenter=true&repeat=true&width=500&height=25&lines=💡+Người+mới+nên+chọn+Shadowrocket+($2.99)+—+Dễ+nhất,+phổ+biến+nhất" alt="tip" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=600&height=25&lines=💎+Người+mới+nên+chọn+Shadowrocket+($2.99)+—+Dễ+nhất+và+phổ+biến+nhất" alt="tip" />
 
 </div>
 
@@ -401,20 +683,24 @@
 >
 > | Ngân sách | Nên chọn | Lý do |
 > |:---:|:---:|:---|
-> | Tiết kiệm nhất | **LanceX** ($1.99) | Rẻ nhất, đủ dùng |
-> | Tốt nhất | **Shadowrocket** ($2.99) | Phổ biến nhất, dễ tìm hướng dẫn |
-> | Đẹp nhất | **Egern** ($2.99) | Giao diện hiện đại |
+> | 💰 Tiết kiệm nhất | **LanceX** ($1.99) | Rẻ nhất, đủ dùng |
+> | 🏆 Tốt nhất | **Shadowrocket** ($2.99) | Phổ biến nhất, dễ tìm hướng dẫn |
+> | 💎 Đẹp nhất | **Egern** ($2.99) | Giao diện hiện đại |
 
 </div>
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦       06 — CÁCH SỬ DỤNG & HƯỚNG DẪN CÀI ĐẶT CHI TIẾT        ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 📖 Hướng dẫn cài đặt chi tiết
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=📖%20HƯỚNG%20DẪN%20CÀI%20ĐẶT%20CHI%20TIẾT&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 📖 Cách sử dụng & Hướng dẫn cài đặt chi tiết ── ✦
 
 <br>
 
@@ -431,6 +717,44 @@
 
 <br>
 
+<!-- ═══════════ QUICK INSTALL — 1 CLICK ═══════════ -->
+
+<div align="center">
+
+### 🚀 Cài nhanh — Chọn link module cho ứng dụng proxy của bạn
+
+<br>
+
+> 💡 **Copy link bên dưới và dán vào ứng dụng proxy của bạn:**
+
+| | Ứng dụng | Giá | Link Module |
+|:---:|:---|:---:|:---|
+| ⭐ | **Shadowrocket** | `$2.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Shadowrocket.module` |
+| 💰 | **LanceX** | `$1.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_LanceX.module` |
+| 🔮 | **Egern** | `$2.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Egern.yaml` |
+| 🌊 | **Surge** | `$49.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Surge.sgmodule` |
+| 🎈 | **Loon** | `$5.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Loon.plugin` |
+| ⚡ | **Quantumult X** | `$7.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_QuantumultX.snippet` |
+| 💎 | **Stash** | `$5.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Stash.stoverride` |
+
+> ⚠️ **Sau khi cài module, nhớ cài chứng chỉ MITM** (xem hướng dẫn chi tiết bên dưới)
+
+</div>
+
+<br>
+
+---
+
+### 🚀 Cài đặt nhanh (dùng Git Clone)
+
+Nếu bạn muốn tải toàn bộ mã nguồn về máy tính:
+
+```bash
+git clone https://github.com/ekaznyra/NguyenNgocAnhTu.git
+```
+
+Hoặc tải trực tiếp file ZIP từ trang [Releases](https://github.com/ekaznyra/NguyenNgocAnhTu/releases).
+
 ---
 
 <details open>
@@ -443,7 +767,7 @@
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -482,7 +806,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 ---
 
 <div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -512,7 +836,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 ---
 
 <div align="center">
-<img src="https://img.shields.io/badge/✅_PHẦN_3-KIỂM_TRA_HOẠT_ĐỘNG-10B981?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/✅_PHẦN_3-KIỂM_TRA_HOẠT_ĐỘNG-462670?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -539,7 +863,6 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 </details>
 
-
 ---
 
 <details>
@@ -552,7 +875,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -573,7 +896,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
@@ -594,234 +917,59 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <details>
 <summary>
 
-### 🌊 SURGE ($49.99)
+### 🌊 SURGE ($49.99) &nbsp;•&nbsp; 🎈 LOON ($5.99) &nbsp;•&nbsp; ⚡ QUANTUMULT X ($7.99) &nbsp;•&nbsp; 💎 STASH ($5.99) &nbsp;•&nbsp; 🔮 EGERN ($2.99)
 
 </summary>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
+
+> 📌 Quy trình tương tự Shadowrocket. Dưới đây là **link module** và **thao tác riêng** cho từng ứng dụng.
+
 </div>
 
 <br>
 
-| Bước | Thao tác |
-|:---:|:---|
-| `1.1` | Mở **Surge** → Tab **「Home」** |
-| `1.2` | Nhấn **「Modules」** |
-| `1.3` | Nhấn **＋** → **「Install Module from URL」** |
-| `1.4` | Dán link ⬇️ → Nhấn **「OK」** |
+| Ứng dụng | Link Module | Cài Module | Cài MITM |
+|:---|:---|:---|:---|
+| 🌊 **Surge** | `NguyenNgocAnhTu_Surge.sgmodule` | Home → Modules → ＋ → Install from URL | Settings → MITM → Bật → Generate → Install |
+| 🎈 **Loon** | `NguyenNgocAnhTu_Loon.plugin` | Configuration → Plugin → ＋ → Dán link | Configuration → MitM → Bật → Generate CA |
+| ⚡ **Quantumult X** | `NguyenNgocAnhTu_QuantumultX.snippet` | ⚙️ → Rewrite → 引用 → ＋ → Dán link | MitM → Bật → Generate → Configure |
+| 💎 **Stash** | `NguyenNgocAnhTu_Stash.stoverride` | Home → Overrides → ＋ → Install from URL | Settings → HTTPS Decryption → Bật → Generate |
+| 🔮 **Egern** | `NguyenNgocAnhTu_Egern.yaml` | ⚙️ → Modules → ＋ → Add from URL | Settings → MITM → Bật → Generate → Install |
+
+<br>
+
+**🔗 Đường dẫn gốc cho tất cả module:**
 
 ```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Surge.sgmodule
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 ```
 
 <br>
 
-<div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `2.1` | Surge → **「Settings」** → **「MITM」** → Bật toggle |
-| `2.2` | **「Generate New Certificate」** → **「Install Certificate」** → Safari mở |
-| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
-| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
+> ⚠️ **Sau khi cài module, nhớ làm thêm bước MITM:**
+> iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile → **Giới thiệu** → **Tin cậy chứng chỉ** → **BẬT**
 
 </details>
 
----
-
-<details>
-<summary>
-
-### 🎈 LOON ($5.99)
-
-</summary>
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_PLUGIN-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `1.1` | Mở **Loon** → Tab **「Configuration」** |
-| `1.2` | Nhấn **「Plugin」** → Nhấn **＋** |
-| `1.3` | Dán link ⬇️ → Nhấn **「Save」** → Đảm bảo bật ✅ |
-
-```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Loon.plugin
-```
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `2.1` | Loon → **「Configuration」** → **「MitM」** → Bật toggle |
-| `2.2` | **「Generate CA Certificate」** → **「Install CA Certificate」** → Safari mở |
-| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
-| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
-
-</details>
-
----
-
-<details>
-<summary>
-
-### ⚡ QUANTUMULT X ($7.99)
-
-</summary>
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_REWRITE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `1.1` | Mở **Quantumult X** → Nhấn ⚙️ (góc dưới phải) |
-| `1.2` | Kéo xuống **「Rewrite」** → Nhấn **「引用」** (Tham chiếu) |
-| `1.3` | Nhấn **＋** → Dán link ⬇️ → **「OK」** |
-
-```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_QuantumultX.snippet
-```
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `2.1` | Cài đặt → **「MitM」** → Bật toggle |
-| `2.2` | **「Generate Certificate」** → **「Configure Certificate」** → Safari mở |
-| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
-| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
-
-</details>
-
----
-
-<details>
-<summary>
-
-### 💎 STASH ($5.99)
-
-</summary>
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_OVERRIDE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `1.1` | Mở **Stash** → Tab **「Home」** |
-| `1.2` | Nhấn **「Overrides」** → Nhấn **＋** → **「Install from URL」** |
-| `1.3` | Dán link ⬇️ → **「Install」** |
-
-```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Stash.stoverride
-```
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `2.1` | Stash → **「Settings」** → **「HTTPS Decryption」** → Bật toggle |
-| `2.2` | **「Generate New Certificate」** → **「Install Certificate」** → Safari mở |
-| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
-| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
-
-</details>
-
----
-
-<details>
-<summary>
-
-### 🔮 EGERN ($2.99)
-
-</summary>
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-FF0080?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `1.1` | Mở **Egern** → Nhấn ⚙️ (Cài đặt) |
-| `1.2` | Nhấn **「Modules」** → Nhấn **＋** → **「Add from URL」** |
-| `1.3` | Dán link ⬇️ → **「Save」** |
-
-```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Egern.yaml
-```
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-8B5CF6?style=for-the-badge&labelColor=0d1117" alt=""/>
-</div>
-
-<br>
-
-| Bước | Thao tác |
-|:---:|:---|
-| `2.1` | Egern → **「Settings」** → **「MITM」** → Bật toggle |
-| `2.2` | **「Generate Certificate」** → **「Install」** → Safari mở |
-| `2.3` | iOS **Cài đặt** → **Cài đặt chung** → **VPN & Quản lý thiết bị** → Cài profile |
-| `2.4` | iOS **Cài đặt** → **Cài đặt chung** → **Giới thiệu** → **Tin cậy chứng chỉ** → BẬT |
-
-</details>
-
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              07 — DANH SÁCH 37+ ỨNG DỤNG HỖ TRỢ               ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 📱 Danh sách 37+ ứng dụng hỗ trợ
+## ✦ ── 📱 Danh sách 37+ ứng dụng hỗ trợ ── ✦
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=📱%2037%2B%20ỨNG%20DỤNG%20HỖ%20TRỢ&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=F59E0B&center=true&vCenter=true&repeat=true&width=600&height=25&lines=🎬+Giải+trí+•+🎨+Chỉnh+ảnh+•+📚+Học+tập+•+🧘+Sức+khoẻ+•+🍎+Đặc+biệt" alt="categories" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=C9A84C&center=true&vCenter=true&repeat=true&width=700&height=25&lines=🎬+Giải+trí+•+🎨+Chỉnh+ảnh+•+📚+Học+tập+•+🧘+Sức+khoẻ+•+🍎+Đặc+biệt" alt="categories" />
 
 </div>
 
@@ -935,28 +1083,32 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 </details>
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              08 — LOCKET GOLD DNS                              ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## 🔒 Locket Gold DNS — Giữ Gold vĩnh viễn
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🔒%20LOCKET%20GOLD%20DNS&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🔒 Locket Gold DNS — Giữ Gold vĩnh viễn ── ✦
 
 </div>
 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/⚠️_VẤN_ĐỀ-Tắt_proxy_=_Mất_Gold-EF4444?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/⚠️_VẤN_ĐỀ-Tắt_proxy_=_Mất_Gold-5b3a8c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/✅_GIẢI_PHÁP-DNS_Profile_chặn_kiểm_tra-10B981?style=for-the-badge&labelColor=0d1117" alt=""/>
+<img src="https://img.shields.io/badge/✅_GIẢI_PHÁP-DNS_Profile_chặn_kiểm_tra-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
 </div>
 
 <br>
 
-> 💡 **Vấn đề:** Khi tắt proxy, Locket kiểm tra lại đăng ký → phát hiện không có Gold → mất Gold.
+> 💎 **Vấn đề:** Khi tắt proxy, Locket kiểm tra lại đăng ký → phát hiện không có Gold → mất Gold.
 >
 > **Giải pháp:** Cài DNS Profile để chặn luôn việc kiểm tra khi không có proxy → Gold giữ vĩnh viễn.
 
@@ -1018,14 +1170,18 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 | 📈 | **AppsFlyer** | Theo dõi nguồn cài đặt | `launches.appsflyer.com` | 6 |
 | 📉 | **Mixpanel** | Phân tích dữ liệu sử dụng | `api.mixpanel.com` | 4 |
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              09 — TUỲ CHỈNH YOUTUBE NÂNG CAO                   ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## ⚙️ Tuỳ chỉnh YouTube nâng cao
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=⚙️%20TUỲ%20CHỈNH%20YOUTUBE%20NÂNG%20CAO&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── ⚙️ Tuỳ chỉnh YouTube nâng cao ── ✦
 
 </div>
 
@@ -1107,18 +1263,22 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 </details>
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              10 — XỬ LÝ SỰ CỐ & FAQ                           ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## ❓ Xử lý sự cố & FAQ
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=❓%20Xử%20LÝ%20SỰ%20CỐ%20%26%20FAQ&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── ❓ Xử lý sự cố & FAQ ── ✦
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&repeat=true&width=400&height=25&lines=Gặp+lỗi?+Đừng+lo,+xem+hướng+dẫn+bên+dưới+👇" alt="faq" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=Gặp+lỗi?+Đừng+lo,+xem+hướng+dẫn+chi+tiết+bên+dưới+👇" alt="faq" />
 
 </div>
 
@@ -1196,7 +1356,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 <div align="center">
 
-### 🟡 Câu hỏi thường gặp
+### ✦ ── 🟡 Câu hỏi thường gặp ── ✦
 
 </div>
 
@@ -1217,46 +1377,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 | ⏰ | Module có hết hạn không? | **Không.** Miễn phí vĩnh viễn, cập nhật liên tục |
 | 🌍 | Cần VPN nước ngoài không? | **Không.** Module hoạt động với mọi kết nối mạng |
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 📋 Lịch sử cập nhật
-
-</div>
-
-<br>
-
-| Phiên bản | Ngày | Nội dung cập nhật | Số app |
-|:---:|:---:|:---|:---:|
-| **`v1.0.7`** ⭐ | `21/05/2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **37+** |
-| `v1.0.6` | `19/05/2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
-| `v1.0.4` | `13/05/2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |
-| `v1.0.0` | `09/05/2026` | 🚀 Phát hành đầu tiên — YouTube, Locket, PicsArt... | 26 |
-
-<br>
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              11 — TÁC GIẢ & GHI CÔNG                          ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-> 🔄 Module được cập nhật thường xuyên. Theo dõi repo để nhận thông báo phiên bản mới!
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=👑%20TÁC%20GIẢ%20%26%20GHI%20CÔNG&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
 
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🙏 Ghi công & Credits
+## ✦ ── 👑 Tác giả & Ghi công ── ✦
 
 <br>
 
-> Cảm ơn tất cả các tác giả đã đóng góp script cho cộng đồng.
-> Không có họ, module này không thể tồn tại. ❤️
+> ✨ _Cảm ơn tất cả các tác giả đã đóng góp script cho cộng đồng._
+> _Không có họ, module này không thể tồn tại._ 💎
 
 </div>
 
@@ -1275,14 +1412,26 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 | 🧘 | **[Alex0510](https://github.com/Alex0510)** | Script sức khoẻ | Calm Premium |
 | 📸 | **[89996462](https://github.com/89996462)** | Script camera | Varlens Premium |
 
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              12 — GIẤY PHÉP                                    ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
-## ⚖️ Miễn trừ trách nhiệm
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=⚖️%20GIẤY%20PHÉP&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── ⚖️ Giấy phép ── ✦
+
+</div>
+
+<br>
+
+<div align="center">
+
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/📜_Giấy_phép-GNU_AGPL--3.0-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
 
 </div>
 
@@ -1296,53 +1445,146 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 > - Nếu bạn thấy ứng dụng hữu ích, hãy **ủng hộ nhà phát triển** bằng cách mua gói Premium chính thức.
 > - Module có thể **ngừng hoạt động** bất cứ lúc nào nếu nhà phát triển thay đổi API.
 
----
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              13 — ĐƯỜNG DẪN HỖ TRỢ                            ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🔗%20ĐƯỜNG%20DẪN%20HỖ%20TRỢ&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🔗 Đường dẫn hỗ trợ ── ✦
+
+</div>
 
 <br>
 
-<!-- FOOTER -->
+<div align="center">
+
+| | Kênh | Đường dẫn | Mô tả |
+|:---:|:---|:---|:---|
+| 🏠 | **Repository** | [github.com/ekaznyra/NguyenNgocAnhTu](https://github.com/ekaznyra/NguyenNgocAnhTu) | Trang chính của dự án |
+| 💬 | **Facebook** | [facebook.com/NguyenNgocAnhTu.VN](https://www.facebook.com/NguyenNgocAnhTu.VN) | Cộng đồng hỗ trợ |
+| 🐛 | **Báo lỗi** | [Issues](https://github.com/ekaznyra/NguyenNgocAnhTu/issues) | Gửi yêu cầu hoặc báo lỗi |
+| 📥 | **Phiên bản** | [Releases](https://github.com/ekaznyra/NguyenNgocAnhTu/releases) | Tải phiên bản mới nhất |
+| 👤 | **Tác giả** | [github.com/ekaznyra](https://github.com/ekaznyra) | Trang cá nhân tác giả |
+| 🔒 | **Bảo mật** | [SECURITY.md](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/SECURITY.md) | Chính sách bảo mật |
+| 🤝 | **Đóng góp** | [CONTRIBUTING.md](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md) | Hướng dẫn đóng góp |
+| 📜 | **Quy tắc** | [CODE_OF_CONDUCT.md](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CODE_OF_CONDUCT.md) | Quy tắc ứng xử cộng đồng |
+
+</div>
+
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦              15 — CỘNG ĐỒNG & ĐÓNG GÓP                        ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0a2e,100:462670&height=45&section=header&text=🤝%20CỘNG%20ĐỒNG%20%26%20ĐÓNG%20GÓP&fontSize=20&fontColor=c9a84c&fontAlignY=55" width="70%"/>
+
+## ✦ ── 🤝 Cộng đồng & Đóng góp ── ✦
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=✨+Mọi+đóng+góp+đều+được+trân+trọng+—+Cùng+xây+dựng+cộng+đồng+mạnh+mẽ!" alt="community" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+| | Tài liệu | Mô tả |
+|:---:|:---|:---|
+| 🤝 | **[Hướng dẫn đóng góp](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md)** | Cách thêm ứng dụng mới, quy ước commit, checklist PR |
+| 📜 | **[Quy tắc ứng xử](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CODE_OF_CONDUCT.md)** | Quy tắc cộng đồng thân thiện, tôn trọng |
+| 🔒 | **[Chính sách bảo mật](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/SECURITY.md)** | Báo cáo lỗ hổng bảo mật có trách nhiệm |
+| 📜 | **[Giấy phép AGPL-3.0](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE)** | Điều khoản sử dụng mã nguồn mở |
+
+</div>
+
+<br>
+
+<div align="center">
+
+> 💎 **Bạn muốn đóng góp?** Fork repo → Tạo nhánh mới → Thêm code → Tạo Pull Request!
+> Xem chi tiết tại [CONTRIBUTING.md](https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md)
+
+</div>
+
+<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<!-- ✦                          FOOTER                                ✦ -->
+<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
 <div align="center">
 
 <br>
 
-### ⭐ Nếu thấy hữu ích, hãy nhấn Star cho repo này! ⭐
+### 💎 ─── Nếu thấy hữu ích, hãy nhấn Star cho repo này! ─── 💎
 
 <br>
 
+<!-- GITHUB STATS + STREAK -->
+<img src="https://github-readme-stats.vercel.app/api?username=ekaznyra&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0a1a&title_color=c9a84c&icon_color=7b5ea7&text_color=e8d5b0&ring_color=c9a84c" width="49%" alt="stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ekaznyra&theme=midnight-purple&hide_border=true&background=0d0a1a&ring=c9a84c&fire=c9a84c&currStreakLabel=c9a84c&sideNums=7b5ea7&sideLabels=e8d5b0&dates=e8d5b0" width="49%" alt="streak"/>
+
+<br><br>
+
+<!-- TOP LANGUAGES -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekaznyra&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0a1a&title_color=c9a84c&text_color=e8d5b0" width="45%" alt="languages"/>
+
+<br><br>
+
 <!-- CONTRIBUTION GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ekaznyra&theme=react-dark&hide_border=true&area=true&custom_title=Hoạt%20động%20đóng%20góp" width="95%" alt="activity"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ekaznyra&theme=react-dark&hide_border=true&area=true&custom_title=Hoạt%20động%20đóng%20góp&bg_color=0d0a1a&color=c9a84c&line=7b5ea7&point=c9a84c&area_color=2d1b4e" width="95%" alt="activity"/>
 
 <br><br>
 
 <!-- SOCIAL BADGES -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/⭐_Star_Repo_Này-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="star"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/⭐_Star_Repo_Này-c9a84c?style=for-the-badge&logo=github&logoColor=0d0a1a&labelColor=0d0a1a" alt="star"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/🍴_Fork_Repo-A855F7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117" alt="fork"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/🍴_Fork_Repo-7b5ea7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0a1a" alt="fork"/></a>
 &nbsp;
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d1117" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/💬_Facebook-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
+&nbsp;
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/badge/🐛_Báo_Lỗi-462670?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="issues"/></a>
 
 <br><br>
 
 <!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=8B5CF6&labelColor=0d1117&label=👀+LƯỢT+XEM" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=👀+LƯỢT+XEM" alt="views"/>
+
+<br><br>
+
+<!-- ANIMATED THANK YOU -->
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=4000&pause=1500&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=40&lines=🙏+CẢM+ƠN+BẠN+ĐÃ+GHÉ+THĂM!;⭐+ĐỪrNG+QUÊN+NHẤN+STAR+NẾU+THẤY+HỮU+ÍCH!;💎+MADE+WITH+LOVE+IN+VIETNAM+🇻🇳" alt="thanks" />
 
 <br><br>
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                                                            ║
-║        Giấy phép MIT © 2026 Nguyễn Ngọc Anh Tú           ║
-║                                                            ║
-║        Made with ❤️ in Vietnam 🇻🇳                         ║
-║                                                            ║
-║        "Chia sẻ là sức mạnh của cộng đồng"                ║
-║                                                            ║
-╚══════════════════════════════════════════════════════════════╝
+    ╔══════════════════════════════════════════════════════════════════╗
+    ║                                                                  ║
+    ║          💎  Giấy phép AGPL-3.0 © 2026 Nguyễn Ngọc Anh Tú      ║
+    ║                                                                  ║
+    ║                    Made with ❤️ in Vietnam 🇻🇳                   ║
+    ║                                                                  ║
+    ║         ✦  Tinh hoa công nghệ — Đẳng cấp khác biệt  ✦          ║
+    ║         ✦  Bứt phá giới hạn — Trải nghiệm thuần khiết  ✦       ║
+    ║                                                                  ║
+    ╚══════════════════════════════════════════════════════════════════╝
 ```
 
 <br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,15:FF00FF,30:8B5CF6,50:6366F1,70:3B82F6,85:06B6D4,100:10B981&height=150&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=150&section=footer"/>
 
 </div>
