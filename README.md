@@ -8,9 +8,18 @@
 
 <br>
 
+<br>
+
 <!-- ═══════════ ORBITRON BRAND TYPING ═══════════ -->
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=14&duration=4000&pause=1000&color=7B5EA7&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%E2%97%88+UNLOCK+%E2%80%A2+ELEVATE+%E2%80%A2+EXPERIENCE+%E2%80%A2+PREMIUM+%E2%97%88" alt="brand" />
+
+<br><br>
+
+<!-- ═══════════ TERMINAL HACKING ANIMATION ═══════════ -->
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.0.7...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+37%2B+Applications+Unlocked." alt="Terminal Simulation" />
+</a>
 
 <br>
 
@@ -89,17 +98,11 @@
 
 ### 🛠️ Công nghệ sử dụng
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js"/>
-&nbsp;
-<img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="yaml"/>
-&nbsp;
-<img src="https://img.shields.io/badge/MITM_Proxy-462670?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="mitm"/>
-&nbsp;
-<img src="https://img.shields.io/badge/RevenueCat-FF6600?style=for-the-badge&logo=stripe&logoColor=white" alt="rc"/>
-&nbsp;
-<img src="https://img.shields.io/badge/iOS_15+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="ios"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Protobuf-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="protobuf"/>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,regex,apple,github,vscode,discord,git,powershell&theme=dark" alt="Skill Icons" />
+  </a>
+</p>
 
 </div>
 
@@ -1064,6 +1067,30 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 </details>
 
+<br>
+
+<div align="center">
+
+### 🔄 Ma trận tương thích — Proxy × Phương thức
+
+</div>
+
+| Proxy App | MITM Rewrite | Script | DNS Override | Rule-Based |
+|:---|:---:|:---:|:---:|:---:|
+| **Shadowrocket** | ✅ | ✅ | ✅ | ✅ |
+| **LanceX** | ✅ | ✅ | ✅ | ✅ |
+| **Egern** | ✅ | ✅ | ✅ | ✅ |
+| **Surge** | ✅ | ✅ | ✅ | ✅ |
+| **Loon** | ✅ | ✅ | ❌ | ✅ |
+| **Quantumult X** | ✅ | ✅ | ❌ | ✅ |
+| **Stash** | ✅ | ✅ | ✅ | ✅ |
+
+<div align="center">
+
+> 💡 **Ghi chú:** Tất cả proxy apps đều hỗ trợ MITM Rewrite và Script — đây là 2 phương thức chính mà module sử dụng.
+
+</div>
+
 <!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -1510,7 +1537,22 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
+
 ### 💎 ─── Nếu thấy hữu ích, hãy nhấn Star cho repo này! ─── 💎
+
+<br>
+
+<!-- STAR HISTORY -->
+
+### ⭐ Star History
+
+<a href="https://star-history.com/#ekaznyra/NguyenNgocAnhTu&Date">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ekaznyra/NguyenNgocAnhTu&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ekaznyra/NguyenNgocAnhTu&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ekaznyra/NguyenNgocAnhTu&type=Date&theme=dark" width="70%" />
+</picture>
+</a>
 
 <br>
 
