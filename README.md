@@ -4,39 +4,20 @@
 <!-- ✦                    HEADER — TIÊU ĐỀ CHÍNH                     ✦ -->
 <!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=320&section=header&text=⚡%20PREMIUM%20UNLOCKER&fontSize=68&fontColor=c9a84c&animation=fadeIn&fontAlignY=20&desc=✨%20Tinh%20Hoa%20Mở%20Khoá%20Premium%20•%2037%2B%20Ứng%20Dụng%20•%208%20Nền%20Tảng%20•%20iOS%2015%2B&descAlignY=44&descSize=18&descColor=e8d5b0&stroke=c9a84c&strokeWidth=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=320&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=68&fontColor=c9a84c&animation=fadeIn&fontAlignY=20&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2037%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=44&descSize=18&descColor=e8d5b0&stroke=c9a84c&strokeWidth=2"/>
 
 <br>
 
 <!-- ═══════════ ORBITRON BRAND TYPING ═══════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=14&duration=4000&pause=1000&color=7B5EA7&center=true&vCenter=true&repeat=true&width=500&height=25&lines=◈+UNLOCK+•+ELEVATE+•+EXPERIENCE+•+PREMIUM+◈" alt="brand" />
-
-<br>
-
-<!-- ═══════════ ASCII ART LOGO ═══════════ -->
-
-```
-                ██████╗ ██████╗ ███████╗███╗   ███╗██╗██╗   ██╗███╗   ███╗
-                ██╔══██╗██╔══██╗██╔════╝████╗ ████║██║██║   ██║████╗ ████║
-                ██████╔╝██████╔╝█████╗  ██╔████╔██║██║██║   ██║██╔████╔██║
-                ██╔═══╝ ██╔══██╗██╔══╝  ██║╚██╔╝██║██║██║   ██║██║╚██╔╝██║
-                ██║     ██║  ██║███████╗██║ ╚═╝ ██║██║╚██████╔╝██║ ╚═╝ ██║
-                ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
-              ██╗   ██╗███╗   ██╗██╗      ██████╗  ██████╗██╗  ██╗███████╗██████╗
-              ██║   ██║████╗  ██║██║     ██╔═══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-              ██║   ██║██╔██╗ ██║██║     ██║   ██║██║     █████╔╝ █████╗  ██████╔╝
-              ██║   ██║██║╚██╗██║██║     ██║   ██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
-              ╚██████╔╝██║ ╚████║███████╗╚██████╔╝╚██████╗██║  ██╗███████╗██║  ██║
-               ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-```
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=14&duration=4000&pause=1000&color=7B5EA7&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%E2%97%88+UNLOCK+%E2%80%A2+ELEVATE+%E2%80%A2+EXPERIENCE+%E2%80%A2+PREMIUM+%E2%97%88" alt="brand" />
 
 <br>
 
 <!-- ═══════════ MÔ TẢ NGẮN — GÂY ẤN TƯỢNG MẠNH ═══════════ -->
 
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3500&pause=1200&color=C9A84C&center=true&vCenter=true&repeat=true&width=800&height=70&lines=🏆+Chạm+Tới+Đỉnh+Cao+Trải+Nghiệm+Premium;💎+Bứt+Phá+Giới+Hạn+—+Đẳng+Cấp+Khác+Biệt;⚡+37%2B+Ứng+Dụng+•+8+Nền+Tảng+•+Miễn+Phí+Trọn+Đời;🔐+Không+Jailbreak+•+Mã+Nguồn+Mở+•+Tối+Ưu+Tuyệt+Đối" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3500&pause=1200&color=C9A84C&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+37%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
 </a>
 
 <br>
@@ -191,7 +172,7 @@
 
 ## ✦ ── 📋 Mục Lục Điều Hướng ── ✦
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=12&duration=2000&pause=800&color=7B5EA7&center=true&vCenter=true&repeat=true&width=400&height=20&lines=📌+Nhấn+vào+mục+bất+kỳ+để+chuyển+nhanh" alt="nav" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=12&duration=2000&pause=800&color=7B5EA7&center=true&vCenter=true&repeat=true&width=400&height=20&lines=%F0%9F%93%8C+Nh%E1%BA%A5n+v%C3%A0o+m%E1%BB%A5c+b%E1%BA%A5t+k%E1%BB%B3+%C4%91%E1%BB%83+chuy%E1%BB%83n+nhanh" alt="nav" />
 
 </div>
 
@@ -232,7 +213,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+•+Spotify+•+Locket+•+iTunes+•+và+33%2B+ứng+dụng+khác..." alt="apps" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+%E2%80%A2+Spotify+%E2%80%A2+Locket+%E2%80%A2+iTunes+%E2%80%A2+v%C3%A0+33%2B+%E1%BB%A9ng+d%E1%BB%A5ng+kh%C3%A1c..." alt="apps" />
 
 </div>
 
@@ -344,7 +325,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=💎+Trải+nghiệm+thuần+khiết+—+Không+thoả+hiệp+về+chất+lượng" alt="why" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=%F0%9F%92%8E+Tr%E1%BA%A3i+nghi%E1%BB%87m+thu%E1%BA%A7n+khi%E1%BA%BFt+%E2%80%94+Kh%C3%B4ng+tho%E1%BA%A3+hi%E1%BB%87p+v%E1%BB%81+ch%E1%BA%A5t+l%C6%B0%E1%BB%A3ng" alt="why" />
 
 </div>
 
@@ -440,7 +421,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=🔄+Module+được+cập+nhật+liên+tục+—+Luôn+dẫn+đầu+xu+hướng" alt="update" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%F0%9F%94%84+Module+%C4%91%C6%B0%E1%BB%A3c+c%E1%BA%ADp+nh%E1%BA%ADt+li%C3%AAn+t%E1%BB%A5c+%E2%80%94+Lu%C3%B4n+d%E1%BA%ABn+%C4%91%E1%BA%A7u+xu+h%C6%B0%E1%BB%9Bng" alt="update" />
 
 </div>
 
@@ -598,7 +579,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=600&height=25&lines=💎+Người+mới+nên+chọn+Shadowrocket+($2.99)+—+Dễ+nhất+và+phổ+biến+nhất" alt="tip" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=600&height=25&lines=%F0%9F%92%8E+Ng%C6%B0%E1%BB%9Di+m%E1%BB%9Bi+n%C3%AAn+ch%E1%BB%8Dn+Shadowrocket+(%242.99)+%E2%80%94+D%E1%BB%85+nh%E1%BA%A5t+v%C3%A0+ph%E1%BB%95+bi%E1%BA%BFn+nh%E1%BA%A5t" alt="tip" />
 
 </div>
 
@@ -969,7 +950,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=C9A84C&center=true&vCenter=true&repeat=true&width=700&height=25&lines=🎬+Giải+trí+•+🎨+Chỉnh+ảnh+•+📚+Học+tập+•+🧘+Sức+khoẻ+•+🍎+Đặc+biệt" alt="categories" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=C9A84C&center=true&vCenter=true&repeat=true&width=700&height=25&lines=%F0%9F%8E%AC+Gi%E1%BA%A3i+tr%C3%AD+%E2%80%A2+%F0%9F%8E%A8+Ch%E1%BB%89nh+%E1%BA%A3nh+%E2%80%A2+%F0%9F%93%9A+H%E1%BB%8Dc+t%E1%BA%ADp+%E2%80%A2+%F0%9F%A7%98+S%E1%BB%A9c+kho%E1%BA%BB+%E2%80%A2+%F0%9F%8D%8E+%C4%90%E1%BA%B7c+bi%E1%BB%87t" alt="categories" />
 
 </div>
 
@@ -1278,7 +1259,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=Gặp+lỗi?+Đừng+lo,+xem+hướng+dẫn+chi+tiết+bên+dưới+👇" alt="faq" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=G%E1%BA%B7p+l%E1%BB%97i%3F+%C4%90%E1%BB%ABng+lo%2C+xem+h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+chi+ti%E1%BA%BFt+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%F0%9F%91%87" alt="faq" />
 
 </div>
 
@@ -1492,7 +1473,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=✨+Mọi+đóng+góp+đều+được+trân+trọng+—+Cùng+xây+dựng+cộng+đồng+mạnh+mẽ!" alt="community" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=%E2%9C%A8+M%E1%BB%8Di+%C4%91%C3%B3ng+g%C3%B3p+%C4%91%E1%BB%81u+%C4%91%C6%B0%E1%BB%A3c+tr%C3%A2n+tr%E1%BB%8Dng+%E2%80%94+C%C3%B9ng+x%C3%A2y+d%E1%BB%B1ng+c%E1%BB%99ng+%C4%91%E1%BB%93ng+m%E1%BA%A1nh+m%E1%BA%BD!" alt="community" />
 
 </div>
 
