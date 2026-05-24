@@ -1,7 +1,7 @@
-﻿#!name=⚡ Anh Tú Premium - Surge
-#!desc=37 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Sub-Store
-#!version=1.0.7
-#!date=2026-05-21
+#!name=⚡ Anh Tú Premium - Surge
+#!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
+#!version=1.2.0
+#!date=2026-05-24
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -146,6 +146,68 @@ fimo-res=type=http-response,pattern=^https:\/\/server\.yoyiapp\.com\/fimo-user\/
 # 📷 Varlens Premium (yfamilys)
 varlens-res=type=http-response,pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js,requires-body=true,timeout=10
 
+
+# 📸 Darkroom Pro (yfamilys)
+darkroom-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/darkroom.js
+# 📷 OldRoll Camera (yfamilys)
+oldroll-response = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
+# 📸 PhotoRoom Pro (yfamilys)
+photoroom-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PhotoRoom.js
+# 📸 Pixelcut Pro (yfamilys)
+pixelcut-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/pixelcut.js
+# 📸 Mojo Pro (yfamilys)
+mojo-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/mojo.js
+# 🎵 Boom Equalizer (yfamilys)
+boom-response = type=http-response,pattern=^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$,requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js
+# 🎵 Audiomack Platinum (yfamilys)
+audiomack-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/(identify|\d+)$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js
+# 📅 Fantastical Premium (yfamilys)
+fantastical-response = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details),requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js
+# 📝 Craft Premium (yfamilys)
+craft-response = type=http-response,pattern=^https:\/\/api\.craft\.do\/auth\/v2\/profile,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Craft.js
+# 📓 Day One Premium (yfamilys)
+dayone-response = type=http-response,pattern=^https?:\/\/dayone\.app\/api\/v2\/users\/(receipt|account-status),requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/dayone.js
+# 💬 Nicegram Premium (yfamilys)
+nicegram-request = type=http-request,pattern=^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$,requires-body=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
+# 📄 iLovePDF Premium (yfamilys)
+ilovepdf-response = type=http-response,pattern=^https?:\/\/service\.ilovepdf\.com\/v1\/user,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/lovePdf.js
+# 🌐 Mondly Premium (yfamilys)
+mondly-response = type=http-response,pattern=^https:\/\/api\.mondlylanguages\.com\/v3\/ios\/user\/sync,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Mondly.js
+# 🌐 Memrise Premium (yfamilys)
+memrise-response = type=http-response,pattern=^https:\/\/api\.memrise\.com\/v1\.18,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Memrise.js
+# 🌐 Aloha Browser (yfamilys)
+aloha-response = type=http-response,pattern=^https?:\/\/api\.alohaprofile\.com\/v1\/profile_info,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/aloha.js
+# 🧘 Daily Yoga (yfamilys)
+dailyyoga-response = type=http-response,pattern=^https?:\/\/pre\.dailyyoga\.com\/h2oapi\/user\/getUserDetail,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/dailyYoga.js
+# 🌤 AccuWeather (yfamilys)
+accuweather-response = type=http-response,pattern=^https?:\/\/app-subscription-proxy\.accuweather\.com\/subscriptions\/v1\/apple\/validate,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js
+# 📧 Spark Mail (yfamilys)
+spark-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js
+# 😴 Endel Focus/Sleep (yfamilys)
+endel-response = type=http-response,pattern=^https:\/\/api-production\.endel\.io\/v4\/call,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Endel.js
+# 📝 Flomo Notes (yfamilys)
+flomo-response = type=http-response,pattern=^https:\/\/flomoapp\.com\/api\/v1\/user\/me,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js
+# ✍ Drafts Pro (yfamilys)
+drafts-response = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_receipt,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Drafts.js
+# 💪 Keep Fitness (yfamilys)
+keep-response = type=http-response,pattern=^https:\/\/api\.gotokeep\.com,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js
+# 🎨 Color Widgets (yfamilys)
+colorwidgets-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js
+# 🎨 WidgetSmith (yfamilys)
+widgetsmith-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetSmith.js
+# 🎬 InVideo (yfamilys)
+invideo-response = type=http-response,pattern=^https?:\/\/payments\.invideo\.io\/(verify_purchase|subscription),requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js
+# 🎵 Pandora Music (yfamilys)
+pandora-response = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js
+# 🌐 Beelinguapp (yfamilys)
+beelinguapp-response = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/BeelinguappProCrack.js
+# 📷 Relens Camera (yfamilys)
+relens-response = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Relens.js
+# 📸 TouchRetouch (yfamilys)
+touchretouch-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/$RCAnonymousID%3A\w{32})$,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/TouchRetouch.js
+# 😀 Emote Sticker (yfamilys)
+emote-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/$RCAnonymousID%3A\w{32})$,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Emote.js
+
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
@@ -164,5 +226,5 @@ varlens-res=type=http-response,pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/a
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(user-customization-service\/v1\/customize|bootstrap\/v1\/bootstrap)$ header-del if-none-match
 
 [MITM]
-hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.c*, api.meiease.c*, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.c*, api.meiease.c*, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io
 enable = true

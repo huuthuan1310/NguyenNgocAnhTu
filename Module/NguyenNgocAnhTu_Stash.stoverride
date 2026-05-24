@@ -1,5 +1,5 @@
-﻿name: ⚡ Anh Tú Premium - Stash
-desc: 37 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Sub-Store | v1.0.7 (2026-05-21)
+name: ⚡ Anh Tú Premium - Stash
+desc: 67 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + DayOne + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + SparkMail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store | v1.2.0 (2026-05-24)
 author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -65,6 +65,22 @@ http:
     - "apic.musixmatch.com"
     - "server.yoyiapp.com"
     - "mid.zineapi.com"
+    - "apimboom2.globaldelight.net"
+    - "api.flexibits.com"
+    - "api.craft.do"
+    - "dayone.app"
+    - "restore-access.indream.app"
+    - "service.ilovepdf.com"
+    - "api.mondlylanguages.com"
+    - "api.memrise.com"
+    - "api.alohaprofile.com"
+    - "pre.dailyyoga.com"
+    - "app-subscription-proxy.accuweather.com"
+    - "api-production.endel.io"
+    - "flomoapp.com"
+    - "backend.getdrafts.com"
+    - "api.gotokeep.com"
+    - "payments.invideo.io"
 
   url-rewrite:
     - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
@@ -363,6 +379,186 @@ http:
       require-body: true
       timeout: 10
 
+    # 📸 Darkroom Pro (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*
+      name: darkroom-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📷 OldRoll Camera (yfamilys)
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: oldroll-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📸 PhotoRoom Pro (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
+      name: photoroom-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📸 Pixelcut Pro (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*
+      name: pixelcut-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📸 Mojo Pro (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*
+      name: mojo-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎵 Boom Equalizer (yfamilys)
+    - match: ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$
+      name: boom-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎵 Audiomack Platinum (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/(identify|\d+)$
+      name: audiomack-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📅 Fantastical Premium (yfamilys)
+    - match: ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details)
+      name: fantastical-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📝 Craft Premium (yfamilys)
+    - match: ^https:\/\/api\.craft\.do\/auth\/v2\/profile
+      name: craft-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📓 Day One Premium (yfamilys)
+    - match: ^https?:\/\/dayone\.app\/api\/v2\/users\/(receipt|account-status)
+      name: dayone-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 💬 Nicegram Premium (yfamilys)
+    - match: ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$
+      name: nicegram-req
+      type: request
+      timeout: 10
+    # 📄 iLovePDF Premium (yfamilys)
+    - match: ^https?:\/\/service\.ilovepdf\.com\/v1\/user
+      name: ilovepdf-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🌐 Mondly Premium (yfamilys)
+    - match: ^https:\/\/api\.mondlylanguages\.com\/v3\/ios\/user\/sync
+      name: mondly-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🌐 Memrise Premium (yfamilys)
+    - match: ^https:\/\/api\.memrise\.com\/v1\.18
+      name: memrise-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🌐 Aloha Browser (yfamilys)
+    - match: ^https?:\/\/api\.alohaprofile\.com\/v1\/profile_info
+      name: aloha-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🧘 Daily Yoga (yfamilys)
+    - match: ^https?:\/\/pre\.dailyyoga\.com\/h2oapi\/user\/getUserDetail
+      name: dailyyoga-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🌤 AccuWeather (yfamilys)
+    - match: ^https?:\/\/app-subscription-proxy\.accuweather\.com\/subscriptions\/v1\/apple\/validate
+      name: accuweather-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📧 Spark Mail (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$
+      name: spark-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 😴 Endel (yfamilys)
+    - match: ^https:\/\/api-production\.endel\.io\/v4\/call
+      name: endel-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📝 Flomo (yfamilys)
+    - match: ^https:\/\/flomoapp\.com\/api\/v1\/user\/me
+      name: flomo-res
+      type: response
+      require-body: true
+      timeout: 10
+    # ✍ Drafts Pro (yfamilys)
+    - match: ^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_receipt
+      name: drafts-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 💪 Keep Fitness (yfamilys)
+    - match: ^https:\/\/api\.gotokeep\.com
+      name: keep-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎨 Color Widgets (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*
+      name: colorwidgets-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎨 WidgetSmith (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*
+      name: widgetsmith-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎬 InVideo (yfamilys)
+    - match: ^https?:\/\/payments\.invideo\.io\/(verify_purchase|subscription)
+      name: invideo-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🎵 Pandora Music (yfamilys)
+    - match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+      name: pandora-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 🌐 Beelinguapp (yfamilys)
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: beelinguapp-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📷 Relens Camera (yfamilys)
+    - match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+      name: relens-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 📸 TouchRetouch (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)
+      name: touchretouch-res
+      type: response
+      require-body: true
+      timeout: 10
+    # 😀 Emote Sticker (yfamilys)
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)
+      name: emote-res
+      type: response
+      require-body: true
+      timeout: 10
+
 script-providers:
   yt-req:
     url: https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/youtube.response.js
@@ -492,4 +688,94 @@ script-providers:
     interval: 86400
   varlens-res:
     url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js
+    interval: 86400
+  darkroom-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/darkroom.js
+    interval: 86400
+  oldroll-res:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
+    interval: 86400
+  photoroom-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PhotoRoom.js
+    interval: 86400
+  pixelcut-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/pixelcut.js
+    interval: 86400
+  mojo-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/mojo.js
+    interval: 86400
+  boom-res:
+    url: https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js
+    interval: 86400
+  audiomack-res:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js
+    interval: 86400
+  fantastical-res:
+    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js
+    interval: 86400
+  craft-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Craft.js
+    interval: 86400
+  dayone-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/dayone.js
+    interval: 86400
+  nicegram-req:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
+    interval: 86400
+  ilovepdf-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/lovePdf.js
+    interval: 86400
+  mondly-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Mondly.js
+    interval: 86400
+  memrise-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Memrise.js
+    interval: 86400
+  aloha-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/aloha.js
+    interval: 86400
+  dailyyoga-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/dailyYoga.js
+    interval: 86400
+  accuweather-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js
+    interval: 86400
+  spark-res:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js
+    interval: 86400
+  endel-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Endel.js
+    interval: 86400
+  flomo-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js
+    interval: 86400
+  drafts-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Drafts.js
+    interval: 86400
+  keep-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js
+    interval: 86400
+  colorwidgets-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js
+    interval: 86400
+  widgetsmith-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetSmith.js
+    interval: 86400
+  invideo-res:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js
+    interval: 86400
+  pandora-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js
+    interval: 86400
+  beelinguapp-res:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/BeelinguappProCrack.js
+    interval: 86400
+  relens-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Relens.js
+    interval: 86400
+  touchretouch-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/TouchRetouch.js
+    interval: 86400
+  emote-res:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Emote.js
     interval: 86400
