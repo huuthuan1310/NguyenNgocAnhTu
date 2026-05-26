@@ -40,9 +40,9 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ekaznyra&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" width="90%" alt="trophy"/>
 
-<br><br>
+
+<br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -1600,23 +1600,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <br>
 
 <!-- GITHUB STATS + STREAK -->
-<img src="https://github-readme-stats.vercel.app/api?username=ekaznyra&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0a1a&title_color=c9a84c&icon_color=7b5ea7&text_color=e8d5b0&ring_color=c9a84c" width="49%" alt="stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ekaznyra&theme=midnight-purple&hide_border=true&background=0d0a1a&ring=c9a84c&fire=c9a84c&currStreakLabel=c9a84c&sideNums=7b5ea7&sideLabels=e8d5b0&dates=e8d5b0" width="49%" alt="streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=ekaznyra&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="49%" alt="stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ekaznyra&theme=radical&hide_border=true&background=0D1117" width="49%" alt="streak"/>
 
 <br><br>
 
 <!-- TOP LANGUAGES -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekaznyra&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0a1a&title_color=c9a84c&text_color=e8d5b0" width="45%" alt="languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekaznyra&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="45%" alt="languages"/>
 
 <br><br>
 
 <!-- CONTRIBUTION GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ekaznyra&theme=react-dark&hide_border=true&area=true&custom_title=Hoạt%20động%20đóng%20góp&bg_color=0d0a1a&color=c9a84c&line=7b5ea7&point=c9a84c&area_color=2d1b4e" width="95%" alt="activity"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ekaznyra&theme=radical&hide_border=true&area=true&custom_title=Hoạt%20động%20đóng%20góp&bg_color=0D1117" width="95%" alt="activity"/>
 
 <br><br>
 
 <!-- SOCIAL BADGES -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%E2%AD%90_Star_Repo_N%C3%A0y-00F0FF?style=for-the-badge&logo=github&logoColor=0d0a1a&labelColor=0D1117" alt="star"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%E2%AD%90_Star_Repo_N%C3%A0y-00F0FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117" alt="star"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/%F0%9F%8D%B4_Fork_Repo-FF007F?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="fork"/></a>
 &nbsp;
@@ -1649,6 +1649,6 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=150&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:20003B&height=150&section=footer&animation=twinkling"/>
 
 </div>
