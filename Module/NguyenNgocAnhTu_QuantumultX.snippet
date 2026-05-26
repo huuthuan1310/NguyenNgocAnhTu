@@ -1,16 +1,537 @@
-# ⚡ Anh Tú Premium - Quantumult X
+﻿# ⚡ Anh Tú Premium - Quantumult X
 # 67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
 # v1.2.0 (2026-05-24)
 # https://github.com/ekaznyra/NguyenNgocAnhTu
 
 hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.c*,api.meiease.c*,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,sub.store,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io
 
-# Spotify Ads Block
+# === ULTIMATE ADBLOCK & ROUTING ===
+# === BLOCK QUIC FOR YOUTUBE MITM ===
+# === BLOCK WEBRTC LEAK ===
+host-keyword, stun, reject
+host-keyword, turn, reject
+# === SPOTIFY ADS ===
 host-suffix, audio-ak-spotify-com.akamaized.net, reject
 host-suffix, audio4-ak-spotify-com.akamaized.net, reject
 host-suffix, heads-ak-spotify-com.akamaized.net, reject
 host-suffix, heads4-ak-spotify-com.akamaized.net, reject
+host, spclient.wg.spotify.com, direct
 host-keyword, spotify-ads, reject
+# ===========================================================
+# === CHẶN QUẢNG CÁO + CỜ BẠC/CÁ ĐỘ TỔNG HỢP (Ad Block) ===
+# === by z3rokaze - 2026-05-27 (Ultimate Edition)            ===
+# ===========================================================
+# ┌─────────────────────────────────────┐
+# │  PHẦN 1: CHẶN QUẢNG CÁO (AD BLOCK) │
+# └─────────────────────────────────────┘
+# --- 1.1 Google Ads / AdMob / DoubleClick ---
+host-suffix, googleads.g.doubleclick.net, reject
+host-suffix, pagead2.googlesyndication.com, reject
+host-suffix, adservice.google.com, reject
+host-suffix, adservice.google.com.vn, reject
+host-suffix, admob.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, doubleclick.net, reject
+host-suffix, ad.doubleclick.net, reject
+host-suffix, ads.google.com, reject
+host-suffix, adclick.g.doubleclick.net, reject
+host-suffix, pagead-googlehosted.l.google.com, reject
+host-suffix, tpc.googlesyndication.com, reject
+host-suffix, www-googletagmanager.l.google.com, reject
+host-keyword, googleads, reject
+host-keyword, google-analytics, reject
+# --- 1.2 Facebook / Meta Ads ---
+host-suffix, an.facebook.com, reject
+host-suffix, ads.facebook.com, reject
+host-suffix, adtago.s3.amazonaws.com, reject
+host-suffix, pixel.facebook.com, reject
+host-suffix, www.facebook.com/tr, reject
+# --- 1.3 Unity Ads ---
+host-suffix, unityads.unity3d.com, reject
+host-suffix, auction.unityads.unity3d.com, reject
+host-suffix, config.unityads.unity3d.com, reject
+host-suffix, webview.unityads.unity3d.com, reject
+host-suffix, adserver.unityads.unity3d.com, reject
+host-suffix, ads.unity3d.com, reject
+host-keyword, unityads, reject
+# --- 1.4 AppLovin / MAX ---
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+host-suffix, pxl.applovin.com, reject
+host-suffix, d.applvn.com, reject
+host-suffix, rt.applovin.com, reject
+host-suffix, ms.applovin.com, reject
+host-keyword, applovin, reject
+# --- 1.5 IronSource / LevelPlay ---
+host-suffix, ironsrc.com, reject
+host-suffix, supersonicads.com, reject
+host-suffix, outcome-ssp.supersonicads.com, reject
+host-keyword, ironsource, reject
+# --- 1.6 Vungle / Liftoff ---
+host-suffix, vungle.com, reject
+host-suffix, liftoff.io, reject
+host-keyword, vungle, reject
+# --- 1.7 Chartboost ---
+host-suffix, chartboost.com, reject
+host-keyword, chartboost, reject
+# --- 1.8 InMobi ---
+host-suffix, inmobi.com, reject
+host-suffix, w.inmobi.com, reject
+host-keyword, inmobi, reject
+# --- 1.9 Mintegral / Mobvista ---
+host-suffix, mintegral.com, reject
+host-suffix, rayjump.com, reject
+host-suffix, mobvista.com, reject
+host-keyword, mintegral, reject
+# --- 1.10 AdColony / Digital Turbine ---
+host-suffix, adcolony.com, reject
+host-suffix, digitalturbine.com, reject
+host-keyword, adcolony, reject
+# --- 1.11 MoPub (Twitter) ---
+host-suffix, mopub.com, reject
+host-keyword, mopub, reject
+# --- 1.12 Fyber / Digital Turbine ---
+host-suffix, fyber.com, reject
+host-suffix, inner-active.mobi, reject
+host-suffix, ia2.fyber.com, reject
+# --- 1.13 Smaato ---
+host-suffix, smaato.com, reject
+host-suffix, smaato.net, reject
+host-suffix, soma.smaato.com, reject
+# --- 1.14 Tapjoy ---
+host-suffix, tapjoy.com, reject
+host-keyword, tapjoy, reject
+# --- 1.15 Pangle (TikTok Ads / ByteDance) ---
+host-suffix, pangleglobal.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host-suffix, byteimg.com, reject
+host-keyword, pangleglobal, reject
+# --- 1.16 Amazon Ads ---
+host-suffix, amazon-adsystem.com, reject
+host-suffix, aax.amazon-adsystem.com, reject
+host-suffix, aan.amazon.com, reject
+# --- 1.17 StartApp / Start.io ---
+host-suffix, startapp.com, reject
+host-suffix, start.io, reject
+host-keyword, startapp, reject
+# --- 1.18 Ogury ---
+host-suffix, ogury.com, reject
+# --- 1.19 Yahoo / Flurry ---
+host-suffix, flurry.com, reject
+host-suffix, ads.yahoo.com, reject
+host-suffix, analytics.yahoo.com, reject
+# --- 1.20 Criteo ---
+host-suffix, criteo.com, reject
+host-suffix, criteo.net, reject
+host-suffix, emailretargeting.com, reject
+# --- 1.21 Teads (Video Ads) ---
+host-suffix, teads.tv, reject
+host-suffix, teads.com, reject
+# --- 1.22 PubMatic ---
+host-suffix, pubmatic.com, reject
+host-suffix, ads.pubmatic.com, reject
+# --- 1.23 OpenX ---
+host-suffix, openx.net, reject
+host-suffix, openx.com, reject
+# --- 1.24 Index Exchange ---
+host-suffix, casalemedia.com, reject
+# --- 1.25 SmartAdServer ---
+host-suffix, smartadserver.com, reject
+host-suffix, sascdn.com, reject
+# --- 1.26 AdRoll ---
+host-suffix, adroll.com, reject
+host-suffix, d.adroll.com, reject
+# --- 1.27 Media.net ---
+host-suffix, media.net, reject
+host-suffix, contextual.media.net, reject
+# --- 1.28 RevContent / MGID / Content Ads ---
+host-suffix, revcontent.com, reject
+host-suffix, mgid.com, reject
+host-suffix, contentad.net, reject
+# --- 1.29 ShareThrough / TripleLift / Nativo ---
+host-suffix, sharethrough.com, reject
+host-suffix, triplelift.com, reject
+host-suffix, nativo.com, reject
+# --- 1.30 Yandex Ads ---
+host-suffix, an.yandex.ru, reject
+host-suffix, yandexadexchange.net, reject
+# --- 1.31 Baidu / Tencent Ads ---
+host-suffix, pos.baidu.com, reject
+host-suffix, cpro.baidu.com, reject
+host-suffix, e.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, c2.gdt.qq.com, reject
+# --- 1.32 Ad Verification / Viewability ---
+host-suffix, moat.com, reject
+host-suffix, moatads.com, reject
+host-suffix, doubleverify.com, reject
+host-suffix, integralads.com, reject
+host-suffix, adsafeprotected.com, reject
+# --- 1.33 TikTok Ads ---
+host-suffix, ads.tiktok.com, reject
+host-suffix, analytics.tiktok.com, reject
+host-suffix, ct.tiktok.com, reject
+# --- 1.34 Additional Ad Networks ---
+host-suffix, adform.net, reject
+host-suffix, adnxs.com, reject
+host-suffix, adzerk.net, reject
+host-suffix, adtech.com, reject
+host-suffix, adition.com, reject
+host-suffix, adzerk.com, reject
+# ┌──────────────────────────────────────┐
+# │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
+# └──────────────────────────────────────┘
+# --- 2.1 Attribution / Mobile Measurement ---
+host-suffix, adjust.com, reject
+host-suffix, adjust.io, reject
+host-suffix, appsflyer.com, reject
+host-suffix, kochava.com, reject
+host-suffix, singular.net, reject
+host-suffix, tenjin.com, reject
+host-suffix, airbridge.io, reject
+# --- 2.2 Analytics Platforms ---
+host-suffix, mixpanel.com, reject
+host-suffix, amplitude.com, reject
+host-suffix, segment.io, reject
+host-suffix, segment.com, reject
+host-suffix, heapanalytics.com, reject
+host-suffix, fullstory.com, reject
+host-suffix, hotjar.com, reject
+host-suffix, mouseflow.com, reject
+host-suffix, crazyegg.com, reject
+host-suffix, kissmetrics.com, reject
+# --- 2.3 General Web Tracking ---
+host-suffix, scorecardresearch.com, reject
+host-suffix, omtrdc.net, reject
+host-suffix, demdex.net, reject
+host-suffix, adsrvr.org, reject
+host-suffix, firebase.com, reject
+host-suffix, crashlytics.com, reject
+host-suffix, braze.com, reject
+host-suffix, clevertap.com, reject
+host-suffix, intercom.io, reject
+host-suffix, mookie1.com, reject
+host-suffix, taboola.com, reject
+host-suffix, outbrain.com, reject
+host-suffix, bluekai.com, reject
+host-suffix, everesttech.net, reject
+host-suffix, mathtag.com, reject
+host-suffix, bidswitch.net, reject
+host-suffix, exelator.com, reject
+host-suffix, crwdcntrl.net, reject
+host-suffix, dotomi.com, reject
+host-suffix, serving-sys.com, reject
+host-suffix, eyeota.net, reject
+host-suffix, agkn.com, reject
+host-suffix, rlcdn.com, reject
+host-suffix, turn.com, reject
+host-suffix, rubiconproject.com, reject
+host-suffix, contextweb.com, reject
+host-suffix, spotxchange.com, reject
+# ┌─────────────────────────────────────┐
+# │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
+# └─────────────────────────────────────┘
+host-suffix, adservice.zaloapp.com, reject
+host-keyword, zaloapp.com/ads, reject
+host-suffix, admicro.vn, reject
+host-suffix, adsplay.net, reject
+host-suffix, adtima.vn, reject
+host-suffix, eclick.vn, reject
+host-suffix, novaon.vn, reject
+host-suffix, nativex.vn, reject
+host-suffix, adpia.vn, reject
+host-suffix, ants.vn, reject
+host-suffix, accesstrade.vn, reject
+host-suffix, younetmedia.com, reject
+# ┌─────────────────────────────────────┐
+# │  PHẦN 4: POPUP / REDIRECT / SCAM    │
+# └─────────────────────────────────────┘
+host-suffix, popads.net, reject
+host-suffix, popcash.net, reject
+host-suffix, propellerads.com, reject
+host-suffix, propellerclick.com, reject
+host-suffix, trafficjunky.com, reject
+host-suffix, revenuehits.com, reject
+host-suffix, exoclick.com, reject
+host-suffix, clickadu.com, reject
+host-suffix, hilltopads.com, reject
+host-suffix, richpush.com, reject
+host-suffix, pushengage.com, reject
+host-suffix, adsterra.com, reject
+host-suffix, adsterratools.com, reject
+host-suffix, trafficstars.com, reject
+host-suffix, juicyads.com, reject
+host-suffix, trafficfactory.biz, reject
+host-suffix, clickaine.com, reject
+host-suffix, evadav.com, reject
+host-suffix, galaksion.com, reject
+host-suffix, onclickmx.com, reject
+# ┌──────────────────────────────────────────────────────────┐
+# │  PHẦN 5: CHẶN WEB CÁ ĐỘ / CỜ BẠC / CASINO (GAMBLING)  │
+# └──────────────────────────────────────────────────────────┘
+# --- 5.1 Cá độ / Cờ bạc phổ biến tại Việt Nam ---
+host-suffix, 1xbet.com, reject
+host-suffix, 1xbet.vn, reject
+host-suffix, fun88.com, reject
+host-suffix, fun88asia.com, reject
+host-suffix, fun88vietnam.com, reject
+host-suffix, w88.com, reject
+host-suffix, w88vn.com, reject
+host-suffix, w88top.com, reject
+host-suffix, 188bet.com, reject
+host-suffix, 188betasia.com, reject
+host-suffix, m88.com, reject
+host-suffix, m88a.com, reject
+host-suffix, m88vn.com, reject
+host-suffix, bk8.com, reject
+host-suffix, bk8vn.com, reject
+host-suffix, fb88.com, reject
+host-suffix, fb88vn.com, reject
+host-suffix, sv388.com, reject
+host-suffix, sv388vn.com, reject
+host-suffix, sin88.com, reject
+host-suffix, sin88.club, reject
+host-suffix, hi88.com, reject
+host-suffix, hi88.bio, reject
+host-suffix, hi88.club, reject
+host-suffix, new88.com, reject
+host-suffix, new88.club, reject
+host-suffix, new88vn.com, reject
+host-suffix, 8xbet.com, reject
+host-suffix, 8xbet.gg, reject
+host-suffix, jun88.com, reject
+host-suffix, jun88.bio, reject
+host-suffix, jun88.club, reject
+host-suffix, vn88.com, reject
+host-suffix, vn88.club, reject
+host-suffix, 789bet.com, reject
+host-suffix, 789bet.gg, reject
+host-suffix, 789bet.club, reject
+host-suffix, kubet.com, reject
+host-suffix, kubet.io, reject
+host-suffix, kubet.club, reject
+host-suffix, sobet.io, reject
+host-suffix, sunwin.com, reject
+host-suffix, sunwin.club, reject
+host-suffix, sunwin.gg, reject
+host-suffix, iwin.com, reject
+host-suffix, iwin.club, reject
+host-suffix, iwin68.club, reject
+host-suffix, go88.com, reject
+host-suffix, go88.club, reject
+host-suffix, go88.gg, reject
+host-suffix, rikvip.com, reject
+host-suffix, rikvip.club, reject
+host-suffix, rik.vip, reject
+host-suffix, 8day.com, reject
+host-suffix, 8day.club, reject
+host-suffix, ta88.com, reject
+host-suffix, ta88.club, reject
+host-suffix, tf88.com, reject
+host-suffix, shbet.com, reject
+host-suffix, shbet.club, reject
+host-suffix, luck8.com, reject
+host-suffix, luck8.club, reject
+host-suffix, mb66.com, reject
+host-suffix, mb66.club, reject
+host-suffix, five88.com, reject
+host-suffix, five88.gg, reject
+host-suffix, zbet.com, reject
+host-suffix, zbet.club, reject
+host-suffix, oxbet.com, reject
+host-suffix, oxbet.club, reject
+host-suffix, ae888.com, reject
+host-suffix, ae888.club, reject
+host-suffix, taya365.com, reject
+host-suffix, taya365.club, reject
+host-suffix, 66bet.com, reject
+host-suffix, 77bet.com, reject
+host-suffix, 33win.com, reject
+host-suffix, 33win.club, reject
+host-suffix, f8bet.com, reject
+host-suffix, f8bet.club, reject
+host-suffix, bet88.com, reject
+host-suffix, bet88.club, reject
+host-suffix, qh88.com, reject
+host-suffix, qh88.club, reject
+host-suffix, 78win.com, reject
+host-suffix, 78win.club, reject
+host-suffix, abc8.com, reject
+host-suffix, abc8.club, reject
+host-suffix, debet.com, reject
+host-suffix, debet.club, reject
+host-suffix, mu88.com, reject
+host-suffix, mu88.club, reject
+host-suffix, gg8.com, reject
+host-suffix, gg8.club, reject
+host-suffix, b52.com, reject
+host-suffix, b52.club, reject
+host-suffix, uy88.com, reject
+host-suffix, top88.com, reject
+host-suffix, top88.club, reject
+host-suffix, betvisa.com, reject
+host-suffix, betvisa.vn, reject
+host-suffix, bong88.com, reject
+host-suffix, bong88.net, reject
+# --- 5.2 Trang cá độ quốc tế ---
+host-suffix, bet365.com, reject
+host-suffix, 22bet.com, reject
+host-suffix, mostbet.com, reject
+host-suffix, melbet.com, reject
+host-suffix, stake.com, reject
+host-suffix, 1win.com, reject
+host-suffix, betwinner.com, reject
+host-suffix, parimatch.com, reject
+host-suffix, pin-up.com, reject
+host-suffix, linebet.com, reject
+host-suffix, megapari.com, reject
+host-suffix, betway.com, reject
+host-suffix, dafabet.com, reject
+host-suffix, sbobet.com, reject
+host-suffix, 12bet.com, reject
+host-suffix, 10bet.com, reject
+host-suffix, betfair.com, reject
+host-suffix, 888casino.com, reject
+host-suffix, unibet.com, reject
+host-suffix, leovegas.com, reject
+host-suffix, vulkanvegas.com, reject
+host-suffix, vulkanbet.com, reject
+host-suffix, bcgame.com, reject
+# --- 5.3 Keyword chặn cá độ phổ biến ---
+host-keyword, 1xbet, reject
+host-keyword, fun88, reject
+host-keyword, w88vn, reject
+host-keyword, 8xbet, reject
+host-keyword, jun88, reject
+host-keyword, 789bet, reject
+host-keyword, kubet, reject
+host-keyword, sunwin, reject
+host-keyword, go88, reject
+host-keyword, new88, reject
+host-keyword, hi88, reject
+host-keyword, sin88, reject
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 6: AI SERVICES ROUTING (PROXY)                │
+# │  Nguồn: tatarinovms/ShadowRocketSimpleConfig         │
+# └──────────────────────────────────────────────────────┘
+# --- 6.1 OpenAI / ChatGPT ---
+host-suffix, openai.com, proxy
+host-suffix, chatgpt.com, proxy
+host-suffix, oaistatic.com, proxy
+host-suffix, oaiusercontent.com, proxy
+host-suffix, auth0.openai.com, proxy
+host-suffix, chat.openai.com.cdn.cloudflare.net, proxy
+host-keyword, openai, proxy
+# --- 6.2 Anthropic / Claude ---
+host-suffix, claude.ai, proxy
+host-suffix, anthropic.com, proxy
+# --- 6.3 Google AI ---
+host-suffix, gemini.google.com, proxy
+host-suffix, bard.google.com, proxy
+host-suffix, makersuite.google.com, proxy
+host-suffix, generativelanguage.googleapis.com, proxy
+host-suffix, aistudio.google.com, proxy
+host-suffix, deepmind.google, proxy
+# --- 6.4 Microsoft Copilot ---
+host-suffix, copilot.microsoft.com, proxy
+host-suffix, sydney.bing.com, proxy
+host-suffix, edgeservices.bing.com, proxy
+# --- 6.5 Other AI Services ---
+host-suffix, midjourney.com, proxy
+host-suffix, stability.ai, proxy
+host-suffix, perplexity.ai, proxy
+host-suffix, huggingface.co, proxy
+host-suffix, poe.com, proxy
+host-suffix, character.ai, proxy
+host-suffix, replicate.com, proxy
+host-suffix, runway.com, proxy
+host-suffix, suno.ai, proxy
+host-suffix, udio.com, proxy
+host-suffix, cursor.sh, proxy
+host-suffix, v0.dev, proxy
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU              │
+# │  Nguồn: GMOogway + fmz200/wool_scripts               │
+# └──────────────────────────────────────────────────────┘
+# --- 7.1 Bổ sung Ad Networks ---
+host-suffix, ads-twitter.com, reject
+host-suffix, advertising.com, reject
+host-suffix, liadm.com, reject
+host-suffix, branch.io, reject
+host-suffix, app.link, reject
+host-suffix, go.link, reject
+host-suffix, onelink.me, reject
+host-suffix, app.adjust.com, reject
+host-suffix, s.adjust.com, reject
+host-suffix, impression.link, reject
+host-suffix, metric.gstatic.com, reject
+host-suffix, pagead.l.doubleclick.net, reject
+host-suffix, adx.g.doubleclick.net, reject
+# --- 7.2 Quảng cáo ứng dụng Trung Quốc ---
+host-suffix, cm.bilibili.com, reject
+host-suffix, data.bilibili.com, reject
+host-suffix, zhihu-web-analytics.zhihu.com, reject
+host-suffix, sugar.zhihu.com, reject
+host-suffix, 118.etao.com, reject
+host-suffix, adash.m.taobao.com, reject
+host-suffix, sclick.net, reject
+host-suffix, re.taobao.com, reject
+host-suffix, sdk.m.amap.com, reject
+host-suffix, acs.m.taobao.com, reject
+# --- 7.3 Phishing / Malware / Crypto Scam ---
+host-keyword, phishing, reject
+host-keyword, malware, reject
+host-suffix, coinhive.com, reject
+host-suffix, coin-hive.com, reject
+host-suffix, authedmine.com, reject
+host-suffix, cryptoloot.pro, reject
+host-suffix, crypto-loot.com, reject
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 8: CHẶN TELEMETRY & TRACKING HỆ THỐNG         │
+# │  Nguồn: Johnshall/p-w-p                              │
+# └──────────────────────────────────────────────────────┘
+# --- 8.1 Microsoft Telemetry ---
+host-suffix, data.microsoft.com, reject
+host-suffix, telemetry.microsoft.com, reject
+host-suffix, settings-win.data.microsoft.com, reject
+host-suffix, vortex.data.microsoft.com, reject
+host-suffix, watson.telemetry.microsoft.com, reject
+host-suffix, events.data.microsoft.com, reject
+# --- 8.2 Apple Analytics ---
+host-suffix, metrics.icloud.com, reject
+host-suffix, metrics.mzstatic.com, reject
+host-suffix, supportmetrics.apple.com, reject
+host-suffix, books-analytics-events.apple.com, reject
+# --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
+host-suffix, tracking.miui.com, reject
+host-suffix, data.mistat.xiaomi.com, reject
+host-suffix, tracking.rus.miui.com, reject
+host-suffix, logservice.hicloud.com, reject
+host-suffix, metrics.data.hicloud.com, reject
+host-suffix, samsungads.com, reject
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │
+# │  Nguồn: tatarinovms/ShadowRocketSimpleConfig          │
+# └──────────────────────────────────────────────────────┘
+# --- 9.1 PlayStation Network ---
+host-suffix, playstation.com, proxy
+host-suffix, playstation.net, proxy
+host-suffix, sonyentertainmentnetwork.com, proxy
+# --- 9.2 Xbox / Microsoft Gaming ---
+host-suffix, xbox.com, proxy
+host-suffix, xboxlive.com, proxy
+# --- 9.3 Steam ---
+host-suffix, steampowered.com, proxy
+host-suffix, steamcommunity.com, proxy
+host-suffix, steamstatic.com, proxy
+# --- 9.4 Nintendo ---
+host-suffix, nintendo.com, proxy
+host-suffix, nintendo.net, proxy
+# --- 9.5 Epic Games ---
+host-suffix, epicgames.com, proxy
+host-suffix, unrealengine.com, proxy
 
 # YouTube Ad Block
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200

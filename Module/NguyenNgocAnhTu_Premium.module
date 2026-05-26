@@ -17,6 +17,10 @@ dns-server = https://dns.google/dns-query, https://cloudflare-dns.com/dns-query,
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
 
+# === BLOCK WEBRTC LEAK ===
+DOMAIN-KEYWORD,stun,REJECT
+DOMAIN-KEYWORD,turn,REJECT
+
 # === SPOTIFY ADS ===
 DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-SUFFIX,audio4-ak-spotify-com.akamaized.net,REJECT
@@ -215,6 +219,14 @@ DOMAIN-SUFFIX,adsafeprotected.com,REJECT
 DOMAIN-SUFFIX,ads.tiktok.com,REJECT
 DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
 DOMAIN-SUFFIX,ct.tiktok.com,REJECT
+
+# --- 1.34 Additional Ad Networks ---
+DOMAIN-SUFFIX,adform.net,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,adzerk.net,REJECT
+DOMAIN-SUFFIX,adtech.com,REJECT
+DOMAIN-SUFFIX,adition.com,REJECT
+DOMAIN-SUFFIX,adzerk.com,REJECT
 
 # ┌──────────────────────────────────────┐
 # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │

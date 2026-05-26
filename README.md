@@ -4,7 +4,7 @@
 <!-- ✦                    HEADER — TIÊU ĐỀ CHÍNH                     ✦ -->
 <!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=320&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=68&fontColor=c9a84c&animation=fadeIn&fontAlignY=20&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2037%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=44&descSize=18&descColor=e8d5b0&stroke=c9a84c&strokeWidth=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=320&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=68&fontColor=c9a84c&animation=fadeIn&fontAlignY=20&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2067%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=44&descSize=18&descColor=e8d5b0&stroke=c9a84c&strokeWidth=2"/>
 
 <br>
 
@@ -18,7 +18,7 @@
 
 <!-- ═══════════ TERMINAL HACKING ANIMATION ═══════════ -->
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.0.7...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+37%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.3.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -26,7 +26,7 @@
 <!-- ═══════════ MÔ TẢ NGẮN — GÂY ẤN TƯỢNG MẠNH ═══════════ -->
 
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3500&pause=1200&color=C9A84C&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+37%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3500&pause=1200&color=C9A84C&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+67%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
 </a>
 
 <br>
@@ -49,7 +49,7 @@
 <!-- ✦ ─────────────────── BADGE STATUS ─────────────────── ✦ -->
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.0.7-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.3.0-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
 &nbsp;
@@ -126,7 +126,7 @@
 <table>
 <tr>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/37+-c9a84c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/67+-c9a84c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
 <b>📱 Ứng dụng</b><br>
 <sub>Hỗ trợ & cập nhật</sub>
 </td>
@@ -190,7 +190,7 @@
 | [`05`](#-nguyên-lý-hoạt-động) | 🧠 **Nguyên lý hoạt động** | Hiểu cách module vận hành |
 | [`06`](#-chọn-ứng-dụng-proxy) | 📥 **Chọn ứng dụng proxy** | So sánh 7 ứng dụng chi tiết |
 | [`07`](#-cách-sử-dụng--hướng-dẫn-cài-đặt-chi-tiết) | 📖 **Cách sử dụng & Cài đặt** | Từng bước cực kỳ chi tiết |
-| [`08`](#-danh-sách-37-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 37+ ứng dụng** | Tất cả app được hỗ trợ |
+| [`08`](#-danh-sách-67-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 67+ ứng dụng** | Tất cả app được hỗ trợ |
 | [`09`](#-locket-gold-dns--giữ-gold-vĩnh-viễn) | 🔒 **Locket Gold DNS** | Giữ Gold không cần proxy |
 | [`10`](#️-tuỳ-chỉnh-youtube-nâng-cao) | ⚙️ **Tuỳ chỉnh YouTube** | Đổi ngôn ngữ, ẩn nút |
 | [`11`](#-xử-lý-sự-cố--faq) | ❓ **Xử lý sự cố & FAQ** | Gặp lỗi? Xem đây |
@@ -216,7 +216,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+%E2%80%A2+Spotify+%E2%80%A2+Locket+%E2%80%A2+iTunes+%E2%80%A2+v%C3%A0+33%2B+%E1%BB%A9ng+d%E1%BB%A5ng+kh%C3%A1c..." alt="apps" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+%E2%80%A2+Spotify+%E2%80%A2+Locket+%E2%80%A2+iTunes+%E2%80%A2+v%C3%A0+63%2B+%E1%BB%A9ng+d%E1%BB%A5ng+kh%C3%A1c..." alt="apps" />
 
 </div>
 
@@ -307,6 +307,50 @@
 + ✅ Không cần jailbreak hay sideload
 + ✅ Hoạt động với hầu hết ứng dụng
 + ✅ Tương thích iOS 15 → iOS 18+
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+<img src="https://img.shields.io/badge/🛡️_Ultimate_AdBlock-Bảo_Mật_Cao-462670?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+</div>
+
+<br>
+
+```diff
+@@ Ultimate AdBlock — Sạch Sẽ Từng Megabyte @@
+
++ ✅ Chặn đứng >99% Quảng cáo toàn cầu
++ ✅ Xoá sổ Tracking & Analytics ngầm
++ ✅ Cập nhật riêng Quảng Cáo Zalo & TikTok
++ ✅ Lá chắn chặn tên miền Cờ Bạc / Scam
++ ✅ Ngăn chặn theo dõi người dùng đa ứng dụng
++ ✅ Code tối ưu — Không gây sập app mua sắm
++ ✅ Tích hợp DNS Bảo mật (Google, 1.1.1.1)
+```
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+<img src="https://img.shields.io/badge/⚡_AI_&_Gaming_Routing-Vượt_Mọi_Giới_Hạn-2d1b4e?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+</div>
+
+<br>
+
+```diff
+@@ AI & Gaming Routing — Định tuyến thông minh @@
+
++ ✅ Tự động luồn Proxy cho ChatGPT, Claude
++ ✅ Định tuyến tự động Gemini, Midjourney
++ ✅ Giảm Ping Game: PlayStation (PSN)
++ ✅ Tối ưu Xbox Live & Nintendo Switch
++ ✅ Cải thiện kết nối máy chủ Steam, Epic
++ ✅ App Việt Nam vẫn chạy thẳng (Direct) siêu tốc
++ ✅ Không cần bật tắt VPN thủ công phiền phức
 ```
 
 </td>
@@ -434,7 +478,8 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
-| 🏆 | **`v1.0.7`** | `21.05.2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **37+** |
+| 🏆 | **`v1.3.0`** | `27.05.2026` | 🛡️ Ra mắt Ultimate AdBlock & AI Routing • Nâng cấp Egern lên Ultimate • Chặn Zalo/TikTok Ads • Cờ bạc/Scam | **67+** |
+| ⚡ | `v1.0.7` | `21.05.2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **67+** |
 | ⚡ | `v1.0.6` | `19.05.2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
 | 🎵 | `v1.0.4` | `13.05.2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |
 | 🚀 | `v1.0.0` | `09.05.2026` | 🚀 Phát hành đầu tiên — YouTube, Locket, PicsArt và nhiều ứng dụng khác | 26 |
