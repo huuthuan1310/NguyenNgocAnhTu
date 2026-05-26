@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦                    HEADER — TIÊU ĐỀ CHÍNH                     ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a1a,15:1a0a2e,30:2d1b4e,45:462670,60:5b3a8c,75:7b5ea7,90:b8973e,100:c9a84c&height=320&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=68&fontColor=c9a84c&animation=fadeIn&fontAlignY=20&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2067%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=44&descSize=18&descColor=e8d5b0&stroke=c9a84c&strokeWidth=2"/>
 
@@ -10,28 +10,28 @@
 
 <br>
 
-<!-- ═══════════ ORBITRON BRAND TYPING ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=14&duration=4000&pause=1000&color=7B5EA7&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%E2%97%88+UNLOCK+%E2%80%A2+ELEVATE+%E2%80%A2+EXPERIENCE+%E2%80%A2+PREMIUM+%E2%97%88" alt="brand" />
 
 <br><br>
 
-<!-- ═══════════ TERMINAL HACKING ANIMATION ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.3.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
 
-<!-- ═══════════ MÔ TẢ NGẮN — GÂY ẤN TƯỢNG MẠNH ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=3500&pause=1200&color=C9A84C&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+67%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=3500&pause=1200&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+67%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
 </a>
 
 <br>
 
-<!-- ═══════════ SNAKE ANIMATION ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
@@ -40,44 +40,44 @@
 
 <br><br>
 
-<!-- ═══════════ GITHUB TROPHY ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <img src="https://github-profile-trophy.vercel.app/?username=ekaznyra&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10" width="90%" alt="trophy"/>
 
 <br><br>
 
-<!-- ✦ ─────────────────── BADGE STATUS ─────────────────── ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.3.0-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.3.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/repo-size/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=%F0%9F%93%A6+DUNG+L%C6%AF%E1%BB%A2NG&color=5b3a8c&labelColor=0d0a1a" alt="size"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/repo-size/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=00F0FF&label=%F0%9F%93%A6+DUNG+L%C6%AF%E1%BB%A2NG&color=FF007F&labelColor=0D1117" alt="size"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%8D%8E_N%E1%BB%80N_T%E1%BA%A2NG-iOS_15+-462670?style=for-the-badge&labelColor=0d0a1a" alt="platform"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%F0%9F%8D%8E_N%E1%BB%80N_T%E1%BA%A2NG-iOS_15+-8A2BE2?style=for-the-badge&labelColor=0D1117" alt="platform"/></a>
 
 <br><br>
 
 <!-- HÀNG 2 — TRẠNG THÁI ĐỘNG -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=%F0%9F%95%90+C%E1%BA%ACP+NH%E1%BA%ACT&color=c9a84c&labelColor=0d0a1a" alt="last-commit"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/github/last-commit/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=00F0FF&label=%F0%9F%95%90+C%E1%BA%ACP+NH%E1%BA%ACT&color=c9a84c&labelColor=0D1117" alt="last-commit"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=c9a84c&label=%E2%AD%90+STARS&color=c9a84c&labelColor=0d0a1a" alt="stars"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/stargazers"><img src="https://img.shields.io/github/stars/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=00F0FF&label=%E2%AD%90+STARS&color=c9a84c&labelColor=0D1117" alt="stars"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=7b5ea7&label=%F0%9F%8D%B4+FORKS&color=7b5ea7&labelColor=0d0a1a" alt="forks"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/network"><img src="https://img.shields.io/github/forks/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=7b5ea7&label=%F0%9F%8D%B4+FORKS&color=7b5ea7&labelColor=0D1117" alt="forks"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=e8d5b0&label=%F0%9F%90%9B+ISSUES&color=462670&labelColor=0d0a1a" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/github/issues/ekaznyra/NguyenNgocAnhTu?style=for-the-badge&logo=github&logoColor=e8d5b0&label=%F0%9F%90%9B+ISSUES&color=462670&labelColor=0D1117" alt="issues"/></a>
 
 <br><br>
 
 <!-- HÀNG 3 — LIÊN KẾT XÃ HỘI -->
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-C%E1%BB%99ng_%C4%90%E1%BB%93ng-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-C%E1%BB%99ng_%C4%90%E1%BB%93ng-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0D1117" alt="facebook"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/%F0%9F%91%A4_T%C3%A1c_Gi%E1%BA%A3-ekaznyra-c9a84c?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="author"/></a>
+<a href="https://github.com/ekaznyra"><img src="https://img.shields.io/badge/%F0%9F%91%A4_T%C3%A1c_Gi%E1%BA%A3-ekaznyra-00F0FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="author"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/%F0%9F%A4%9D_%C4%90%C3%B3ng_G%C3%B3p-Welcome-7b5ea7?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d0a1a" alt="contributing"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/%F0%9F%A4%9D_%C4%90%C3%B3ng_G%C3%B3p-Welcome-FF007F?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0D1117" alt="contributing"/></a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=%F0%9F%91%80+L%C6%AF%E1%BB%A2T+XEM" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0D1117&label=%F0%9F%91%80+L%C6%AF%E1%BB%A2T+XEM" alt="views"/>
 
 <br><br>
 
@@ -86,7 +86,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/%F0%9F%92%B0_MI%E1%BB%84N_PH%C3%8D_TR%E1%BB%8CN_%C4%90%E1%BB%9CI-0d0a1a?style=flat-square&labelColor=7b5ea7" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/%F0%9F%93%B2_1_%E1%BB%A8NG_D%E1%BB%A4NG_PROXY-0d0a1a?style=flat-square&labelColor=5b3a8c" alt=""/>
+<img src="https://img.shields.io/badge/%F0%9F%93%B2_1_%E1%BB%A8NG_D%E1%BB%A4NG_PROXY-0d0a1a?style=flat-square&labelcolor=FF007F" alt=""/>
 &nbsp;
 <img src="https://img.shields.io/badge/%F0%9F%8D%8E_iOS_15+-0d0a1a?style=flat-square&labelColor=462670" alt=""/>
 &nbsp;
@@ -94,7 +94,7 @@
 
 <br><br>
 
-<!-- ═══════════ TECH STACK BADGES ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ### 🛠️ Công nghệ sử dụng
 
@@ -108,12 +108,12 @@
 
 <br>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦               BẢNG THỐNG KÊ NHANH — DASHBOARD                  ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -126,32 +126,32 @@
 <table>
 <tr>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/67+-c9a84c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/67+-c9a84c?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>📱 Ứng dụng</b><br>
 <sub>Hỗ trợ & cập nhật</sub>
 </td>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/8-7b5ea7?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/8-7b5ea7?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>🖥️ Nền tảng</b><br>
 <sub>Proxy hỗ trợ</sub>
 </td>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/$0-462670?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/$0-462670?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>💰 Chi phí</b><br>
 <sub>Module miễn phí</sub>
 </td>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/iOS_15+-5b3a8c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/iOS_15+-5b3a8c?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>🍎 Tương thích</b><br>
 <sub>iPhone & iPad</sub>
 </td>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/∞-c9a84c?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/∞-c9a84c?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>⏰ Thời hạn</b><br>
 <sub>Vĩnh viễn</sub>
 </td>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/100%25-7b5ea7?style=flat-square&labelColor=0d0a1a" alt=""/><br>
+<img src="https://img.shields.io/badge/100%25-7b5ea7?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>🔓 Mã nguồn mở</b><br>
 <sub>Minh bạch</sub>
 </td>
@@ -162,12 +162,12 @@
 
 <br>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦               MỤC LỤC ĐIỀU HƯỚNG                               ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -201,12 +201,12 @@
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              01 — TÍNH NĂNG NỔI BẬT (BẢNG 2 CỘT)             ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -216,7 +216,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+%E2%80%A2+Spotify+%E2%80%A2+Locket+%E2%80%A2+iTunes+%E2%80%A2+v%C3%A0+63%2B+%E1%BB%A9ng+d%E1%BB%A5ng+kh%C3%A1c..." alt="apps" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=650&height=30&lines=YouTube+%E2%80%A2+Spotify+%E2%80%A2+Locket+%E2%80%A2+iTunes+%E2%80%A2+v%C3%A0+63%2B+%E1%BB%A9ng+d%E1%BB%A5ng+kh%C3%A1c..." alt="apps" />
 
 </div>
 
@@ -227,7 +227,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/📺_YouTube-Premium-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/📺_YouTube-Premium-00F0FF?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -248,7 +248,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🎵_Spotify-Premium-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/🎵_Spotify-Premium-FF007F?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -271,7 +271,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🔐_Locket-Gold-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/🔐_Locket-Gold-00F0FF?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -292,7 +292,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🍎_iTunes-250+_Apps-5b3a8c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/🍎_iTunes-250+_Apps-5b3a8c?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -315,7 +315,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/🛡️_Ultimate_AdBlock-Bảo_Mật_Cao-462670?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/🛡️_Ultimate_AdBlock-Bảo_Mật_Cao-8A2BE2?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -336,7 +336,7 @@
 <td width="50%" valign="top">
 
 <div align="center">
-<img src="https://img.shields.io/badge/⚡_AI_&_Gaming_Routing-Vượt_Mọi_Giới_Hạn-2d1b4e?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/⚡_AI_&_Gaming_Routing-Vượt_Mọi_Giới_Hạn-2d1b4e?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -357,12 +357,12 @@
 </tr>
 </table>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              TẠI SAO CHỌN CHÚNG TÔI — CARD 2 CỘT              ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -372,7 +372,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=%F0%9F%92%8E+Tr%E1%BA%A3i+nghi%E1%BB%87m+thu%E1%BA%A7n+khi%E1%BA%BFt+%E2%80%94+Kh%C3%B4ng+tho%E1%BA%A3+hi%E1%BB%87p+v%E1%BB%81+ch%E1%BA%A5t+l%C6%B0%E1%BB%A3ng" alt="why" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=550&height=25&lines=%F0%9F%92%8E+Tr%E1%BA%A3i+nghi%E1%BB%87m+thu%E1%BA%A7n+khi%E1%BA%BFt+%E2%80%94+Kh%C3%B4ng+tho%E1%BA%A3+hi%E1%BB%87p+v%E1%BB%81+ch%E1%BA%A5t+l%C6%B0%E1%BB%A3ng" alt="why" />
 
 </div>
 
@@ -453,12 +453,12 @@
 </tr>
 </table>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              02 — CẬP NHẬT MỚI NHẤT (TIMELINE)                ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -468,7 +468,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%F0%9F%94%84+Module+%C4%91%C6%B0%E1%BB%A3c+c%E1%BA%ADp+nh%E1%BA%ADt+li%C3%AAn+t%E1%BB%A5c+%E2%80%94+Lu%C3%B4n+d%E1%BA%ABn+%C4%91%E1%BA%A7u+xu+h%C6%B0%E1%BB%9Bng" alt="update" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=500&height=25&lines=%F0%9F%94%84+Module+%C4%91%C6%B0%E1%BB%A3c+c%E1%BA%ADp+nh%E1%BA%ADt+li%C3%AAn+t%E1%BB%A5c+%E2%80%94+Lu%C3%B4n+d%E1%BA%ABn+%C4%91%E1%BA%A7u+xu+h%C6%B0%E1%BB%9Bng" alt="update" />
 
 </div>
 
@@ -494,12 +494,12 @@
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              03 — YÊU CẦU TRƯỚC KHI CÀI                       ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -532,12 +532,12 @@
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              04 — NGUYÊN LÝ HOẠT ĐỘNG                         ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -612,12 +612,12 @@
 > Có MITM:        App ──── [🔓 Giải mã] ──── Server    → Proxy đọc & sửa được → ✅ Thành công
 > ```
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              05 — CHỌN ỨNG DỤNG PROXY                         ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -627,7 +627,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=600&height=25&lines=%F0%9F%92%8E+Ng%C6%B0%E1%BB%9Di+m%E1%BB%9Bi+n%C3%AAn+ch%E1%BB%8Dn+Shadowrocket+(%242.99)+%E2%80%94+D%E1%BB%85+nh%E1%BA%A5t+v%C3%A0+ph%E1%BB%95+bi%E1%BA%BFn+nh%E1%BA%A5t" alt="tip" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=600&height=25&lines=%F0%9F%92%8E+Ng%C6%B0%E1%BB%9Di+m%E1%BB%9Bi+n%C3%AAn+ch%E1%BB%8Dn+Shadowrocket+(%242.99)+%E2%80%94+D%E1%BB%85+nh%E1%BA%A5t+v%C3%A0+ph%E1%BB%95+bi%E1%BA%BFn+nh%E1%BA%A5t" alt="tip" />
 
 </div>
 
@@ -718,12 +718,12 @@
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦       06 — CÁCH SỬ DỤNG & HƯỚNG DẪN CÀI ĐẶT CHI TIẾT        ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -746,7 +746,7 @@
 
 <br>
 
-<!-- ═══════════ QUICK INSTALL — 1 CLICK ═══════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -796,7 +796,7 @@ Hoặc tải trực tiếp file ZIP từ trang [Releases](https://github.com/eka
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-00F0FF?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -835,7 +835,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 ---
 
 <div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-FF007F?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -865,7 +865,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 ---
 
 <div align="center">
-<img src="https://img.shields.io/badge/✅_PHẦN_3-KIỂM_TRA_HOẠT_ĐỘNG-462670?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/✅_PHẦN_3-KIỂM_TRA_HOẠT_ĐỘNG-8A2BE2?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -904,7 +904,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/📦_PHẦN_1-CÀI_MODULE-00F0FF?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -925,7 +925,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-7b5ea7?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/🔐_PHẦN_2-CÀI_CHỨNG_CHỈ_MITM-FF007F?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -983,12 +983,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 </details>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              07 — DANH SÁCH 37+ ỨNG DỤNG HỖ TRỢ               ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -998,7 +998,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=C9A84C&center=true&vCenter=true&repeat=true&width=700&height=25&lines=%F0%9F%8E%AC+Gi%E1%BA%A3i+tr%C3%AD+%E2%80%A2+%F0%9F%8E%A8+Ch%E1%BB%89nh+%E1%BA%A3nh+%E2%80%A2+%F0%9F%93%9A+H%E1%BB%8Dc+t%E1%BA%ADp+%E2%80%A2+%F0%9F%A7%98+S%E1%BB%A9c+kho%E1%BA%BB+%E2%80%A2+%F0%9F%8D%8E+%C4%90%E1%BA%B7c+bi%E1%BB%87t" alt="categories" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=500&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=700&height=25&lines=%F0%9F%8E%AC+Gi%E1%BA%A3i+tr%C3%AD+%E2%80%A2+%F0%9F%8E%A8+Ch%E1%BB%89nh+%E1%BA%A3nh+%E2%80%A2+%F0%9F%93%9A+H%E1%BB%8Dc+t%E1%BA%ADp+%E2%80%A2+%F0%9F%A7%98+S%E1%BB%A9c+kho%E1%BA%BB+%E2%80%A2+%F0%9F%8D%8E+%C4%90%E1%BA%B7c+bi%E1%BB%87t" alt="categories" />
 
 </div>
 
@@ -1136,12 +1136,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              08 — LOCKET GOLD DNS                              ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1154,9 +1154,9 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/⚠️_VẤN_ĐỀ-Tắt_proxy_=_Mất_Gold-5b3a8c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/⚠️_VẤN_ĐỀ-Tắt_proxy_=_Mất_Gold-5b3a8c?style=for-the-badge&labelColor=0D1117" alt=""/>
 &nbsp;
-<img src="https://img.shields.io/badge/✅_GIẢI_PHÁP-DNS_Profile_chặn_kiểm_tra-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt=""/>
+<img src="https://img.shields.io/badge/✅_GIẢI_PHÁP-DNS_Profile_chặn_kiểm_tra-00F0FF?style=for-the-badge&labelColor=0D1117" alt=""/>
 </div>
 
 <br>
@@ -1223,12 +1223,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 | 📈 | **AppsFlyer** | Theo dõi nguồn cài đặt | `launches.appsflyer.com` | 6 |
 | 📉 | **Mixpanel** | Phân tích dữ liệu sử dụng | `api.mixpanel.com` | 4 |
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              09 — TUỲ CHỈNH YOUTUBE NÂNG CAO                   ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1316,12 +1316,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 </details>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              10 — XỬ LÝ SỰ CỐ & FAQ                           ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1331,7 +1331,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=500&height=25&lines=G%E1%BA%B7p+l%E1%BB%97i%3F+%C4%90%E1%BB%ABng+lo%2C+xem+h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+chi+ti%E1%BA%BFt+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%F0%9F%91%87" alt="faq" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=500&height=25&lines=G%E1%BA%B7p+l%E1%BB%97i%3F+%C4%90%E1%BB%ABng+lo%2C+xem+h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+chi+ti%E1%BA%BFt+b%C3%AAn+d%C6%B0%E1%BB%9Bi+%F0%9F%91%87" alt="faq" />
 
 </div>
 
@@ -1430,12 +1430,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 | ⏰ | Module có hết hạn không? | **Không.** Miễn phí vĩnh viễn, cập nhật liên tục |
 | 🌍 | Cần VPN nước ngoài không? | **Không.** Module hoạt động với mọi kết nối mạng |
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              11 — TÁC GIẢ & GHI CÔNG                          ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1465,12 +1465,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 | 🧘 | **[Alex0510](https://github.com/Alex0510)** | Script sức khoẻ | Calm Premium |
 | 📸 | **[89996462](https://github.com/89996462)** | Script camera | Varlens Premium |
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              12 — GIẤY PHÉP                                    ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1484,7 +1484,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/📜_Giấy_phép-GNU_AGPL--3.0-c9a84c?style=for-the-badge&labelColor=0d0a1a" alt="license"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/📜_Giấy_phép-GNU_AGPL--3.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 
 </div>
 
@@ -1498,12 +1498,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 > - Nếu bạn thấy ứng dụng hữu ích, hãy **ủng hộ nhà phát triển** bằng cách mua gói Premium chính thức.
 > - Module có thể **ngừng hoạt động** bất cứ lúc nào nếu nhà phát triển thay đổi API.
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              13 — ĐƯỜNG DẪN HỖ TRỢ                            ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1530,12 +1530,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              15 — CỘNG ĐỒNG & ĐÓNG GÓP                        ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1545,7 +1545,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=C9A84C&center=true&vCenter=true&repeat=true&width=550&height=25&lines=%E2%9C%A8+M%E1%BB%8Di+%C4%91%C3%B3ng+g%C3%B3p+%C4%91%E1%BB%81u+%C4%91%C6%B0%E1%BB%A3c+tr%C3%A2n+tr%E1%BB%8Dng+%E2%80%94+C%C3%B9ng+x%C3%A2y+d%E1%BB%B1ng+c%E1%BB%99ng+%C4%91%E1%BB%93ng+m%E1%BA%A1nh+m%E1%BA%BD!" alt="community" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=550&height=25&lines=%E2%9C%A8+M%E1%BB%8Di+%C4%91%C3%B3ng+g%C3%B3p+%C4%91%E1%BB%81u+%C4%91%C6%B0%E1%BB%A3c+tr%C3%A2n+tr%E1%BB%8Dng+%E2%80%94+C%C3%B9ng+x%C3%A2y+d%E1%BB%B1ng+c%E1%BB%99ng+%C4%91%E1%BB%93ng+m%E1%BA%A1nh+m%E1%BA%BD!" alt="community" />
 
 </div>
 
@@ -1571,12 +1571,12 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 </div>
 
-<!-- 💎 ─────────────────────────────────────────────────────── 💎 -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦                          FOOTER                                ✦ -->
-<!-- ✦ ═══════════════════════════════════════════════════════════════ ✦ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
@@ -1618,23 +1618,23 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <br><br>
 
 <!-- SOCIAL BADGES -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%E2%AD%90_Star_Repo_N%C3%A0y-c9a84c?style=for-the-badge&logo=github&logoColor=0d0a1a&labelColor=0d0a1a" alt="star"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu"><img src="https://img.shields.io/badge/%E2%AD%90_Star_Repo_N%C3%A0y-00F0FF?style=for-the-badge&logo=github&logoColor=0d0a1a&labelColor=0D1117" alt="star"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/%F0%9F%8D%B4_Fork_Repo-7b5ea7?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0a1a" alt="fork"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/fork"><img src="https://img.shields.io/badge/%F0%9F%8D%B4_Fork_Repo-FF007F?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="fork"/></a>
 &nbsp;
-<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0d0a1a" alt="facebook"/></a>
+<a href="https://www.facebook.com/NguyenNgocAnhTu.VN"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Facebook-5b3a8c?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0D1117" alt="facebook"/></a>
 &nbsp;
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_B%C3%A1o_L%E1%BB%97i-462670?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0a1a" alt="issues"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/issues"><img src="https://img.shields.io/badge/%F0%9F%90%9B_B%C3%A1o_L%E1%BB%97i-8A2BE2?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="issues"/></a>
 
 <br><br>
 
 <!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0d0a1a&label=%F0%9F%91%80+L%C6%AF%E1%BB%A2T+XEM" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=ekaznyra-NguyenNgocAnhTu&style=for-the-badge&color=7b5ea7&labelColor=0D1117&label=%F0%9F%91%80+L%C6%AF%E1%BB%A2T+XEM" alt="views"/>
 
 <br><br>
 
 <!-- ANIMATED THANK YOU -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=4000&pause=1500&color=C9A84C&center=true&vCenter=true&repeat=true&width=650&height=40&lines=%F0%9F%99%8F+C%E1%BA%A2M+%C6%A0N+B%E1%BA%A0N+%C4%90%C3%83+GH%C3%89+TH%C4%82M!;%E2%AD%90+%C4%90%E1%BB%AANG+QU%C3%8AN+NH%E1%BA%A4N+STAR+N%E1%BA%BEU+TH%E1%BA%A4Y+H%E1%BB%AEU+%C3%8DCH!;%F0%9F%92%8E+MADE+WITH+LOVE+IN+VIETNAM+%F0%9F%87%BB%F0%9F%87%B3" alt="thanks" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=4000&pause=1500&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=650&height=40&lines=%F0%9F%99%8F+C%E1%BA%A2M+%C6%A0N+B%E1%BA%A0N+%C4%90%C3%83+GH%C3%89+TH%C4%82M!;%E2%AD%90+%C4%90%E1%BB%AANG+QU%C3%8AN+NH%E1%BA%A4N+STAR+N%E1%BA%BEU+TH%E1%BA%A4Y+H%E1%BB%AEU+%C3%8DCH!;%F0%9F%92%8E+MADE+WITH+LOVE+IN+VIETNAM+%F0%9F%87%BB%F0%9F%87%B3" alt="thanks" />
 
 <br><br>
 
