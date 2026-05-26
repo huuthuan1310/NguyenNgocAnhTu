@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-<!-- ✦                    HEADER — TIÊU ĐỀ CHÍNH                     ✦ -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<!-- HEADER -->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0D1117,1A0B2E,8A2BE2,FF007F,00F0FF&height=320&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=80&fontColor=FFFFFF&animation=twinkling&fontAlignY=30&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2067%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=52&descSize=22&descColor=00F0FF&stroke=00F0FF&strokeWidth=2"/>
 
