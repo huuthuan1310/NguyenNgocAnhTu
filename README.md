@@ -2,7 +2,7 @@
 
 <!-- HEADER -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0D1117,1A0B2E,8A2BE2,FF007F,00F0FF&height=320&section=header&text=%E2%9A%A1%20PREMIUM%20UNLOCKER&fontSize=80&fontColor=FFFFFF&animation=twinkling&fontAlignY=30&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2067%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=52&descSize=22&descColor=00F0FF&stroke=00F0FF&strokeWidth=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:20003B&height=320&section=header&text=%20%E2%9A%A1%20PREMIUM%20UNLOCKER%20&fontSize=60&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2067%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=55&descSize=20&descColor=00F0FF&stroke=00F0FF&strokeWidth=2"/>
 
 <br>
 
@@ -169,7 +169,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%93%8B%20M%E1%BB%A4C%20L%E1%BB%A4C%20%C4%90I%E1%BB%80U%20H%C6%AF%E1%BB%9ANG&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%93%8B%20M%E1%BB%A4C%20L%E1%BB%A4C%20%C4%90I%E1%BB%80U%20H%C6%AF%E1%BB%9ANG&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 📋 Mục Lục Điều Hướng ── ✦
 
@@ -208,7 +208,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%E2%9C%A8%20T%C3%8DNH%20N%C4%82NG%20N%E1%BB%94I%20B%E1%BA%ACT&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%E2%9C%A8%20T%C3%8DNH%20N%C4%82NG%20N%E1%BB%94I%20B%E1%BA%ACT&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✨ Tính năng nổi bật
 
@@ -364,7 +364,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%94%A5%20T%E1%BA%A0I%20SAO%20CH%E1%BB%8CN%20PREMIUM%20UNLOCKER&fontSize=18&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%94%A5%20T%E1%BA%A0I%20SAO%20CH%E1%BB%8CN%20PREMIUM%20UNLOCKER&fontSize=18&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🔥 Tại sao chọn Premium Unlocker? ── ✦
 
@@ -460,7 +460,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%86%95%20C%E1%BA%ACP%20NH%E1%BA%ACT%20M%E1%BB%9AI%20NH%E1%BA%A4T&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%86%95%20C%E1%BA%ACP%20NH%E1%BA%ACT%20M%E1%BB%9AI%20NH%E1%BA%A4T&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🆕 Cập nhật mới nhất ── ✦
 
@@ -501,7 +501,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%9B%A0%EF%B8%8F%20Y%C3%8AU%20C%E1%BA%A6U%20TR%C6%AF%E1%BB%9AC%20KHI%20C%C3%80I&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%9B%A0%EF%B8%8F%20Y%C3%8AU%20C%E1%BA%A6U%20TR%C6%AF%E1%BB%9AC%20KHI%20C%C3%80I&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🛠️ Yêu cầu trước khi cài ── ✦
 
@@ -539,7 +539,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%A7%A0%20NGUY%C3%8AN%20L%C3%9D%20HO%E1%BA%A0T%20%C4%90%E1%BB%98NG&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%A7%A0%20NGUY%C3%8AN%20L%C3%9D%20HO%E1%BA%A0T%20%C4%90%E1%BB%98NG&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🧠 Nguyên lý hoạt động ── ✦
 
@@ -619,7 +619,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%93%A5%20CH%E1%BB%8CN%20%E1%BB%A8NG%20D%E1%BB%A4NG%20PROXY&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%93%A5%20CH%E1%BB%8CN%20%E1%BB%A8NG%20D%E1%BB%A4NG%20PROXY&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 📥 Chọn ứng dụng proxy ── ✦
 
@@ -725,7 +725,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%93%96%20H%C6%AF%E1%BB%9ANG%20D%E1%BA%AAN%20C%C3%80I%20%C4%90%E1%BA%B6T%20CHI%20TI%E1%BA%BET&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%93%96%20H%C6%AF%E1%BB%9ANG%20D%E1%BA%AAN%20C%C3%80I%20%C4%90%E1%BA%B6T%20CHI%20TI%E1%BA%BET&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 📖 Cách sử dụng & Hướng dẫn cài đặt chi tiết ── ✦
 
@@ -992,7 +992,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 ## ✦ ── 📱 Danh sách 37+ ứng dụng hỗ trợ ── ✦
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%93%B1%2037%2B%20%E1%BB%A8NG%20D%E1%BB%A4NG%20H%E1%BB%96%20TR%E1%BB%A2&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%93%B1%2037%2B%20%E1%BB%A8NG%20D%E1%BB%A4NG%20H%E1%BB%96%20TR%E1%BB%A2&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 <br>
 
@@ -1143,7 +1143,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%94%92%20LOCKET%20GOLD%20DNS&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%94%92%20LOCKET%20GOLD%20DNS&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🔒 Locket Gold DNS — Giữ Gold vĩnh viễn ── ✦
 
@@ -1230,7 +1230,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%E2%9A%99%EF%B8%8F%20TU%E1%BB%B2%20CH%E1%BB%88NH%20YOUTUBE%20N%C3%82NG%20CAO&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%E2%9A%99%EF%B8%8F%20TU%E1%BB%B2%20CH%E1%BB%88NH%20YOUTUBE%20N%C3%82NG%20CAO&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── ⚙️ Tuỳ chỉnh YouTube nâng cao ── ✦
 
@@ -1323,7 +1323,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%E2%9D%93%20X%E1%BB%AC%20L%C3%9D%20S%E1%BB%B0%20C%E1%BB%90%20V%C3%80%20FAQ&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%E2%9D%93%20X%E1%BB%AC%20L%C3%9D%20S%E1%BB%B0%20C%E1%BB%90%20V%C3%80%20FAQ&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── ❓ Xử lý sự cố & FAQ ── ✦
 
@@ -1437,7 +1437,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%91%91%20T%C3%81C%20GI%E1%BA%A2%20V%C3%80%20GHI%20C%C3%94NG&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%91%91%20T%C3%81C%20GI%E1%BA%A2%20V%C3%80%20GHI%20C%C3%94NG&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 👑 Tác giả & Ghi công ── ✦
 
@@ -1472,7 +1472,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%E2%9A%96%EF%B8%8F%20GI%E1%BA%A4Y%20PH%C3%89P&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%E2%9A%96%EF%B8%8F%20GI%E1%BA%A4Y%20PH%C3%89P&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── ⚖️ Giấy phép ── ✦
 
@@ -1505,7 +1505,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%94%97%20%C4%90%C6%AF%E1%BB%9CNG%20D%E1%BA%AAN%20H%E1%BB%96%20TR%E1%BB%A2&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%94%97%20%C4%90%C6%AF%E1%BB%9CNG%20D%E1%BA%AAN%20H%E1%BB%96%20TR%E1%BB%A2&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🔗 Đường dẫn hỗ trợ ── ✦
 
@@ -1537,7 +1537,7 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0D1117,462670,FF007F&height=45&section=header&text=%F0%9F%A4%9D%20C%E1%BB%98NG%20%C4%90%E1%BB%92NG%20V%C3%80%20%C4%90%C3%93NG%20G%C3%93P&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%A4%9D%20C%E1%BB%98NG%20%C4%90%E1%BB%92NG%20V%C3%80%20%C4%90%C3%93NG%20G%C3%93P&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 ## ✦ ── 🤝 Cộng đồng & Đóng góp ── ✦
 
