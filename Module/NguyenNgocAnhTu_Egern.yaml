@@ -2015,20 +2015,24 @@ rules:
   - domain_suffix:
       match: "events.data.microsoft.com"
       policy: REJECT
-  # --- 8.2 Apple Analytics ---
-  - domain_suffix:
-      match: "metrics.icloud.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "metrics.mzstatic.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "supportmetrics.apple.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "books-analytics-events.apple.com"
-      policy: REJECT
-  # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
+  # --- 8.2 Apple Analytics & Privacy ---
+  - domain_suffix: metrics.icloud.com
+    policy: REJECT
+  - domain_suffix: metrics.mzstatic.com
+    policy: REJECT
+  - domain_suffix: supportmetrics.apple.com
+    policy: REJECT
+  - domain_suffix: books-analytics-events.apple.com
+    policy: REJECT
+  - domain_suffix: xp.apple.com
+    policy: REJECT
+  - domain_suffix: idiag.tq.apple.com
+    policy: REJECT
+  - domain_suffix: iphonesubmissions.apple.com
+    policy: REJECT
+  - domain_suffix: radarsubmissions.apple.com
+    policy: REJECT
+# --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
   - domain_suffix:
       match: "tracking.miui.com"
       policy: REJECT
@@ -2092,7 +2096,6 @@ rules:
   - domain_suffix:
       match: "unrealengine.com"
       policy: Gaming group
-
 
 url_rewrites:
   # YouTube Ads Block

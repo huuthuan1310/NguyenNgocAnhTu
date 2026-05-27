@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.3.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.5.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.3.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.5.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -476,7 +476,8 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
-| 🏆 | **`v1.3.0`** | `27.05.2026` | 🛡️ Ra mắt Ultimate AdBlock & AI Routing • Nâng cấp Egern lên Ultimate • Chặn Zalo/TikTok Ads • Cờ bạc/Scam | **67+** |
+| 🏆 | **`v1.5.0`** | `27.05.2026` | 🚀 Tối ưu Network (LAN, Captive Portal) • Bổ sung Apple Privacy & Tracking chặn theo dõi • Cải thiện RAM và Pin cho iOS • Sửa lỗi xung đột STUN/TURN | **67+** |
+| 🛡️ | `v1.3.0` | `27.05.2026` | 🛡️ Ra mắt Ultimate AdBlock & AI Routing • Nâng cấp Egern lên Ultimate • Chặn Zalo/TikTok Ads • Cờ bạc/Scam | **67+** |
 | ⚡ | `v1.0.7` | `21.05.2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **67+** |
 | ⚡ | `v1.0.6` | `19.05.2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
 | 🎵 | `v1.0.4` | `13.05.2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |

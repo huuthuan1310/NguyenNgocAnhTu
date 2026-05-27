@@ -1,6 +1,6 @@
 ﻿# ⚡ Anh Tú Premium - Quantumult X
 # 67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
-# v1.2.0 (2026-05-24)
+# v1.5.0 (2026-05-27)
 # https://github.com/ekaznyra/NguyenNgocAnhTu
 
 hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.c*,api.meiease.c*,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,sub.store,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io
@@ -8,8 +8,7 @@ hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
 # === ULTIMATE ADBLOCK & ROUTING ===
 # === BLOCK QUIC FOR YOUTUBE MITM ===
 # === BLOCK WEBRTC LEAK ===
-host-keyword, stun, reject
-host-keyword, turn, reject
+
 # === SPOTIFY ADS ===
 host-suffix, audio-ak-spotify-com.akamaized.net, reject
 host-suffix, audio4-ak-spotify-com.akamaized.net, reject
@@ -174,7 +173,7 @@ host-suffix, adsafeprotected.com, reject
 host-suffix, ads.tiktok.com, reject
 host-suffix, analytics.tiktok.com, reject
 host-suffix, ct.tiktok.com, reject
-host-keyword, bytedance, reject
+
 # --- 1.34 Additional Ad Networks ---
 host-suffix, adform.net, reject
 host-suffix, adnxs.com, reject
@@ -209,11 +208,12 @@ host-suffix, scorecardresearch.com, reject
 host-suffix, omtrdc.net, reject
 host-suffix, demdex.net, reject
 host-suffix, adsrvr.org, reject
-host-suffix, firebase.com, reject
+
 host-suffix, crashlytics.com, reject
 host-suffix, braze.com, reject
 host-suffix, clevertap.com, reject
 host-suffix, intercom.io, reject
+host-suffix, intercom.com, reject
 host-suffix, mookie1.com, reject
 host-suffix, taboola.com, reject
 host-suffix, outbrain.com, reject
@@ -452,11 +452,12 @@ host-suffix, scorecardresearch.com, reject
 host-suffix, omtrdc.net, reject
 host-suffix, demdex.net, reject
 host-suffix, adsrvr.org, reject
-host-suffix, firebase.com, reject
+
 host-suffix, crashlytics.com, reject
 host-suffix, braze.com, reject
 host-suffix, clevertap.com, reject
 host-suffix, intercom.io, reject
+host-suffix, intercom.com, reject
 host-suffix, mookie1.com, reject
 host-suffix, taboola.com, reject
 host-suffix, outbrain.com, reject
@@ -704,8 +705,7 @@ host-suffix, v0.dev, AI group
 host-suffix, ads-twitter.com, reject
 host-suffix, advertising.com, reject
 host-suffix, liadm.com, reject
-host-suffix, branch.io, reject
-host-suffix, app.link, reject
+
 host-suffix, go.link, reject
 host-suffix, onelink.me, reject
 host-suffix, app.adjust.com, reject
@@ -744,11 +744,15 @@ host-suffix, settings-win.data.microsoft.com, reject
 host-suffix, vortex.data.microsoft.com, reject
 host-suffix, watson.telemetry.microsoft.com, reject
 host-suffix, events.data.microsoft.com, reject
-# --- 8.2 Apple Analytics ---
+# --- 8.2 Apple Analytics & Privacy ---
 host-suffix, metrics.icloud.com, reject
 host-suffix, metrics.mzstatic.com, reject
 host-suffix, supportmetrics.apple.com, reject
 host-suffix, books-analytics-events.apple.com, reject
+host-suffix, xp.apple.com, reject
+host-suffix, idiag.tq.apple.com, reject
+host-suffix, iphonesubmissions.apple.com, reject
+host-suffix, radarsubmissions.apple.com, reject
 # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
 host-suffix, tracking.miui.com, reject
 host-suffix, data.mistat.xiaomi.com, reject

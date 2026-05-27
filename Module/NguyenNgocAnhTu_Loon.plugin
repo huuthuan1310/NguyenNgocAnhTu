@@ -1,7 +1,7 @@
 ﻿#!name=⚡ Anh Tú Premium - Loon
 #!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
-#!version=1.2.0
-#!date=2026-05-24
+#!version=1.5.0
+#!date=2026-05-27
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -11,8 +11,7 @@
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
 # === BLOCK WEBRTC LEAK ===
-DOMAIN-KEYWORD,stun,REJECT
-DOMAIN-KEYWORD,turn,REJECT
+
 # === SPOTIFY ADS ===
 DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-SUFFIX,audio4-ak-spotify-com.akamaized.net,REJECT
@@ -177,7 +176,7 @@ DOMAIN-SUFFIX,adsafeprotected.com,REJECT
 DOMAIN-SUFFIX,ads.tiktok.com,REJECT
 DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
 DOMAIN-SUFFIX,ct.tiktok.com,REJECT
-DOMAIN-KEYWORD,bytedance,REJECT
+
 # --- 1.34 Additional Ad Networks ---
 DOMAIN-SUFFIX,adform.net,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
@@ -212,11 +211,12 @@ DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,omtrdc.net,REJECT
 DOMAIN-SUFFIX,demdex.net,REJECT
 DOMAIN-SUFFIX,adsrvr.org,REJECT
-DOMAIN-SUFFIX,firebase.com,REJECT
+
 DOMAIN-SUFFIX,crashlytics.com,REJECT
 DOMAIN-SUFFIX,braze.com,REJECT
 DOMAIN-SUFFIX,clevertap.com,REJECT
 DOMAIN-SUFFIX,intercom.io,REJECT
+DOMAIN-SUFFIX,intercom.com,REJECT
 DOMAIN-SUFFIX,mookie1.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,outbrain.com,REJECT
@@ -455,11 +455,12 @@ DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,omtrdc.net,REJECT
 DOMAIN-SUFFIX,demdex.net,REJECT
 DOMAIN-SUFFIX,adsrvr.org,REJECT
-DOMAIN-SUFFIX,firebase.com,REJECT
+
 DOMAIN-SUFFIX,crashlytics.com,REJECT
 DOMAIN-SUFFIX,braze.com,REJECT
 DOMAIN-SUFFIX,clevertap.com,REJECT
 DOMAIN-SUFFIX,intercom.io,REJECT
+DOMAIN-SUFFIX,intercom.com,REJECT
 DOMAIN-SUFFIX,mookie1.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,outbrain.com,REJECT
@@ -707,8 +708,7 @@ DOMAIN-SUFFIX,v0.dev,AI group
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,advertising.com,REJECT
 DOMAIN-SUFFIX,liadm.com,REJECT
-DOMAIN-SUFFIX,branch.io,REJECT
-DOMAIN-SUFFIX,app.link,REJECT
+
 DOMAIN-SUFFIX,go.link,REJECT
 DOMAIN-SUFFIX,onelink.me,REJECT
 DOMAIN-SUFFIX,app.adjust.com,REJECT
@@ -747,11 +747,15 @@ DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT
 DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
-# --- 8.2 Apple Analytics ---
+# --- 8.2 Apple Analytics & Privacy ---
 DOMAIN-SUFFIX,metrics.icloud.com,REJECT
 DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT
 DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT
 DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT
+DOMAIN-SUFFIX,xp.apple.com,REJECT
+DOMAIN-SUFFIX,idiag.tq.apple.com,REJECT
+DOMAIN-SUFFIX,iphonesubmissions.apple.com,REJECT
+DOMAIN-SUFFIX,radarsubmissions.apple.com,REJECT
 # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
@@ -913,7 +917,6 @@ http-response ^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$ script-path=http
 
 # 📷 Varlens Premium (yfamilys)
 http-response ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js,requires-body=true,timeout=10,tag=Varlens-Res
-
 
 # 📸 Darkroom Pro (yfamilys)
 http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.* script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/darkroom.js,requires-body=true,timeout=10,tag=Darkroom-Res
