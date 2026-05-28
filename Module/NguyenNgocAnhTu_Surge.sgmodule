@@ -1,6 +1,6 @@
 ﻿#!name=⚡ Anh Tú Premium - Surge
 #!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
-#!version=1.5.0
+#!version=1.5.1
 #!date=2026-05-27
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
@@ -193,53 +193,53 @@ DOMAIN-SUFFIX,adzerk.com,REJECT
 # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
 # └──────────────────────────────────────┘
 # --- 2.1 Attribution / Mobile Measurement ---
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,adjust.io,REJECT
-DOMAIN-SUFFIX,appsflyer.com,REJECT
-DOMAIN-SUFFIX,kochava.com,REJECT
-DOMAIN-SUFFIX,singular.net,REJECT
-DOMAIN-SUFFIX,tenjin.com,REJECT
-DOMAIN-SUFFIX,airbridge.io,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT-DROP
+DOMAIN-SUFFIX,adjust.io,REJECT-DROP
+DOMAIN-SUFFIX,appsflyer.com,REJECT-DROP
+DOMAIN-SUFFIX,kochava.com,REJECT-DROP
+DOMAIN-SUFFIX,singular.net,REJECT-DROP
+DOMAIN-SUFFIX,tenjin.com,REJECT-DROP
+DOMAIN-SUFFIX,airbridge.io,REJECT-DROP
 # --- 2.2 Analytics Platforms ---
-DOMAIN-SUFFIX,mixpanel.com,REJECT
-DOMAIN-SUFFIX,amplitude.com,REJECT
-DOMAIN-SUFFIX,segment.io,REJECT
-DOMAIN-SUFFIX,segment.com,REJECT
-DOMAIN-SUFFIX,heapanalytics.com,REJECT
-DOMAIN-SUFFIX,fullstory.com,REJECT
-DOMAIN-SUFFIX,hotjar.com,REJECT
-DOMAIN-SUFFIX,mouseflow.com,REJECT
-DOMAIN-SUFFIX,crazyegg.com,REJECT
-DOMAIN-SUFFIX,kissmetrics.com,REJECT
+DOMAIN-SUFFIX,mixpanel.com,REJECT-DROP
+DOMAIN-SUFFIX,amplitude.com,REJECT-DROP
+DOMAIN-SUFFIX,segment.io,REJECT-DROP
+DOMAIN-SUFFIX,segment.com,REJECT-DROP
+DOMAIN-SUFFIX,heapanalytics.com,REJECT-DROP
+DOMAIN-SUFFIX,fullstory.com,REJECT-DROP
+DOMAIN-SUFFIX,hotjar.com,REJECT-DROP
+DOMAIN-SUFFIX,mouseflow.com,REJECT-DROP
+DOMAIN-SUFFIX,crazyegg.com,REJECT-DROP
+DOMAIN-SUFFIX,kissmetrics.com,REJECT-DROP
 # --- 2.3 General Web Tracking ---
-DOMAIN-SUFFIX,scorecardresearch.com,REJECT
-DOMAIN-SUFFIX,omtrdc.net,REJECT
-DOMAIN-SUFFIX,demdex.net,REJECT
-DOMAIN-SUFFIX,adsrvr.org,REJECT
+DOMAIN-SUFFIX,scorecardresearch.com,REJECT-DROP
+DOMAIN-SUFFIX,omtrdc.net,REJECT-DROP
+DOMAIN-SUFFIX,demdex.net,REJECT-DROP
+DOMAIN-SUFFIX,adsrvr.org,REJECT-DROP
 
-DOMAIN-SUFFIX,crashlytics.com,REJECT
-DOMAIN-SUFFIX,braze.com,REJECT
-DOMAIN-SUFFIX,clevertap.com,REJECT
-DOMAIN-SUFFIX,intercom.io,REJECT
-DOMAIN-SUFFIX,intercom.com,REJECT
-DOMAIN-SUFFIX,mookie1.com,REJECT
-DOMAIN-SUFFIX,taboola.com,REJECT
-DOMAIN-SUFFIX,outbrain.com,REJECT
-DOMAIN-SUFFIX,bluekai.com,REJECT
-DOMAIN-SUFFIX,everesttech.net,REJECT
-DOMAIN-SUFFIX,mathtag.com,REJECT
-DOMAIN-SUFFIX,bidswitch.net,REJECT
-DOMAIN-SUFFIX,exelator.com,REJECT
-DOMAIN-SUFFIX,crwdcntrl.net,REJECT
-DOMAIN-SUFFIX,dotomi.com,REJECT
-DOMAIN-SUFFIX,serving-sys.com,REJECT
-DOMAIN-SUFFIX,eyeota.net,REJECT
-DOMAIN-SUFFIX,agkn.com,REJECT
-DOMAIN-SUFFIX,rlcdn.com,REJECT
-DOMAIN-SUFFIX,turn.com,REJECT
-DOMAIN-SUFFIX,rubiconproject.com,REJECT
-DOMAIN-SUFFIX,contextweb.com,REJECT
-DOMAIN-SUFFIX,spotxchange.com,REJECT
+DOMAIN-SUFFIX,crashlytics.com,REJECT-DROP
+DOMAIN-SUFFIX,braze.com,REJECT-DROP
+DOMAIN-SUFFIX,clevertap.com,REJECT-DROP
+DOMAIN-SUFFIX,intercom.io,REJECT-DROP
+DOMAIN-SUFFIX,intercom.com,REJECT-DROP
+DOMAIN-SUFFIX,mookie1.com,REJECT-DROP
+DOMAIN-SUFFIX,taboola.com,REJECT-DROP
+DOMAIN-SUFFIX,outbrain.com,REJECT-DROP
+DOMAIN-SUFFIX,bluekai.com,REJECT-DROP
+DOMAIN-SUFFIX,everesttech.net,REJECT-DROP
+DOMAIN-SUFFIX,mathtag.com,REJECT-DROP
+DOMAIN-SUFFIX,bidswitch.net,REJECT-DROP
+DOMAIN-SUFFIX,exelator.com,REJECT-DROP
+DOMAIN-SUFFIX,crwdcntrl.net,REJECT-DROP
+DOMAIN-SUFFIX,dotomi.com,REJECT-DROP
+DOMAIN-SUFFIX,serving-sys.com,REJECT-DROP
+DOMAIN-SUFFIX,eyeota.net,REJECT-DROP
+DOMAIN-SUFFIX,agkn.com,REJECT-DROP
+DOMAIN-SUFFIX,rlcdn.com,REJECT-DROP
+DOMAIN-SUFFIX,turn.com,REJECT-DROP
+DOMAIN-SUFFIX,rubiconproject.com,REJECT-DROP
+DOMAIN-SUFFIX,contextweb.com,REJECT-DROP
+DOMAIN-SUFFIX,spotxchange.com,REJECT-DROP
 # ┌─────────────────────────────────────┐
 # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
 # └─────────────────────────────────────┘
@@ -427,40 +427,40 @@ DOMAIN-KEYWORD,sin88,REJECT
 # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig         │
 # └──────────────────────────────────────────────────────┘
 # --- 6.1 OpenAI / ChatGPT ---
-DOMAIN-SUFFIX,openai.com,AI group
-DOMAIN-SUFFIX,chatgpt.com,AI group
-DOMAIN-SUFFIX,oaistatic.com,AI group
-DOMAIN-SUFFIX,oaiusercontent.com,AI group
-DOMAIN-SUFFIX,auth0.openai.com,AI group
-DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net,AI group
-DOMAIN-KEYWORD,openai,AI group
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,auth0.openai.com,PROXY
+DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net,PROXY
+DOMAIN-KEYWORD,openai,PROXY
 # --- 6.2 Anthropic / Claude ---
-DOMAIN-SUFFIX,claude.ai,AI group
-DOMAIN-SUFFIX,anthropic.com,AI group
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,anthropic.com,PROXY
 # --- 6.3 Google AI ---
-DOMAIN-SUFFIX,gemini.google.com,AI group
-DOMAIN-SUFFIX,bard.google.com,AI group
-DOMAIN-SUFFIX,makersuite.google.com,AI group
-DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI group
-DOMAIN-SUFFIX,aistudio.google.com,AI group
-DOMAIN-SUFFIX,deepmind.google,AI group
+DOMAIN-SUFFIX,gemini.google.com,PROXY
+DOMAIN-SUFFIX,bard.google.com,PROXY
+DOMAIN-SUFFIX,makersuite.google.com,PROXY
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY
+DOMAIN-SUFFIX,aistudio.google.com,PROXY
+DOMAIN-SUFFIX,deepmind.google,PROXY
 # --- 6.4 Microsoft Copilot ---
-DOMAIN-SUFFIX,copilot.microsoft.com,AI group
-DOMAIN-SUFFIX,sydney.bing.com,AI group
-DOMAIN-SUFFIX,edgeservices.bing.com,AI group
+DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
+DOMAIN-SUFFIX,sydney.bing.com,PROXY
+DOMAIN-SUFFIX,edgeservices.bing.com,PROXY
 # --- 6.5 Other AI Services ---
-DOMAIN-SUFFIX,midjourney.com,AI group
-DOMAIN-SUFFIX,stability.ai,AI group
-DOMAIN-SUFFIX,perplexity.ai,AI group
-DOMAIN-SUFFIX,huggingface.co,AI group
-DOMAIN-SUFFIX,poe.com,AI group
-DOMAIN-SUFFIX,character.ai,AI group
-DOMAIN-SUFFIX,replicate.com,AI group
-DOMAIN-SUFFIX,runway.com,AI group
-DOMAIN-SUFFIX,suno.ai,AI group
-DOMAIN-SUFFIX,udio.com,AI group
-DOMAIN-SUFFIX,cursor.sh,AI group
-DOMAIN-SUFFIX,v0.dev,AI group
+DOMAIN-SUFFIX,midjourney.com,PROXY
+DOMAIN-SUFFIX,stability.ai,PROXY
+DOMAIN-SUFFIX,perplexity.ai,PROXY
+DOMAIN-SUFFIX,huggingface.co,PROXY
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,character.ai,PROXY
+DOMAIN-SUFFIX,replicate.com,PROXY
+DOMAIN-SUFFIX,runway.com,PROXY
+DOMAIN-SUFFIX,suno.ai,PROXY
+DOMAIN-SUFFIX,udio.com,PROXY
+DOMAIN-SUFFIX,cursor.sh,PROXY
+DOMAIN-SUFFIX,v0.dev,PROXY
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU              │
 # │  Nguồn: GMOogway + fmz200/wool_scripts               │
@@ -502,49 +502,49 @@ DOMAIN-SUFFIX,crypto-loot.com,REJECT
 # │  Nguồn: Johnshall/p-w-p                              │
 # └──────────────────────────────────────────────────────┘
 # --- 8.1 Microsoft Telemetry ---
-DOMAIN-SUFFIX,data.microsoft.com,REJECT
-DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
-DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT
-DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT
-DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT
-DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
+DOMAIN-SUFFIX,data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,events.data.microsoft.com,REJECT-DROP
 # --- 8.2 Apple Analytics & Privacy ---
-DOMAIN-SUFFIX,metrics.icloud.com,REJECT
-DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT
-DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT
-DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT
-DOMAIN-SUFFIX,xp.apple.com,REJECT
-DOMAIN-SUFFIX,idiag.tq.apple.com,REJECT
-DOMAIN-SUFFIX,iphonesubmissions.apple.com,REJECT
-DOMAIN-SUFFIX,radarsubmissions.apple.com,REJECT
+DOMAIN-SUFFIX,metrics.icloud.com,REJECT-DROP
+DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT-DROP
+DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,xp.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,idiag.tq.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,iphonesubmissions.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,radarsubmissions.apple.com,REJECT-DROP
 # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
-DOMAIN-SUFFIX,tracking.miui.com,REJECT
-DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
-DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT
-DOMAIN-SUFFIX,logservice.hicloud.com,REJECT
-DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT
-DOMAIN-SUFFIX,samsungads.com,REJECT
+DOMAIN-SUFFIX,tracking.miui.com,REJECT-DROP
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT-DROP
+DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT-DROP
+DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
+DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
+DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │
 # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig          │
 # └──────────────────────────────────────────────────────┘
 # --- 9.1 PlayStation Network ---
-DOMAIN-SUFFIX,playstation.com,Gaming group
-DOMAIN-SUFFIX,playstation.net,Gaming group
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Gaming group
+DOMAIN-SUFFIX,playstation.com,PROXY
+DOMAIN-SUFFIX,playstation.net,PROXY
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com,PROXY
 # --- 9.2 Xbox / Microsoft Gaming ---
-DOMAIN-SUFFIX,xbox.com,Gaming group
-DOMAIN-SUFFIX,xboxlive.com,Gaming group
+DOMAIN-SUFFIX,xbox.com,PROXY
+DOMAIN-SUFFIX,xboxlive.com,PROXY
 # --- 9.3 Steam ---
-DOMAIN-SUFFIX,steampowered.com,Gaming group
-DOMAIN-SUFFIX,steamcommunity.com,Gaming group
-DOMAIN-SUFFIX,steamstatic.com,Gaming group
+DOMAIN-SUFFIX,steampowered.com,PROXY
+DOMAIN-SUFFIX,steamcommunity.com,PROXY
+DOMAIN-SUFFIX,steamstatic.com,PROXY
 # --- 9.4 Nintendo ---
-DOMAIN-SUFFIX,nintendo.com,Gaming group
-DOMAIN-SUFFIX,nintendo.net,Gaming group
+DOMAIN-SUFFIX,nintendo.com,PROXY
+DOMAIN-SUFFIX,nintendo.net,PROXY
 # --- 9.5 Epic Games ---
-DOMAIN-SUFFIX,epicgames.com,Gaming group
-DOMAIN-SUFFIX,unrealengine.com,Gaming group
+DOMAIN-SUFFIX,epicgames.com,PROXY
+DOMAIN-SUFFIX,unrealengine.com,PROXY
 [Script]
 # 📦 Sub-Store
 Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120
@@ -561,7 +561,6 @@ sp-proto=type=http-response,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-sp
 
 # 🔐 RevenueCat Multi-App (Locket Gold)
 rc-res=type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js,requires-body=true,max-size=-1,timeout=60
-rc-hdr=type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/deleteHeader.js,timeout=60
 rc-backup=type=http-response,pattern=^https:\/\/api\.rc-backup\.com\/.+\/(receipts$|subscribers\/[^/]+$),script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/revenuecat_multi.js,requires-body=true,max-size=-1,timeout=60
 
 # 🎧 SoundCloud Go+ (yfamilys)

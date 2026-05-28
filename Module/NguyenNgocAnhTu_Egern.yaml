@@ -2058,44 +2058,44 @@ rules:
   # --- 9.1 PlayStation Network ---
   - domain_suffix:
       match: "playstation.com"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "playstation.net"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "sonyentertainmentnetwork.com"
-      policy: Gaming group
+      policy: PROXY
   # --- 9.2 Xbox / Microsoft Gaming ---
   - domain_suffix:
       match: "xbox.com"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "xboxlive.com"
-      policy: Gaming group
+      policy: PROXY
   # --- 9.3 Steam ---
   - domain_suffix:
       match: "steampowered.com"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "steamcommunity.com"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "steamstatic.com"
-      policy: Gaming group
+      policy: PROXY
   # --- 9.4 Nintendo ---
   - domain_suffix:
       match: "nintendo.com"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "nintendo.net"
-      policy: Gaming group
+      policy: PROXY
   # --- 9.5 Epic Games ---
   - domain_suffix:
       match: "epicgames.com"
-      policy: Gaming group
+      policy: PROXY
   - domain_suffix:
       match: "unrealengine.com"
-      policy: Gaming group
+      policy: PROXY
 
 url_rewrites:
   # YouTube Ads Block
