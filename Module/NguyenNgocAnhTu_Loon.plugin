@@ -1,4 +1,4 @@
-﻿#!name=⚡ Anh Tú Premium - Loon
+#!name=⚡ Anh Tú Premium - Loon
 #!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
 #!version=1.5.1
 #!date=2026-05-27
@@ -109,7 +109,7 @@ DOMAIN-KEYWORD,tapjoy,REJECT
 # --- 1.15 Pangle (TikTok Ads / ByteDance) ---
 DOMAIN-SUFFIX,pangleglobal.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,byteimg.com,REJECT
+# DOMAIN-SUFFIX,byteimg.com,REJECT # Disabled: blocks TikTok images/videos
 DOMAIN-KEYWORD,pangleglobal,REJECT
 # --- 1.16 Amazon Ads ---
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT

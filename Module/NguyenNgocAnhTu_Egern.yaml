@@ -1,4 +1,4 @@
-﻿name: "ðŸ‘‘ Nguyá»…n Ngá»c Anh TÃº ðŸŒ¸ â• Ultimate Premium (Egern) â•"
+name: "ðŸ‘‘ Nguyá»…n Ngá»c Anh TÃº ðŸŒ¸ â• Ultimate Premium (Egern) â•"
 description: "ðŸš€ Má»Ÿ khÃ³a 67+ App VIP (Spotify, Locket...). ðŸ›¡ï¸ Cháº·n sáº¡ch Ads & Tracking. âš¡ Tá»‘i Æ°u DNS, AI & Gaming. | v1.3.0"
 author: "Nguyá»…n Ngá»c Anh TÃº (z3rokaze)"
 homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
@@ -266,9 +266,9 @@ rules:
   - domain_suffix:
       match: "pglstatp-toutiao.com"
       policy: REJECT
-  - domain_suffix:
-      match: "byteimg.com"
-      policy: REJECT
+  # - domain_suffix:
+  #     match: "byteimg.com"
+  #     policy: REJECT # Disabled: blocks TikTok images/videos
   - domain_keyword:
       match: "pangleglobal"
       policy: REJECT
