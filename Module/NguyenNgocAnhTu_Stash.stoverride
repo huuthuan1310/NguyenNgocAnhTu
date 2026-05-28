@@ -782,3 +782,37 @@ rules:
   # --- 9.5 Epic Games ---
   - DOMAIN-SUFFIX,epicgames.com,PROXY
   - DOMAIN-SUFFIX,unrealengine.com,PROXY
+  # ┌──────────────────────────────────────────────────────┐
+  # │  PHẦN 10: TỐI ƯU KẾT NỐI (DIRECT - BỎ QUA VPN)       │
+  # └──────────────────────────────────────────────────────┘
+  # --- 10.1 Apple Services (Bypass for max speed & stability) ---
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+
+  # --- 10.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
+  - DOMAIN-SUFFIX,momo.vn,DIRECT
+  - DOMAIN-SUFFIX,mservice.com.vn,DIRECT
+  - DOMAIN-SUFFIX,zalopay.vn,DIRECT
+  - DOMAIN-SUFFIX,vnpay.vn,DIRECT
+  - DOMAIN-SUFFIX,vietcombank.com.vn,DIRECT
+  - DOMAIN-SUFFIX,techcombank.com.vn,DIRECT
+  - DOMAIN-SUFFIX,mbbank.com.vn,DIRECT
+  - DOMAIN-SUFFIX,tpb.vn,DIRECT
+  - DOMAIN-SUFFIX,vpbank.com.vn,DIRECT
+  - DOMAIN-SUFFIX,bidv.com.vn,DIRECT
+  - DOMAIN-SUFFIX,vtb.vn,DIRECT
+  - DOMAIN-SUFFIX,vietinbank.vn,DIRECT
+  - DOMAIN-SUFFIX,agribank.com.vn,DIRECT
+  - DOMAIN-SUFFIX,acb.com.vn,DIRECT
+  - DOMAIN-SUFFIX,vib.com.vn,DIRECT
+  - DOMAIN-SUFFIX,sacombank.com.vn,DIRECT
+
+  # --- 10.3 Apple Push Notification (Real-time message delivery) ---
+  - DOMAIN-KEYWORD,push.apple.com,DIRECT
+
+  # --- 10.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
+  - DOMAIN-SUFFIX,vn,DIRECT
+  - GEOIP,VN,DIRECT

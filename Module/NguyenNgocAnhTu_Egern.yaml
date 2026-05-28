@@ -2096,6 +2096,85 @@ rules:
   - domain_suffix:
       match: "unrealengine.com"
       policy: PROXY
+  # ┌──────────────────────────────────────────────────────┐
+  # │  PHẦN 10: TỐI ƯU KẾT NỐI (DIRECT - BỎ QUA VPN)       │
+  # └──────────────────────────────────────────────────────┘
+  # --- 10.1 Apple Services (Bypass for max speed & stability) ---
+  - domain_suffix:
+      match: "mzstatic.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "itunes.apple.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "icloud.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "me.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "apple.com"
+      policy: DIRECT
+  # --- 10.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
+  - domain_suffix:
+      match: "momo.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "mservice.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "zalopay.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vnpay.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vietcombank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "techcombank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "mbbank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "tpb.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vpbank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "bidv.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vtb.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vietinbank.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "agribank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "acb.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vib.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "sacombank.com.vn"
+      policy: DIRECT
+  # --- 10.3 Apple Push Notification (Real-time message delivery) ---
+  - domain_keyword:
+      match: "push.apple.com"
+      policy: DIRECT
+  # --- 10.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
+  - domain_suffix:
+      match: "vn"
+      policy: DIRECT
+  - geoip:
+      match: VN
+      policy: DIRECT
 
 url_rewrites:
   # YouTube Ads Block

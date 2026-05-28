@@ -782,6 +782,42 @@ host-suffix, nintendo.net, PROXY
 host-suffix, epicgames.com, PROXY
 host-suffix, unrealengine.com, PROXY
 
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 10: TỐI ƯU KẾT NỐI (DIRECT - BỎ QUA VPN)       │
+# └──────────────────────────────────────────────────────┘
+
+# --- 10.1 Apple Services (Bypass for max speed & stability) ---
+host-suffix, mzstatic.com, direct
+host-suffix, itunes.apple.com, direct
+host-suffix, icloud.com, direct
+host-suffix, me.com, direct
+host-suffix, apple.com, direct
+
+# --- 10.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
+host-suffix, momo.vn, direct
+host-suffix, mservice.com.vn, direct
+host-suffix, zalopay.vn, direct
+host-suffix, vnpay.vn, direct
+host-suffix, vietcombank.com.vn, direct
+host-suffix, techcombank.com.vn, direct
+host-suffix, mbbank.com.vn, direct
+host-suffix, tpb.vn, direct
+host-suffix, vpbank.com.vn, direct
+host-suffix, bidv.com.vn, direct
+host-suffix, vtb.vn, direct
+host-suffix, vietinbank.vn, direct
+host-suffix, agribank.com.vn, direct
+host-suffix, acb.com.vn, direct
+host-suffix, vib.com.vn, direct
+host-suffix, sacombank.com.vn, direct
+
+# --- 10.3 Apple Push Notification (Real-time message delivery) ---
+host-keyword, push.apple.com, direct
+
+# --- 10.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
+host-suffix, vn, direct
+geoip, vn, direct
+
 # YouTube Ad Block
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject-200
