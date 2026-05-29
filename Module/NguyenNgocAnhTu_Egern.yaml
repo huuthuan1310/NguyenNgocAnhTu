@@ -14,12 +14,24 @@ dns:
 
 rules:
   # === BLOCK QUIC FOR YOUTUBE MITM ===
-  # === BLOCK WEBRTC LEAK ===
-  - domain_keyword:
-      match: "stun"
+  # AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
+  # AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
+  # === BLOCK WEBRTC LEAK (Specific servers) ===
+  # Note: Generic KEYWORD stun/turn removed â€” breaks VoIP (FaceTime, WhatsApp, Zoom)
+  - domain_suffix:
+      match: "stun.l.google.com"
       policy: REJECT
-  - domain_keyword:
-      match: "turn"
+  - domain_suffix:
+      match: "stun1.l.google.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "stun2.l.google.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "stun3.l.google.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "stun4.l.google.com"
       policy: REJECT
   # === SPOTIFY ADS ===
   - domain_suffix:
@@ -40,20 +52,29 @@ rules:
   - domain_keyword:
       match: "spotify-ads"
       policy: REJECT
+  - domain_suffix:
+      match: "ads-fa.spotify.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "analytics.spotify.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "adeventtracker.spotify.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "log.spotify.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "creativeservice-production.scdn.co"
+      policy: REJECT
   # ===========================================================
-  # === CHẶN QUẢNG CÁO + CỜ BẠC/CÁ ĐỘ TỔNG HỢP (Ad Block) ===
+  # === CHáº¶N QUáº¢NG CÃO + Cá»œ Báº C/CÃ Äá»˜ Tá»”NG Há»¢P (Ad Block) ===
   # === by z3rokaze - 2026-05-27 (Ultimate Edition)            ===
   # ===========================================================
-  # ┌─────────────────────────────────────┐
-  # │  PHẦN 1: CHẶN QUẢNG CÁO (AD BLOCK) │
-  # └─────────────────────────────────────┘
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 1: CHáº¶N QUáº¢NG CÃO (AD BLOCK) â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 1.1 Google Ads / AdMob / DoubleClick ---
-  - domain_suffix:
-      match: "googleads.g.doubleclick.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "pagead2.googlesyndication.com"
-      policy: REJECT
   - domain_suffix:
       match: "adservice.google.com"
       policy: REJECT
@@ -76,22 +97,10 @@ rules:
       match: "doubleclick.net"
       policy: REJECT
   - domain_suffix:
-      match: "ad.doubleclick.net"
-      policy: REJECT
-  - domain_suffix:
       match: "ads.google.com"
       policy: REJECT
   - domain_suffix:
-      match: "adclick.g.doubleclick.net"
-      policy: REJECT
-  - domain_suffix:
       match: "pagead-googlehosted.l.google.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "tpc.googlesyndication.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "www-googletagmanager.l.google.com"
       policy: REJECT
   - domain_suffix:
       match: "googletagmanager.com"
@@ -115,24 +124,9 @@ rules:
   - domain_suffix:
       match: "pixel.facebook.com"
       policy: REJECT
-  - domain_suffix:
-      match: "facebook.com/tr"
-      policy: REJECT
   # --- 1.3 Unity Ads ---
   - domain_suffix:
       match: "unityads.unity3d.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "auction.unityads.unity3d.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "config.unityads.unity3d.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "webview.unityads.unity3d.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adserver.unityads.unity3d.com"
       policy: REJECT
   - domain_suffix:
       match: "ads.unity3d.com"
@@ -147,18 +141,6 @@ rules:
   - domain_suffix:
       match: "applvn.com"
       policy: REJECT
-  - domain_suffix:
-      match: "pxl.applovin.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "d.applvn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "rt.applovin.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "ms.applovin.com"
-      policy: REJECT
   - domain_keyword:
       match: "applovin"
       policy: REJECT
@@ -168,9 +150,6 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "supersonicads.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "outcome-ssp.supersonicads.com"
       policy: REJECT
   - domain_keyword:
       match: "ironsource"
@@ -195,9 +174,6 @@ rules:
   # --- 1.8 InMobi ---
   - domain_suffix:
       match: "inmobi.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "w.inmobi.com"
       policy: REJECT
   - domain_keyword:
       match: "inmobi"
@@ -239,18 +215,12 @@ rules:
   - domain_suffix:
       match: "inner-active.mobi"
       policy: REJECT
-  - domain_suffix:
-      match: "ia2.fyber.com"
-      policy: REJECT
   # --- 1.13 Smaato ---
   - domain_suffix:
       match: "smaato.com"
       policy: REJECT
   - domain_suffix:
       match: "smaato.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "soma.smaato.com"
       policy: REJECT
   # --- 1.14 Tapjoy ---
   - domain_suffix:
@@ -266,18 +236,13 @@ rules:
   - domain_suffix:
       match: "pglstatp-toutiao.com"
       policy: REJECT
-  # - domain_suffix:
-  #     match: "byteimg.com"
-  #     policy: REJECT # Disabled: blocks TikTok images/videos
+  # DOMAIN-SUFFIX,byteimg.com,REJECT # Disabled: blocks TikTok images/videos
   - domain_keyword:
       match: "pangleglobal"
       policy: REJECT
   # --- 1.16 Amazon Ads ---
   - domain_suffix:
       match: "amazon-adsystem.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "aax.amazon-adsystem.com"
       policy: REJECT
   - domain_suffix:
       match: "aan.amazon.com"
@@ -327,9 +292,6 @@ rules:
   - domain_suffix:
       match: "pubmatic.com"
       policy: REJECT
-  - domain_suffix:
-      match: "ads.pubmatic.com"
-      policy: REJECT
   # --- 1.23 OpenX ---
   - domain_suffix:
       match: "openx.net"
@@ -352,15 +314,9 @@ rules:
   - domain_suffix:
       match: "adroll.com"
       policy: REJECT
-  - domain_suffix:
-      match: "d.adroll.com"
-      policy: REJECT
   # --- 1.27 Media.net ---
   - domain_suffix:
       match: "media.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "contextual.media.net"
       policy: REJECT
   # --- 1.28 RevContent / MGID / Content Ads ---
   - domain_suffix:
@@ -402,9 +358,6 @@ rules:
   - domain_suffix:
       match: "gdt.qq.com"
       policy: REJECT
-  - domain_suffix:
-      match: "c2.gdt.qq.com"
-      policy: REJECT
   # --- 1.32 Ad Verification / Viewability ---
   - domain_suffix:
       match: "moat.com"
@@ -431,9 +384,7 @@ rules:
   - domain_suffix:
       match: "ct.tiktok.com"
       policy: REJECT
-  - domain_keyword:
-      match: "bytedance"
-      policy: REJECT
+  # DOMAIN-KEYWORD,bytedance,REJECT  # Disabled: too broad, blocks CapCut, TikTok, Lark
   # --- 1.34 Additional Ad Networks ---
   - domain_suffix:
       match: "adform.net"
@@ -453,9 +404,34 @@ rules:
   - domain_suffix:
       match: "adzerk.com"
       policy: REJECT
-  # ┌──────────────────────────────────────┐
-  # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
-  # └──────────────────────────────────────┘
+  # --- 1.35 New Ad Networks (2025-2026) ---
+  - domain_suffix:
+      match: "verve.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "pubnative.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "appmetrica.yandex.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "report.appmetrica.yandex.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "moloco.com"
+      policy: REJECT
+  - domain_keyword:
+      match: "moloco"
+      policy: REJECT
+  - domain_suffix:
+      match: "bigoads.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "ad.xiaomi.com"
+      policy: REJECT
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 2: TRACKING & ANALYTICS SDKs  â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 2.1 Attribution / Mobile Measurement ---
   - domain_suffix:
       match: "adjust.com"
@@ -522,9 +498,7 @@ rules:
   - domain_suffix:
       match: "adsrvr.org"
       policy: REJECT
-  - domain_suffix:
-      match: "firebase.com"
-      policy: REJECT
+  # DOMAIN-SUFFIX,firebase.com,REJECT  # Disabled: breaks push notifications & auth
   - domain_suffix:
       match: "crashlytics.com"
       policy: REJECT
@@ -536,6 +510,9 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "intercom.io"
+      policy: REJECT
+  - domain_suffix:
+      match: "intercom.com"
       policy: REJECT
   - domain_suffix:
       match: "mookie1.com"
@@ -591,15 +568,13 @@ rules:
   - domain_suffix:
       match: "spotxchange.com"
       policy: REJECT
-  # ┌─────────────────────────────────────┐
-  # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
-  # └─────────────────────────────────────┘
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 3: QUáº¢NG CÃO VIá»†T NAM        â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   - domain_suffix:
       match: "adservice.zaloapp.com"
       policy: REJECT
-  - domain_keyword:
-      match: "zaloapp.com/ads"
-      policy: REJECT
+  # DOMAIN-KEYWORD,zaloapp.com/ads,REJECT  # Disabled: DOMAIN-KEYWORD cannot match URL path
   - domain_suffix:
       match: "admicro.vn"
       policy: REJECT
@@ -630,9 +605,9 @@ rules:
   - domain_suffix:
       match: "younetmedia.com"
       policy: REJECT
-  # ┌─────────────────────────────────────┐
-  # │  PHẦN 4: POPUP / REDIRECT / SCAM    │
-  # └─────────────────────────────────────┘
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 4: POPUP / REDIRECT / SCAM    â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   - domain_suffix:
       match: "popads.net"
       policy: REJECT
@@ -693,10 +668,10 @@ rules:
   - domain_suffix:
       match: "onclickmx.com"
       policy: REJECT
-  # ┌──────────────────────────────────────────────────────────┐
-  # │  PHẦN 5: CHẶN WEB CÁ ĐỘ / CỜ BẠC / CASINO (GAMBLING)  │
-  # └──────────────────────────────────────────────────────────┘
-  # --- 5.1 Cá độ / Cờ bạc phổ biến tại Việt Nam ---
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 5: CHáº¶N WEB CÃ Äá»˜ / Cá»œ Báº C / CASINO (GAMBLING)  â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  # --- 5.1 CÃ¡ Ä‘á»™ / Cá» báº¡c phá»• biáº¿n táº¡i Viá»‡t Nam ---
   - domain_suffix:
       match: "1xbet.com"
       policy: REJECT
@@ -1006,7 +981,7 @@ rules:
   - domain_suffix:
       match: "bong88.net"
       policy: REJECT
-  # --- 5.2 Trang cá độ quốc tế ---
+  # --- 5.2 Trang cÃ¡ Ä‘á»™ quá»‘c táº¿ ---
   - domain_suffix:
       match: "bet365.com"
       policy: REJECT
@@ -1076,7 +1051,34 @@ rules:
   - domain_suffix:
       match: "bcgame.com"
       policy: REJECT
-  # --- 5.3 Keyword chặn cá độ phổ biến ---
+  # --- 5.2b Trang cÃ¡ Ä‘á»™ má»›i (2025-2026) ---
+  - domain_suffix:
+      match: "ok9.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "ok9.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "v9bet.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "nohu.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "nohu90.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "hitclub.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "hitclub.gg"
+      policy: REJECT
+  - domain_suffix:
+      match: "57k.com"
+      policy: REJECT
+  # DOMAIN-KEYWORD,ok9,REJECT     # Disabled: too short, may match book9.com etc.
+  # DOMAIN-KEYWORD,hitclub,REJECT  # Disabled: may match legitimate domains
+  # --- 5.3 Keyword cháº·n cÃ¡ Ä‘á»™ phá»• biáº¿n ---
   - domain_keyword:
       match: "1xbet"
       policy: REJECT
@@ -1098,708 +1100,17 @@ rules:
   - domain_keyword:
       match: "kubet"
       policy: REJECT
-  - domain_keyword:
-      match: "sunwin"
-      policy: REJECT
-  - domain_keyword:
-      match: "go88"
-      policy: REJECT
+  # DOMAIN-KEYWORD,sunwin,REJECT  # Disabled: may match sunwindows.com etc.
+  # DOMAIN-KEYWORD,go88,REJECT    # Disabled: may match cargo88.com, lego88.com etc.
   - domain_keyword:
       match: "new88"
       policy: REJECT
-  - domain_keyword:
-      match: "hi88"
-      policy: REJECT
-  - domain_keyword:
-      match: "sin88"
-      policy: REJECT
-  # ┌──────────────────────────────────────────────────────┐
-  # │  PHẦN 6: AI SERVICES ROUTING (PROXY)                │
-  # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig         │
-  # └──────────────────────────────────────────────────────┘
-  # --- 6.1 Additional Ad Networks ---
-  - domain_suffix:
-      match: "adform.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "adnxs.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adzerk.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "adtech.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adition.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adzerk.com"
-      policy: REJECT
-  # ┌──────────────────────────────────────┐
-  # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
-  # └──────────────────────────────────────┘
-  # --- 2.1 Attribution / Mobile Measurement ---
-  - domain_suffix:
-      match: "adjust.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adjust.io"
-      policy: REJECT
-  - domain_suffix:
-      match: "appsflyer.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "kochava.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "singular.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "tenjin.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "airbridge.io"
-      policy: REJECT
-  # --- 2.2 Analytics Platforms ---
-  - domain_suffix:
-      match: "mixpanel.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "amplitude.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "segment.io"
-      policy: REJECT
-  - domain_suffix:
-      match: "segment.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "heapanalytics.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "fullstory.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "hotjar.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "mouseflow.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "crazyegg.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "kissmetrics.com"
-      policy: REJECT
-  # --- 2.3 General Web Tracking ---
-  - domain_suffix:
-      match: "scorecardresearch.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "omtrdc.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "demdex.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "adsrvr.org"
-      policy: REJECT
-  - domain_suffix:
-      match: "firebase.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "crashlytics.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "braze.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "clevertap.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "intercom.io"
-      policy: REJECT
-  - domain_suffix:
-      match: "mookie1.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "taboola.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "outbrain.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bluekai.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "everesttech.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "mathtag.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bidswitch.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "exelator.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "crwdcntrl.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "dotomi.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "serving-sys.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "eyeota.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "agkn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "rlcdn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "turn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "rubiconproject.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "contextweb.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "spotxchange.com"
-      policy: REJECT
-  # ┌─────────────────────────────────────┐
-  # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
-  # └─────────────────────────────────────┘
-  - domain_suffix:
-      match: "adservice.zaloapp.com"
-      policy: REJECT
-  - domain_keyword:
-      match: "zaloapp.com/ads"
-      policy: REJECT
-  - domain_suffix:
-      match: "admicro.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "adsplay.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "adtima.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "eclick.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "novaon.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "nativex.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "adpia.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "ants.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "accesstrade.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "younetmedia.com"
-      policy: REJECT
-  # ┌─────────────────────────────────────┐
-  # │  PHẦN 4: POPUP / REDIRECT / SCAM    │
-  # └─────────────────────────────────────┘
-  - domain_suffix:
-      match: "popads.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "popcash.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "propellerads.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "propellerclick.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "trafficjunky.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "revenuehits.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "exoclick.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "clickadu.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "hilltopads.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "richpush.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "pushengage.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adsterra.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "adsterratools.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "trafficstars.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "juicyads.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "trafficfactory.biz"
-      policy: REJECT
-  - domain_suffix:
-      match: "clickaine.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "evadav.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "galaksion.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "onclickmx.com"
-      policy: REJECT
-  # ┌──────────────────────────────────────────────────────────┐
-  # │  PHẦN 5: CHẶN WEB CÁ ĐỘ / CỜ BẠC / CASINO (GAMBLING)  │
-  # └──────────────────────────────────────────────────────────┘
-  # --- 5.1 Cá độ / Cờ bạc phổ biến tại Việt Nam ---
-  - domain_suffix:
-      match: "1xbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "1xbet.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "fun88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "fun88asia.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "fun88vietnam.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "w88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "w88vn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "w88top.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "188bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "188betasia.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "m88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "m88a.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "m88vn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bk8.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bk8vn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "fb88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "fb88vn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "sv388.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "sv388vn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "sin88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "sin88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "hi88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "hi88.bio"
-      policy: REJECT
-  - domain_suffix:
-      match: "hi88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "new88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "new88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "new88vn.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "8xbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "8xbet.gg"
-      policy: REJECT
-  - domain_suffix:
-      match: "jun88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "jun88.bio"
-      policy: REJECT
-  - domain_suffix:
-      match: "jun88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "vn88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "vn88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "789bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "789bet.gg"
-      policy: REJECT
-  - domain_suffix:
-      match: "789bet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "kubet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "kubet.io"
-      policy: REJECT
-  - domain_suffix:
-      match: "kubet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "sobet.io"
-      policy: REJECT
-  - domain_suffix:
-      match: "sunwin.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "sunwin.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "sunwin.gg"
-      policy: REJECT
-  - domain_suffix:
-      match: "iwin.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "iwin.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "iwin68.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "go88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "go88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "go88.gg"
-      policy: REJECT
-  - domain_suffix:
-      match: "rikvip.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "rikvip.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "rik.vip"
-      policy: REJECT
-  - domain_suffix:
-      match: "8day.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "8day.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "ta88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "ta88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "tf88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "shbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "shbet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "luck8.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "luck8.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "mb66.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "mb66.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "five88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "five88.gg"
-      policy: REJECT
-  - domain_suffix:
-      match: "zbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "zbet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "oxbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "oxbet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "ae888.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "ae888.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "taya365.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "taya365.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "66bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "77bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "33win.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "33win.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "f8bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "f8bet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "bet88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bet88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "qh88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "qh88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "78win.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "78win.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "abc8.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "abc8.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "debet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "debet.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "mu88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "mu88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "gg8.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "gg8.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "b52.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "b52.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "uy88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "top88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "top88.club"
-      policy: REJECT
-  - domain_suffix:
-      match: "betvisa.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "betvisa.vn"
-      policy: REJECT
-  - domain_suffix:
-      match: "bong88.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bong88.net"
-      policy: REJECT
-  # --- 5.2 Trang cá độ quốc tế ---
-  - domain_suffix:
-      match: "bet365.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "22bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "mostbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "melbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "stake.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "1win.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "betwinner.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "parimatch.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "pin-up.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "linebet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "megapari.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "betway.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "dafabet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "sbobet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "12bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "10bet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "betfair.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "888casino.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "unibet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "leovegas.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "vulkanvegas.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "vulkanbet.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "bcgame.com"
-      policy: REJECT
-  # --- 5.3 Keyword chặn cá độ phổ biến ---
-  - domain_keyword:
-      match: "1xbet"
-      policy: REJECT
-  - domain_keyword:
-      match: "fun88"
-      policy: REJECT
-  - domain_keyword:
-      match: "w88vn"
-      policy: REJECT
-  - domain_keyword:
-      match: "8xbet"
-      policy: REJECT
-  - domain_keyword:
-      match: "jun88"
-      policy: REJECT
-  - domain_keyword:
-      match: "789bet"
-      policy: REJECT
-  - domain_keyword:
-      match: "kubet"
-      policy: REJECT
-  - domain_keyword:
-      match: "sunwin"
-      policy: REJECT
-  - domain_keyword:
-      match: "go88"
-      policy: REJECT
-  - domain_keyword:
-      match: "new88"
-      policy: REJECT
-  - domain_keyword:
-      match: "hi88"
-      policy: REJECT
-  - domain_keyword:
-      match: "sin88"
-      policy: REJECT
-  # ┌──────────────────────────────────────────────────────┐
-  # │  PHẦN 6: AI SERVICES ROUTING (PROXY)                │
-  # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig         │
-  # └──────────────────────────────────────────────────────┘
+  # DOMAIN-KEYWORD,hi88,REJECT    # Disabled: may match sushi88.com, phi88.com etc.
+  # DOMAIN-KEYWORD,sin88,REJECT   # Disabled: may match resin88.com etc.
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 6: AI SERVICES ROUTING (PROXY)                â”‚
+  # â”‚  Nguá»“n: tatarinovms/ShadowRocketSimpleConfig         â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 6.1 OpenAI / ChatGPT ---
   - domain_suffix:
       match: "openai.com"
@@ -1812,9 +1123,6 @@ rules:
       policy: PROXY
   - domain_suffix:
       match: "oaiusercontent.com"
-      policy: PROXY
-  - domain_suffix:
-      match: "auth0.openai.com"
       policy: PROXY
   - domain_suffix:
       match: "chat.openai.com.cdn.cloudflare.net"
@@ -1895,11 +1203,54 @@ rules:
   - domain_suffix:
       match: "v0.dev"
       policy: PROXY
-  # ┌──────────────────────────────────────────────────────┐
-  # │  PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU              │
-  # │  Nguồn: GMOogway + fmz200/wool_scripts               │
-  # └──────────────────────────────────────────────────────┘
-  # --- 7.1 Bổ sung Ad Networks ---
+  # --- 6.6 New AI Services (2025-2026) ---
+  - domain_suffix:
+      match: "x.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "deepseek.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "mistral.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "cohere.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "together.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "groq.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "bolt.new"
+      policy: PROXY
+  - domain_suffix:
+      match: "replit.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "windsurf.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "codeium.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "lovable.dev"
+      policy: PROXY
+  - domain_suffix:
+      match: "labs.google"
+      policy: PROXY
+  - domain_suffix:
+      match: "notebooklm.google"
+      policy: PROXY
+  - domain_suffix:
+      match: "notebooklm.google.com"
+      policy: PROXY
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 7: Bá»” SUNG AD DOMAINS CÃ’N THIáº¾U              â”‚
+  # â”‚  Nguá»“n: GMOogway + fmz200/wool_scripts               â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  # --- 7.1 Bá»• sung Ad Networks ---
   - domain_suffix:
       match: "ads-twitter.com"
       policy: REJECT
@@ -1909,37 +1260,25 @@ rules:
   - domain_suffix:
       match: "liadm.com"
       policy: REJECT
-  - domain_suffix:
-      match: "branch.io"
-      policy: REJECT
-  - domain_suffix:
-      match: "app.link"
-      policy: REJECT
+  # DOMAIN-SUFFIX,branch.io,REJECT  # Disabled: breaks deep linking
+  # DOMAIN-SUFFIX,app.link,REJECT   # Disabled: breaks deep linking
   - domain_suffix:
       match: "go.link"
       policy: REJECT
   - domain_suffix:
       match: "onelink.me"
       policy: REJECT
-  - domain_suffix:
-      match: "app.adjust.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "s.adjust.com"
-      policy: REJECT
+  # DOMAIN-SUFFIX,app.adjust.com,REJECT  # Redundant: covered by adjust.com in section 2.1
+  # DOMAIN-SUFFIX,s.adjust.com,REJECT    # Redundant: covered by adjust.com in section 2.1
   - domain_suffix:
       match: "impression.link"
       policy: REJECT
   - domain_suffix:
       match: "metric.gstatic.com"
       policy: REJECT
-  - domain_suffix:
-      match: "pagead.l.doubleclick.net"
-      policy: REJECT
-  - domain_suffix:
-      match: "adx.g.doubleclick.net"
-      policy: REJECT
-  # --- 7.2 Quảng cáo ứng dụng Trung Quốc ---
+  # DOMAIN-SUFFIX,pagead.l.doubleclick.net,REJECT  # Redundant: covered by doubleclick.net in section 1.1
+  # DOMAIN-SUFFIX,adx.g.doubleclick.net,REJECT     # Redundant: covered by doubleclick.net in section 1.1
+  # --- 7.2 Quáº£ng cÃ¡o á»©ng dá»¥ng Trung Quá»‘c ---
   - domain_suffix:
       match: "cm.bilibili.com"
       policy: REJECT
@@ -1971,12 +1310,8 @@ rules:
       match: "acs.m.taobao.com"
       policy: REJECT
   # --- 7.3 Phishing / Malware / Crypto Scam ---
-  - domain_keyword:
-      match: "phishing"
-      policy: REJECT
-  - domain_keyword:
-      match: "malware"
-      policy: REJECT
+  # DOMAIN-KEYWORD,phishing,REJECT  # Disabled: too broad, blocks anti-phishing education sites
+  # DOMAIN-KEYWORD,malware,REJECT   # Disabled: too broad, blocks anti-malware.org etc.
   - domain_suffix:
       match: "coinhive.com"
       policy: REJECT
@@ -1992,10 +1327,10 @@ rules:
   - domain_suffix:
       match: "crypto-loot.com"
       policy: REJECT
-  # ┌──────────────────────────────────────────────────────┐
-  # │  PHẦN 8: CHẶN TELEMETRY & TRACKING HỆ THỐNG         │
-  # │  Nguồn: Johnshall/p-w-p                              │
-  # └──────────────────────────────────────────────────────┘
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 8: CHáº¶N TELEMETRY & TRACKING Há»† THá»NG         â”‚
+  # â”‚  Nguá»“n: Johnshall/p-w-p                              â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 8.1 Microsoft Telemetry ---
   - domain_suffix:
       match: "data.microsoft.com"
@@ -2003,36 +1338,32 @@ rules:
   - domain_suffix:
       match: "telemetry.microsoft.com"
       policy: REJECT
+  # --- 8.2 Apple Analytics ---
   - domain_suffix:
-      match: "settings-win.data.microsoft.com"
+      match: "metrics.icloud.com"
       policy: REJECT
   - domain_suffix:
-      match: "vortex.data.microsoft.com"
+      match: "metrics.mzstatic.com"
       policy: REJECT
   - domain_suffix:
-      match: "watson.telemetry.microsoft.com"
+      match: "supportmetrics.apple.com"
       policy: REJECT
   - domain_suffix:
-      match: "events.data.microsoft.com"
+      match: "books-analytics-events.apple.com"
       policy: REJECT
-  # --- 8.2 Apple Analytics & Privacy ---
-  - domain_suffix: metrics.icloud.com
-    policy: REJECT
-  - domain_suffix: metrics.mzstatic.com
-    policy: REJECT
-  - domain_suffix: supportmetrics.apple.com
-    policy: REJECT
-  - domain_suffix: books-analytics-events.apple.com
-    policy: REJECT
-  - domain_suffix: xp.apple.com
-    policy: REJECT
-  - domain_suffix: idiag.tq.apple.com
-    policy: REJECT
-  - domain_suffix: iphonesubmissions.apple.com
-    policy: REJECT
-  - domain_suffix: radarsubmissions.apple.com
-    policy: REJECT
-# --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
+  - domain_suffix:
+      match: "xp.apple.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "idiag.apple.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "iphonesubmissions.apple.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "radarsubmissions.apple.com"
+      policy: REJECT
+  # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
   - domain_suffix:
       match: "tracking.miui.com"
       policy: REJECT
@@ -2051,10 +1382,10 @@ rules:
   - domain_suffix:
       match: "samsungads.com"
       policy: REJECT
-  # ┌──────────────────────────────────────────────────────┐
-  # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │
-  # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig          │
-  # └──────────────────────────────────────────────────────┘
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 9: GAMING SERVICES ROUTING (PROXY)             â”‚
+  # â”‚  Nguá»“n: tatarinovms/ShadowRocketSimpleConfig          â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 9.1 PlayStation Network ---
   - domain_suffix:
       match: "playstation.com"
@@ -2096,15 +1427,241 @@ rules:
   - domain_suffix:
       match: "unrealengine.com"
       policy: PROXY
-  # ┌──────────────────────────────────────────────────────┐
-  # │  PHẦN 10: TỐI ƯU KẾT NỐI (DIRECT - BỎ QUA VPN)       │
-  # └──────────────────────────────────────────────────────┘
-  # --- 10.1 Apple Services (Bypass for max speed & stability) ---
+  # --- 9.6 Riot Games (LOL, Valorant, TFT) ---
+  - domain_suffix:
+      match: "riotgames.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "leagueoflegends.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "riotcdn.net"
+      policy: PROXY
+  # --- 9.7 EA / Blizzard / Ubisoft ---
+  - domain_suffix:
+      match: "ea.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "origin.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "blizzard.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "battle.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "ubisoft.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "ubi.com"
+      policy: PROXY
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 10: STREAMING SERVICES (PROXY - Geo-unlock)    â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  # --- 10.1 Netflix ---
+  - domain_suffix:
+      match: "netflix.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "netflix.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "nflximg.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "nflximg.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "nflxvideo.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "nflxso.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "nflxext.com"
+      policy: PROXY
+  # --- 10.2 Disney+ ---
+  - domain_suffix:
+      match: "disneyplus.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "disney-plus.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "dssott.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "bamgrid.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "disney-portal.my.onetrust.com"
+      policy: PROXY
+  # --- 10.3 Amazon Prime Video ---
+  - domain_suffix:
+      match: "primevideo.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "amazonvideo.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "aiv-cdn.net"
+      policy: PROXY
+  # --- 10.4 HBO / Max ---
+  - domain_suffix:
+      match: "hbomax.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "max.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "hbo.com"
+      policy: PROXY
+  # --- 10.5 Other Streaming ---
+  - domain_suffix:
+      match: "hulu.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "hulustream.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "tv.apple.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "crunchyroll.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "vrv.co"
+      policy: PROXY
+  - domain_suffix:
+      match: "dazn.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "bilibili.tv"
+      policy: PROXY
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 11: SOCIAL MEDIA ROUTING (PROXY)               â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  # --- 11.1 Telegram ---
+  - domain_suffix:
+      match: "telegram.org"
+      policy: PROXY
+  - domain_suffix:
+      match: "t.me"
+      policy: PROXY
+  - domain_suffix:
+      match: "telegra.ph"
+      policy: PROXY
+  - domain_suffix:
+      match: "telegram.me"
+      policy: PROXY
+  - ip_cidr:
+      match: "91.108.0.0/16"
+      policy: PROXY
+      no_resolve: true
+  - ip_cidr:
+      match: "149.154.160.0/20"
+      policy: PROXY
+      no_resolve: true
+  # --- 11.2 Discord ---
+  - domain_suffix:
+      match: "discord.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "discord.gg"
+      policy: PROXY
+  - domain_suffix:
+      match: "discordapp.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "discordapp.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "discord.media"
+      policy: PROXY
+  # --- 11.3 Reddit ---
+  - domain_suffix:
+      match: "reddit.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "redd.it"
+      policy: PROXY
+  - domain_suffix:
+      match: "redditmedia.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "redditstatic.com"
+      policy: PROXY
+  # --- 11.4 Threads / WhatsApp Web ---
+  - domain_suffix:
+      match: "threads.net"
+      policy: PROXY
+  - domain_suffix:
+      match: "web.whatsapp.com"
+      policy: PROXY
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 12: DEVELOPER TOOLS (PROXY)                    â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  # --- 12.1 GitHub / GitLab ---
+  - domain_suffix:
+      match: "github.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "github.io"
+      policy: PROXY
+  - domain_suffix:
+      match: "githubusercontent.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "githubassets.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "gitlab.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "gitlab.io"
+      policy: PROXY
+  # --- 12.2 Package Registries ---
+  - domain_suffix:
+      match: "docker.io"
+      policy: PROXY
+  - domain_suffix:
+      match: "docker.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "npmjs.org"
+      policy: PROXY
+  - domain_suffix:
+      match: "npmjs.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "yarnpkg.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "pypi.org"
+      policy: PROXY
+  - domain_suffix:
+      match: "registry.npmmirror.com"
+      policy: PROXY
+  # --- 12.3 Developer Communities ---
+  - domain_suffix:
+      match: "stackoverflow.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "stackexchange.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "medium.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "dev.to"
+      policy: PROXY
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 13: Tá»I Æ¯U Káº¾T Ná»I (DIRECT - Bá»Ž QUA VPN)       â”‚
+  # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  # --- 13.1 Apple Services (Bypass for max speed & stability) ---
   - domain_suffix:
       match: "mzstatic.com"
-      policy: DIRECT
-  - domain_suffix:
-      match: "itunes.apple.com"
       policy: DIRECT
   - domain_suffix:
       match: "icloud.com"
@@ -2115,7 +1672,7 @@ rules:
   - domain_suffix:
       match: "apple.com"
       policy: DIRECT
-  # --- 10.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
+  # --- 13.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
   - domain_suffix:
       match: "momo.vn"
       policy: DIRECT
@@ -2164,16 +1721,76 @@ rules:
   - domain_suffix:
       match: "sacombank.com.vn"
       policy: DIRECT
-  # --- 10.3 Apple Push Notification (Real-time message delivery) ---
-  - domain_keyword:
-      match: "push.apple.com"
+  - domain_suffix:
+      match: "hdbank.com.vn"
       policy: DIRECT
-  # --- 10.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
+  - domain_suffix:
+      match: "ocb.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "shb.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "msb.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "lpbank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "eximbank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "namabank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "seabank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "cake.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vietqr.io"
+      policy: DIRECT
+  - domain_suffix:
+      match: "napas.com.vn"
+      policy: DIRECT
+  # --- 13.3 Popular Vietnamese Apps (Lightning fast local access) ---
+  - domain_suffix:
+      match: "zalo.me"
+      policy: DIRECT
+  - domain_suffix:
+      match: "zaloapp.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "shopee.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "shopeemobile.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "tiki.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "lazada.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "grab.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "be.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "fpt.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vnexpress.net"
+      policy: DIRECT
+  # --- 13.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
   - domain_suffix:
       match: "vn"
       policy: DIRECT
   - geoip:
-      match: VN
+      match: "VN"
       policy: DIRECT
 
 url_rewrites:
