@@ -1686,13 +1686,13 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <br>
 
 <!-- GITHUB STATS + STREAK -->
-<img src="https://github-readme-stats.vercel.app/api?username=ekaznyra&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="49%" alt="stats"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ekaznyra&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="49%" alt="stats"/>
 <img src="https://github-readme-streak-stats.herokuapp.com?user=ekaznyra&theme=radical&hide_border=true&background=0D1117" width="49%" alt="streak"/>
 
 <br><br>
 
 <!-- TOP LANGUAGES -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekaznyra&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="45%" alt="languages"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ekaznyra&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="45%" alt="languages"/>
 
 <br><br>
 
