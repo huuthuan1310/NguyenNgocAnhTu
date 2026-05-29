@@ -1,7 +1,7 @@
 #!name=⚡ Anh Tú Premium - Surge
 #!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
-#!version=1.5.1
-#!date=2026-05-27
+#!version=1.6.0
+#!date=2026-05-29
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -15,7 +15,14 @@ tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 17
 # === BLOCK QUIC FOR YOUTUBE MITM ===
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
-# === BLOCK WEBRTC LEAK ===
+
+# === BLOCK WEBRTC LEAK (Specific servers) ===
+# Note: Generic KEYWORD stun/turn removed — breaks VoIP (FaceTime, WhatsApp, Zoom)
+DOMAIN-SUFFIX,stun.l.google.com,REJECT
+DOMAIN-SUFFIX,stun1.l.google.com,REJECT
+DOMAIN-SUFFIX,stun2.l.google.com,REJECT
+DOMAIN-SUFFIX,stun3.l.google.com,REJECT
+DOMAIN-SUFFIX,stun4.l.google.com,REJECT
 
 # === SPOTIFY ADS ===
 DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,REJECT
@@ -24,16 +31,22 @@ DOMAIN-SUFFIX,heads-ak-spotify-com.akamaized.net,REJECT
 DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,REJECT
 DOMAIN,spclient.wg.spotify.com,DIRECT
 DOMAIN-KEYWORD,spotify-ads,REJECT
+DOMAIN-SUFFIX,ads-fa.spotify.com,REJECT
+DOMAIN-SUFFIX,analytics.spotify.com,REJECT
+DOMAIN-SUFFIX,adeventtracker.spotify.com,REJECT
+DOMAIN-SUFFIX,log.spotify.com,REJECT
+DOMAIN-SUFFIX,creativeservice-production.scdn.co,REJECT
+
 # ===========================================================
 # === CHẶN QUẢNG CÁO + CỜ BẠC/CÁ ĐỘ TỔNG HỢP (Ad Block) ===
 # === by z3rokaze - 2026-05-27 (Ultimate Edition)            ===
 # ===========================================================
+
 # ┌─────────────────────────────────────┐
 # │  PHẦN 1: CHẶN QUẢNG CÁO (AD BLOCK) │
 # └─────────────────────────────────────┘
+
 # --- 1.1 Google Ads / AdMob / DoubleClick ---
-DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
-DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
 DOMAIN-SUFFIX,adservice.google.com,REJECT
 DOMAIN-SUFFIX,adservice.google.com.vn,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
@@ -41,146 +54,157 @@ DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,ad.doubleclick.net,REJECT
 DOMAIN-SUFFIX,ads.google.com,REJECT
-DOMAIN-SUFFIX,adclick.g.doubleclick.net,REJECT
 DOMAIN-SUFFIX,pagead-googlehosted.l.google.com,REJECT
-DOMAIN-SUFFIX,tpc.googlesyndication.com,REJECT
-DOMAIN-SUFFIX,www-googletagmanager.l.google.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,google-analytics,REJECT
+
 # --- 1.2 Facebook / Meta Ads ---
 DOMAIN-SUFFIX,an.facebook.com,REJECT
 DOMAIN-SUFFIX,ads.facebook.com,REJECT
 DOMAIN-SUFFIX,adtago.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,pixel.facebook.com,REJECT
-DOMAIN-SUFFIX,facebook.com/tr,REJECT
+
 # --- 1.3 Unity Ads ---
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
-DOMAIN-SUFFIX,auction.unityads.unity3d.com,REJECT
-DOMAIN-SUFFIX,config.unityads.unity3d.com,REJECT
-DOMAIN-SUFFIX,webview.unityads.unity3d.com,REJECT
-DOMAIN-SUFFIX,adserver.unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.unity3d.com,REJECT
 DOMAIN-KEYWORD,unityads,REJECT
+
 # --- 1.4 AppLovin / MAX ---
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
-DOMAIN-SUFFIX,pxl.applovin.com,REJECT
-DOMAIN-SUFFIX,d.applvn.com,REJECT
-DOMAIN-SUFFIX,rt.applovin.com,REJECT
-DOMAIN-SUFFIX,ms.applovin.com,REJECT
 DOMAIN-KEYWORD,applovin,REJECT
+
 # --- 1.5 IronSource / LevelPlay ---
 DOMAIN-SUFFIX,ironsrc.com,REJECT
 DOMAIN-SUFFIX,supersonicads.com,REJECT
-DOMAIN-SUFFIX,outcome-ssp.supersonicads.com,REJECT
 DOMAIN-KEYWORD,ironsource,REJECT
+
 # --- 1.6 Vungle / Liftoff ---
 DOMAIN-SUFFIX,vungle.com,REJECT
 DOMAIN-SUFFIX,liftoff.io,REJECT
 DOMAIN-KEYWORD,vungle,REJECT
+
 # --- 1.7 Chartboost ---
 DOMAIN-SUFFIX,chartboost.com,REJECT
 DOMAIN-KEYWORD,chartboost,REJECT
+
 # --- 1.8 InMobi ---
 DOMAIN-SUFFIX,inmobi.com,REJECT
-DOMAIN-SUFFIX,w.inmobi.com,REJECT
 DOMAIN-KEYWORD,inmobi,REJECT
+
 # --- 1.9 Mintegral / Mobvista ---
 DOMAIN-SUFFIX,mintegral.com,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
 DOMAIN-SUFFIX,mobvista.com,REJECT
 DOMAIN-KEYWORD,mintegral,REJECT
+
 # --- 1.10 AdColony / Digital Turbine ---
 DOMAIN-SUFFIX,adcolony.com,REJECT
 DOMAIN-SUFFIX,digitalturbine.com,REJECT
 DOMAIN-KEYWORD,adcolony,REJECT
+
 # --- 1.11 MoPub (Twitter) ---
 DOMAIN-SUFFIX,mopub.com,REJECT
 DOMAIN-KEYWORD,mopub,REJECT
+
 # --- 1.12 Fyber / Digital Turbine ---
 DOMAIN-SUFFIX,fyber.com,REJECT
 DOMAIN-SUFFIX,inner-active.mobi,REJECT
-DOMAIN-SUFFIX,ia2.fyber.com,REJECT
+
 # --- 1.13 Smaato ---
 DOMAIN-SUFFIX,smaato.com,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
-DOMAIN-SUFFIX,soma.smaato.com,REJECT
+
 # --- 1.14 Tapjoy ---
 DOMAIN-SUFFIX,tapjoy.com,REJECT
 DOMAIN-KEYWORD,tapjoy,REJECT
+
 # --- 1.15 Pangle (TikTok Ads / ByteDance) ---
 DOMAIN-SUFFIX,pangleglobal.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 # DOMAIN-SUFFIX,byteimg.com,REJECT # Disabled: blocks TikTok images/videos
 DOMAIN-KEYWORD,pangleglobal,REJECT
+
 # --- 1.16 Amazon Ads ---
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
-DOMAIN-SUFFIX,aax.amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,aan.amazon.com,REJECT
+
 # --- 1.17 StartApp / Start.io ---
 DOMAIN-SUFFIX,startapp.com,REJECT
 DOMAIN-SUFFIX,start.io,REJECT
 DOMAIN-KEYWORD,startapp,REJECT
+
 # --- 1.18 Ogury ---
 DOMAIN-SUFFIX,ogury.com,REJECT
+
 # --- 1.19 Yahoo / Flurry ---
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,ads.yahoo.com,REJECT
 DOMAIN-SUFFIX,analytics.yahoo.com,REJECT
+
 # --- 1.20 Criteo ---
 DOMAIN-SUFFIX,criteo.com,REJECT
 DOMAIN-SUFFIX,criteo.net,REJECT
 DOMAIN-SUFFIX,emailretargeting.com,REJECT
+
 # --- 1.21 Teads (Video Ads) ---
 DOMAIN-SUFFIX,teads.tv,REJECT
 DOMAIN-SUFFIX,teads.com,REJECT
+
 # --- 1.22 PubMatic ---
 DOMAIN-SUFFIX,pubmatic.com,REJECT
-DOMAIN-SUFFIX,ads.pubmatic.com,REJECT
+
 # --- 1.23 OpenX ---
 DOMAIN-SUFFIX,openx.net,REJECT
 DOMAIN-SUFFIX,openx.com,REJECT
+
 # --- 1.24 Index Exchange ---
 DOMAIN-SUFFIX,casalemedia.com,REJECT
+
 # --- 1.25 SmartAdServer ---
 DOMAIN-SUFFIX,smartadserver.com,REJECT
 DOMAIN-SUFFIX,sascdn.com,REJECT
+
 # --- 1.26 AdRoll ---
 DOMAIN-SUFFIX,adroll.com,REJECT
-DOMAIN-SUFFIX,d.adroll.com,REJECT
+
 # --- 1.27 Media.net ---
 DOMAIN-SUFFIX,media.net,REJECT
-DOMAIN-SUFFIX,contextual.media.net,REJECT
+
 # --- 1.28 RevContent / MGID / Content Ads ---
 DOMAIN-SUFFIX,revcontent.com,REJECT
 DOMAIN-SUFFIX,mgid.com,REJECT
 DOMAIN-SUFFIX,contentad.net,REJECT
+
 # --- 1.29 ShareThrough / TripleLift / Nativo ---
 DOMAIN-SUFFIX,sharethrough.com,REJECT
 DOMAIN-SUFFIX,triplelift.com,REJECT
 DOMAIN-SUFFIX,nativo.com,REJECT
+
 # --- 1.30 Yandex Ads ---
 DOMAIN-SUFFIX,an.yandex.ru,REJECT
 DOMAIN-SUFFIX,yandexadexchange.net,REJECT
+
 # --- 1.31 Baidu / Tencent Ads ---
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,c2.gdt.qq.com,REJECT
+
 # --- 1.32 Ad Verification / Viewability ---
 DOMAIN-SUFFIX,moat.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
 DOMAIN-SUFFIX,doubleverify.com,REJECT
 DOMAIN-SUFFIX,integralads.com,REJECT
 DOMAIN-SUFFIX,adsafeprotected.com,REJECT
+
 # --- 1.33 TikTok Ads ---
 DOMAIN-SUFFIX,ads.tiktok.com,REJECT
 DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
 DOMAIN-SUFFIX,ct.tiktok.com,REJECT
+# DOMAIN-KEYWORD,bytedance,REJECT  # Disabled: too broad, blocks CapCut, TikTok, Lark
 
 # --- 1.34 Additional Ad Networks ---
 DOMAIN-SUFFIX,adform.net,REJECT
@@ -189,9 +213,21 @@ DOMAIN-SUFFIX,adzerk.net,REJECT
 DOMAIN-SUFFIX,adtech.com,REJECT
 DOMAIN-SUFFIX,adition.com,REJECT
 DOMAIN-SUFFIX,adzerk.com,REJECT
+
+# --- 1.35 New Ad Networks (2025-2026) ---
+DOMAIN-SUFFIX,verve.com,REJECT
+DOMAIN-SUFFIX,pubnative.net,REJECT
+DOMAIN-SUFFIX,appmetrica.yandex.com,REJECT
+DOMAIN-SUFFIX,report.appmetrica.yandex.net,REJECT
+DOMAIN-SUFFIX,moloco.com,REJECT
+DOMAIN-KEYWORD,moloco,REJECT
+DOMAIN-SUFFIX,bigoads.com,REJECT
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+
 # ┌──────────────────────────────────────┐
 # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
 # └──────────────────────────────────────┘
+
 # --- 2.1 Attribution / Mobile Measurement ---
 DOMAIN-SUFFIX,adjust.com,REJECT-DROP
 DOMAIN-SUFFIX,adjust.io,REJECT-DROP
@@ -200,6 +236,7 @@ DOMAIN-SUFFIX,kochava.com,REJECT-DROP
 DOMAIN-SUFFIX,singular.net,REJECT-DROP
 DOMAIN-SUFFIX,tenjin.com,REJECT-DROP
 DOMAIN-SUFFIX,airbridge.io,REJECT-DROP
+
 # --- 2.2 Analytics Platforms ---
 DOMAIN-SUFFIX,mixpanel.com,REJECT-DROP
 DOMAIN-SUFFIX,amplitude.com,REJECT-DROP
@@ -211,12 +248,13 @@ DOMAIN-SUFFIX,hotjar.com,REJECT-DROP
 DOMAIN-SUFFIX,mouseflow.com,REJECT-DROP
 DOMAIN-SUFFIX,crazyegg.com,REJECT-DROP
 DOMAIN-SUFFIX,kissmetrics.com,REJECT-DROP
+
 # --- 2.3 General Web Tracking ---
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT-DROP
 DOMAIN-SUFFIX,omtrdc.net,REJECT-DROP
 DOMAIN-SUFFIX,demdex.net,REJECT-DROP
 DOMAIN-SUFFIX,adsrvr.org,REJECT-DROP
-
+# DOMAIN-SUFFIX,firebase.com,REJECT  # Disabled: breaks push notifications & auth
 DOMAIN-SUFFIX,crashlytics.com,REJECT-DROP
 DOMAIN-SUFFIX,braze.com,REJECT-DROP
 DOMAIN-SUFFIX,clevertap.com,REJECT-DROP
@@ -240,11 +278,13 @@ DOMAIN-SUFFIX,turn.com,REJECT-DROP
 DOMAIN-SUFFIX,rubiconproject.com,REJECT-DROP
 DOMAIN-SUFFIX,contextweb.com,REJECT-DROP
 DOMAIN-SUFFIX,spotxchange.com,REJECT-DROP
+
 # ┌─────────────────────────────────────┐
 # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
 # └─────────────────────────────────────┘
+
 DOMAIN-SUFFIX,adservice.zaloapp.com,REJECT
-DOMAIN-KEYWORD,zaloapp.com/ads,REJECT
+# DOMAIN-KEYWORD,zaloapp.com/ads,REJECT  # Disabled: DOMAIN-KEYWORD cannot match URL path
 DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adsplay.net,REJECT
 DOMAIN-SUFFIX,adtima.vn,REJECT
@@ -255,9 +295,11 @@ DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,accesstrade.vn,REJECT
 DOMAIN-SUFFIX,younetmedia.com,REJECT
+
 # ┌─────────────────────────────────────┐
 # │  PHẦN 4: POPUP / REDIRECT / SCAM    │
 # └─────────────────────────────────────┘
+
 DOMAIN-SUFFIX,popads.net,REJECT
 DOMAIN-SUFFIX,popcash.net,REJECT
 DOMAIN-SUFFIX,propellerads.com,REJECT
@@ -278,9 +320,11 @@ DOMAIN-SUFFIX,clickaine.com,REJECT
 DOMAIN-SUFFIX,evadav.com,REJECT
 DOMAIN-SUFFIX,galaksion.com,REJECT
 DOMAIN-SUFFIX,onclickmx.com,REJECT
+
 # ┌──────────────────────────────────────────────────────────┐
 # │  PHẦN 5: CHẶN WEB CÁ ĐỘ / CỜ BẠC / CASINO (GAMBLING)  │
 # └──────────────────────────────────────────────────────────┘
+
 # --- 5.1 Cá độ / Cờ bạc phổ biến tại Việt Nam ---
 DOMAIN-SUFFIX,1xbet.com,REJECT
 DOMAIN-SUFFIX,1xbet.vn,REJECT
@@ -385,6 +429,7 @@ DOMAIN-SUFFIX,betvisa.com,REJECT
 DOMAIN-SUFFIX,betvisa.vn,REJECT
 DOMAIN-SUFFIX,bong88.com,REJECT
 DOMAIN-SUFFIX,bong88.net,REJECT
+
 # --- 5.2 Trang cá độ quốc tế ---
 DOMAIN-SUFFIX,bet365.com,REJECT
 DOMAIN-SUFFIX,22bet.com,REJECT
@@ -409,6 +454,19 @@ DOMAIN-SUFFIX,leovegas.com,REJECT
 DOMAIN-SUFFIX,vulkanvegas.com,REJECT
 DOMAIN-SUFFIX,vulkanbet.com,REJECT
 DOMAIN-SUFFIX,bcgame.com,REJECT
+
+# --- 5.2b Trang cá độ mới (2025-2026) ---
+DOMAIN-SUFFIX,ok9.com,REJECT
+DOMAIN-SUFFIX,ok9.club,REJECT
+DOMAIN-SUFFIX,v9bet.com,REJECT
+DOMAIN-SUFFIX,nohu.club,REJECT
+DOMAIN-SUFFIX,nohu90.com,REJECT
+DOMAIN-SUFFIX,hitclub.com,REJECT
+DOMAIN-SUFFIX,hitclub.gg,REJECT
+DOMAIN-SUFFIX,57k.com,REJECT
+# DOMAIN-KEYWORD,ok9,REJECT     # Disabled: too short, may match book9.com etc.
+# DOMAIN-KEYWORD,hitclub,REJECT  # Disabled: may match legitimate domains
+
 # --- 5.3 Keyword chặn cá độ phổ biến ---
 DOMAIN-KEYWORD,1xbet,REJECT
 DOMAIN-KEYWORD,fun88,REJECT
@@ -417,26 +475,29 @@ DOMAIN-KEYWORD,8xbet,REJECT
 DOMAIN-KEYWORD,jun88,REJECT
 DOMAIN-KEYWORD,789bet,REJECT
 DOMAIN-KEYWORD,kubet,REJECT
-DOMAIN-KEYWORD,sunwin,REJECT
-DOMAIN-KEYWORD,go88,REJECT
+# DOMAIN-KEYWORD,sunwin,REJECT  # Disabled: may match sunwindows.com etc.
+# DOMAIN-KEYWORD,go88,REJECT    # Disabled: may match cargo88.com, lego88.com etc.
 DOMAIN-KEYWORD,new88,REJECT
-DOMAIN-KEYWORD,hi88,REJECT
-DOMAIN-KEYWORD,sin88,REJECT
+# DOMAIN-KEYWORD,hi88,REJECT    # Disabled: may match sushi88.com, phi88.com etc.
+# DOMAIN-KEYWORD,sin88,REJECT   # Disabled: may match resin88.com etc.
+
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 6: AI SERVICES ROUTING (PROXY)                │
 # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig         │
 # └──────────────────────────────────────────────────────┘
+
 # --- 6.1 OpenAI / ChatGPT ---
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,oaistatic.com,PROXY
 DOMAIN-SUFFIX,oaiusercontent.com,PROXY
-DOMAIN-SUFFIX,auth0.openai.com,PROXY
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net,PROXY
 DOMAIN-KEYWORD,openai,PROXY
+
 # --- 6.2 Anthropic / Claude ---
 DOMAIN-SUFFIX,claude.ai,PROXY
 DOMAIN-SUFFIX,anthropic.com,PROXY
+
 # --- 6.3 Google AI ---
 DOMAIN-SUFFIX,gemini.google.com,PROXY
 DOMAIN-SUFFIX,bard.google.com,PROXY
@@ -444,10 +505,12 @@ DOMAIN-SUFFIX,makersuite.google.com,PROXY
 DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY
 DOMAIN-SUFFIX,aistudio.google.com,PROXY
 DOMAIN-SUFFIX,deepmind.google,PROXY
+
 # --- 6.4 Microsoft Copilot ---
 DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
 DOMAIN-SUFFIX,sydney.bing.com,PROXY
 DOMAIN-SUFFIX,edgeservices.bing.com,PROXY
+
 # --- 6.5 Other AI Services ---
 DOMAIN-SUFFIX,midjourney.com,PROXY
 DOMAIN-SUFFIX,stability.ai,PROXY
@@ -461,23 +524,43 @@ DOMAIN-SUFFIX,suno.ai,PROXY
 DOMAIN-SUFFIX,udio.com,PROXY
 DOMAIN-SUFFIX,cursor.sh,PROXY
 DOMAIN-SUFFIX,v0.dev,PROXY
+
+# --- 6.6 New AI Services (2025-2026) ---
+DOMAIN-SUFFIX,x.ai,PROXY
+DOMAIN-SUFFIX,deepseek.com,PROXY
+DOMAIN-SUFFIX,mistral.ai,PROXY
+DOMAIN-SUFFIX,cohere.com,PROXY
+DOMAIN-SUFFIX,together.ai,PROXY
+DOMAIN-SUFFIX,groq.com,PROXY
+DOMAIN-SUFFIX,bolt.new,PROXY
+DOMAIN-SUFFIX,replit.com,PROXY
+DOMAIN-SUFFIX,windsurf.com,PROXY
+DOMAIN-SUFFIX,codeium.com,PROXY
+DOMAIN-SUFFIX,lovable.dev,PROXY
+DOMAIN-SUFFIX,labs.google,PROXY
+DOMAIN-SUFFIX,notebooklm.google,PROXY
+DOMAIN-SUFFIX,notebooklm.google.com,PROXY
+
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU              │
 # │  Nguồn: GMOogway + fmz200/wool_scripts               │
 # └──────────────────────────────────────────────────────┘
+
 # --- 7.1 Bổ sung Ad Networks ---
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,advertising.com,REJECT
 DOMAIN-SUFFIX,liadm.com,REJECT
-
+# DOMAIN-SUFFIX,branch.io,REJECT  # Disabled: breaks deep linking
+# DOMAIN-SUFFIX,app.link,REJECT   # Disabled: breaks deep linking
 DOMAIN-SUFFIX,go.link,REJECT
 DOMAIN-SUFFIX,onelink.me,REJECT
-DOMAIN-SUFFIX,app.adjust.com,REJECT
-DOMAIN-SUFFIX,s.adjust.com,REJECT
+# DOMAIN-SUFFIX,app.adjust.com,REJECT  # Redundant: covered by adjust.com in section 2.1
+# DOMAIN-SUFFIX,s.adjust.com,REJECT    # Redundant: covered by adjust.com in section 2.1
 DOMAIN-SUFFIX,impression.link,REJECT
 DOMAIN-SUFFIX,metric.gstatic.com,REJECT
-DOMAIN-SUFFIX,pagead.l.doubleclick.net,REJECT
-DOMAIN-SUFFIX,adx.g.doubleclick.net,REJECT
+# DOMAIN-SUFFIX,pagead.l.doubleclick.net,REJECT  # Redundant: covered by doubleclick.net in section 1.1
+# DOMAIN-SUFFIX,adx.g.doubleclick.net,REJECT     # Redundant: covered by doubleclick.net in section 1.1
+
 # --- 7.2 Quảng cáo ứng dụng Trung Quốc ---
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 DOMAIN-SUFFIX,data.bilibili.com,REJECT
@@ -489,34 +572,35 @@ DOMAIN-SUFFIX,sclick.net,REJECT
 DOMAIN-SUFFIX,re.taobao.com,REJECT
 DOMAIN-SUFFIX,sdk.m.amap.com,REJECT
 DOMAIN-SUFFIX,acs.m.taobao.com,REJECT
+
 # --- 7.3 Phishing / Malware / Crypto Scam ---
-DOMAIN-KEYWORD,phishing,REJECT
-DOMAIN-KEYWORD,malware,REJECT
+# DOMAIN-KEYWORD,phishing,REJECT  # Disabled: too broad, blocks anti-phishing education sites
+# DOMAIN-KEYWORD,malware,REJECT   # Disabled: too broad, blocks anti-malware.org etc.
 DOMAIN-SUFFIX,coinhive.com,REJECT
 DOMAIN-SUFFIX,coin-hive.com,REJECT
 DOMAIN-SUFFIX,authedmine.com,REJECT
 DOMAIN-SUFFIX,cryptoloot.pro,REJECT
 DOMAIN-SUFFIX,crypto-loot.com,REJECT
+
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 8: CHẶN TELEMETRY & TRACKING HỆ THỐNG         │
 # │  Nguồn: Johnshall/p-w-p                              │
 # └──────────────────────────────────────────────────────┘
+
 # --- 8.1 Microsoft Telemetry ---
 DOMAIN-SUFFIX,data.microsoft.com,REJECT-DROP
 DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,events.data.microsoft.com,REJECT-DROP
-# --- 8.2 Apple Analytics & Privacy ---
+
+# --- 8.2 Apple Analytics ---
 DOMAIN-SUFFIX,metrics.icloud.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT-DROP
 DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,xp.apple.com,REJECT-DROP
-DOMAIN-SUFFIX,idiag.tq.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,idiag.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,iphonesubmissions.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,radarsubmissions.apple.com,REJECT-DROP
+
 # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
 DOMAIN-SUFFIX,tracking.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT-DROP
@@ -524,39 +608,153 @@ DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
+
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │
 # │  Nguồn: tatarinovms/ShadowRocketSimpleConfig          │
 # └──────────────────────────────────────────────────────┘
+
 # --- 9.1 PlayStation Network ---
 DOMAIN-SUFFIX,playstation.com,PROXY
 DOMAIN-SUFFIX,playstation.net,PROXY
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com,PROXY
+
 # --- 9.2 Xbox / Microsoft Gaming ---
 DOMAIN-SUFFIX,xbox.com,PROXY
 DOMAIN-SUFFIX,xboxlive.com,PROXY
+
 # --- 9.3 Steam ---
 DOMAIN-SUFFIX,steampowered.com,PROXY
 DOMAIN-SUFFIX,steamcommunity.com,PROXY
 DOMAIN-SUFFIX,steamstatic.com,PROXY
+
 # --- 9.4 Nintendo ---
 DOMAIN-SUFFIX,nintendo.com,PROXY
 DOMAIN-SUFFIX,nintendo.net,PROXY
+
 # --- 9.5 Epic Games ---
 DOMAIN-SUFFIX,epicgames.com,PROXY
 DOMAIN-SUFFIX,unrealengine.com,PROXY
+
+# --- 9.6 Riot Games (LOL, Valorant, TFT) ---
+DOMAIN-SUFFIX,riotgames.com,PROXY
+DOMAIN-SUFFIX,leagueoflegends.com,PROXY
+DOMAIN-SUFFIX,riotcdn.net,PROXY
+
+# --- 9.7 EA / Blizzard / Ubisoft ---
+DOMAIN-SUFFIX,ea.com,PROXY
+DOMAIN-SUFFIX,origin.com,PROXY
+DOMAIN-SUFFIX,blizzard.com,PROXY
+DOMAIN-SUFFIX,battle.net,PROXY
+DOMAIN-SUFFIX,ubisoft.com,PROXY
+DOMAIN-SUFFIX,ubi.com,PROXY
+
 # ┌──────────────────────────────────────────────────────┐
-# │  PHẦN 10: TỐI ƯU KẾT NỐI (DIRECT - BỎ QUA VPN)       │
+# │  PHẦN 10: STREAMING SERVICES (PROXY - Geo-unlock)    │
 # └──────────────────────────────────────────────────────┘
 
-# --- 10.1 Apple Services (Bypass for max speed & stability) ---
+# --- 10.1 Netflix ---
+DOMAIN-SUFFIX,netflix.com,PROXY
+DOMAIN-SUFFIX,netflix.net,PROXY
+DOMAIN-SUFFIX,nflximg.net,PROXY
+DOMAIN-SUFFIX,nflximg.com,PROXY
+DOMAIN-SUFFIX,nflxvideo.net,PROXY
+DOMAIN-SUFFIX,nflxso.net,PROXY
+DOMAIN-SUFFIX,nflxext.com,PROXY
+
+# --- 10.2 Disney+ ---
+DOMAIN-SUFFIX,disneyplus.com,PROXY
+DOMAIN-SUFFIX,disney-plus.net,PROXY
+DOMAIN-SUFFIX,dssott.com,PROXY
+DOMAIN-SUFFIX,bamgrid.com,PROXY
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com,PROXY
+
+# --- 10.3 Amazon Prime Video ---
+DOMAIN-SUFFIX,primevideo.com,PROXY
+DOMAIN-SUFFIX,amazonvideo.com,PROXY
+DOMAIN-SUFFIX,aiv-cdn.net,PROXY
+
+# --- 10.4 HBO / Max ---
+DOMAIN-SUFFIX,hbomax.com,PROXY
+DOMAIN-SUFFIX,max.com,PROXY
+DOMAIN-SUFFIX,hbo.com,PROXY
+
+# --- 10.5 Other Streaming ---
+DOMAIN-SUFFIX,hulu.com,PROXY
+DOMAIN-SUFFIX,hulustream.com,PROXY
+DOMAIN-SUFFIX,tv.apple.com,PROXY
+DOMAIN-SUFFIX,crunchyroll.com,PROXY
+DOMAIN-SUFFIX,vrv.co,PROXY
+DOMAIN-SUFFIX,dazn.com,PROXY
+DOMAIN-SUFFIX,bilibili.tv,PROXY
+
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 11: SOCIAL MEDIA ROUTING (PROXY)               │
+# └──────────────────────────────────────────────────────┘
+
+# --- 11.1 Telegram ---
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,telegra.ph,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+IP-CIDR,91.108.0.0/16,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+
+# --- 11.2 Discord ---
+DOMAIN-SUFFIX,discord.com,PROXY
+DOMAIN-SUFFIX,discord.gg,PROXY
+DOMAIN-SUFFIX,discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
+DOMAIN-SUFFIX,discord.media,PROXY
+
+# --- 11.3 Reddit ---
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
+
+# --- 11.4 Threads / WhatsApp Web ---
+DOMAIN-SUFFIX,threads.net,PROXY
+DOMAIN-SUFFIX,web.whatsapp.com,PROXY
+
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 12: DEVELOPER TOOLS (PROXY)                    │
+# └──────────────────────────────────────────────────────┘
+
+# --- 12.1 GitHub / GitLab ---
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,github.io,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,gitlab.com,PROXY
+DOMAIN-SUFFIX,gitlab.io,PROXY
+
+# --- 12.2 Package Registries ---
+DOMAIN-SUFFIX,docker.io,PROXY
+DOMAIN-SUFFIX,docker.com,PROXY
+DOMAIN-SUFFIX,npmjs.org,PROXY
+DOMAIN-SUFFIX,npmjs.com,PROXY
+DOMAIN-SUFFIX,yarnpkg.com,PROXY
+DOMAIN-SUFFIX,pypi.org,PROXY
+DOMAIN-SUFFIX,registry.npmmirror.com,PROXY
+
+# --- 12.3 Developer Communities ---
+DOMAIN-SUFFIX,stackoverflow.com,PROXY
+DOMAIN-SUFFIX,stackexchange.com,PROXY
+DOMAIN-SUFFIX,medium.com,PROXY
+DOMAIN-SUFFIX,dev.to,PROXY
+
+# ┌──────────────────────────────────────────────────────┐
+# │  PHẦN 13: TỐI ƯU KẾT NỐI (DIRECT - BỎ QUA VPN)       │
+# └──────────────────────────────────────────────────────┘
+
+# --- 13.1 Apple Services (Bypass for max speed & stability) ---
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,me.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
 
-# --- 10.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
+# --- 13.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
 DOMAIN-SUFFIX,momo.vn,DIRECT
 DOMAIN-SUFFIX,mservice.com.vn,DIRECT
 DOMAIN-SUFFIX,zalopay.vn,DIRECT
@@ -573,11 +771,31 @@ DOMAIN-SUFFIX,agribank.com.vn,DIRECT
 DOMAIN-SUFFIX,acb.com.vn,DIRECT
 DOMAIN-SUFFIX,vib.com.vn,DIRECT
 DOMAIN-SUFFIX,sacombank.com.vn,DIRECT
+DOMAIN-SUFFIX,hdbank.com.vn,DIRECT
+DOMAIN-SUFFIX,ocb.com.vn,DIRECT
+DOMAIN-SUFFIX,shb.com.vn,DIRECT
+DOMAIN-SUFFIX,msb.com.vn,DIRECT
+DOMAIN-SUFFIX,lpbank.com.vn,DIRECT
+DOMAIN-SUFFIX,eximbank.com.vn,DIRECT
+DOMAIN-SUFFIX,namabank.com.vn,DIRECT
+DOMAIN-SUFFIX,seabank.com.vn,DIRECT
+DOMAIN-SUFFIX,cake.vn,DIRECT
+DOMAIN-SUFFIX,vietqr.io,DIRECT
+DOMAIN-SUFFIX,napas.com.vn,DIRECT
 
-# --- 10.3 Apple Push Notification (Real-time message delivery) ---
-DOMAIN-KEYWORD,push.apple.com,DIRECT
+# --- 13.3 Popular Vietnamese Apps (Lightning fast local access) ---
+DOMAIN-SUFFIX,zalo.me,DIRECT
+DOMAIN-SUFFIX,zaloapp.com,DIRECT
+DOMAIN-SUFFIX,shopee.vn,DIRECT
+DOMAIN-SUFFIX,shopeemobile.com,DIRECT
+DOMAIN-SUFFIX,tiki.vn,DIRECT
+DOMAIN-SUFFIX,lazada.vn,DIRECT
+DOMAIN-SUFFIX,grab.com,DIRECT
+DOMAIN-SUFFIX,be.com.vn,DIRECT
+DOMAIN-SUFFIX,fpt.vn,DIRECT
+DOMAIN-SUFFIX,vnexpress.net,DIRECT
 
-# --- 10.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
+# --- 13.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
 DOMAIN-SUFFIX,vn,DIRECT
 GEOIP,VN,DIRECT
 
@@ -784,5 +1002,5 @@ emote-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(user-customization-service\/v1\/customize|bootstrap\/v1\/bootstrap)$ header-del if-none-match
 
 [MITM]
-hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.c*, api.meiease.c*, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io
 enable = true

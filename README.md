@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.5.1...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.6.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.5.1-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.6.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -340,15 +340,15 @@
 <br>
 
 ```diff
-@@ AI & Gaming Routing — Định tuyến thông minh @@
+@@ AI & Gaming & Streaming — Định tuyến thông minh @@
 
 + ✅ Tự động luồn Proxy cho ChatGPT, Claude
 + ✅ Định tuyến tự động Gemini, Midjourney
-+ ✅ Giảm Ping Game: PlayStation (PSN)
-+ ✅ Tối ưu Xbox Live & Nintendo Switch
-+ ✅ Cải thiện kết nối máy chủ Steam, Epic
-+ ✅ App Việt Nam vẫn chạy thẳng (Direct) siêu tốc
-+ ✅ Không cần bật tắt VPN thủ công phiền phức
++ ✅ Netflix, Disney+, HBO Max qua Proxy
++ ✅ Telegram, Discord, Reddit ổn định
++ ✅ Giảm Ping: PSN, Xbox, Steam, Riot, EA
++ ✅ 27+ Banking VN bypass DIRECT siêu tốc
++ ✅ GitHub, Docker, npm qua Proxy nhanh hơn
 ```
 
 </td>
@@ -476,7 +476,8 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
-| 🏆 | **`v1.5.1`** | `27.05.2026` | 🚀 Tối ưu Policy Group (AI/Gaming sang PROXY) • Đổi REJECT thành REJECT-DROP để tiết kiệm pin • Xoá script thừa | **67+** |
+| 🏆 | **`v1.6.0`** | `29.05.2026` | 🎬 Thêm Streaming (Netflix, Disney+, Prime, HBO, Hulu) • 💬 Social Media routing (Telegram, Discord, Reddit) • 👨‍💻 Developer Tools (GitHub, Docker, npm) • 🏦 27+ Banking VN bypass • 🎮 Gaming mở rộng (Riot, EA, Blizzard, Ubisoft) • 🎵 Spotify ad CDN bổ sung • 🧹 Xoá 35+ rules thừa, sửa 3 lỗi syntax, thêm max-size cho 33 scripts | **67+** |
+| 🛡️ | **`v1.5.1`** | `27.05.2026` | 🚀 Tối ưu Policy Group (AI/Gaming sang PROXY) • Đổi REJECT thành REJECT-DROP để tiết kiệm pin • Xoá script thừa | **67+** |
 | 🛡️ | **`v1.5.0`** | `27.05.2026` | 🚀 Tối ưu Network (LAN, Captive Portal) • Bổ sung Apple Privacy & Tracking chặn theo dõi • Cải thiện RAM và Pin cho iOS • Sửa lỗi xung đột STUN/TURN | **67+** |
 | 🛡️ | `v1.3.0` | `27.05.2026` | 🛡️ Ra mắt Ultimate AdBlock & AI Routing • Nâng cấp Egern lên Ultimate • Chặn Zalo/TikTok Ads • Cờ bạc/Scam | **67+** |
 | ⚡ | `v1.0.7` | `21.05.2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **67+** |
@@ -758,7 +759,7 @@
 
 | | Ứng dụng | Giá | Link Module |
 |:---:|:---|:---:|:---|
-| ⭐ | **Shadowrocket** | `$2.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Shadowrocket.module` |
+| ⭐ | **Shadowrocket** | `$2.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Premium.module` |
 | 💰 | **LanceX** | `$1.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_LanceX.module` |
 | 🔮 | **Egern** | `$2.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Egern.yaml` |
 | 🌊 | **Surge** | `$49.99` | `https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Surge.sgmodule` |
