@@ -10,6 +10,7 @@
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com
 always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.turn.apple.com, *.stun.services.mozilla.com, *.stun.l.google.com
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
+force-http-engine-hosts = %APPEND% api.revenuecat.com:443, api.rc-backup.com:443
 
 [Rule]
 # === BLOCK QUIC FOR YOUTUBE MITM ===
@@ -921,20 +922,17 @@ fimo-res=type=http-response,pattern=^https:\/\/server\.yoyiapp\.com\/fimo-user\/
 # 📷 Varlens Premium (yfamilys)
 varlens-res=type=http-response,pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js,requires-body=true,timeout=10
 
-# 📸 Darkroom Pro (yfamilys)
-darkroom-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/darkroom.js
-# 📷 OldRoll Camera (yfamilys)
-oldroll-response = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
-# 📸 PhotoRoom Pro (yfamilys)
-photoroom-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PhotoRoom.js
-# 📸 Pixelcut Pro (yfamilys)
-pixelcut-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/pixelcut.js
-# 📸 Mojo Pro (yfamilys)
-mojo-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/mojo.js
+# ┌──────────────────────────────────────────────────────────────────┐
+# │  NOTE: Darkroom, PhotoRoom, Pixelcut, Mojo, Audiomack, Spark,  │
+# │  ColorWidgets, WidgetSmith, TouchRetouch, Emote                │
+# │  → Handled by revenuecat_multi.js (generic fallback L47-51)    │
+# │  OldRoll, Pandora, Beelinguapp, Relens                         │
+# │  → Handled by iTunes.js (250+ apps fallback L391-432)          │
+# │  Separate scripts REMOVED to avoid endpoint conflicts.         │
+# └──────────────────────────────────────────────────────────────────┘
 # 🎵 Boom Equalizer (yfamilys)
 boom-response = type=http-response,pattern=^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$,requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js
-# 🎵 Audiomack Platinum (yfamilys)
-audiomack-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/(identify|\d+)$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js
+
 # 📅 Fantastical Premium (yfamilys)
 fantastical-response = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details),requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js
 # 📝 Craft Premium (yfamilys)
@@ -955,8 +953,7 @@ aloha-response = type=http-response,pattern=^https?:\/\/api\.alohaprofile\.com\/
 dailyyoga-response = type=http-response,pattern=^https?:\/\/pre\.dailyyoga\.com\/h2oapi\/user\/getUserDetail,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/dailyYoga.js
 # 🌤 AccuWeather (yfamilys)
 accuweather-response = type=http-response,pattern=^https?:\/\/app-subscription-proxy\.accuweather\.com\/subscriptions\/v1\/apple\/validate,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js
-# 📧 Spark Mail (yfamilys)
-spark-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js
+
 # 😴 Endel Focus/Sleep (yfamilys)
 endel-response = type=http-response,pattern=^https:\/\/api-production\.endel\.io\/v4\/call,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Endel.js
 # 📝 Flomo Notes (yfamilys)
@@ -965,22 +962,10 @@ flomo-response = type=http-response,pattern=^https:\/\/flomoapp\.com\/api\/v1\/u
 drafts-response = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_receipt,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Drafts.js
 # 💪 Keep Fitness (yfamilys)
 keep-response = type=http-response,pattern=^https:\/\/api\.gotokeep\.com,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js
-# 🎨 Color Widgets (yfamilys)
-colorwidgets-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js
-# 🎨 WidgetSmith (yfamilys)
-widgetsmith-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetSmith.js
+
 # 🎬 InVideo (yfamilys)
 invideo-response = type=http-response,pattern=^https?:\/\/payments\.invideo\.io\/(verify_purchase|subscription),requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js
-# 🎵 Pandora Music (yfamilys)
-pandora-response = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js
-# 🌐 Beelinguapp (yfamilys)
-beelinguapp-response = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/BeelinguappProCrack.js
-# 📷 Relens Camera (yfamilys)
-relens-response = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Relens.js
-# 📸 TouchRetouch (yfamilys)
-touchretouch-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/$RCAnonymousID%3A\w{32})$,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/TouchRetouch.js
-# 😀 Emote Sticker (yfamilys)
-emote-response = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/$RCAnonymousID%3A\w{32})$,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Emote.js
+
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200

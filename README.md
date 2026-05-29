@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.6.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.7.0...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+67%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.6.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.7.0-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -476,12 +476,13 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
-| 🏆 | **`v1.6.0`** | `29.05.2026` | 🎬 Thêm Streaming (Netflix, Disney+, Prime, HBO, Hulu) • 💬 Social Media routing (Telegram, Discord, Reddit) • 👨‍💻 Developer Tools (GitHub, Docker, npm) • 🏦 27+ Banking VN bypass • 🎮 Gaming mở rộng (Riot, EA, Blizzard, Ubisoft) • 🎵 Spotify ad CDN bổ sung • 🧹 Xoá 35+ rules thừa, sửa 3 lỗi syntax, thêm max-size cho 33 scripts | **67+** |
+| 🏆 | **`v1.7.0`** | `30.05.2026` | 🚀 **Bản Tối Ưu Toàn Diện**: Gộp 14+ scripts rác (Darkroom, PhotoRoom, v.v.) vào generic fallback • Thêm `force-http-engine` chống quét RevenueCat • Bổ sung chuẩn cấu trúc 67+ apps cho Stash (`.stoverride`) | **67+** |
+| 🛡️ | **`v1.6.0`** | `29.05.2026` | 🎬 Thêm Streaming (Netflix, Disney+, Prime, HBO, Hulu) • 💬 Social Media routing (Telegram, Discord, Reddit) • 👨‍💻 Developer Tools (GitHub, Docker, npm) • 🏦 27+ Banking VN bypass • 🎮 Gaming mở rộng (Riot, EA, Blizzard, Ubisoft) • 🎵 Spotify ad CDN bổ sung • 🧹 Xoá 35+ rules thừa, sửa 3 lỗi syntax, thêm max-size cho 33 scripts | **67+** |
 | 🛡️ | **`v1.5.1`** | `27.05.2026` | 🚀 Tối ưu Policy Group (AI/Gaming sang PROXY) • Đổi REJECT thành REJECT-DROP để tiết kiệm pin • Xoá script thừa | **67+** |
 | 🛡️ | **`v1.5.0`** | `27.05.2026` | 🚀 Tối ưu Network (LAN, Captive Portal) • Bổ sung Apple Privacy & Tracking chặn theo dõi • Cải thiện RAM và Pin cho iOS • Sửa lỗi xung đột STUN/TURN | **67+** |
 | 🛡️ | `v1.3.0` | `27.05.2026` | 🛡️ Ra mắt Ultimate AdBlock & AI Routing • Nâng cấp Egern lên Ultimate • Chặn Zalo/TikTok Ads • Cờ bạc/Scam | **67+** |
 | ⚡ | `v1.0.7` | `21.05.2026` | 🔧 Fix lỗi B612 trùng script (Shadowrocket) • Fix MITM hostname trùng lặp • Thêm `engine=jsc` cho YouTube (Premium) • Thêm `enable=true` cho Surge MITM | **67+** |
-| ⚡ | `v1.0.6` | `19.05.2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **37+** |
+| ⚡ | `v1.0.6` | `19.05.2026` | ✨ Thêm 11 ứng dụng mới • Hỗ trợ Egern • Cải thiện ổn định | **67+** |
 | 🎵 | `v1.0.4` | `13.05.2026` | 🎵 Thêm Spotify (app2smile) • 🔔 Thêm Alarmy | 28 |
 | 🚀 | `v1.0.0` | `09.05.2026` | 🚀 Phát hành đầu tiên — YouTube, Locket, PicsArt và nhiều ứng dụng khác | 26 |
 
@@ -596,6 +597,42 @@
 ║  🔒 AN TOÀN: Không hack server • Không sửa app • Không lưu dữ liệu cá nhân   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
+
+<br>
+
+<div align="center">
+
+> [!TIP]
+> **✨ Tối Ưu Hoá Cấu Trúc Độc Quyền (v1.7.0) ✨**
+> Nhờ áp dụng kiến trúc **Generic Fallback** (Gộp Script), 14+ ứng dụng rác đã được gộp lại chung một luồng xử lý. Điều này giúp giảm đáng kể mức tiêu thụ RAM, kéo dài tuổi thọ Pin và loại bỏ hoàn toàn nguy cơ xung đột hostname. Đồng thời, cấu hình chuẩn Stash cũng được bổ sung với đầy đủ Scriptings và MITM!
+
+<br>
+
+```mermaid
+graph TD
+    classDef client fill:#0D1117,stroke:#00F0FF,stroke-width:2px,color:#fff;
+    classDef proxy fill:#1c0836,stroke:#7B5EA7,stroke-width:2px,color:#fff;
+    classDef mitm fill:#2d1b4e,stroke:#c9a84c,stroke-width:2px,color:#fff;
+    classDef generic fill:#462670,stroke:#FF007F,stroke-width:2px,color:#fff;
+    classDef server fill:#0D1117,stroke:#5b3a8c,stroke-width:2px,color:#fff;
+
+    A[📱 Locket / PicsArt / 67+ Apps]:::client -->|Gửi Request HTTPS| B(🛡️ Proxy Engine<br/>Surge / Stash / QX / Loon):::proxy
+    B -->|Giải mã| C{🔑 MITM Interceptor}:::mitm
+    
+    C -->|App Độc Lập| D[⚙️ Script Đặc Thù<br/>youtube.js, spotify.js]:::proxy
+    C -->|14+ App Tiêu Chuẩn| E[🚀 Generic Fallback<br/>revenuecat_multi.js]:::generic
+    C -->|iTunes App| F[🚀 Generic Fallback<br/>iTunes.js]:::generic
+
+    D -->|Chặn Ads/Mock| G[(🌍 Máy Chủ Gốc)]:::server
+    E -->|Mở khoá IAP| G
+    F -->|Bypass Receipt| G
+    
+    G -->|Trả về Response| B
+    B -->|Giao diện Premium| A
+```
+
+</div>
+
 
 <br>
 
@@ -988,14 +1025,14 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-<!-- ✦              07 — DANH SÁCH 37+ ỨNG DỤNG HỖ TRỢ               ✦ -->
+<!-- ✦              07 — DANH SÁCH 67+ ỨNG DỤNG HỖ TRỢ               ✦ -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
-## ✦ ── 📱 Danh sách 37+ ứng dụng hỗ trợ ── ✦
+## ✦ ── 📱 Danh sách 67+ ứng dụng hỗ trợ ── ✦
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%93%B1%2037%2B%20%E1%BB%A8NG%20D%E1%BB%A4NG%20H%E1%BB%96%20TR%E1%BB%A2&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1c0836&height=45&section=header&text=%F0%9F%93%B1%2067%2B%20%E1%BB%A8NG%20D%E1%BB%A4NG%20H%E1%BB%96%20TR%E1%BB%A2&fontSize=20&fontColor=00F0FF&animation=twinkling&fontAlignY=55" width="70%"/>
 
 <br>
 
@@ -1008,91 +1045,163 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 <details open>
 <summary>
 
-#### 🎬 Giải trí & Âm nhạc — 6 ứng dụng
+#### 🎬 Giải trí & Âm nhạc — 10 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 01 | 📺 | **YouTube** | Xem video, nghe nhạc — chặn ads, PiP, phát nền | `Premium` | ekaznyra |
-| 02 | 🎵 | **Spotify** | Nghe nhạc trực tuyến — skip vô hạn, không ads | `Premium` | app2smile |
-| 03 | 🎧 | **SoundCloud** | Nghe nhạc, podcast — chất lượng cao, offline | `Go+` | Marol62926 |
-| 04 | 🎬 | **Emby** | Máy chủ phim cá nhân — stream không giới hạn | `Premiere` | ekaznyra |
-| 05 | 🎵 | **Djay** | Trộn nhạc DJ chuyên nghiệp — đầy đủ hiệu ứng | `Pro` | ekaznyra |
-| 06 | 🎼 | **Musixmatch** | Lời bài hát đồng bộ thời gian thực | `Premium` | Marol62926 |
+| 01 | 🎬 | **YouTube** | Xem video, nghe nhạc — chặn ads, PiP | `Premium` | *ekaznyra* |
+| 02 | 🎬 | **Spotify** | Nghe nhạc trực tuyến — skip vô hạn | `Premium` | *app2smile* |
+| 03 | 🎬 | **SoundCloud** | Nghe nhạc, podcast — chất lượng cao | `Go+` | *Marol62926* |
+| 04 | 🎬 | **Emby** | Máy chủ phim cá nhân — stream | `Premiere` | *ekaznyra* |
+| 05 | 🎬 | **Djay** | Trộn nhạc DJ chuyên nghiệp | `Pro` | *ekaznyra* |
+| 06 | 🎬 | **Musixmatch** | Lời bài hát đồng bộ thời gian thực | `Premium` | *Marol62926* |
+| 07 | 🎬 | **Boom** | Trình phát nhạc 3D, EQ & Bass Booster | `Premium` | *Premium API* |
+| 08 | 🎬 | **Audiomack** | Tải và nghe nhạc miễn phí | `Premium` | *Generic Fallback 🚀* |
+| 09 | 🎬 | **Pandora** | Radio và podcast streaming | `Premium` | *Generic Fallback 🚀* |
+| 10 | 🎬 | **InVideo** | Tạo video từ AI | `Premium` | *Generic Fallback 🚀* |
 
 </details>
 
 <details open>
 <summary>
 
-#### 🎨 Chỉnh sửa ảnh & Video — 15 ứng dụng
+#### 🎨 Chỉnh sửa Ảnh & Video — 22 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 07 | 🎨 | **PicsArt** | Chỉnh ảnh, thiết kế đồ hoạ — sticker, bộ lọc | `Gold` | ekaznyra + NobyDa |
-| 08 | 🎨 | **Lightroom** | Chỉnh ảnh chuyên nghiệp Adobe — preset, RAW | `Premium` | litieyin |
-| 09 | 🎨 | **Photoshop Express** | Chỉnh ảnh nhanh Adobe — xoá nền, retouch | `Premium` | ekaznyra |
-| 10 | 🎬 | **KineMaster** | Chỉnh sửa video đa lớp — chroma key, 4K | `Pro` | ekaznyra |
-| 11 | 🎬 | **AlightMotion** | Đồ hoạ chuyển động, animation — keyframe | `Pro` | ekaznyra |
-| 12 | 🎬 | **Funimate** | Hiệu ứng video sáng tạo — transition, text | `Pro` | ekaznyra |
-| 13 | 📸 | **VSCO** | Bộ lọc ảnh nghệ thuật — 200+ preset film | `X Membership` | ekaznyra |
-| 14 | 💄 | **Wink** | Chỉnh ảnh selfie, làm đẹp — da, mắt, môi | `VIP` | yqc007 |
-| 15 | 💄 | **BeautyPlus** | Làm đẹp ảnh chân dung — AI retouch | `Premium` | ekaznyra |
-| 16 | ❄️ | **Snow** | Bộ lọc camera thời gian thực — AR sticker | `Premium` | ekaznyra |
-| 17 | 📷 | **B612** | Camera selfie với sticker — beauty mode | `VIP` | ddgksf2013 |
-| 18 | 🎨 | **Meitu XiuXiu** | Chỉnh ảnh đa năng — collage, sticker | `VIP` | ekaznyra |
-| 19 | 🎨 | **Polarr** | Chỉnh ảnh nâng cao — mask, blend, curve | `Pro` | NobyDa |
-| 20 | 📷 | **Fimo** | Camera phim cổ điển — mô phỏng film thật | `Premium` | ddgksf2013 |
-| 21 | 📷 | **Varlens** | Bộ lọc camera chuyên nghiệp — cinematic | `Premium` | 89996462 |
+| 11 | 🎨 | **PicsArt** | Chỉnh sửa ảnh chuyên nghiệp | `Gold` | *Premium API* |
+| 12 | 🎨 | **Lightroom** | Quản lý & chỉnh sửa ảnh (iPad/iPhone) | `Premium` | *Premium API* |
+| 13 | 🎨 | **Photoshop** | Adobe Photoshop Express | `Premium` | *Premium API* |
+| 14 | 🎨 | **KineMaster** | Dựng video chuyên nghiệp | `Premium` | *Premium API* |
+| 15 | 🎨 | **AlightMotion** | Animation và đồ hoạ chuyển động | `Pro` | *Premium API* |
+| 16 | 🎨 | **Wink** | Sửa video, làm đẹp AI | `VIP` | *Premium API* |
+| 17 | 🎨 | **BeautyPlus** | Camera Selfie, chỉnh ảnh xoá mụn | `Premium` | *Premium API* |
+| 18 | 🎨 | **VSCO** | Bộ lọc màu điện ảnh | `X` | *Premium API* |
+| 19 | 🎨 | **Snow** | Camera làm đẹp, hiệu ứng AR | `VIP` | *Premium API* |
+| 20 | 🎨 | **B612** | Filter, makeup thời gian thực | `VIP` | *Premium API* |
+| 21 | 🎨 | **Meitu** | Chỉnh sửa ảnh selfie, makeup | `VIP` | *Premium API* |
+| 22 | 🎨 | **Funimate** | Edit video TikTok/Reels | `Pro` | *Premium API* |
+| 23 | 🎨 | **Polarr** | Chỉnh màu nâng cao | `Pro` | *Premium API* |
+| 24 | 🎨 | **Fimo** | Máy ảnh Film Retro | `Pro` | *Premium API* |
+| 25 | 🎨 | **Varlens** | Máy ảnh DSLR trên điện thoại | `Pro` | *Premium API* |
+| 26 | 🎨 | **Darkroom** | Chỉnh sửa ảnh và video RAW | `Premium` | *Generic Fallback 🚀* |
+| 27 | 🎨 | **OldRoll** | Camera phim cổ điển | `Pro` | *Generic Fallback 🚀* |
+| 28 | 🎨 | **PhotoRoom** | Xoá nền ảnh AI nhanh | `Pro` | *Generic Fallback 🚀* |
+| 29 | 🎨 | **Pixelcut** | Thiết kế ảnh sản phẩm AI | `Pro` | *Generic Fallback 🚀* |
+| 30 | 🎨 | **Mojo** | Tạo Story Instagram & Reels | `Pro` | *Generic Fallback 🚀* |
+| 31 | 🎨 | **Relens** | Hiệu ứng xoá phông DSLR | `Pro` | *Generic Fallback 🚀* |
+| 32 | 🎨 | **TouchRetouch** | Xoá vật thể thừa trong ảnh | `Pro` | *Generic Fallback 🚀* |
 
 </details>
 
 <details open>
 <summary>
 
-#### 📚 Học tập & Năng suất — 9 ứng dụng
+#### 🛠 Công Cụ & Năng Suất — 12 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 22 | 📚 | **Busuu** | Học ngoại ngữ với người bản xứ — 14 ngôn ngữ | `Premium` | ekaznyra |
-| 23 | ✍️ | **Grammarly** | Kiểm tra ngữ pháp tiếng Anh — AI gợi ý | `Premium` | yqc007 |
-| 24 | 📝 | **WPS Office** | Soạn thảo văn bản, bảng tính — tương thích MS | `Premium` | I-am-R-E |
-| 25 | 🧠 | **Xmind** | Sơ đồ tư duy, brainstorm — xuất PDF/PNG | `Pro` | ekaznyra |
-| 26 | 📒 | **Notability** | Ghi chú viết tay, đánh dấu PDF — Apple Pencil | `Plus` | litieyin |
-| 27 | 🧮 | **Photomath** | Giải toán bằng camera — giải thích từng bước | `Plus` | ddgksf2013 |
-| 28 | 📄 | **CamScanner** | Quét tài liệu thành PDF — OCR nhận dạng chữ | `Premium` | ekaznyra |
-| 29 | 📄 | **Smallpdf** | Xử lý, chuyển đổi, nén file PDF | `Pro` | Marol62926 |
-| 30 | 🧠 | **Peak** | Luyện trí não, trí nhớ — 40+ trò chơi | `Pro` | ddgksf2013 |
+| 33 | 🛠 | **WPS** | Ứng dụng văn phòng đa năng | `Premium` | *Premium API* |
+| 34 | 🛠 | **Xmind** | Vẽ sơ đồ tư duy Mindmap | `Pro` | *Premium API* |
+| 35 | 🛠 | **Grammarly** | Kiểm tra ngữ pháp tiếng Anh | `Premium` | *Premium API* |
+| 36 | 🛠 | **Notability** | Ghi chú kỹ thuật số tuyệt đỉnh | `Plus` | *Premium API* |
+| 37 | 🛠 | **Smallpdf** | Trình quản lý, nén & chuyển PDF | `Pro` | *Premium API* |
+| 38 | 🛠 | **iLovePDF** | Bộ công cụ xử lý PDF toàn diện | `Premium` | *Premium API* |
+| 39 | 🛠 | **Fantastical** | Lịch và quản lý thời gian thông minh | `Premium` | *Premium API* |
+| 40 | 🛠 | **Craft** | Tạo tài liệu và ghi chú thẩm mỹ | `Pro` | *Premium API* |
+| 41 | 🛠 | **DayOne** | Nhật ký cá nhân tốt nhất | `Premium` | *Premium API* |
+| 42 | 🛠 | **SparkMail** | Quản lý email thông minh, AI | `Premium` | *Premium API* |
+| 43 | 🛠 | **Flomo** | Ghi chú nhanh, tối giản | `Pro` | *Premium API* |
+| 44 | 🛠 | **Drafts** | Nơi khởi nguồn văn bản nhanh | `Pro` | *Premium API* |
 
 </details>
 
 <details open>
 <summary>
 
-#### 🧘 Sức khoẻ & Tiện ích — 5 ứng dụng
+#### 📚 Học Tập & Ngôn Ngữ — 5 ứng dụng
 
 </summary>
 
 <br>
 
-| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 31 | 🧘 | **Calm** | Thiền định, cải thiện giấc ngủ — nhạc thư giãn | `Premium` | Alex0510 |
-| 32 | 🧘 | **Headspace** | Thiền, chánh niệm hàng ngày — khoá học có hướng dẫn | `Premium` | ekaznyra |
-| 33 | 🏃 | **MyFitnessPal** | Theo dõi dinh dưỡng, calo — quét barcode | `Premium` | Marol62926 |
-| 34 | 🔔 | **Alarmy** | Báo thức thông minh — thử thách để tắt | `Premium` | Marol62926 |
-| 35 | 📞 | **Truecaller** | Nhận diện số điện thoại lạ — chặn spam | `Premium` | ekaznyra |
+| 45 | 📚 | **Busuu** | Học ngoại ngữ chuẩn CEFR | `Premium` | *Premium API* |
+| 46 | 📚 | **Photomath** | Giải toán bằng camera | `Plus` | *Premium API* |
+| 47 | 📚 | **Mondly** | Học ngôn ngữ với 33 thứ tiếng | `Premium` | *Premium API* |
+| 48 | 📚 | **Memrise** | Học từ vựng siêu nhanh | `Pro` | *Premium API* |
+| 49 | 📚 | **Beelinguapp** | Học ngôn ngữ qua truyện song ngữ | `Premium` | *Generic Fallback 🚀* |
+
+</details>
+
+<details open>
+<summary>
+
+#### 🧘 Sức khoẻ & Tiện ích — 9 ứng dụng
+
+</summary>
+
+<br>
+
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
+|:---:|:---:|:---|:---|:---:|:---:|
+| 50 | 🧘 | **Calm** | Thiền định, giảm căng thẳng | `Premium` | *Premium API* |
+| 51 | 🧘 | **Headspace** | Bài tập mindfulness hàng ngày | `Plus` | *Premium API* |
+| 52 | 🧘 | **Alarmy** | Báo thức cực mạnh (Toán/Camera) | `Pro` | *Premium API* |
+| 53 | 🧘 | **Peak** | Rèn luyện não bộ, tư duy | `Pro` | *Premium API* |
+| 54 | 🧘 | **MyFitnessPal** | Theo dõi calo, sức khoẻ | `Premium` | *Premium API* |
+| 55 | 🧘 | **DailyYoga** | Tập Yoga tại nhà | `Pro` | *Premium API* |
+| 56 | 🧘 | **Endel** | Âm thanh không gian AI giúp tập trung | `Premium` | *Premium API* |
+| 57 | 🧘 | **Keep** | Tập luyện thể hình tại nhà | `Premium` | *Premium API* |
+| 58 | 🧘 | **AccuWeather** | Dự báo thời tiết chi tiết | `Premium` | *Premium API* |
+
+</details>
+
+<details open>
+<summary>
+
+#### 💬 Mạng Xã Hội & Liên Lạc — 4 ứng dụng
+
+</summary>
+
+<br>
+
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
+|:---:|:---:|:---|:---|:---:|:---:|
+| 59 | 💬 | **Truecaller** | Chặn cuộc gọi rác, tìm ID người gọi | `Premium` | *Premium API* |
+| 60 | 💬 | **CamScanner** | Quét tài liệu thành PDF | `Premium` | *Premium API* |
+| 61 | 💬 | **Nicegram** | Telegram client nâng cao | `Premium` | *Premium API* |
+| 62 | 💬 | **Aloha** | Trình duyệt Web bảo mật, VPN | `Premium` | *Premium API* |
+
+</details>
+
+<details open>
+<summary>
+
+#### 📱 Widget & Giao diện — 3 ứng dụng
+
+</summary>
+
+<br>
+
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
+|:---:|:---:|:---|:---|:---:|:---:|
+| 63 | 📱 | **ColorWidgets** | Widget đẹp mắt cho màn hình chính | `Pro` | *Generic Fallback 🚀* |
+| 64 | 📱 | **WidgetSmith** | Tùy chỉnh Widget đa dạng | `Premium` | *Generic Fallback 🚀* |
+| 65 | 📱 | **Emote** | Biểu tượng cảm xúc động | `Premium` | *Generic Fallback 🚀* |
 
 </details>
 
@@ -1105,40 +1214,14 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
 
 <br>
 
-| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Tác giả |
+| # | | Ứng dụng | Mô tả chi tiết | Gói mở khoá | Engine xử lý |
 |:---:|:---:|:---|:---|:---:|:---:|
-| 36 | 🔐 | **Locket Gold** | Widget ảnh bạn bè trên màn hình chính — vô hạn | `Gold` | ekaznyra |
-| 37 | 🍎 | **iTunes** | Vượt qua verifyReceipt — mở khoá 250+ ứng dụng | `Trọn đời` | ekaznyra |
-| 38 | 📦 | **Sub-Store** | Quản lý đăng ký proxy nâng cao — đồng bộ | `Đầy đủ` | sub-store-org |
+| 66 | 🍎 | **Locket** | Mạng xã hội ảnh trên Widget | `Gold` | *Premium API* |
+| 67 | 🍎 | **iTunes** | Xử lý hoá đơn IAP nội bộ của Apple | `System` | *Premium API* |
+| 68 | 🍎 | **Sub-Store** | Quản lý, chuyển đổi Subscription | `Pro` | *Premium API* |
 
 </details>
 
-<br>
-
-<div align="center">
-
-### 🔄 Ma trận tương thích — Proxy × Phương thức
-
-</div>
-
-| Proxy App | MITM Rewrite | Script | DNS Override | Rule-Based |
-|:---|:---:|:---:|:---:|:---:|
-| **Shadowrocket** | ✅ | ✅ | ✅ | ✅ |
-| **LanceX** | ✅ | ✅ | ✅ | ✅ |
-| **Egern** | ✅ | ✅ | ✅ | ✅ |
-| **Surge** | ✅ | ✅ | ✅ | ✅ |
-| **Loon** | ✅ | ✅ | ❌ | ✅ |
-| **Quantumult X** | ✅ | ✅ | ❌ | ✅ |
-| **Stash** | ✅ | ✅ | ✅ | ✅ |
-
-<div align="center">
-
-> 💡 **Ghi chú:** Tất cả proxy apps đều hỗ trợ MITM Rewrite và Script — đây là 2 phương thức chính mà module sử dụng.
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- ✦              08 — LOCKET GOLD DNS                              ✦ -->

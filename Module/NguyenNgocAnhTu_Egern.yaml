@@ -2191,40 +2191,10 @@ scriptings:
       body_required: true
       timeout: 10
 
-  # 📸 Darkroom Pro (yfamilys)
-  - http_response:
-      name: "Darkroom Pro"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers)/.*"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/darkroom.js"
-      body_required: true
       timeout: 10
-  # 📷 OldRoll Camera (yfamilys)
-  - http_response:
-      name: "OldRoll Camera"
-      match: "^https?://buy\\.itunes\\.apple\\.com/verifyReceipt$"
-      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js"
-      body_required: true
       timeout: 10
-  # 📸 PhotoRoom Pro (yfamilys)
-  - http_response:
-      name: "PhotoRoom Pro"
-      match: "^https?://api\\.revenuecat\\.com/v1/(subscribers/[^/]+$|receipts$)"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PhotoRoom.js"
-      body_required: true
       timeout: 10
-  # 📸 Pixelcut Pro (yfamilys)
-  - http_response:
-      name: "Pixelcut Pro"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers)/.*"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/pixelcut.js"
-      body_required: true
       timeout: 10
-  # 📸 Mojo Pro (yfamilys)
-  - http_response:
-      name: "Mojo Pro"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers)/.*"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/mojo.js"
-      body_required: true
       timeout: 10
   # 🎵 Boom Equalizer (yfamilys)
   - http_response:
@@ -2233,12 +2203,6 @@ scriptings:
       script_url: "https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js"
       body_required: true
       timeout: 10
-  # 🎵 Audiomack Platinum (yfamilys)
-  - http_response:
-      name: "Audiomack Platinum"
-      match: "^https?://api\\.revenuecat\\.com/v1/subscribers/(identify|\\d+)$"
-      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js"
-      body_required: true
       timeout: 10
   # 📅 Fantastical Premium (yfamilys)
   - http_response:
@@ -2309,12 +2273,6 @@ scriptings:
       script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js"
       body_required: true
       timeout: 10
-  # 📧 Spark Mail (yfamilys)
-  - http_response:
-      name: "Spark Mail Premium"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers/.{36}|subscribers/\\w{14})$"
-      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js"
-      body_required: true
       timeout: 10
   # 😴 Endel (yfamilys)
   - http_response:
@@ -2351,54 +2309,12 @@ scriptings:
       script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js"
       body_required: true
       timeout: 10
-  # 🎨 WidgetSmith (yfamilys)
-  - http_response:
-      name: "WidgetSmith Pro"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers)/.*"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/widgetSmith.js"
-      body_required: true
       timeout: 10
-  # 🎬 InVideo (yfamilys)
-  - http_response:
-      name: "InVideo Premium"
-      match: "^https?://payments\\.invideo\\.io/(verify_purchase|subscription)"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js"
-      body_required: true
       timeout: 10
-  # 🎵 Pandora Music (yfamilys)
-  - http_response:
-      name: "Pandora Music"
-      match: "^https://buy\\.itunes\\.apple\\.com/verifyReceipt"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js"
-      body_required: true
       timeout: 10
-  # 🌐 Beelinguapp (yfamilys)
-  - http_response:
-      name: "Beelinguapp Premium"
-      match: "^https?://buy\\.itunes\\.apple\\.com/verifyReceipt$"
-      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/BeelinguappProCrack.js"
-      body_required: true
       timeout: 10
-  # 📷 Relens Camera (yfamilys)
-  - http_response:
-      name: "Relens Camera"
-      match: "^https://buy\\.itunes\\.apple\\.com/verifyReceipt"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Relens.js"
-      body_required: true
       timeout: 10
-  # 📸 TouchRetouch (yfamilys)
-  - http_response:
-      name: "TouchRetouch Pro"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers)"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/TouchRetouch.js"
-      body_required: true
       timeout: 10
-  # 😀 Emote Sticker (yfamilys)
-  - http_response:
-      name: "Emote Sticker"
-      match: "^https?://api\\.revenuecat\\.com/v1/(receipts|subscribers)"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Emote.js"
-      body_required: true
       timeout: 10
 
 mitm:
