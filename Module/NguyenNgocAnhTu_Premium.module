@@ -1,22 +1,75 @@
 #!name=👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium ⁕
 #!desc=🚀 Mở khóa 67+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. 🏦 27+ Banking VN. 🎬 Streaming & Social.
-#!version=1.6.0
-#!date=2026-05-29
+#!version=1.7.0
+#!date=2026-06-01
 #!author=Nguyễn Ngọc Anh Tú (z3rokaze)
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
 #!system=ios
 
 [General]
-force-http-engine-hosts = %APPEND% *youtube.com:443, *googlevideo.com:443, api.revenuecat.com:443, api.rc-backup.com:443
-# === DNS MÃ HÓA (DoH) - Pomelo520 ===
-dns-server = https://dns.google/dns-query, https://cloudflare-dns.com/dns-query, https://dns.quad9.net/dns-query, system
-# === TỐI ƯU MẠNG NỘI BỘ ===
+# ============================================================
+# === [General] TỐI ƯU CHUẨN SHADOWROCKET (v1.7.0)         ===
+# ============================================================
+
+# --- BYPASS SYSTEM: bỏ qua traffic hệ thống iOS ---
+# Bắt buộc nên bật trên Shadowrocket: tránh trễ Push Notification (APNs),
+# tránh treo các tiến trình nền của hệ thống. Mặc định khuyến nghị = true.
+bypass-system = true
+
+# --- DNS MÃ HÓA (DoH) — CHẶN QUẢNG CÁO TẦNG DNS ---
+# Mặc định dùng AdGuard DNS: chặn ads + trackers + phishing ngay ở tầng DNS
+# (lớp bảo vệ thêm, bổ trợ cho các rule REJECT bên dưới). Có "system" fallback.
+# Lưu ý: AdGuard KHÔNG chặn domain API của các script unlock (revenuecat/itunes...),
+# nên không ảnh hưởng tính năng mở khóa app.
+dns-server = https://dns.adguard-dns.com/dns-query, system
+
+# --- FALLBACK DNS: khi DoH ở trên lỗi/timeout ---
+fallback-dns-server = system
+
+# ------------------------------------------------------------
+# TÙY CHỌN DNS THAY THẾ (muốn dùng cái nào: bỏ "# " đầu dòng đó,
+# và thêm "# " vào đầu dòng dns-server AdGuard ở trên):
+#   • ControlD (chặn ads + trackers + malware):
+# dns-server = https://freedns.controld.com/p2, system
+#   • AdGuard Family (chặn thêm nội dung 18+ & ép Safe Search):
+# dns-server = https://family.adguard-dns.com/dns-query, system
+#   • Cấu hình GỐC — Google + Cloudflare + Quad9 (chỉ mã hóa, KHÔNG chặn ads):
+# dns-server = https://dns.google/dns-query, https://cloudflare-dns.com/dns-query, https://dns.quad9.net/dns-query, system
+# ------------------------------------------------------------
+
+# --- PRIVATE IP ANSWER: chống DNS bị giả mạo về IP nội bộ ---
+# Nếu domain phân giải ra IP private, Shadowrocket coi như bị hijack
+# và ép đi proxy. Cần thiết cho Captive Portal & GeoIP hoạt động đúng.
+private-ip-answer = true
+
+# --- ICMP AUTO REPLY: tự trả lời ping ---
+# Giúp lệnh ping/đo mạng phản hồi ngay, không vòng qua proxy.
+icmp-auto-reply = true
+
+# --- UDP FALLBACK KHI NODE KHÔNG HỖ TRỢ UDP ---
+# Nếu node proxy không relay được UDP, REJECT để traffic (gồm QUIC/HTTP3)
+# fallback về TCP/HTTP2 thay vì rò rỉ trực tiếp. An toàn cho đa số node.
+# Nếu node CỦA BẠN relay UDP tốt (muốn giữ QUIC), đổi REJECT thành DIRECT.
+udp-policy-not-supported-behaviour = REJECT
+
+# --- TỐI ƯU MẠNG NỘI BỘ (LAN bypass) ---
+# 17.0.0.0/8 = dải Apple (Push/iCloud); 100.64.0.0/10 = CGNAT.
 skip-proxy = %APPEND% 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local
 # Note: *.crashlytics.com removed — conflicts with REJECT-DROP rule in section 2.3
+
+# --- TUN EXCLUDED ROUTES: dải IP không đi qua TUN ---
 tun-excluded-routes = %APPEND% 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
-# === REAL IP (Captive Portal & Gaming) ===
-always-real-ip = %APPEND% *.lan, *.local, *.msftconnecttest.com, *.msftncsi.com, detectportal.firefox.com, captive.apple.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
+
+# ------------------------------------------------------------
+# LƯU Ý TƯƠNG THÍCH SHADOWROCKET:
+# 2 khóa dưới đây là cú pháp của Surge/LanceX. Shadowrocket KHÔNG đọc
+# chúng (bị bỏ qua âm thầm, không gây lỗi). Giữ lại để file dùng chung
+# được với Surge. Trên Shadowrocket, việc ép YouTube bỏ HTTP/3 (QUIC)
+# đã được xử lý bằng rule "BLOCK QUIC FOR YOUTUBE MITM" ở mục [Rule].
+# ------------------------------------------------------------
+# (Surge-only) force-http-engine-hosts = %APPEND% *youtube.com:443, *googlevideo.com:443, api.revenuecat.com:443, api.rc-backup.com:443
+# (Surge-only) always-real-ip = %APPEND% *.lan, *.local, *.msftconnecttest.com, *.msftncsi.com, detectportal.firefox.com, captive.apple.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
 
 [Rule]
 # === BLOCK QUIC FOR YOUTUBE MITM ===
@@ -231,6 +284,23 @@ DOMAIN-KEYWORD,moloco,REJECT
 DOMAIN-SUFFIX,bigoads.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
 
+# --- 1.36 Ad/Attribution Networks bổ sung (2026) ---
+DOMAIN-SUFFIX,bidmachine.io,REJECT
+DOMAIN-SUFFIX,bidease.com,REJECT
+DOMAIN-SUFFIX,prebid.org,REJECT
+DOMAIN-SUFFIX,prebid.com,REJECT
+DOMAIN-SUFFIX,gumgum.com,REJECT
+DOMAIN-SUFFIX,smartyads.com,REJECT
+DOMAIN-SUFFIX,loopme.com,REJECT
+DOMAIN-SUFFIX,kidoz.net,REJECT
+DOMAIN-SUFFIX,yieldmo.com,REJECT
+DOMAIN-SUFFIX,zeotap.com,REJECT
+DOMAIN-SUFFIX,id5-sync.com,REJECT
+DOMAIN-SUFFIX,adsmoloco.com,REJECT
+DOMAIN-SUFFIX,a-mo.net,REJECT
+DOMAIN-SUFFIX,adtarget.com.tr,REJECT
+DOMAIN-SUFFIX,vidoomy.com,REJECT
+
 # ┌──────────────────────────────────────┐
 # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
 # └──────────────────────────────────────┘
@@ -286,6 +356,23 @@ DOMAIN-SUFFIX,rubiconproject.com,REJECT-DROP
 DOMAIN-SUFFIX,contextweb.com,REJECT-DROP
 DOMAIN-SUFFIX,spotxchange.com,REJECT-DROP
 
+# --- 2.4 Tracking / Analytics bổ sung (2026) ---
+DOMAIN-SUFFIX,sentry.io,REJECT-DROP
+DOMAIN-SUFFIX,bugsnag.com,REJECT-DROP
+DOMAIN-SUFFIX,instabug.com,REJECT-DROP
+DOMAIN-SUFFIX,embrace.io,REJECT-DROP
+DOMAIN-SUFFIX,datadoghq.com,REJECT-DROP
+DOMAIN-SUFFIX,nr-data.net,REJECT-DROP
+DOMAIN-SUFFIX,newrelic.com,REJECT-DROP
+# DOMAIN-SUFFIX,statsig.com,REJECT-DROP      # Disabled: feature-flag, vài app phụ thuộc để bật tính năng
+DOMAIN-SUFFIX,posthog.com,REJECT-DROP
+DOMAIN-SUFFIX,rudderstack.com,REJECT-DROP
+DOMAIN-SUFFIX,smartlook.com,REJECT-DROP
+DOMAIN-SUFFIX,quantcast.com,REJECT-DROP
+DOMAIN-SUFFIX,permutive.com,REJECT-DROP
+# DOMAIN-SUFFIX,cookielaw.org,REJECT-DROP    # Disabled: có thể treo banner xin cookie trên 1 số web
+# DOMAIN-SUFFIX,launchdarkly.com,REJECT-DROP # Disabled: feature-flag, vài app phụ thuộc để bật tính năng
+
 # ┌─────────────────────────────────────┐
 # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
 # └─────────────────────────────────────┘
@@ -302,6 +389,13 @@ DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,accesstrade.vn,REJECT
 DOMAIN-SUFFIX,younetmedia.com,REJECT
+
+# --- 3.1 Quảng cáo / Tracking Việt Nam bổ sung (2026) ---
+DOMAIN-SUFFIX,vcmedia.vn,REJECT
+DOMAIN-SUFFIX,goada.vn,REJECT
+DOMAIN-SUFFIX,adnetwork.vn,REJECT
+DOMAIN-SUFFIX,mcads.vn,REJECT
+DOMAIN-SUFFIX,blueseed.tv,REJECT
 
 # ┌─────────────────────────────────────┐
 # │  PHẦN 4: POPUP / REDIRECT / SCAM    │
@@ -327,6 +421,22 @@ DOMAIN-SUFFIX,clickaine.com,REJECT
 DOMAIN-SUFFIX,evadav.com,REJECT
 DOMAIN-SUFFIX,galaksion.com,REJECT
 DOMAIN-SUFFIX,onclickmx.com,REJECT
+
+# --- 4.1 Popup / Push / Malvertising bổ sung (2026) ---
+DOMAIN-SUFFIX,adcash.com,REJECT
+DOMAIN-SUFFIX,mgcash.com,REJECT
+DOMAIN-SUFFIX,popunder.net,REJECT
+DOMAIN-SUFFIX,admaven.com,REJECT
+DOMAIN-SUFFIX,ad-maven.com,REJECT
+DOMAIN-SUFFIX,pushwhy.com,REJECT
+DOMAIN-SUFFIX,push-house.com,REJECT
+DOMAIN-SUFFIX,partner.pushhouse.com,REJECT
+DOMAIN-SUFFIX,datsprings.com,REJECT
+DOMAIN-SUFFIX,zeydoo.com,REJECT
+DOMAIN-SUFFIX,propu.sh,REJECT
+DOMAIN-SUFFIX,vignatti.com,REJECT
+DOMAIN-SUFFIX,mybetterdl.com,REJECT
+DOMAIN-SUFFIX,clickfuse.com,REJECT
 
 # ┌──────────────────────────────────────────────────────────┐
 # │  PHẦN 5: CHẶN WEB CÁ ĐỘ / CỜ BẠC / CASINO (GAMBLING)  │
@@ -474,6 +584,31 @@ DOMAIN-SUFFIX,57k.com,REJECT
 # DOMAIN-KEYWORD,ok9,REJECT     # Disabled: too short, may match book9.com etc.
 # DOMAIN-KEYWORD,hitclub,REJECT  # Disabled: may match legitimate domains
 
+# --- 5.2c Trang cá độ / nổ hũ mới (2026) ---
+DOMAIN-SUFFIX,79king.com,REJECT
+DOMAIN-SUFFIX,79king.club,REJECT
+DOMAIN-SUFFIX,win79.club,REJECT
+DOMAIN-SUFFIX,may88.com,REJECT
+DOMAIN-SUFFIX,sao88.com,REJECT
+DOMAIN-SUFFIX,typhu88.com,REJECT
+DOMAIN-SUFFIX,vz99.com,REJECT
+DOMAIN-SUFFIX,dabet.com,REJECT
+DOMAIN-SUFFIX,dabet.club,REJECT
+DOMAIN-SUFFIX,sumvip.com,REJECT
+DOMAIN-SUFFIX,sumvip.club,REJECT
+DOMAIN-SUFFIX,888b.com,REJECT
+DOMAIN-SUFFIX,888b.club,REJECT
+DOMAIN-SUFFIX,j88.com,REJECT
+DOMAIN-SUFFIX,j88.club,REJECT
+DOMAIN-SUFFIX,vip66.club,REJECT
+DOMAIN-SUFFIX,68gamebai.com,REJECT
+DOMAIN-SUFFIX,king88.com,REJECT
+DOMAIN-SUFFIX,sky88.com,REJECT
+DOMAIN-SUFFIX,77win.com,REJECT
+DOMAIN-SUFFIX,77win.club,REJECT
+DOMAIN-SUFFIX,99ok.com,REJECT
+DOMAIN-SUFFIX,good88.com,REJECT
+
 # --- 5.3 Keyword chặn cá độ phổ biến ---
 DOMAIN-KEYWORD,1xbet,REJECT
 DOMAIN-KEYWORD,fun88,REJECT
@@ -548,6 +683,24 @@ DOMAIN-SUFFIX,labs.google,PROXY
 DOMAIN-SUFFIX,notebooklm.google,PROXY
 DOMAIN-SUFFIX,notebooklm.google.com,PROXY
 
+# --- 6.7 AI Services bổ sung (2026) ---
+DOMAIN-SUFFIX,grok.com,PROXY
+DOMAIN-SUFFIX,qwen.ai,PROXY
+DOMAIN-SUFFIX,kimi.com,PROXY
+DOMAIN-SUFFIX,moonshot.cn,PROXY
+DOMAIN-SUFFIX,genspark.ai,PROXY
+DOMAIN-SUFFIX,manus.im,PROXY
+DOMAIN-SUFFIX,abacus.ai,PROXY
+DOMAIN-SUFFIX,fireworks.ai,PROXY
+DOMAIN-SUFFIX,openrouter.ai,PROXY
+DOMAIN-SUFFIX,elevenlabs.io,PROXY
+DOMAIN-SUFFIX,heygen.com,PROXY
+DOMAIN-SUFFIX,pika.art,PROXY
+DOMAIN-SUFFIX,krea.ai,PROXY
+DOMAIN-SUFFIX,ideogram.ai,PROXY
+DOMAIN-SUFFIX,leonardo.ai,PROXY
+DOMAIN-SUFFIX,civitai.com,PROXY
+
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU              │
 # │  Nguồn: GMOogway + fmz200/wool_scripts               │
@@ -589,6 +742,13 @@ DOMAIN-SUFFIX,authedmine.com,REJECT
 DOMAIN-SUFFIX,cryptoloot.pro,REJECT
 DOMAIN-SUFFIX,crypto-loot.com,REJECT
 
+# --- 7.4 Crypto-miner / Drainer / Scam bổ sung (2026) ---
+DOMAIN-SUFFIX,coinimp.com,REJECT
+DOMAIN-SUFFIX,webminepool.com,REJECT
+DOMAIN-SUFFIX,minero.cc,REJECT
+DOMAIN-SUFFIX,jsecoin.com,REJECT
+DOMAIN-SUFFIX,coinhive-manager.com,REJECT
+
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 8: CHẶN TELEMETRY & TRACKING HỆ THỐNG         │
 # │  Nguồn: Johnshall/p-w-p                              │
@@ -615,6 +775,18 @@ DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
+
+# --- 8.4 Telemetry hệ thống bổ sung (2026) ---
+DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT-DROP
+DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT-DROP
+DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,oimg.vivo.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,adsdk.dplaceholder.oppomobile.com,REJECT-DROP
+DOMAIN-SUFFIX,bdapi.oppomobile.com,REJECT-DROP
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT-DROP
 
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │
@@ -789,6 +961,21 @@ DOMAIN-SUFFIX,seabank.com.vn,DIRECT
 DOMAIN-SUFFIX,cake.vn,DIRECT
 DOMAIN-SUFFIX,vietqr.io,DIRECT
 DOMAIN-SUFFIX,napas.com.vn,DIRECT
+# --- Banking/Ví bổ sung (2026) ---
+DOMAIN-SUFFIX,timo.vn,DIRECT
+DOMAIN-SUFFIX,ubank.vn,DIRECT
+DOMAIN-SUFFIX,scb.com.vn,DIRECT
+DOMAIN-SUFFIX,abbank.vn,DIRECT
+DOMAIN-SUFFIX,pvcombank.com.vn,DIRECT
+DOMAIN-SUFFIX,baovietbank.vn,DIRECT
+DOMAIN-SUFFIX,kienlongbank.com,DIRECT
+DOMAIN-SUFFIX,vietabank.com.vn,DIRECT
+DOMAIN-SUFFIX,bvbank.net.vn,DIRECT
+DOMAIN-SUFFIX,viettelmoney.vn,DIRECT
+DOMAIN-SUFFIX,viettelpay.vn,DIRECT
+DOMAIN-SUFFIX,moca.vn,DIRECT
+DOMAIN-SUFFIX,shopeepay.vn,DIRECT
+DOMAIN-SUFFIX,smartpay.vn,DIRECT
 
 # --- 13.3 Popular Vietnamese Apps (Lightning fast local access) ---
 DOMAIN-SUFFIX,zalo.me,DIRECT

@@ -429,6 +429,52 @@ rules:
   - domain_suffix:
       match: "ad.xiaomi.com"
       policy: REJECT
+  # --- 1.36 Ad Networks (2026) [SYNC] ---
+  - domain_suffix:
+      match: "bidmachine.io"
+      policy: REJECT
+  - domain_suffix:
+      match: "bidease.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "prebid.org"
+      policy: REJECT
+  - domain_suffix:
+      match: "prebid.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "gumgum.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "smartyads.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "loopme.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "kidoz.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "yieldmo.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "zeotap.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "id5-sync.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "adsmoloco.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "a-mo.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "adtarget.com.tr"
+      policy: REJECT
+  - domain_suffix:
+      match: "vidoomy.com"
+      policy: REJECT
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 2: TRACKING & ANALYTICS SDKs  â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
@@ -568,6 +614,43 @@ rules:
   - domain_suffix:
       match: "spotxchange.com"
       policy: REJECT
+  # --- 2.4 Tracking (2026) [SYNC] ---
+  - domain_suffix:
+      match: "sentry.io"
+      policy: REJECT
+  - domain_suffix:
+      match: "bugsnag.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "instabug.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "embrace.io"
+      policy: REJECT
+  - domain_suffix:
+      match: "datadoghq.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "nr-data.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "newrelic.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "posthog.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "rudderstack.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "smartlook.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "quantcast.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "permutive.com"
+      policy: REJECT
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 3: QUáº¢NG CÃO VIá»†T NAM        â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
@@ -604,6 +687,22 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "younetmedia.com"
+      policy: REJECT
+  # --- 3.1 VN Ads (2026) [SYNC] ---
+  - domain_suffix:
+      match: "vcmedia.vn"
+      policy: REJECT
+  - domain_suffix:
+      match: "goada.vn"
+      policy: REJECT
+  - domain_suffix:
+      match: "adnetwork.vn"
+      policy: REJECT
+  - domain_suffix:
+      match: "mcads.vn"
+      policy: REJECT
+  - domain_suffix:
+      match: "blueseed.tv"
       policy: REJECT
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 4: POPUP / REDIRECT / SCAM    â”‚
@@ -667,6 +766,49 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "onclickmx.com"
+      policy: REJECT
+  # --- 4.1 Popup/Malvertising (2026) [SYNC] ---
+  - domain_suffix:
+      match: "adcash.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "mgcash.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "popunder.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "admaven.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "ad-maven.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "pushwhy.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "push-house.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "partner.pushhouse.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "datsprings.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "zeydoo.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "propu.sh"
+      policy: REJECT
+  - domain_suffix:
+      match: "vignatti.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "mybetterdl.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "clickfuse.com"
       policy: REJECT
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 5: CHáº¶N WEB CÃ Äá»˜ / Cá»œ Báº C / CASINO (GAMBLING)  â”‚
@@ -1076,6 +1218,76 @@ rules:
   - domain_suffix:
       match: "57k.com"
       policy: REJECT
+  # --- 5.2c Gambling (2026) [SYNC] ---
+  - domain_suffix:
+      match: "79king.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "79king.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "win79.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "may88.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "sao88.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "typhu88.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "vz99.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "dabet.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "dabet.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "sumvip.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "sumvip.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "888b.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "888b.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "j88.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "j88.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "vip66.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "68gamebai.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "king88.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "sky88.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "77win.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "77win.club"
+      policy: REJECT
+  - domain_suffix:
+      match: "99ok.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "good88.com"
+      policy: REJECT
   # DOMAIN-KEYWORD,ok9,REJECT     # Disabled: too short, may match book9.com etc.
   # DOMAIN-KEYWORD,hitclub,REJECT  # Disabled: may match legitimate domains
   # --- 5.3 Keyword cháº·n cÃ¡ Ä‘á»™ phá»• biáº¿n ---
@@ -1246,6 +1458,55 @@ rules:
   - domain_suffix:
       match: "notebooklm.google.com"
       policy: PROXY
+  # --- 6.7 AI Services (2026) [SYNC] ---
+  - domain_suffix:
+      match: "grok.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "qwen.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "kimi.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "moonshot.cn"
+      policy: PROXY
+  - domain_suffix:
+      match: "genspark.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "manus.im"
+      policy: PROXY
+  - domain_suffix:
+      match: "abacus.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "fireworks.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "openrouter.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "elevenlabs.io"
+      policy: PROXY
+  - domain_suffix:
+      match: "heygen.com"
+      policy: PROXY
+  - domain_suffix:
+      match: "pika.art"
+      policy: PROXY
+  - domain_suffix:
+      match: "krea.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "ideogram.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "leonardo.ai"
+      policy: PROXY
+  - domain_suffix:
+      match: "civitai.com"
+      policy: PROXY
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 7: Bá»” SUNG AD DOMAINS CÃ’N THIáº¾U              â”‚
   # â”‚  Nguá»“n: GMOogway + fmz200/wool_scripts               â”‚
@@ -1327,6 +1588,22 @@ rules:
   - domain_suffix:
       match: "crypto-loot.com"
       policy: REJECT
+  # --- 7.4 Crypto Scam (2026) [SYNC] ---
+  - domain_suffix:
+      match: "coinimp.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "webminepool.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "minero.cc"
+      policy: REJECT
+  - domain_suffix:
+      match: "jsecoin.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "coinhive-manager.com"
+      policy: REJECT
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 8: CHáº¶N TELEMETRY & TRACKING Há»† THá»NG         â”‚
   # â”‚  Nguá»“n: Johnshall/p-w-p                              â”‚
@@ -1381,6 +1658,37 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "samsungads.com"
+      policy: REJECT
+  # --- 8.4 Telemetry (2026) [SYNC] ---
+  - domain_suffix:
+      match: "vortex.data.microsoft.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "settings-win.data.microsoft.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "watson.telemetry.microsoft.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "samsung-com.112.2o7.net"
+      policy: REJECT
+  - domain_suffix:
+      match: "nmetrics.samsung.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "log.tbsapp.qq.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "oimg.vivo.com.cn"
+      policy: REJECT
+  - domain_suffix:
+      match: "adsdk.dplaceholder.oppomobile.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "bdapi.oppomobile.com"
+      policy: REJECT
+  - domain_suffix:
+      match: "iadsdk.apple.com"
       policy: REJECT
   # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 9: GAMING SERVICES ROUTING (PROXY)             â”‚
@@ -1753,6 +2061,49 @@ rules:
       policy: DIRECT
   - domain_suffix:
       match: "napas.com.vn"
+      policy: DIRECT
+  # --- Banking VN (2026) [SYNC] ---
+  - domain_suffix:
+      match: "timo.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "ubank.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "scb.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "abbank.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "pvcombank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "baovietbank.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "kienlongbank.com"
+      policy: DIRECT
+  - domain_suffix:
+      match: "vietabank.com.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "bvbank.net.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "viettelmoney.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "viettelpay.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "moca.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "shopeepay.vn"
+      policy: DIRECT
+  - domain_suffix:
+      match: "smartpay.vn"
       policy: DIRECT
   # --- 13.3 Popular Vietnamese Apps (Lightning fast local access) ---
   - domain_suffix:

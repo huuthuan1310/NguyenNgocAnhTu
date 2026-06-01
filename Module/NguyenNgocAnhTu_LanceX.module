@@ -229,6 +229,22 @@ DOMAIN-SUFFIX,moloco.com,REJECT
 DOMAIN-KEYWORD,moloco,REJECT
 DOMAIN-SUFFIX,bigoads.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+# --- 1.36 Ad Networks (2026) [SYNC] ---
+DOMAIN-SUFFIX,bidmachine.io,REJECT
+DOMAIN-SUFFIX,bidease.com,REJECT
+DOMAIN-SUFFIX,prebid.org,REJECT
+DOMAIN-SUFFIX,prebid.com,REJECT
+DOMAIN-SUFFIX,gumgum.com,REJECT
+DOMAIN-SUFFIX,smartyads.com,REJECT
+DOMAIN-SUFFIX,loopme.com,REJECT
+DOMAIN-SUFFIX,kidoz.net,REJECT
+DOMAIN-SUFFIX,yieldmo.com,REJECT
+DOMAIN-SUFFIX,zeotap.com,REJECT
+DOMAIN-SUFFIX,id5-sync.com,REJECT
+DOMAIN-SUFFIX,adsmoloco.com,REJECT
+DOMAIN-SUFFIX,a-mo.net,REJECT
+DOMAIN-SUFFIX,adtarget.com.tr,REJECT
+DOMAIN-SUFFIX,vidoomy.com,REJECT
 
 # ┌──────────────────────────────────────┐
 # │  PHẦN 2: TRACKING & ANALYTICS SDKs  │
@@ -284,6 +300,19 @@ DOMAIN-SUFFIX,turn.com,REJECT-DROP
 DOMAIN-SUFFIX,rubiconproject.com,REJECT-DROP
 DOMAIN-SUFFIX,contextweb.com,REJECT-DROP
 DOMAIN-SUFFIX,spotxchange.com,REJECT-DROP
+# --- 2.4 Tracking (2026) [SYNC] ---
+DOMAIN-SUFFIX,sentry.io,REJECT-DROP
+DOMAIN-SUFFIX,bugsnag.com,REJECT-DROP
+DOMAIN-SUFFIX,instabug.com,REJECT-DROP
+DOMAIN-SUFFIX,embrace.io,REJECT-DROP
+DOMAIN-SUFFIX,datadoghq.com,REJECT-DROP
+DOMAIN-SUFFIX,nr-data.net,REJECT-DROP
+DOMAIN-SUFFIX,newrelic.com,REJECT-DROP
+DOMAIN-SUFFIX,posthog.com,REJECT-DROP
+DOMAIN-SUFFIX,rudderstack.com,REJECT-DROP
+DOMAIN-SUFFIX,smartlook.com,REJECT-DROP
+DOMAIN-SUFFIX,quantcast.com,REJECT-DROP
+DOMAIN-SUFFIX,permutive.com,REJECT-DROP
 
 # ┌─────────────────────────────────────┐
 # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
@@ -301,6 +330,12 @@ DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,accesstrade.vn,REJECT
 DOMAIN-SUFFIX,younetmedia.com,REJECT
+# --- 3.1 VN Ads (2026) [SYNC] ---
+DOMAIN-SUFFIX,vcmedia.vn,REJECT
+DOMAIN-SUFFIX,goada.vn,REJECT
+DOMAIN-SUFFIX,adnetwork.vn,REJECT
+DOMAIN-SUFFIX,mcads.vn,REJECT
+DOMAIN-SUFFIX,blueseed.tv,REJECT
 
 # ┌─────────────────────────────────────┐
 # │  PHẦN 4: POPUP / REDIRECT / SCAM    │
@@ -326,6 +361,21 @@ DOMAIN-SUFFIX,clickaine.com,REJECT
 DOMAIN-SUFFIX,evadav.com,REJECT
 DOMAIN-SUFFIX,galaksion.com,REJECT
 DOMAIN-SUFFIX,onclickmx.com,REJECT
+# --- 4.1 Popup/Malvertising (2026) [SYNC] ---
+DOMAIN-SUFFIX,adcash.com,REJECT
+DOMAIN-SUFFIX,mgcash.com,REJECT
+DOMAIN-SUFFIX,popunder.net,REJECT
+DOMAIN-SUFFIX,admaven.com,REJECT
+DOMAIN-SUFFIX,ad-maven.com,REJECT
+DOMAIN-SUFFIX,pushwhy.com,REJECT
+DOMAIN-SUFFIX,push-house.com,REJECT
+DOMAIN-SUFFIX,partner.pushhouse.com,REJECT
+DOMAIN-SUFFIX,datsprings.com,REJECT
+DOMAIN-SUFFIX,zeydoo.com,REJECT
+DOMAIN-SUFFIX,propu.sh,REJECT
+DOMAIN-SUFFIX,vignatti.com,REJECT
+DOMAIN-SUFFIX,mybetterdl.com,REJECT
+DOMAIN-SUFFIX,clickfuse.com,REJECT
 
 # ┌──────────────────────────────────────────────────────────┐
 # │  PHẦN 5: CHẶN WEB CÁ ĐỘ / CỜ BẠC / CASINO (GAMBLING)  │
@@ -470,6 +520,30 @@ DOMAIN-SUFFIX,nohu90.com,REJECT
 DOMAIN-SUFFIX,hitclub.com,REJECT
 DOMAIN-SUFFIX,hitclub.gg,REJECT
 DOMAIN-SUFFIX,57k.com,REJECT
+# --- 5.2c Gambling (2026) [SYNC] ---
+DOMAIN-SUFFIX,79king.com,REJECT
+DOMAIN-SUFFIX,79king.club,REJECT
+DOMAIN-SUFFIX,win79.club,REJECT
+DOMAIN-SUFFIX,may88.com,REJECT
+DOMAIN-SUFFIX,sao88.com,REJECT
+DOMAIN-SUFFIX,typhu88.com,REJECT
+DOMAIN-SUFFIX,vz99.com,REJECT
+DOMAIN-SUFFIX,dabet.com,REJECT
+DOMAIN-SUFFIX,dabet.club,REJECT
+DOMAIN-SUFFIX,sumvip.com,REJECT
+DOMAIN-SUFFIX,sumvip.club,REJECT
+DOMAIN-SUFFIX,888b.com,REJECT
+DOMAIN-SUFFIX,888b.club,REJECT
+DOMAIN-SUFFIX,j88.com,REJECT
+DOMAIN-SUFFIX,j88.club,REJECT
+DOMAIN-SUFFIX,vip66.club,REJECT
+DOMAIN-SUFFIX,68gamebai.com,REJECT
+DOMAIN-SUFFIX,king88.com,REJECT
+DOMAIN-SUFFIX,sky88.com,REJECT
+DOMAIN-SUFFIX,77win.com,REJECT
+DOMAIN-SUFFIX,77win.club,REJECT
+DOMAIN-SUFFIX,99ok.com,REJECT
+DOMAIN-SUFFIX,good88.com,REJECT
 # DOMAIN-KEYWORD,ok9,REJECT     # Disabled: too short, may match book9.com etc.
 # DOMAIN-KEYWORD,hitclub,REJECT  # Disabled: may match legitimate domains
 
@@ -546,6 +620,23 @@ DOMAIN-SUFFIX,lovable.dev,PROXY
 DOMAIN-SUFFIX,labs.google,PROXY
 DOMAIN-SUFFIX,notebooklm.google,PROXY
 DOMAIN-SUFFIX,notebooklm.google.com,PROXY
+# --- 6.7 AI Services (2026) [SYNC] ---
+DOMAIN-SUFFIX,grok.com,PROXY
+DOMAIN-SUFFIX,qwen.ai,PROXY
+DOMAIN-SUFFIX,kimi.com,PROXY
+DOMAIN-SUFFIX,moonshot.cn,PROXY
+DOMAIN-SUFFIX,genspark.ai,PROXY
+DOMAIN-SUFFIX,manus.im,PROXY
+DOMAIN-SUFFIX,abacus.ai,PROXY
+DOMAIN-SUFFIX,fireworks.ai,PROXY
+DOMAIN-SUFFIX,openrouter.ai,PROXY
+DOMAIN-SUFFIX,elevenlabs.io,PROXY
+DOMAIN-SUFFIX,heygen.com,PROXY
+DOMAIN-SUFFIX,pika.art,PROXY
+DOMAIN-SUFFIX,krea.ai,PROXY
+DOMAIN-SUFFIX,ideogram.ai,PROXY
+DOMAIN-SUFFIX,leonardo.ai,PROXY
+DOMAIN-SUFFIX,civitai.com,PROXY
 
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU              │
@@ -587,6 +678,12 @@ DOMAIN-SUFFIX,coin-hive.com,REJECT
 DOMAIN-SUFFIX,authedmine.com,REJECT
 DOMAIN-SUFFIX,cryptoloot.pro,REJECT
 DOMAIN-SUFFIX,crypto-loot.com,REJECT
+# --- 7.4 Crypto Scam (2026) [SYNC] ---
+DOMAIN-SUFFIX,coinimp.com,REJECT
+DOMAIN-SUFFIX,webminepool.com,REJECT
+DOMAIN-SUFFIX,minero.cc,REJECT
+DOMAIN-SUFFIX,jsecoin.com,REJECT
+DOMAIN-SUFFIX,coinhive-manager.com,REJECT
 
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 8: CHẶN TELEMETRY & TRACKING HỆ THỐNG         │
@@ -614,6 +711,17 @@ DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
+# --- 8.4 Telemetry (2026) [SYNC] ---
+DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT-DROP
+DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT-DROP
+DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,oimg.vivo.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,adsdk.dplaceholder.oppomobile.com,REJECT-DROP
+DOMAIN-SUFFIX,bdapi.oppomobile.com,REJECT-DROP
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT-DROP
 
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │
@@ -788,6 +896,21 @@ DOMAIN-SUFFIX,seabank.com.vn,DIRECT
 DOMAIN-SUFFIX,cake.vn,DIRECT
 DOMAIN-SUFFIX,vietqr.io,DIRECT
 DOMAIN-SUFFIX,napas.com.vn,DIRECT
+# --- Banking VN (2026) [SYNC] ---
+DOMAIN-SUFFIX,timo.vn,DIRECT
+DOMAIN-SUFFIX,ubank.vn,DIRECT
+DOMAIN-SUFFIX,scb.com.vn,DIRECT
+DOMAIN-SUFFIX,abbank.vn,DIRECT
+DOMAIN-SUFFIX,pvcombank.com.vn,DIRECT
+DOMAIN-SUFFIX,baovietbank.vn,DIRECT
+DOMAIN-SUFFIX,kienlongbank.com,DIRECT
+DOMAIN-SUFFIX,vietabank.com.vn,DIRECT
+DOMAIN-SUFFIX,bvbank.net.vn,DIRECT
+DOMAIN-SUFFIX,viettelmoney.vn,DIRECT
+DOMAIN-SUFFIX,viettelpay.vn,DIRECT
+DOMAIN-SUFFIX,moca.vn,DIRECT
+DOMAIN-SUFFIX,shopeepay.vn,DIRECT
+DOMAIN-SUFFIX,smartpay.vn,DIRECT
 
 # --- 13.3 Popular Vietnamese Apps (Lightning fast local access) ---
 DOMAIN-SUFFIX,zalo.me,DIRECT
