@@ -1,6 +1,6 @@
-﻿name: "ðŸ‘‘ Nguyá»…n Ngá»c Anh TÃº ðŸŒ¸ â• Ultimate Premium (Egern) â•"
-description: "ðŸš€ Má»Ÿ khÃ³a 67+ App VIP (Spotify, Locket...). ðŸ›¡ï¸ Cháº·n sáº¡ch Ads & Tracking. âš¡ Tá»‘i Æ°u DNS, AI & Gaming. | v1.6.0"
-author: "Nguyá»…n Ngá»c Anh TÃº (z3rokaze)"
+﻿name: "👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (Egern) ⁕"
+description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v1.8.1"
+author: "Nguyễn Ngọc Anh Tú (z3rokaze)"
 homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
 icon: "lock.open.fill"
 
@@ -2668,6 +2668,27 @@ scriptings:
       timeout: 10
       timeout: 10
 
+  # iTranslate Pro (89996462)
+  - http_request:
+      name: "iTranslate Pro"
+      match: "^https://ssl-api\\.itranslateapp\\.com/accounts/v\\d/subscriptions/verify/ios"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iTranslate.js"
+      body_required: true
+      timeout: 10
+  # Lingvist (89996462)
+  - http_response:
+      name: "Lingvist"
+      match: "^https://payment-api\\.lingvist\\.com/.+/user/services"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingvist.js"
+      body_required: true
+      timeout: 10
+  # Bending Spoons Bundle (89996462)
+  - http_response:
+      name: "Bending Spoons Bundle"
+      match: "^https?://.*\\.oracle\\.bendingspoonsapps\\.com/v\\d/(users/.+|purchases/verify)"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js"
+      body_required: true
+      timeout: 10
 mitm:
   hostnames:
     - "*.googlevideo.com"
@@ -2735,3 +2756,6 @@ mitm:
     - "backend.getdrafts.com"
     - "api.gotokeep.com"
     - "payments.invideo.io"
+    - "ssl-api.itranslateapp.com"
+    - "payment-api.lingvist.com"
+    - "*.oracle.bendingspoonsapps.com"
