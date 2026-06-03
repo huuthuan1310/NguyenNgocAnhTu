@@ -1,5 +1,5 @@
 ﻿name: "👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (Egern) ⁕"
-description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v1.8.1"
+description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.0.1"
 author: "Nguyễn Ngọc Anh Tú (z3rokaze)"
 homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
 icon: "lock.open.fill"
@@ -2672,25 +2672,40 @@ scriptings:
       timeout: 10
       timeout: 10
 
-  # iTranslate Pro (89996462)
+  # === iTRANSLATE PRO (dịch thuật) - 89996462 ===
   - http_request:
       name: "iTranslate Pro"
       match: "^https://ssl-api\\.itranslateapp\\.com/accounts/v\\d/subscriptions/verify/ios"
       script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iTranslate.js"
       body_required: true
       timeout: 10
-  # Lingvist (89996462)
+  # === LINGVIST HỌC NGOẠI NGỮ - 89996462 ===
   - http_response:
       name: "Lingvist"
       match: "^https://payment-api\\.lingvist\\.com/.+/user/services"
       script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingvist.js"
       body_required: true
       timeout: 10
-  # Bending Spoons Bundle (89996462)
+  # === BENDING SPOONS BUNDLE (Splice, Remini, FilmicPro, Focos, 30DayFitness...) - 89996462 ===
   - http_response:
       name: "Bending Spoons Bundle"
       match: "^https?://.*\\.oracle\\.bendingspoonsapps\\.com/v\\d/(users/.+|purchases/verify)"
       script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js"
+      body_required: true
+      timeout: 10
+
+  # === ADOBE SCAN (PDF Scanner) - Marol62926 ✅ VERIFIED ===
+  - http_response:
+      name: "Adobe Scan"
+      match: "^https?://lcs-mobile-cops\.adobe\.io/.+"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js"
+      body_required: true
+      timeout: 10
+  # === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
+  - http_response:
+      name: "Bilibili"
+      match: "^https?://app\.bilibili\.com/x/v2/account/myinfo"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js"
       body_required: true
       timeout: 10
 mitm:
@@ -2763,3 +2778,6 @@ mitm:
     - "ssl-api.itranslateapp.com"
     - "payment-api.lingvist.com"
     - "*.oracle.bendingspoonsapps.com"
+
+    - "lcs-mobile-cops.adobe.io"
+    - "app.bilibili.com"

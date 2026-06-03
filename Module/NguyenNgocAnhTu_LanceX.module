@@ -1,7 +1,7 @@
 #!name=👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (LanceX) ⁕
 #!desc=🚀 Mở khóa 250+ App VIP (Spotify, Locket, CapCut...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. 🏦 41+ Banking & Ví VN. 🎬 Streaming & Social.
-#!version=1.8.1
-#!date=2026-06-02
+#!version=2.0.1
+#!date=2026-06-03
 #!author=Nguyễn Ngọc Anh Tú (z3rokaze)
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
@@ -1138,14 +1138,19 @@ keep-response = type=http-response, pattern=^https:\/\/api\.gotokeep\.com, scrip
 # === COLOR WIDGETS PRO - Marol62926 (yfamilys, 2026-05-24) ===
 colorwidgets-response = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.*, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js, requires-body=1, timeout=10
 
-# === iTRANSLATE PRO - 89996462 ===
+# === iTRANSLATE PRO (dịch thuật) - 89996462 ===
 itranslate-request = type=http-request, pattern=^https:\/\/ssl-api\.itranslateapp\.com\/accounts\/v\d\/subscriptions\/verify\/ios, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iTranslate.js, requires-body=1, max-size=0, timeout=10
 
-# === LINGVIST - 89996462 ===
+# === LINGVIST HỌC NGOẠI NGỮ - 89996462 ===
 lingvist-response = type=http-response, pattern=^https:\/\/payment-api\.lingvist\.com\/.+\/user\/services, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingvist.js, requires-body=1, max-size=0, timeout=10
 
-# === BENDING SPOONS BUNDLE - 89996462 ===
+# === BENDING SPOONS BUNDLE (Splice, Remini, FilmicPro, Focos, 30DayFitness...) - 89996462 ===
 bendingspoons-response = type=http-response, pattern=^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify), script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js, requires-body=1, max-size=0, timeout=10
+# === ADOBE SCAN (PDF Scanner) - Marol62926 ✅ VERIFIED ===
+adobescan-response = type=http-response,pattern=^https?:\/\/lcs-mobile-cops\.adobe\.io\/.+,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js
+# === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
+bilibili-response = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js
+
 [MITM]
 enable = true
-hostname = %APPEND% api.twitter.com, api.x.com, i.instagram.com, *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector*.googlevideo.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com
+hostname = %APPEND% api.twitter.com, api.x.com, i.instagram.com, *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector*.googlevideo.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com, app.bilibili.com, lcs-mobile-cops.adobe.io
