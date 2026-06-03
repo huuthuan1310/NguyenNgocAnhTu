@@ -5,6 +5,10 @@ homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 
 rules:
+  # --- Block iOS OTA Updates ---
+  - DOMAIN,mesu.apple.com,REJECT
+  - DOMAIN,gdmf.apple.com,REJECT
+  - DOMAIN,updates-http.apple.com,REJECT
   # === BLOCK QUIC FOR YOUTUBE MITM ===
   # STASH NOT SUPPORT: AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
   # STASH NOT SUPPORT: AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT

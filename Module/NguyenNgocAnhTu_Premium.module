@@ -59,7 +59,7 @@ skip-proxy = %APPEND% 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.
 # Note: *.crashlytics.com removed — conflicts with REJECT-DROP rule in section 2.3
 
 # --- TUN EXCLUDED ROUTES: dải IP không đi qua TUN ---
-tun-excluded-routes = %APPEND% 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+tun-excluded-routes = %APPEND% 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 
 # ------------------------------------------------------------
 # LƯU Ý TƯƠNG THÍCH SHADOWROCKET:
@@ -75,6 +75,9 @@ tun-excluded-routes = %APPEND% 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 # === BLOCK QUIC FOR YOUTUBE MITM ===
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
+
+# === BLOCK QUIC FOR SPOTIFY MITM ===
+AND,((DOMAIN-KEYWORD,spotify), (PROTOCOL,UDP)),REJECT
 
 # === BLOCK WEBRTC LEAK (Specific servers) ===
 # Note: Generic KEYWORD stun/turn removed — breaks VoIP (FaceTime, WhatsApp, Zoom)
@@ -787,6 +790,11 @@ DOMAIN-SUFFIX,oimg.vivo.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,adsdk.dplaceholder.oppomobile.com,REJECT-DROP
 DOMAIN-SUFFIX,bdapi.oppomobile.com,REJECT-DROP
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT-DROP
+
+# --- 8.5 Block iOS OTA Updates ---
+DOMAIN,mesu.apple.com,REJECT-DROP
+DOMAIN,gdmf.apple.com,REJECT-DROP
+DOMAIN,updates-http.apple.com,REJECT-DROP
 
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │

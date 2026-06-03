@@ -6,6 +6,11 @@ hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
 
 # === BLOCK QUIC FOR YOUTUBE MITM ===
 
+# === BLOCK iOS OTA UPDATES ===
+host, mesu.apple.com, reject
+host, gdmf.apple.com, reject
+host, updates-http.apple.com, reject
+
 # === BLOCK WEBRTC LEAK (Specific servers) ===
 # Note: Generic KEYWORD stun/turn removed — breaks VoIP (FaceTime, WhatsApp, Zoom)
 host-suffix, stun.l.google.com, reject

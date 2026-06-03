@@ -13,6 +13,11 @@ AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
 
 # === BLOCK WEBRTC LEAK (Specific servers) ===
 # Note: Generic KEYWORD stun/turn removed — breaks VoIP (FaceTime, WhatsApp, Zoom)
+# --- Block iOS OTA Updates ---
+DOMAIN,mesu.apple.com,REJECT-DROP
+DOMAIN,gdmf.apple.com,REJECT-DROP
+DOMAIN,updates-http.apple.com,REJECT-DROP
+
 DOMAIN-SUFFIX,stun.l.google.com,REJECT
 DOMAIN-SUFFIX,stun1.l.google.com,REJECT
 DOMAIN-SUFFIX,stun2.l.google.com,REJECT

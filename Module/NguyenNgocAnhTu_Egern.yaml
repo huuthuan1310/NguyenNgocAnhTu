@@ -13,6 +13,10 @@ dns:
     - "system"
 
 rules:
+  # --- Block iOS OTA Updates ---
+  - DOMAIN,mesu.apple.com,REJECT
+  - DOMAIN,gdmf.apple.com,REJECT
+  - DOMAIN,updates-http.apple.com,REJECT
   # === BLOCK QUIC FOR YOUTUBE MITM ===
   # AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
   # AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
