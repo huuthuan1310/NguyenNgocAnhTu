@@ -1,4 +1,4 @@
-﻿name: ⚡ Anh Tú Premium - Stash
+name: ⚡ Anh Tú Premium - Stash
 desc: 67 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + DayOne + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + SparkMail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store | v2.0.1 (2026-06-02)
 author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
@@ -703,9 +703,9 @@ rules:
   - DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
   - DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
   # --- 8.4 Telemetry (2026) [SYNC] ---
-  - DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
-  - DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
-  - DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
+  # - DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
+  # - DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
+  # - DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
   - DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT-DROP
   - DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT-DROP
   - DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT-DROP

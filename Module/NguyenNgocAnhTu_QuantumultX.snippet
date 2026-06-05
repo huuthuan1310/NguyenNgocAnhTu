@@ -946,9 +946,9 @@ host-suffix, coinhive-manager.com, reject
 # --- 8.1 Microsoft Telemetry ---
 host-suffix, data.microsoft.com, reject-drop
 host-suffix, telemetry.microsoft.com, reject-drop
-host-suffix, settings-win.data.microsoft.com, reject-drop
-host-suffix, vortex.data.microsoft.com, reject-drop
-host-suffix, watson.telemetry.microsoft.com, reject-drop
+# host-suffix, settings-win.data.microsoft.com, reject-drop    # Redundant: covered by data.microsoft.com (8.1)
+# host-suffix, vortex.data.microsoft.com, reject-drop           # Redundant: covered by data.microsoft.com (8.1)
+# host-suffix, watson.telemetry.microsoft.com, reject-drop      # Redundant: covered by telemetry.microsoft.com (8.1)
 host-suffix, events.data.microsoft.com, reject-drop
 # --- 8.2 Apple Analytics & Privacy ---
 host-suffix, metrics.icloud.com, reject-drop
@@ -1049,7 +1049,8 @@ geoip, vn, direct
 ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-request-body https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
 
 # === ADOBE SCAN (PDF Scanner) - Marol62926 ✅ VERIFIED ===
-^https?:\/\/lcs-mobile-cops\.adobe\.io\/.+ url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js
+# Note: pattern excludes /mobile_profile to avoid conflict with Photoshop Express script above
+^https?:\/\/lcs-mobile-cops\.adobe\.io\/(?!mobile_profile).+ url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js
 # === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js
 ^https?:\/\/sub\.store url script-request-body https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js

@@ -706,9 +706,9 @@ DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
 # --- 8.4 Telemetry (2026) [SYNC] ---
-DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
+# DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP         # Redundant: covered by data.microsoft.com (8.1)
+# DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP    # Redundant: covered by data.microsoft.com (8.1)
+# DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP     # Redundant: covered by telemetry.microsoft.com (8.1)
 DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT-DROP
 DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT-DROP
 DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT-DROP
@@ -1095,7 +1095,8 @@ http-response ^https:\/\/payment-api\.lingvist\.com\/.+\/user\/services script-p
 http-response ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js,requires-body=true,timeout=10,tag=BendingSpoons-Res
 
 # === ADOBE SCAN (PDF Scanner) - Marol62926 ✅ VERIFIED ===
-http-response ^https?:\/\/lcs-mobile-cops\.adobe\.io\/.+ script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js,requires-body=true,tag=AdobeScan
+# Note: pattern excludes /mobile_profile to avoid conflict with Photoshop Express script above
+http-response ^https?:\/\/lcs-mobile-cops\.adobe\.io\/(?!mobile_profile).+ script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js,requires-body=true,tag=AdobeScan
 # === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js,requires-body=true,tag=Bilibili
 

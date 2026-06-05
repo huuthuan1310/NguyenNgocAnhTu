@@ -782,9 +782,9 @@ DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
 
 # --- 8.4 Telemetry hệ thống bổ sung (2026) ---
-DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP
+# DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP         # Redundant: covered by data.microsoft.com (8.1)
+# DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP   # Redundant: covered by data.microsoft.com (8.1)
+# DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP    # Redundant: covered by telemetry.microsoft.com (8.1)
 DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT-DROP
 DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT-DROP
 DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT-DROP
@@ -935,8 +935,8 @@ DOMAIN-SUFFIX,dev.to,PROXY
 
 # ┌──────────────────────────────────────────────────────┐
 # === SECTION 13: STABLE DIRECT ===
-# L?u ?: ??t DIRECT ? ??y (sau c?c rule ch?n ads/tracker) ?? kh?ng v? t?nh b? qua ad-block.
-# Kh?ng DIRECT c?c endpoint premium nh? api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com.
+# Lưu ý: đặt DIRECT ở đây (sau các rule chặn ads/tracker) để không vô tình bỏ qua ad-block.
+# Không DIRECT các endpoint premium như api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com.
 
 # --- 13.1 System / Apple / captive / push / CDN ---
 DOMAIN,captive.apple.com,DIRECT
@@ -1013,6 +1013,9 @@ DOMAIN-SUFFIX,vnexpress.net,DIRECT
 # STABLE: disabled broad .vn bypass; keep specific VN apps/banks above + GEOIP fallback.
 # DOMAIN-SUFFIX,vn,DIRECT
 GEOIP,VN,DIRECT
+
+# --- Fallback: traffic không match rule nào ở trên ---
+FINAL,DIRECT
 
 [Header Rewrite]
 # === YOUTUBE NONCE ===
@@ -1191,7 +1194,8 @@ lingvist-response = type=http-response, pattern=^https:\/\/payment-api\.lingvist
 bendingspoons-response = type=http-response, pattern=^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify), script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js, requires-body=1, max-size=0, timeout=10
 
 # === ADOBE SCAN (PDF Scanner) - Marol62926 ✅ VERIFIED ===
-adobescan-response = type=http-response, pattern=^https?:\/\/lcs-mobile-cops\.adobe\.io\/.+, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js, requires-body=1, max-size=0, timeout=10
+# Note: pattern excludes /mobile_profile to avoid conflict with Photoshop Express script above
+adobescan-response = type=http-response, pattern=^https?:\/\/lcs-mobile-cops\.adobe\.io\/(?!mobile_profile).+, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js, requires-body=1, max-size=0, timeout=10
 
 # === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
 bilibili-response = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js, requires-body=1, max-size=0, timeout=10
@@ -1229,8 +1233,5 @@ invideo-response = type=http-response, pattern=^https?:\/\/payments\.invideo\.io
 [MITM]
 enable = true
 hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium*.truecaller.com, ap*.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, sub.store, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com, app.bilibili.com
-
-
-
 
 
