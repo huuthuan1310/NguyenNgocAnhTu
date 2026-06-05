@@ -1,5 +1,5 @@
-﻿name: "👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (Egern) ⁕"
-description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.0.1"
+name: "👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (Egern) ⁕"
+description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.0.3"
 author: "Nguyễn Ngọc Anh Tú (z3rokaze)"
 homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
 icon: "lock.open.fill"
@@ -2168,16 +2168,16 @@ header_rewrites:
     header_replace:
       x-youtube-client-version: "2.20240101.00.00"
   # RevenueCat Remove ETag
-  - match: "^https?://api\\.revenuecat\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+  - match: "^https?://api\\.revenuecat\\.com/.+/(receipts$|subscribers(\\/.*)?\\/?)"
     action: del
     field: "x-revenuecat-etag"
-  - match: "^https?://api\\.revenuecat\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+  - match: "^https?://api\\.revenuecat\\.com/.+/(receipts$|subscribers(\\/.*)?\\/?)"
     action: del
     field: "X-RevenueCat-ETag"
-  - match: "^https?://api\\.rc-backup\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+  - match: "^https?://api\\.rc-backup\\.com/.+/(receipts$|subscribers(\\/.*)?\\/?)"
     action: del
     field: "x-revenuecat-etag"
-  - match: "^https?://api\\.rc-backup\\.com/.+/(receipts$|subscribers/?(.*?)*$)"
+  - match: "^https?://api\\.rc-backup\\.com/.+/(receipts$|subscribers(\\/.*)?\\/?)"
     action: del
     field: "X-RevenueCat-ETag"
   # Spotify Remove Cache
@@ -2414,7 +2414,7 @@ scriptings:
   - http_response:
       name: "B612 VIP"
       match: "^https?://user-kaji-api\\.b612kaji\\.com/v\\d/purchase/subscription/subscriber/status"
-      script_url: "https://github.com/deezertidal/private/raw/master/js-backup/Crack/612.js"
+      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/612.js"
       body_required: true
       timeout: 60
 
@@ -2555,7 +2555,7 @@ scriptings:
   - http_response:
       name: "Boom Equalizer"
       match: "^https://apimboom2\\.globaldelight\\.net/itunesreceipt_v2\\.php$"
-      script_url: "https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js"
+      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/boom.js"
       body_required: true
       timeout: 10
       timeout: 10
@@ -2748,7 +2748,6 @@ mitm:
     - "www.xmind.net"
     - "www.xmind.app"
     - "ars.alar.my"
-    - "sub.store"
     - "subscription.grammarly.com"
     - "notability.com"
     - "lapi.photomath.net"

@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v1.7.1...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+68%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v2.0.3...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+68%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v1.7.1-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.0.3-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -476,7 +476,8 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
-| 🏆 | **`v1.7.0`** | `30.05.2026` | 🚀 **Bản Tối Ưu Toàn Diện**: Gộp 14+ scripts rác (Darkroom, PhotoRoom, v.v.) vào generic fallback • Thêm `force-http-engine` chống quét RevenueCat • Bổ sung chuẩn cấu trúc 67+ apps cho Stash (`.stoverride`) | **67+** |
+| 🏆 | **`v2.0.3`** | `05.06.2026` | 🚀 **Bản Ổn Định Tuyệt Đối**: Cập nhật toàn bộ script URL sang `raw.githubusercontent` tránh redirect 302 • Loại bỏ triệt để catastrophic backtracking regex • Dọn dẹp cấu hình MITM thừa thãi, tối ưu tốc độ phân giải. | **68+** |
+| 🛡️ | **`v1.7.0`** | `30.05.2026` | 🚀 **Bản Tối Ưu Toàn Diện**: Gộp 14+ scripts rác (Darkroom, PhotoRoom, v.v.) vào generic fallback • Thêm `force-http-engine` chống quét RevenueCat • Bổ sung chuẩn cấu trúc 67+ apps cho Stash (`.stoverride`) | **68+** |
 | 🛡️ | **`v1.6.0`** | `29.05.2026` | 🎬 Thêm Streaming (Netflix, Disney+, Prime, HBO, Hulu) • 💬 Social Media routing (Telegram, Discord, Reddit) • 👨‍💻 Developer Tools (GitHub, Docker, npm) • 🏦 27+ Banking VN bypass • 🎮 Gaming mở rộng (Riot, EA, Blizzard, Ubisoft) • 🎵 Spotify ad CDN bổ sung • 🧹 Xoá 35+ rules thừa, sửa 3 lỗi syntax, thêm max-size cho 33 scripts | **67+** |
 | 🛡️ | **`v1.5.1`** | `27.05.2026` | 🚀 Tối ưu Policy Group (AI/Gaming sang PROXY) • Đổi REJECT thành REJECT-DROP để tiết kiệm pin • Xoá script thừa | **67+** |
 | 🛡️ | **`v1.5.0`** | `27.05.2026` | 🚀 Tối ưu Network (LAN, Captive Portal) • Bổ sung Apple Privacy & Tracking chặn theo dõi • Cải thiện RAM và Pin cho iOS • Sửa lỗi xung đột STUN/TURN | **67+** |

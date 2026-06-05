@@ -1,5 +1,5 @@
 name: ⚡ Anh Tú Premium - Stash
-desc: 67 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + DayOne + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + SparkMail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store | v2.0.1 (2026-06-02)
+desc: 67 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + DayOne + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + SparkMail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store | v2.0.3 (2026-06-05)
 author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -964,7 +964,6 @@ mitm:
   - "www.xmind.net"
   - "www.xmind.app"
   - "ars.alar.my"
-  - "sub.store"
   - "subscription.grammarly.com"
   - "notability.com"
   - "lapi.photomath.net"
@@ -1131,7 +1130,7 @@ script-providers:
     url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js
     interval: 86400
   boom-response:
-    url: https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js
+    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/boom.js
     interval: 86400
   fantastical-response:
     url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js

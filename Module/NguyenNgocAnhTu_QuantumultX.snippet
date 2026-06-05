@@ -1,8 +1,8 @@
 # ⚡ Anh Tú Premium - Quantumult X
-# v1.8.1 (2026-06-02)
+# v2.0.3 (2026-06-05)
 # https://github.com/ekaznyra/NguyenNgocAnhTu
 
-hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com,api.picsart.cn,api.meiease.com,api.meiease.cn,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,sub.store,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com, app.bilibili.com, lcs-mobile-cops.adobe.io
+hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com,api.picsart.cn,api.meiease.com,api.meiease.cn,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com, app.bilibili.com, lcs-mobile-cops.adobe.io
 
 # === BLOCK QUIC FOR YOUTUBE MITM ===
 
@@ -1040,10 +1040,10 @@ geoip, vn, direct
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-dict
 
 # RevenueCat ETag Header strip
-^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)x-revenuecat-etag:.+(\r\n) request-header $1
-^https?://api\.revenuecat\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1
-^https?://api\.rc-backup\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)x-revenuecat-etag:.+(\r\n) request-header $1
-^https?://api\.rc-backup\.com/.+/(receipts$|subscribers/?(.*?)*$) url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1
+^https?://api\.revenuecat\.com/.+/(receipts$|subscribers(/.*)?/?) url request-header (\r\n)x-revenuecat-etag:.+(\r\n) request-header $1
+^https?://api\.revenuecat\.com/.+/(receipts$|subscribers(/.*)?/?) url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1
+^https?://api\.rc-backup\.com/.+/(receipts$|subscribers(/.*)?/?) url request-header (\r\n)x-revenuecat-etag:.+(\r\n) request-header $1
+^https?://api\.rc-backup\.com/.+/(receipts$|subscribers(/.*)?/?) url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1
 
 # 📦 Sub-Store
 ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-request-body https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
@@ -1120,7 +1120,7 @@ geoip, vn, direct
 ^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/Snow.js
 
 # 📷 B612 Kaji VIP (yfamilys)
-^https?:\/\/user-kaji-api\.b612kaji\.com\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://github.com/deezertidal/private/raw/master/js-backup/Crack/612.js
+^https?:\/\/user-kaji-api\.b612kaji\.com\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/612.js
 
 # 🎨 Meitu XiuXiu
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/MeiTuXiuXiu.js
@@ -1171,7 +1171,7 @@ geoip, vn, direct
 ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js
 
 # 🎵 Boom Equalizer (yfamilys)
-^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/boom.js
 # 📅 Fantastical Premium (yfamilys)
 ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js
 # 📝 Craft Premium (yfamilys)
