@@ -1,13 +1,13 @@
 #!name=⚡ Anh Tú Premium - Surge
 #!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
-#!version=2.0.3
-#!date=2026-06-05
+#!version=2.0.5-stable
+#!date=2026-06-06
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 
 [General]
-skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, *.lan, captive.apple.com, detectportal.firefox.com, connectivitycheck.gstatic.com, clients3.google.com, www.msftconnecttest.com, www.msftncsi.com
 always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.turn.apple.com, *.stun.services.mozilla.com, *.stun.l.google.com
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32, 100.64.0.0/10
 force-http-engine-hosts = %APPEND% api.revenuecat.com:443, api.rc-backup.com:443
@@ -20,9 +20,9 @@ AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
 # === BLOCK WEBRTC LEAK (Specific servers) ===
 # Note: Generic KEYWORD stun/turn removed — breaks VoIP (FaceTime, WhatsApp, Zoom)
 # --- Block iOS OTA Updates ---
-DOMAIN,mesu.apple.com,REJECT-DROP
-DOMAIN,gdmf.apple.com,REJECT-DROP
-DOMAIN,updates-http.apple.com,REJECT-DROP
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.apple.com,REJECT
 
 DOMAIN-SUFFIX,stun.l.google.com,REJECT
 DOMAIN-SUFFIX,stun1.l.google.com,REJECT
@@ -251,68 +251,68 @@ DOMAIN-SUFFIX,vidoomy.com,REJECT
 # └──────────────────────────────────────┘
 
 # --- 2.1 Attribution / Mobile Measurement ---
-DOMAIN-SUFFIX,adjust.com,REJECT-DROP
-DOMAIN-SUFFIX,adjust.io,REJECT-DROP
-DOMAIN-SUFFIX,appsflyer.com,REJECT-DROP
-DOMAIN-SUFFIX,kochava.com,REJECT-DROP
-DOMAIN-SUFFIX,singular.net,REJECT-DROP
-DOMAIN-SUFFIX,tenjin.com,REJECT-DROP
-DOMAIN-SUFFIX,airbridge.io,REJECT-DROP
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,kochava.com,REJECT
+DOMAIN-SUFFIX,singular.net,REJECT
+DOMAIN-SUFFIX,tenjin.com,REJECT
+DOMAIN-SUFFIX,airbridge.io,REJECT
 
 # --- 2.2 Analytics Platforms ---
-DOMAIN-SUFFIX,mixpanel.com,REJECT-DROP
-DOMAIN-SUFFIX,amplitude.com,REJECT-DROP
-DOMAIN-SUFFIX,segment.io,REJECT-DROP
-DOMAIN-SUFFIX,segment.com,REJECT-DROP
-DOMAIN-SUFFIX,heapanalytics.com,REJECT-DROP
-DOMAIN-SUFFIX,fullstory.com,REJECT-DROP
-DOMAIN-SUFFIX,hotjar.com,REJECT-DROP
-DOMAIN-SUFFIX,mouseflow.com,REJECT-DROP
-DOMAIN-SUFFIX,crazyegg.com,REJECT-DROP
-DOMAIN-SUFFIX,kissmetrics.com,REJECT-DROP
+DOMAIN-SUFFIX,mixpanel.com,REJECT
+DOMAIN-SUFFIX,amplitude.com,REJECT
+DOMAIN-SUFFIX,segment.io,REJECT
+DOMAIN-SUFFIX,segment.com,REJECT
+DOMAIN-SUFFIX,heapanalytics.com,REJECT
+DOMAIN-SUFFIX,fullstory.com,REJECT
+DOMAIN-SUFFIX,hotjar.com,REJECT
+DOMAIN-SUFFIX,mouseflow.com,REJECT
+DOMAIN-SUFFIX,crazyegg.com,REJECT
+DOMAIN-SUFFIX,kissmetrics.com,REJECT
 
 # --- 2.3 General Web Tracking ---
-DOMAIN-SUFFIX,scorecardresearch.com,REJECT-DROP
-DOMAIN-SUFFIX,omtrdc.net,REJECT-DROP
-DOMAIN-SUFFIX,demdex.net,REJECT-DROP
-DOMAIN-SUFFIX,adsrvr.org,REJECT-DROP
+DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+DOMAIN-SUFFIX,omtrdc.net,REJECT
+DOMAIN-SUFFIX,demdex.net,REJECT
+DOMAIN-SUFFIX,adsrvr.org,REJECT
 # DOMAIN-SUFFIX,firebase.com,REJECT  # Disabled: breaks push notifications & auth
-DOMAIN-SUFFIX,crashlytics.com,REJECT-DROP
-DOMAIN-SUFFIX,braze.com,REJECT-DROP
-DOMAIN-SUFFIX,clevertap.com,REJECT-DROP
-DOMAIN-SUFFIX,intercom.io,REJECT-DROP
-DOMAIN-SUFFIX,intercom.com,REJECT-DROP
-DOMAIN-SUFFIX,mookie1.com,REJECT-DROP
-DOMAIN-SUFFIX,taboola.com,REJECT-DROP
-DOMAIN-SUFFIX,outbrain.com,REJECT-DROP
-DOMAIN-SUFFIX,bluekai.com,REJECT-DROP
-DOMAIN-SUFFIX,everesttech.net,REJECT-DROP
-DOMAIN-SUFFIX,mathtag.com,REJECT-DROP
-DOMAIN-SUFFIX,bidswitch.net,REJECT-DROP
-DOMAIN-SUFFIX,exelator.com,REJECT-DROP
-DOMAIN-SUFFIX,crwdcntrl.net,REJECT-DROP
-DOMAIN-SUFFIX,dotomi.com,REJECT-DROP
-DOMAIN-SUFFIX,serving-sys.com,REJECT-DROP
-DOMAIN-SUFFIX,eyeota.net,REJECT-DROP
-DOMAIN-SUFFIX,agkn.com,REJECT-DROP
-DOMAIN-SUFFIX,rlcdn.com,REJECT-DROP
-DOMAIN-SUFFIX,turn.com,REJECT-DROP
-DOMAIN-SUFFIX,rubiconproject.com,REJECT-DROP
-DOMAIN-SUFFIX,contextweb.com,REJECT-DROP
-DOMAIN-SUFFIX,spotxchange.com,REJECT-DROP
+DOMAIN-SUFFIX,crashlytics.com,REJECT
+DOMAIN-SUFFIX,braze.com,REJECT
+DOMAIN-SUFFIX,clevertap.com,REJECT
+DOMAIN-SUFFIX,intercom.io,REJECT
+DOMAIN-SUFFIX,intercom.com,REJECT
+DOMAIN-SUFFIX,mookie1.com,REJECT
+DOMAIN-SUFFIX,taboola.com,REJECT
+DOMAIN-SUFFIX,outbrain.com,REJECT
+DOMAIN-SUFFIX,bluekai.com,REJECT
+DOMAIN-SUFFIX,everesttech.net,REJECT
+DOMAIN-SUFFIX,mathtag.com,REJECT
+DOMAIN-SUFFIX,bidswitch.net,REJECT
+DOMAIN-SUFFIX,exelator.com,REJECT
+DOMAIN-SUFFIX,crwdcntrl.net,REJECT
+DOMAIN-SUFFIX,dotomi.com,REJECT
+DOMAIN-SUFFIX,serving-sys.com,REJECT
+DOMAIN-SUFFIX,eyeota.net,REJECT
+DOMAIN-SUFFIX,agkn.com,REJECT
+DOMAIN-SUFFIX,rlcdn.com,REJECT
+DOMAIN-SUFFIX,turn.com,REJECT
+DOMAIN-SUFFIX,rubiconproject.com,REJECT
+DOMAIN-SUFFIX,contextweb.com,REJECT
+DOMAIN-SUFFIX,spotxchange.com,REJECT
 # --- 2.4 Tracking (2026) [SYNC] ---
-DOMAIN-SUFFIX,sentry.io,REJECT-DROP
-DOMAIN-SUFFIX,bugsnag.com,REJECT-DROP
-DOMAIN-SUFFIX,instabug.com,REJECT-DROP
-DOMAIN-SUFFIX,embrace.io,REJECT-DROP
-DOMAIN-SUFFIX,datadoghq.com,REJECT-DROP
-DOMAIN-SUFFIX,nr-data.net,REJECT-DROP
-DOMAIN-SUFFIX,newrelic.com,REJECT-DROP
-DOMAIN-SUFFIX,posthog.com,REJECT-DROP
-DOMAIN-SUFFIX,rudderstack.com,REJECT-DROP
-DOMAIN-SUFFIX,smartlook.com,REJECT-DROP
-DOMAIN-SUFFIX,quantcast.com,REJECT-DROP
-DOMAIN-SUFFIX,permutive.com,REJECT-DROP
+DOMAIN-SUFFIX,sentry.io,REJECT
+DOMAIN-SUFFIX,bugsnag.com,REJECT
+DOMAIN-SUFFIX,instabug.com,REJECT
+DOMAIN-SUFFIX,embrace.io,REJECT
+DOMAIN-SUFFIX,datadoghq.com,REJECT
+DOMAIN-SUFFIX,nr-data.net,REJECT
+DOMAIN-SUFFIX,newrelic.com,REJECT
+DOMAIN-SUFFIX,posthog.com,REJECT
+DOMAIN-SUFFIX,rudderstack.com,REJECT
+DOMAIN-SUFFIX,smartlook.com,REJECT
+DOMAIN-SUFFIX,quantcast.com,REJECT
+DOMAIN-SUFFIX,permutive.com,REJECT
 
 # ┌─────────────────────────────────────┐
 # │  PHẦN 3: QUẢNG CÁO VIỆT NAM        │
@@ -691,37 +691,37 @@ DOMAIN-SUFFIX,coinhive-manager.com,REJECT
 # └──────────────────────────────────────────────────────┘
 
 # --- 8.1 Microsoft Telemetry ---
-DOMAIN-SUFFIX,data.microsoft.com,REJECT-DROP
-DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT-DROP
+DOMAIN-SUFFIX,data.microsoft.com,REJECT
+DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
 
 # --- 8.2 Apple Analytics ---
-DOMAIN-SUFFIX,metrics.icloud.com,REJECT-DROP
-DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT-DROP
-DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT-DROP
-DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT-DROP
-DOMAIN-SUFFIX,xp.apple.com,REJECT-DROP
-DOMAIN-SUFFIX,idiag.apple.com,REJECT-DROP
-DOMAIN-SUFFIX,iphonesubmissions.apple.com,REJECT-DROP
-DOMAIN-SUFFIX,radarsubmissions.apple.com,REJECT-DROP
+DOMAIN-SUFFIX,metrics.icloud.com,REJECT
+DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT
+DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT
+DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT
+DOMAIN-SUFFIX,xp.apple.com,REJECT
+DOMAIN-SUFFIX,idiag.apple.com,REJECT
+DOMAIN-SUFFIX,iphonesubmissions.apple.com,REJECT
+DOMAIN-SUFFIX,radarsubmissions.apple.com,REJECT
 
 # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
-DOMAIN-SUFFIX,tracking.miui.com,REJECT-DROP
-DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT-DROP
-DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT-DROP
-DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
-DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT-DROP
-DOMAIN-SUFFIX,samsungads.com,REJECT-DROP
+DOMAIN-SUFFIX,tracking.miui.com,REJECT
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
+DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT
+DOMAIN-SUFFIX,logservice.hicloud.com,REJECT
+DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT
+DOMAIN-SUFFIX,samsungads.com,REJECT
 # --- 8.4 Telemetry (2026) [SYNC] ---
-# DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT-DROP         # Redundant: covered by data.microsoft.com (8.1)
-# DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT-DROP    # Redundant: covered by data.microsoft.com (8.1)
-# DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT-DROP     # Redundant: covered by telemetry.microsoft.com (8.1)
-DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT-DROP
-DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT-DROP
-DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT-DROP
-DOMAIN-SUFFIX,oimg.vivo.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,adsdk.dplaceholder.oppomobile.com,REJECT-DROP
-DOMAIN-SUFFIX,bdapi.oppomobile.com,REJECT-DROP
-DOMAIN-SUFFIX,iadsdk.apple.com,REJECT-DROP
+# DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT         # Redundant: covered by data.microsoft.com (8.1)
+# DOMAIN-SUFFIX,settings-win.data.microsoft.com,REJECT    # Redundant: covered by data.microsoft.com (8.1)
+# DOMAIN-SUFFIX,watson.telemetry.microsoft.com,REJECT     # Redundant: covered by telemetry.microsoft.com (8.1)
+DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT
+DOMAIN-SUFFIX,nmetrics.samsung.com,REJECT
+DOMAIN-SUFFIX,log.tbsapp.qq.com,REJECT
+DOMAIN-SUFFIX,oimg.vivo.com.cn,REJECT
+DOMAIN-SUFFIX,adsdk.dplaceholder.oppomobile.com,REJECT
+DOMAIN-SUFFIX,bdapi.oppomobile.com,REJECT
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 
 # ┌──────────────────────────────────────────────────────┐
 # │  PHẦN 9: GAMING SERVICES ROUTING (PROXY)             │

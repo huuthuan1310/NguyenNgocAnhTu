@@ -1,5 +1,5 @@
 # ⚡ Anh Tú Premium - Quantumult X
-# v2.0.3 (2026-06-05)
+# v2.0.5-stable (2026-06-06)
 # https://github.com/ekaznyra/NguyenNgocAnhTu
 
 hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com,api.picsart.cn,api.meiease.com,api.meiease.cn,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium*.truecaller.com,ap*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com, app.bilibili.com, lcs-mobile-cops.adobe.io
@@ -902,37 +902,15 @@ host-suffix, vn, direct
 # │  Nguồn: GMOogway + fmz200/wool_scripts               │
 # └──────────────────────────────────────────────────────┘
 # --- 7.1 Bổ sung Ad Networks ---
-host-suffix, ads-twitter.com, reject
-host-suffix, advertising.com, reject
-host-suffix, liadm.com, reject
 
-host-suffix, go.link, reject
-host-suffix, onelink.me, reject
 host-suffix, app.adjust.com, reject
 host-suffix, s.adjust.com, reject
-host-suffix, impression.link, reject
-host-suffix, metric.gstatic.com, reject
 host-suffix, pagead.l.doubleclick.net, reject
 host-suffix, adx.g.doubleclick.net, reject
 # --- 7.2 Quảng cáo ứng dụng Trung Quốc ---
-host-suffix, cm.bilibili.com, reject
-host-suffix, data.bilibili.com, reject
-host-suffix, zhihu-web-analytics.zhihu.com, reject
-host-suffix, sugar.zhihu.com, reject
-host-suffix, 118.etao.com, reject
-host-suffix, adash.m.taobao.com, reject
-host-suffix, sclick.net, reject
-host-suffix, re.taobao.com, reject
-host-suffix, sdk.m.amap.com, reject
-host-suffix, acs.m.taobao.com, reject
 # --- 7.3 Phishing / Malware / Crypto Scam ---
 host-keyword, phishing, reject
 host-keyword, malware, reject
-host-suffix, coinhive.com, reject
-host-suffix, coin-hive.com, reject
-host-suffix, authedmine.com, reject
-host-suffix, cryptoloot.pro, reject
-host-suffix, crypto-loot.com, reject
 # --- 7.4 Crypto Scam (2026) [SYNC] ---
 host-suffix, coinimp.com, reject
 host-suffix, webminepool.com, reject
@@ -944,28 +922,13 @@ host-suffix, coinhive-manager.com, reject
 # │  Nguồn: Johnshall/p-w-p                              │
 # └──────────────────────────────────────────────────────┘
 # --- 8.1 Microsoft Telemetry ---
-host-suffix, data.microsoft.com, reject-drop
-host-suffix, telemetry.microsoft.com, reject-drop
 # host-suffix, settings-win.data.microsoft.com, reject-drop    # Redundant: covered by data.microsoft.com (8.1)
 # host-suffix, vortex.data.microsoft.com, reject-drop           # Redundant: covered by data.microsoft.com (8.1)
 # host-suffix, watson.telemetry.microsoft.com, reject-drop      # Redundant: covered by telemetry.microsoft.com (8.1)
 host-suffix, events.data.microsoft.com, reject-drop
 # --- 8.2 Apple Analytics & Privacy ---
-host-suffix, metrics.icloud.com, reject-drop
-host-suffix, metrics.mzstatic.com, reject-drop
-host-suffix, supportmetrics.apple.com, reject-drop
-host-suffix, books-analytics-events.apple.com, reject-drop
-host-suffix, xp.apple.com, reject-drop
 host-suffix, idiag.tq.apple.com, reject-drop
-host-suffix, iphonesubmissions.apple.com, reject-drop
-host-suffix, radarsubmissions.apple.com, reject-drop
 # --- 8.3 Xiaomi / Huawei / Samsung Tracking ---
-host-suffix, tracking.miui.com, reject-drop
-host-suffix, data.mistat.xiaomi.com, reject-drop
-host-suffix, tracking.rus.miui.com, reject-drop
-host-suffix, logservice.hicloud.com, reject-drop
-host-suffix, metrics.data.hicloud.com, reject-drop
-host-suffix, samsungads.com, reject-drop
 # --- 8.4 Telemetry (2026) [SYNC] ---
 host-suffix, samsung-com.112.2o7.net, reject-drop
 host-suffix, nmetrics.samsung.com, reject-drop
@@ -1001,35 +964,14 @@ host-suffix, unrealengine.com, PROXY
 # └──────────────────────────────────────────────────────┘
 
 # --- 10.1 Apple Services (Bypass for max speed & stability) ---
-host-suffix, mzstatic.com, direct
 host-suffix, itunes.apple.com, direct
-host-suffix, icloud.com, direct
-host-suffix, me.com, direct
-host-suffix, apple.com, direct
 
 # --- 10.2 Vietnamese Banking & E-Wallets (Anti-block & Bypass) ---
-host-suffix, momo.vn, direct
-host-suffix, mservice.com.vn, direct
-host-suffix, zalopay.vn, direct
-host-suffix, vnpay.vn, direct
-host-suffix, vietcombank.com.vn, direct
-host-suffix, techcombank.com.vn, direct
-host-suffix, mbbank.com.vn, direct
-host-suffix, tpb.vn, direct
-host-suffix, vpbank.com.vn, direct
-host-suffix, bidv.com.vn, direct
-host-suffix, vtb.vn, direct
-host-suffix, vietinbank.vn, direct
-host-suffix, agribank.com.vn, direct
-host-suffix, acb.com.vn, direct
-host-suffix, vib.com.vn, direct
-host-suffix, sacombank.com.vn, direct
 
 # --- 10.3 Apple Push Notification (Real-time message delivery) ---
 host-keyword, push.apple.com, direct
 
 # --- 10.4 Vietnam Local Network & GeoIP (Lightning fast local traffic) ---
-host-suffix, vn, direct
 geoip, vn, direct
 
 # YouTube Ad Block
