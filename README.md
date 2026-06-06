@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v2.0.3...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+68%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v2.0.5-stable...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+68%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.0.3-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.0.5--stable-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -476,6 +476,7 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
+| 🏆 | **`v2.0.5-stable`** | `06.06.2026` | ✅ **Đồng bộ 7 chuẩn proxy**: sửa UTF-8/mojibake, xóa rule trùng, tắt script link chết, thêm captive/connectivity DIRECT, tối ưu `REJECT` để giảm retry-loop/pin • Validator sạch: URL sống, regex 0 lỗi, duplicate 0. | **68+** |
 | 🏆 | **`v2.0.3`** | `05.06.2026` | 🚀 **Bản Ổn Định Tuyệt Đối**: Cập nhật toàn bộ script URL sang `raw.githubusercontent` tránh redirect 302 • Loại bỏ triệt để catastrophic backtracking regex • Dọn dẹp cấu hình MITM thừa thãi, tối ưu tốc độ phân giải. | **68+** |
 | 🛡️ | **`v1.7.0`** | `30.05.2026` | 🚀 **Bản Tối Ưu Toàn Diện**: Gộp 14+ scripts rác (Darkroom, PhotoRoom, v.v.) vào generic fallback • Thêm `force-http-engine` chống quét RevenueCat • Bổ sung chuẩn cấu trúc 67+ apps cho Stash (`.stoverride`) | **68+** |
 | 🛡️ | **`v1.6.0`** | `29.05.2026` | 🎬 Thêm Streaming (Netflix, Disney+, Prime, HBO, Hulu) • 💬 Social Media routing (Telegram, Discord, Reddit) • 👨‍💻 Developer Tools (GitHub, Docker, npm) • 🏦 27+ Banking VN bypass • 🎮 Gaming mở rộng (Riot, EA, Blizzard, Ubisoft) • 🎵 Spotify ad CDN bổ sung • 🧹 Xoá 35+ rules thừa, sửa 3 lỗi syntax, thêm max-size cho 33 scripts | **67+** |
@@ -619,7 +620,7 @@ graph TD
 
     A[📱 Locket / PicsArt / 67+ Apps]:::client -->|Gửi Request HTTPS| B(🛡️ Proxy Engine<br/>Surge / Stash / QX / Loon):::proxy
     B -->|Giải mã| C{🔑 MITM Interceptor}:::mitm
-    
+
     C -->|App Độc Lập| D[⚙️ Script Đặc Thù<br/>youtube.js, spotify.js]:::proxy
     C -->|14+ App Tiêu Chuẩn| E[🚀 Generic Fallback<br/>revenuecat_multi.js]:::generic
     C -->|iTunes App| F[🚀 Generic Fallback<br/>iTunes.js]:::generic
@@ -627,7 +628,7 @@ graph TD
     D -->|Chặn Ads/Mock| G[(🌍 Máy Chủ Gốc)]:::server
     E -->|Mở khoá IAP| G
     F -->|Bypass Receipt| G
-    
+
     G -->|Trả về Response| B
     B -->|Giao diện Premium| A
 ```
@@ -807,6 +808,19 @@ graph TD
 
 > ⚠️ **Sau khi cài module, nhớ cài chứng chỉ MITM** (xem hướng dẫn chi tiết bên dưới)
 
+<br>
+
+<table align="center">
+<tr>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/VALIDATION-7%2F7%20CLEAN-00F0FF?style=for-the-badge&labelColor=0D1117" alt="validation"/><br><b>7 proxy formats</b><br><sub>Shadowrocket / LanceX / Egern / Surge / Loon / QX / Stash</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/REGEX-0%20ERROR-00FF88?style=for-the-badge&labelColor=0D1117" alt="regex"/><br><b>Clean syntax</b><br><sub>No regex errors or active duplicates</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/URL-66%2F66%20LIVE-FFD166?style=for-the-badge&labelColor=0D1117" alt="url"/><br><b>Live links</b><br><sub>Script and raw URLs verified</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/UTF--8-CLEAN-FF007F?style=for-the-badge&labelColor=0D1117" alt="utf8"/><br><b>Clean UTF-8</b><br><sub>No mojibake or replacement chars</sub></td>
+</tr>
+</table>
+
+> **v2.0.5-stable status:** 7/7 formats synced / UTF-8 clean / Regex 0 errors / Active duplicates 0 / Script and raw URLs 66/66 live.
+
 </div>
 
 <br>
@@ -866,7 +880,7 @@ Hoặc tải trực tiếp file ZIP từ trang [Releases](https://github.com/eka
 </div>
 
 ```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Shadowrocket.module
+https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenNgocAnhTu_Premium.module
 ```
 
 <br>
@@ -1009,10 +1023,10 @@ https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/NguyenN
 
 <br>
 
-**🔗 Đường dẫn gốc cho tất cả module:**
+**Module folder:**
 
 ```
-https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/
+https://github.com/ekaznyra/NguyenNgocAnhTu/tree/master/Module
 ```
 
 <br>
