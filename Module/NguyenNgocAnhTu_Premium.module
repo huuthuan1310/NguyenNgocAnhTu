@@ -66,10 +66,10 @@ DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,updates-http.apple.com,REJECT
 
 # --- Dịch vụ quốc tế (Game, Stream, Social, Dev) đi qua Proxy ---
-RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Rules/Proxy.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/Proxy.list,PROXY
 
 # --- Dịch vụ nội địa (Ngân hàng, App VN, Apple CDN) kết nối trực tiếp ---
-RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/main/Rules/Direct.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/Direct.list,DIRECT
 
 # --- Vietnam Local Network & GeoIP fallback ---
 GEOIP,VN,DIRECT
