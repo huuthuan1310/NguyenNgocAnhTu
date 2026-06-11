@@ -1,0 +1,273 @@
+# --- Google Ads / AdMob / DoubleClick ---
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adservice.google.com.vn
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
+DOMAIN-KEYWORD,googleads
+
+# --- Facebook / Meta Ads ---
+DOMAIN-SUFFIX,an.facebook.com
+DOMAIN-SUFFIX,ads.facebook.com
+DOMAIN-SUFFIX,adtago.s3.amazonaws.com
+DOMAIN-SUFFIX,pixel.facebook.com
+
+# --- Unity Ads ---
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,ads.unity3d.com
+DOMAIN-KEYWORD,unityads
+
+# --- AppLovin / MAX ---
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
+DOMAIN-KEYWORD,applovin
+
+# --- IronSource / LevelPlay ---
+DOMAIN-SUFFIX,ironsrc.com
+DOMAIN-SUFFIX,supersonicads.com
+DOMAIN-KEYWORD,ironsource
+
+# --- Vungle / Liftoff ---
+DOMAIN-SUFFIX,vungle.com
+DOMAIN-SUFFIX,liftoff.io
+DOMAIN-KEYWORD,vungle
+
+# --- Chartboost ---
+DOMAIN-SUFFIX,chartboost.com
+DOMAIN-KEYWORD,chartboost
+
+# --- InMobi ---
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-KEYWORD,inmobi
+
+# --- Mintegral / Mobvista ---
+DOMAIN-SUFFIX,mintegral.com
+DOMAIN-SUFFIX,rayjump.com
+DOMAIN-SUFFIX,mobvista.com
+DOMAIN-KEYWORD,mintegral
+
+# --- AdColony / Digital Turbine ---
+DOMAIN-SUFFIX,adcolony.com
+DOMAIN-SUFFIX,digitalturbine.com
+DOMAIN-KEYWORD,adcolony
+
+# --- MoPub (Twitter) ---
+DOMAIN-SUFFIX,mopub.com
+DOMAIN-KEYWORD,mopub
+
+# --- Fyber / Digital Turbine ---
+DOMAIN-SUFFIX,fyber.com
+DOMAIN-SUFFIX,inner-active.mobi
+
+# --- Smaato ---
+DOMAIN-SUFFIX,smaato.com
+DOMAIN-SUFFIX,smaato.net
+
+# --- Tapjoy ---
+DOMAIN-SUFFIX,tapjoy.com
+DOMAIN-KEYWORD,tapjoy
+
+# --- Pangle (TikTok Ads / ByteDance) ---
+DOMAIN-SUFFIX,pangleglobal.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-KEYWORD,pangleglobal
+
+# --- Amazon Ads ---
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,aan.amazon.com
+
+# --- StartApp / Start.io ---
+DOMAIN-SUFFIX,startapp.com
+DOMAIN-SUFFIX,start.io
+DOMAIN-KEYWORD,startapp
+
+# --- Ogury ---
+DOMAIN-SUFFIX,ogury.com
+
+# --- Yahoo / Flurry ---
+DOMAIN-SUFFIX,flurry.com
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,analytics.yahoo.com
+
+# --- Criteo ---
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,criteo.net
+DOMAIN-SUFFIX,emailretargeting.com
+
+# --- Teads (Video Ads) ---
+DOMAIN-SUFFIX,teads.tv
+DOMAIN-SUFFIX,teads.com
+
+# --- PubMatic ---
+DOMAIN-SUFFIX,pubmatic.com
+
+# --- OpenX ---
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,openx.com
+
+# --- Index Exchange ---
+DOMAIN-SUFFIX,casalemedia.com
+
+# --- SmartAdServer ---
+DOMAIN-SUFFIX,smartadserver.com
+DOMAIN-SUFFIX,sascdn.com
+
+# --- AdRoll ---
+DOMAIN-SUFFIX,adroll.com
+
+# --- Media.net ---
+DOMAIN-SUFFIX,media.net
+
+# --- RevContent / MGID / Content Ads ---
+DOMAIN-SUFFIX,revcontent.com
+DOMAIN-SUFFIX,mgid.com
+DOMAIN-SUFFIX,contentad.net
+
+# --- ShareThrough / TripleLift / Nativo ---
+DOMAIN-SUFFIX,sharethrough.com
+DOMAIN-SUFFIX,triplelift.com
+DOMAIN-SUFFIX,nativo.com
+
+# --- Yandex Ads ---
+DOMAIN-SUFFIX,an.yandex.ru
+DOMAIN-SUFFIX,yandexadexchange.net
+
+# --- Baidu / Tencent Ads ---
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+
+# --- Ad Verification / Viewability ---
+DOMAIN-SUFFIX,moat.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,doubleverify.com
+DOMAIN-SUFFIX,integralads.com
+DOMAIN-SUFFIX,adsafeprotected.com
+
+# --- TikTok Ads ---
+DOMAIN-SUFFIX,ads.tiktok.com
+DOMAIN-SUFFIX,analytics.tiktok.com
+DOMAIN-SUFFIX,ct.tiktok.com
+
+# --- Additional Ad Networks ---
+DOMAIN-SUFFIX,adform.net
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,adzerk.net
+DOMAIN-SUFFIX,adtech.com
+DOMAIN-SUFFIX,adition.com
+DOMAIN-SUFFIX,adzerk.com
+
+# --- New Ad Networks (2025-2026) ---
+DOMAIN-SUFFIX,verve.com
+DOMAIN-SUFFIX,pubnative.net
+DOMAIN-SUFFIX,appmetrica.yandex.com
+DOMAIN-SUFFIX,report.appmetrica.yandex.net
+DOMAIN-SUFFIX,moloco.com
+DOMAIN-KEYWORD,moloco
+DOMAIN-SUFFIX,bigoads.com
+DOMAIN-SUFFIX,ad.xiaomi.com
+
+# --- Ad/Attribution Networks bổ sung (2026) ---
+DOMAIN-SUFFIX,bidmachine.io
+DOMAIN-SUFFIX,bidease.com
+DOMAIN-SUFFIX,prebid.org
+DOMAIN-SUFFIX,prebid.com
+DOMAIN-SUFFIX,gumgum.com
+DOMAIN-SUFFIX,smartyads.com
+DOMAIN-SUFFIX,loopme.com
+DOMAIN-SUFFIX,kidoz.net
+DOMAIN-SUFFIX,yieldmo.com
+DOMAIN-SUFFIX,zeotap.com
+DOMAIN-SUFFIX,id5-sync.com
+DOMAIN-SUFFIX,adsmoloco.com
+DOMAIN-SUFFIX,a-mo.net
+DOMAIN-SUFFIX,adtarget.com.tr
+DOMAIN-SUFFIX,vidoomy.com
+
+# --- PHẦN 3: QUẢNG CÁO VIỆT NAM ---
+DOMAIN-SUFFIX,adservice.zaloapp.com
+DOMAIN-SUFFIX,admicro.vn
+DOMAIN-SUFFIX,adsplay.net
+DOMAIN-SUFFIX,adtima.vn
+DOMAIN-SUFFIX,eclick.vn
+DOMAIN-SUFFIX,novaon.vn
+DOMAIN-SUFFIX,nativex.vn
+DOMAIN-SUFFIX,adpia.vn
+DOMAIN-SUFFIX,ants.vn
+DOMAIN-SUFFIX,accesstrade.vn
+DOMAIN-SUFFIX,younetmedia.com
+DOMAIN-SUFFIX,vcmedia.vn
+DOMAIN-SUFFIX,goada.vn
+DOMAIN-SUFFIX,adnetwork.vn
+DOMAIN-SUFFIX,mcads.vn
+DOMAIN-SUFFIX,blueseed.tv
+
+# --- PHẦN 4: POPUP / REDIRECT / SCAM ---
+DOMAIN-SUFFIX,popads.net
+DOMAIN-SUFFIX,popcash.net
+DOMAIN-SUFFIX,propellerads.com
+DOMAIN-SUFFIX,propellerclick.com
+DOMAIN-SUFFIX,trafficjunky.com
+DOMAIN-SUFFIX,revenuehits.com
+DOMAIN-SUFFIX,exoclick.com
+DOMAIN-SUFFIX,clickadu.com
+DOMAIN-SUFFIX,hilltopads.com
+DOMAIN-SUFFIX,richpush.com
+DOMAIN-SUFFIX,pushengage.com
+DOMAIN-SUFFIX,adsterra.com
+DOMAIN-SUFFIX,adsterratools.com
+DOMAIN-SUFFIX,trafficstars.com
+DOMAIN-SUFFIX,juicyads.com
+DOMAIN-SUFFIX,trafficfactory.biz
+DOMAIN-SUFFIX,clickaine.com
+DOMAIN-SUFFIX,evadav.com
+DOMAIN-SUFFIX,galaksion.com
+DOMAIN-SUFFIX,onclickmx.com
+DOMAIN-SUFFIX,adcash.com
+DOMAIN-SUFFIX,mgcash.com
+DOMAIN-SUFFIX,popunder.net
+DOMAIN-SUFFIX,admaven.com
+DOMAIN-SUFFIX,ad-maven.com
+DOMAIN-SUFFIX,pushwhy.com
+DOMAIN-SUFFIX,push-house.com
+DOMAIN-SUFFIX,partner.pushhouse.com
+DOMAIN-SUFFIX,datsprings.com
+DOMAIN-SUFFIX,zeydoo.com
+DOMAIN-SUFFIX,propu.sh
+DOMAIN-SUFFIX,vignatti.com
+DOMAIN-SUFFIX,mybetterdl.com
+DOMAIN-SUFFIX,clickfuse.com
+
+# --- PHẦN 7: BỔ SUNG AD DOMAINS CÒN THIẾU ---
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,liadm.com
+DOMAIN-SUFFIX,go.link
+DOMAIN-SUFFIX,onelink.me
+DOMAIN-SUFFIX,impression.link
+DOMAIN-SUFFIX,metric.gstatic.com
+DOMAIN-SUFFIX,cm.bilibili.com
+DOMAIN-SUFFIX,data.bilibili.com
+DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
+DOMAIN-SUFFIX,sugar.zhihu.com
+DOMAIN-SUFFIX,118.etao.com
+DOMAIN-SUFFIX,adash.m.taobao.com
+DOMAIN-SUFFIX,sclick.net
+DOMAIN-SUFFIX,re.taobao.com
+DOMAIN-SUFFIX,sdk.m.amap.com
+DOMAIN-SUFFIX,acs.m.taobao.com
+DOMAIN-SUFFIX,coinhive.com
+DOMAIN-SUFFIX,coin-hive.com
+DOMAIN-SUFFIX,authedmine.com
+DOMAIN-SUFFIX,cryptoloot.pro
+DOMAIN-SUFFIX,crypto-loot.com
+DOMAIN-SUFFIX,coinimp.com
+DOMAIN-SUFFIX,webminepool.com
+DOMAIN-SUFFIX,minero.cc
+DOMAIN-SUFFIX,jsecoin.com
+DOMAIN-SUFFIX,coinhive-manager.com
