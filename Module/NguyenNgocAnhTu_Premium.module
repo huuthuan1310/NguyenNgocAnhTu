@@ -1,18 +1,16 @@
 #!name=👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium ⁕
 #!desc=🚀 Mở khóa 300+ App VIP (Spotify, Locket, RevenueCat/iTunes Apps...). 🛡️ Chặn Ads & Tracking. ⚡ Tối ưu DNS, Banking, Streaming & Social.
-#!version=2.0.6-stable
-#!date=2026-06-11
+#!version=2.1.0-stable
+#!date=2026-06-16
 #!author=Nguyễn Ngọc Anh Tú (z3rokaze)
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
 #!system=ios
-# stable-note=Tối ưu ổn định, pin, giảm crash; giữ nguyên endpoint/script đang hoạt động. Đã chuyển các list ads/tracking/gambling sang RULE-SET để file siêu nhẹ, mượt mà.
 
 [General]
-# === [General] TỐI ƯU CHUẨN SHADOWROCKET (v2.0.6)         ===
 
 bypass-system = true
-dns-server = https://dns.adguard-dns.com/dns-query, https://freedns.controld.com/p2, system
+dns-server = https://dns.adguard-dns.com/dns-query, https://freedns.controld.com/p2
 fallback-dns-server = system
 private-ip-answer = true
 icmp-auto-reply = true
@@ -71,10 +69,8 @@ RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules
 # --- Dịch vụ nội địa (Ngân hàng, App VN, Apple CDN) kết nối trực tiếp ---
 RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/Direct.list,DIRECT
 
-# --- Vietnam Local Network & GeoIP fallback ---
-GEOIP,VN,DIRECT
-
-# --- Fallback: traffic không match rule nào ở trên ---
+# --- Fallback: mọi traffic không khớp rule nào ở trên đi trực tiếp ---
+# (Đã gỡ GEOIP,VN,DIRECT vì trùng hoàn toàn với FINAL,DIRECT — tránh GeoIP lookup thừa)
 FINAL,DIRECT
 
 [Header Rewrite]
@@ -198,8 +194,10 @@ grammarly-response = type=http-response, pattern=^https?:\/\/subscription\.gramm
 # === NOTABILITY PLUS - litieyin (yfamilys, 2026-05-19) ===
 notability-response = type=http-response, pattern=^https:\/\/notability\.com\/subscriptions, script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js, requires-body=1, max-size=0, timeout=10
 
-# === PHOTOMATH PLUS - ddgksf2013 (yfamilys, 2026-05-19) ===
-photomath-response = type=http-response, pattern=^https?:\/\/lapi\.photomath\.net\/v4\/me, script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js, requires-body=1, max-size=0, timeout=10
+# === PHOTOMATH PLUS - ekaznyra (rewrite 2026-06-15) ===
+# Bản cũ (deezertidal/private/poh.js) hardcode hạn 2025 -> đã chết. Đã tự host bản mới (hạn 2099, merge an toàn).
+# Nguồn để theo dõi/cập nhật nếu có bản tốt hơn: deezertidal/private (poh.js) | 89996462/Quantumult-X (ycdz)
+photomath-response = type=http-response, pattern=^https?:\/\/lapi\.photomath\.net\/v4\/me, script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photomath.js, requires-body=1, max-size=0, timeout=10
 
 # === SMALLPDF PRO - Marol62926 (yfamilys, 2026-05-19) ===
 smallpdf-response = type=http-response, pattern=^https?:\/\/pro\.smallpdf\.com\/pro\/account, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js, requires-body=1, max-size=0, timeout=10
@@ -286,6 +284,23 @@ keep-response = type=http-response, pattern=^https:\/\/api\.gotokeep\.com, scrip
 # === INVIDEO PREMIUM - Marol62926 (yfamilys, 2026-05-24) ===
 invideo-response = type=http-response, pattern=^https?:\/\/payments\.invideo\.io\/(verify_purchase|subscription), script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js, requires-body=1, max-size=0, timeout=10
 
+# === CARROT WEATHER PREMIUM - 89996462 (z3rokaze, 2026-06-15) ===
+carrotweather-response = type=http-response, pattern=^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/CARROTWeather.js, requires-body=1, max-size=0, timeout=10
+
+# === AGENDA PREMIUM - 89996462 (z3rokaze, 2026-06-15) ===
+agenda-response = type=http-response, pattern=^https:\/\/accounts\.agenda\.com\/users\/.*\/license, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Agenda.js, requires-body=1, max-size=0, timeout=10
+
+# === PDF EXPERT PREMIUM (Readdle) - 89996462 (z3rokaze, 2026-06-16) ===
+# Host riêng license.pdfexpert.com (KHÔNG dùng RevenueCat/Apple receipt) -> không trùng handler tổng.
+pdfexpert-request = type=http-request, pattern=^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js, requires-body=1, max-size=0, timeout=10
+
+# === DOCUMENTS BY READDLE PREMIUM - 89996462 (z3rokaze, 2026-06-16) ===
+documents-request = type=http-request, pattern=^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js, requires-body=1, max-size=0, timeout=10
+
+# === SORTED CALENDAR/PLANNER PREMIUM - 89996462 (z3rokaze, 2026-06-16) ===
+# Host riêng api.sortedapp.com, response-body ép isPro=true -> ổn định.
+sorted-response = type=http-response, pattern=^https:\/\/api\.sortedapp\.com\/receipts\/verify, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js, requires-body=1, max-size=0, timeout=10
+
 [MITM]
 enable = true
-hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium-*.truecaller.com, *.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *.account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com, app.bilibili.com
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium-*.truecaller.com, *.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *.account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com, app.bilibili.com, carrotweather.herokuapp.com, accounts.agenda.com, license.pdfexpert.com, api.sortedapp.com

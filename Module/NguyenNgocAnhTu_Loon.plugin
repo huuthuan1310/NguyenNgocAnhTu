@@ -1,7 +1,7 @@
 #!name=⚡ Anh Tú Premium - Loon
 #!desc=🚀 Mở khóa 250+ App VIP (Spotify, Locket, CapCut...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. 🏦 41+ Banking & Ví VN. 🎬 Streaming & Social.
-#!version=2.0.5-stable
-#!date=2026-06-06
+#!version=2.1.0-stable
+#!date=2026-06-16
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -164,7 +164,7 @@ http-response ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ s
 http-response ^https:\/\/notability\.com\/subscriptions script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js,requires-body=true,timeout=10,tag=Notability-Res
 
 # 🧮 Photomath Plus (yfamilys)
-http-response ^https?:\/\/lapi\.photomath\.net\/v4\/me script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js,requires-body=true,timeout=10,tag=Photomath-Res
+http-response ^https?:\/\/lapi\.photomath\.net\/v4\/me script-path=https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photomath.js,requires-body=true,timeout=10,tag=Photomath-Res
 
 # 📄 Smallpdf Pro (yfamilys)
 http-response ^https?:\/\/pro\.smallpdf\.com\/pro\/account script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js,requires-body=true,timeout=10,tag=Smallpdf-Res
@@ -232,5 +232,16 @@ http-response ^https?:\/\/lcs-mobile-cops\.adobe\.io\/(?!mobile_profile).+ scrip
 # === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js,requires-body=true,tag=Bilibili
 
+# 🥕 CARROT Weather Premium
+http-response ^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/CARROTWeather.js,requires-body=true,timeout=10,tag=CarrotWeather
+# 📅 Agenda Premium
+http-response ^https:\/\/accounts\.agenda\.com\/users\/.*\/license script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Agenda.js,requires-body=true,timeout=10,tag=Agenda
+# 📕 PDF Expert - Readdle (host riêng)
+http-request ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js,requires-body=true,timeout=10,tag=PDFExpert
+# 📁 Documents by Readdle
+http-request ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js,requires-body=true,timeout=10,tag=Documents
+# 📆 Sorted Calendar/Planner
+http-response ^https:\/\/api\.sortedapp\.com\/receipts\/verify script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js,requires-body=true,timeout=10,tag=Sorted
+
 [MITM]
-hostname=-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com, api.picsart.cn,api.meiease.com, api.meiease.cn,api-mobile.soundcloud.com,mb3admin.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium-*.truecaller.com,*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*.account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com
+hostname=-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com, api.picsart.cn,api.meiease.com, api.meiease.cn,api-mobile.soundcloud.com,mb3admin.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium-*.truecaller.com,*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*.account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com,app.bilibili.com,carrotweather.herokuapp.com,accounts.agenda.com,license.pdfexpert.com,api.sortedapp.com

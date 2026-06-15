@@ -1,8 +1,8 @@
 # ⚡ Anh Tú Premium - Quantumult X
-# v2.0.5-stable (2026-06-11)
+# v2.1.0-stable (2026-06-16)
 # https://github.com/ekaznyra/NguyenNgocAnhTu
 
-hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com,api.picsart.cn,api.meiease.com,api.meiease.cn,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium-*.truecaller.com,*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*.account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com, app.bilibili.com, lcs-mobile-cops.adobe.io
+hostname=*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com,api.picsart.cn,api.meiease.com,api.meiease.cn,api-mobile.soundcloud.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,mb3admin.com,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium-*.truecaller.com,*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*.account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com, app.bilibili.com, lcs-mobile-cops.adobe.io, carrotweather.herokuapp.com, accounts.agenda.com, license.pdfexpert.com, api.sortedapp.com
 
 # === BLOCK QUIC FOR YOUTUBE MITM ===
 
@@ -1087,7 +1087,7 @@ geoip, vn, direct
 ^https:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
 
 # 🧮 Photomath Plus (yfamilys)
-^https?:\/\/lapi\.photomath\.net\/v4\/me url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js
+^https?:\/\/lapi\.photomath\.net\/v4\/me url script-response-body https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photomath.js
 
 # 📄 Smallpdf Pro (yfamilys)
 ^https?:\/\/pro\.smallpdf\.com\/pro\/account url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js
@@ -1148,3 +1148,20 @@ geoip, vn, direct
 ^https:\/\/payment-api\.lingvist\.com\/.+\/user\/services url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingvist.js
 # === BENDING SPOONS BUNDLE (Splice, Remini, FilmicPro, Focos, 30DayFitness...) - 89996462 ===
 ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js
+
+# 🎬 InVideo Premium
+^https?:\/\/payments\.invideo\.io\/(verify_purchase|subscription) url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js
+# 📄 Adobe Scan (loại trừ /mobile_profile để tránh đụng Photoshop Express)
+^https?:\/\/lcs-mobile-cops\.adobe\.io\/(?!mobile_profile).+ url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js
+# 📺 Bilibili
+^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-response-body https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js
+# 🥕 CARROT Weather Premium
+^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/CARROTWeather.js
+# 📅 Agenda Premium
+^https:\/\/accounts\.agenda\.com\/users\/.*\/license url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Agenda.js
+# 📕 PDF Expert - Readdle (host riêng)
+^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js
+# 📁 Documents by Readdle
+^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js
+# 📆 Sorted Calendar/Planner
+^https:\/\/api\.sortedapp\.com\/receipts\/verify url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js

@@ -1,5 +1,5 @@
 name: "👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (Egern) ⁕"
-description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.0.5-stable (2026-06-11)"
+description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.1.0-stable (2026-06-16)"
 author: "Nguyễn Ngọc Anh Tú (z3rokaze)"
 homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
 icon: "lock.open.fill"
@@ -72,11 +72,11 @@ rules:
       match: "creativeservice-production.scdn.co"
       policy: REJECT
   # ===========================================================
-  # === CHáº¶N QUáº¢NG CÃO + Cá»œ Báº C/CÃ Äá»˜ Tá»”NG Há»¢P (Ad Block) ===
+  # === CHáº¶N QUáº¢NG CÃO + Cá»œ Báº C/CÃ Äá»˜ Tá»”NG Há»¢P (Ad Block) ===
   # === by z3rokaze - 2026-05-27 (Ultimate Edition)            ===
   # ===========================================================
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-  # â”‚  PHáº¦N 1: CHáº¶N QUáº¢NG CÃO (AD BLOCK) â”‚
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 1: CHáº¶N QUáº¢NG CÃO (AD BLOCK) â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 1.1 Google Ads / AdMob / DoubleClick ---
   - domain_suffix:
@@ -479,7 +479,7 @@ rules:
   - domain_suffix:
       match: "vidoomy.com"
       policy: REJECT
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 2: TRACKING & ANALYTICS SDKs  â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 2.1 Attribution / Mobile Measurement ---
@@ -655,8 +655,8 @@ rules:
   - domain_suffix:
       match: "permutive.com"
       policy: REJECT
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-  # â”‚  PHáº¦N 3: QUáº¢NG CÃO VIá»†T NAM        â”‚
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 3: QUáº¢NG CÃO VIá»†T NAM        â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   - domain_suffix:
       match: "adservice.zaloapp.com"
@@ -708,7 +708,7 @@ rules:
   - domain_suffix:
       match: "blueseed.tv"
       policy: REJECT
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 4: POPUP / REDIRECT / SCAM    â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   - domain_suffix:
@@ -814,10 +814,10 @@ rules:
   - domain_suffix:
       match: "clickfuse.com"
       policy: REJECT
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-  # â”‚  PHáº¦N 5: CHáº¶N WEB CÃ Äá»˜ / Cá»œ Báº C / CASINO (GAMBLING)  â”‚
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 5: CHáº¶N WEB CÃ Äá»˜ / Cá»œ Báº C / CASINO (GAMBLING)  â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-  # --- 5.1 CÃ¡ Ä‘á»™ / Cá» báº¡c phá»• biáº¿n táº¡i Viá»‡t Nam ---
+  # --- 5.1 CÃ¡ Ä‘á»™ / Cá» báº¡c phá»• biáº¿n táº¡i Viá»‡t Nam ---
   - domain_suffix:
       match: "1xbet.com"
       policy: REJECT
@@ -1323,7 +1323,7 @@ rules:
       policy: REJECT
   # DOMAIN-KEYWORD,hi88,REJECT    # Disabled: may match sushi88.com, phi88.com etc.
   # DOMAIN-KEYWORD,sin88,REJECT   # Disabled: may match resin88.com etc.
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 6: AI SERVICES ROUTING (PROXY)                â”‚
   # â”‚  Nguá»“n: tatarinovms/ShadowRocketSimpleConfig         â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
@@ -1511,7 +1511,7 @@ rules:
   - domain_suffix:
       match: "civitai.com"
       policy: PROXY
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 7: Bá»” SUNG AD DOMAINS CÃ’N THIáº¾U              â”‚
   # â”‚  Nguá»“n: GMOogway + fmz200/wool_scripts               â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
@@ -1608,8 +1608,8 @@ rules:
   - domain_suffix:
       match: "coinhive-manager.com"
       policy: REJECT
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-  # â”‚  PHáº¦N 8: CHáº¶N TELEMETRY & TRACKING Há»† THá»NG         â”‚
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 8: CHáº¶N TELEMETRY & TRACKING Há»† THá»NG         â”‚
   # â”‚  Nguá»“n: Johnshall/p-w-p                              â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 8.1 Microsoft Telemetry ---
@@ -1694,7 +1694,7 @@ rules:
   - domain_suffix:
       match: "iadsdk.apple.com"
       policy: REJECT
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 9: GAMING SERVICES ROUTING (PROXY)             â”‚
   # â”‚  Nguá»“n: tatarinovms/ShadowRocketSimpleConfig          â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
@@ -1768,7 +1768,7 @@ rules:
   - domain_suffix:
       match: "ubi.com"
       policy: PROXY
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 10: STREAMING SERVICES (PROXY - Geo-unlock)    â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 10.1 Netflix ---
@@ -1851,7 +1851,7 @@ rules:
   - domain_suffix:
       match: "bilibili.tv"
       policy: PROXY
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 11: SOCIAL MEDIA ROUTING (PROXY)               â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 11.1 Telegram ---
@@ -1911,7 +1911,7 @@ rules:
   - domain_suffix:
       match: "web.whatsapp.com"
       policy: PROXY
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
   # â”‚  PHáº¦N 12: DEVELOPER TOOLS (PROXY)                    â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 12.1 GitHub / GitLab ---
@@ -1968,8 +1968,8 @@ rules:
   - domain_suffix:
       match: "dev.to"
       policy: PROXY
-  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-  # â”‚  PHáº¦N 13: Tá»I Æ¯U Káº¾T Ná»I (DIRECT - Bá»Ž QUA VPN)       â”‚
+  # â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+  # â”‚  PHáº¦N 13: Tá»I Æ¯U Káº¾T Ná»I (DIRECT - Bá»Ž QUA VPN)       â”‚
   # â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
   # --- 13.1 Apple Services (Bypass for max speed & stability) ---
   - domain_suffix:
@@ -2480,7 +2480,7 @@ scriptings:
   - http_response:
       name: "Photomath Plus"
       match: "^https?://lapi\\.photomath\\.net/v4/me"
-      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/poh.js"
+      script_url: "https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Module/js/photomath.js"
       body_required: true
       timeout: 10
 
@@ -2622,7 +2622,6 @@ scriptings:
       script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js"
       body_required: true
       timeout: 10
-      timeout: 10
   # 😴 Endel (yfamilys)
   - http_response:
       name: "Endel Focus"
@@ -2658,13 +2657,6 @@ scriptings:
       script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js"
       body_required: true
       timeout: 10
-      timeout: 10
-      timeout: 10
-      timeout: 10
-      timeout: 10
-      timeout: 10
-      timeout: 10
-      timeout: 10
 
   # === iTRANSLATE PRO (dịch thuật) - 89996462 ===
   - http_request:
@@ -2691,15 +2683,57 @@ scriptings:
   # === ADOBE SCAN (PDF Scanner) - Marol62926 ✅ VERIFIED ===
   - http_response:
       name: "Adobe Scan"
-      match: "^https?://lcs-mobile-cops\.adobe\.io/.+"
+      match: "^https?://lcs-mobile-cops\\.adobe\\.io/(?!mobile_profile).+"
       script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/adobeScanPdf.js"
       body_required: true
       timeout: 10
   # === BILIBILI (CN Video Platform) - Marol62926 ✅ VERIFIED ===
   - http_response:
       name: "Bilibili"
-      match: "^https?://app\.bilibili\.com/x/v2/account/myinfo"
+      match: "^https?://app\\.bilibili\\.com/x/v2/account/myinfo"
       script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bilibili.js"
+      body_required: true
+      timeout: 10
+  # 🎬 InVideo Premium
+  - http_response:
+      name: "InVideo Premium"
+      match: "^https?://payments\\.invideo\\.io/(verify_purchase|subscription)"
+      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js"
+      body_required: true
+      timeout: 10
+  # 🥕 CARROT Weather Premium
+  - http_response:
+      name: "CARROT Weather"
+      match: "^https://carrotweather\\.herokuapp\\.com/parse/functions/findSubscriptionsForUserId"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/CARROTWeather.js"
+      body_required: true
+      timeout: 10
+  # 📅 Agenda Premium
+  - http_response:
+      name: "Agenda Premium"
+      match: "^https://accounts\\.agenda\\.com/users/.*/license"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Agenda.js"
+      body_required: true
+      timeout: 10
+  # 📕 PDF Expert - Readdle (host riêng)
+  - http_request:
+      name: "PDF Expert"
+      match: "^https://license\\.pdfexpert\\.com/api/2\\.0/pdfexpert6/subscription/refresh"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js"
+      body_required: true
+      timeout: 10
+  # 📁 Documents by Readdle
+  - http_request:
+      name: "Documents by Readdle"
+      match: "^https://license\\.pdfexpert\\.com/api/2\\.0/documents/subscription/refresh"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js"
+      body_required: true
+      timeout: 10
+  # 📆 Sorted Calendar/Planner
+  - http_response:
+      name: "Sorted Planner"
+      match: "^https://api\\.sortedapp\\.com/receipts/verify"
+      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js"
       body_required: true
       timeout: 10
 mitm:
@@ -2771,6 +2805,8 @@ mitm:
     - "ssl-api.itranslateapp.com"
     - "payment-api.lingvist.com"
     - "*.oracle.bendingspoonsapps.com"
-
-    - "lcs-mobile-cops.adobe.io"
     - "app.bilibili.com"
+    - "carrotweather.herokuapp.com"
+    - "accounts.agenda.com"
+    - "license.pdfexpert.com"
+    - "api.sortedapp.com"
