@@ -90,4 +90,9 @@ switch ($request.url) {
         }
     break;
 }
-$done({ body: JSON.stringify(obj) });
+if (obj) {
+    $done({ body: JSON.stringify(obj) });
+} else {
+    // URL khớp MITM nhưng không khớp case nào -> để nguyên response (tránh trả "undefined")
+    $done({});
+}

@@ -559,9 +559,6 @@ rules:
       match: "clevertap.com"
       policy: REJECT
   - domain_suffix:
-      match: "intercom.io"
-      policy: REJECT
-  - domain_suffix:
       match: "intercom.com"
       policy: REJECT
   - domain_suffix:
@@ -1101,9 +1098,6 @@ rules:
       match: "gg8.club"
       policy: REJECT
   - domain_suffix:
-      match: "b52.com"
-      policy: REJECT
-  - domain_suffix:
       match: "b52.club"
       policy: REJECT
   - domain_suffix:
@@ -1218,9 +1212,6 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "hitclub.gg"
-      policy: REJECT
-  - domain_suffix:
-      match: "57k.com"
       policy: REJECT
   # --- 5.2c Gambling (2026) [SYNC] ---
   - domain_suffix:
@@ -1527,12 +1518,6 @@ rules:
       policy: REJECT
   # DOMAIN-SUFFIX,branch.io,REJECT  # Disabled: breaks deep linking
   # DOMAIN-SUFFIX,app.link,REJECT   # Disabled: breaks deep linking
-  - domain_suffix:
-      match: "go.link"
-      policy: REJECT
-  - domain_suffix:
-      match: "onelink.me"
-      policy: REJECT
   # DOMAIN-SUFFIX,app.adjust.com,REJECT  # Redundant: covered by adjust.com in section 2.1
   # DOMAIN-SUFFIX,s.adjust.com,REJECT    # Redundant: covered by adjust.com in section 2.1
   - domain_suffix:
@@ -1570,9 +1555,6 @@ rules:
       policy: REJECT
   - domain_suffix:
       match: "sdk.m.amap.com"
-      policy: REJECT
-  - domain_suffix:
-      match: "acs.m.taobao.com"
       policy: REJECT
   # --- 7.3 Phishing / Malware / Crypto Scam ---
   # DOMAIN-KEYWORD,phishing,REJECT  # Disabled: too broad, blocks anti-phishing education sites

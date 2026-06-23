@@ -8,8 +8,11 @@
 var objc;
 try { objc = JSON.parse($response.body); } catch (e) {}
 
-objc = {
-    "subscriptions": [
+if (!objc || typeof objc !== "object") {
+    // Non-JSON / lỗi / 304 -> để nguyên response
+    $done({});
+} else {
+    objc.subscriptions = [
         {
             "sku": "com.headspace.annual",
             "status": "active",
@@ -19,8 +22,7 @@ objc = {
             "started_at": "2024-01-09T02:00:00Z",
             "product_id": "com.headspace.annual"
         }
-    ],
-    "has_subscription": true
-};
-
-$done({ body: JSON.stringify(objc) });
+    ];
+    objc.has_subscription = true;
+    $done({ body: JSON.stringify(objc) });
+}

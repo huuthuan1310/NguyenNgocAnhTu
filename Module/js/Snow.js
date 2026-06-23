@@ -21,7 +21,7 @@ if (!objc || typeof objc !== "object") {
 } else {
     for (const key of Object.keys(list)) {
         if (new RegExp(`^${key}`, "i").test(ua)) {
-            objc.result = {
+            objc.result = Object.assign({}, objc.result, {
                 "products": [
                     {
                         "managed": true,
@@ -41,7 +41,7 @@ if (!objc || typeof objc !== "object") {
                     }
                 ],
                 "activated": true
-            };
+            });
             console.log("✅ Unlock thành công — z3rokaze");
             break;
         }

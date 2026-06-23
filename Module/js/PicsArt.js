@@ -57,4 +57,4 @@ if ($request.url.includes("/storages")) {
     };
 }
 
-$done({ response: { body: JSON.stringify(objc), status: 200 } });
+$done({ body: JSON.stringify(objc) });

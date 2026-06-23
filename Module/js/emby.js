@@ -8,10 +8,16 @@
 var objc;
 try { objc = JSON.parse($response.body); } catch (e) {}
 
-objc = {
-    "cacheExpirationDays": 999,
-    "message": "Device is valid",
-    "resultCode": "GOOD"
-};
+if (objc && typeof objc === "object") {
+    objc.cacheExpirationDays = 999;
+    objc.message = "Device is valid";
+    objc.resultCode = "GOOD";
+} else {
+    objc = {
+        "cacheExpirationDays": 999,
+        "message": "Device is valid",
+        "resultCode": "GOOD"
+    };
+}
 
 $done({ body: JSON.stringify(objc) });

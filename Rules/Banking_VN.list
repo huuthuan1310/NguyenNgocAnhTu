@@ -14,7 +14,6 @@ DOMAIN-SUFFIX,vib.com.vn
 DOMAIN-SUFFIX,sacombank.com.vn
 DOMAIN-SUFFIX,hdbank.com.vn
 DOMAIN-SUFFIX,ocb.com.vn
-DOMAIN-SUFFIX,shb.com
 DOMAIN-SUFFIX,shb.com.vn
 DOMAIN-SUFFIX,msb.com.vn
 DOMAIN-SUFFIX,lpbank.com.vn
@@ -42,3 +41,11 @@ DOMAIN-SUFFIX,viettelpay.vn
 DOMAIN-SUFFIX,moca.vn
 DOMAIN-SUFFIX,shopeepay.vn
 DOMAIN-SUFFIX,smartpay.vn
+# --- Bổ sung (2026): ngân hàng ngoại tại VN & bank/ví số ---
+DOMAIN-SUFFIX,shinhan.com.vn
+DOMAIN-SUFFIX,woori.com.vn
+DOMAIN-SUFFIX,uob.com.vn
+DOMAIN-SUFFIX,oceanbank.vn
+DOMAIN-SUFFIX,gpbank.com.vn
+DOMAIN-SUFFIX,tnex.vn
+DOMAIN-SUFFIX,sc.com

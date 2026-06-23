@@ -8,7 +8,7 @@
 var objc;
 try { objc = JSON.parse($response.body); } catch (e) {}
 
-objc = {
+var djayPatch = {
     "status": 0,
     "receipt": {
         "receipt_type": "Production",
@@ -39,5 +39,11 @@ objc = {
         }
     ]
 };
+
+if (objc && typeof objc === "object") {
+    Object.assign(objc, djayPatch);
+} else {
+    objc = djayPatch;
+}
 
 $done({ body: JSON.stringify(objc) });

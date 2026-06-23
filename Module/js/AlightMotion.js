@@ -8,10 +8,9 @@
 var objc;
 try { objc = JSON.parse($response.body); } catch (e) {}
 
-objc = {
-    "result": {
+var amResult = {
         "result": "success",
-        "msTime": 1704758400000,
+        "msTime": Date.now(),
         "accountCreatedMillis": null,
         "licenses": [
         {
@@ -39,7 +38,12 @@ objc = {
         }
         ],
         "warnings": []
-    }
+};
+
+if (objc && typeof objc === "object") {
+    objc.result = amResult;
+} else {
+    objc = { "result": amResult };
 }
 
 $done({ body: JSON.stringify(objc) });

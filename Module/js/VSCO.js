@@ -8,9 +8,12 @@
 var objc;
 try { objc = JSON.parse($response.body); } catch (e) {}
 
-objc = {
-    "user_subscription": {
-        "user_id": "z3rokaze_premium",
+if (!objc || typeof objc !== "object") {
+    // Non-JSON / lỗi / 304 -> để nguyên response
+    $done({});
+} else {
+    // Merge: giữ user_id thật + field khác server cấp, chỉ ép các field quyền
+    objc.user_subscription = Object.assign({}, objc.user_subscription || {}, {
         "subscription_code": "VSCO_MEMBERSHIP",
         "expires_on_sec": 32662137600,
         "is_active": true,
@@ -18,7 +21,6 @@ objc = {
         "payment_type": 1,
         "subscription_type": "yearly",
         "granted_by": "apple"
-    }
-};
-
-$done({ body: JSON.stringify(objc) });
+    });
+    $done({ body: JSON.stringify(objc) });
+}

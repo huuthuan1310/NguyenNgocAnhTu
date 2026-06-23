@@ -17,8 +17,8 @@ let obj;
 try {
   obj = JSON.parse($response.body);
 } catch (e) {
-  // Không parse được -> trả nguyên body, tránh làm hỏng app
-  $done({});
+  // Không parse được -> để nguyên response ở cuối (tránh làm hỏng app)
+  obj = null;
 }
 
 const FAR_FUTURE = "2099-12-31T23:59:59.000Z";
@@ -54,4 +54,4 @@ if (obj && typeof obj === "object") {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done(obj && typeof obj === "object" ? { body: JSON.stringify(obj) } : {});

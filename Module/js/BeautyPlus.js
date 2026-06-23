@@ -6,18 +6,21 @@
  */
 
 var objc;
-try { objc = JSON.parse($response.body); } catch (e) {}
+try { objc = JSON.parse($response.body); } catch (e) { objc = null; }
 
-objc = {
-    "vip_expires_date": 4071600000,
-    "message": "success",
-    "data": {
-        "points": 999999999,
-        "next_claim": 1,
-        "gid": "2641810920",
-        "balance": 999999999,
-        "created_at": 1707331696
-    }
+var url = $request.url;
+if (/newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance/.test(url)) {
+    // Endpoint asset/balance: chỉ ép điểm/số dư, giữ nguyên gid/created_at server cấp
+    if (!objc || typeof objc !== "object") objc = { "message": "success", "data": {} };
+    if (!objc.data || typeof objc.data !== "object") objc.data = {};
+    objc.data.points = 999999999;
+    objc.data.balance = 999999999;
+    objc.data.next_claim = 1;
+} else {
+    // Endpoint manual_unlock / VIP
+    if (!objc || typeof objc !== "object") objc = { "message": "success", "data": {} };
+    objc.message = "success";
+    objc.vip_expires_date = 4071600000;
 }
 
 $done({ body: JSON.stringify(objc) });

@@ -7,14 +7,16 @@
 ***********************************************/
 
 // ========= App ID Mapping ========= //
+// [entitlement, productIdentifier]. Khóa để dạng UTF-8 thường (KHÔNG percent-encode)
+// vì User-Agent chứa chuỗi thật. Các app RC khác không khớp -> rơi vào fallback "pro" bên dưới.
 const mapping = {
-  '%E8%BD%A6%E7%A5%A8%E7%A5%A8': ['vip+watch_vip'],
-  'Locket': ['Gold']
+  'Locket': ['Gold', 'locket_1600_1y']
 };
 
 // =========  Core Logic  ========= //
 // =========  @z3rokaze  ========= //
-var ua = $request.headers["User-Agent"] || $request.headers["user-agent"];
+var ua = ($request.headers["User-Agent"] || $request.headers["user-agent"] || "");
+var uaDecoded; try { uaDecoded = decodeURIComponent(ua); } catch (e) { uaDecoded = ua; }
 var obj;
 try { obj = JSON.parse($response.body); } catch (e) {}
 if (!obj || typeof obj !== "object" || !obj.subscriber) {
@@ -49,12 +51,16 @@ var z3rokaze = {
       product_identifier: "locket_1600_1y",
       expires_date: "9999-07-18T10:10:14Z"
   };
-const match = Object.keys(mapping).find(e => ua.includes(e));
+const match = Object.keys(mapping).find(e => uaDecoded.includes(e) || ua.includes(e));
+let entKey = "pro", prodKey = "locket_1600_1y";
 if (match) {
-  let [e, s] = mapping[match];
-  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = z3rokaze) : obj.subscriber.subscriptions["locket_1600_1y"] = z3rokaze, obj.subscriber.entitlements[e] = locketGold
-} else obj.subscriber.subscriptions["locket_1600_1y"] = z3rokaze, obj.subscriber.entitlements.pro = locketGold;
-$done({
-  body: JSON.stringify(obj)
-});
+  const [ent, prod] = mapping[match];
+  if (ent) entKey = ent;
+  if (prod) prodKey = prod;
+}
+locketGold.product_identifier = prodKey;
+// Merge (giữ field server có thể thêm mới) thay vì ghi đè cả object
+obj.subscriber.subscriptions[prodKey] = Object.assign({}, obj.subscriber.subscriptions[prodKey] || {}, z3rokaze);
+obj.subscriber.entitlements[entKey] = Object.assign({}, obj.subscriber.entitlements[entKey] || {}, locketGold);
+$done({ body: JSON.stringify(obj) });
 }

@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,tenjin.com
 DOMAIN-SUFFIX,airbridge.io
 
 # --- Analytics Platforms ---
+DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,segment.io
@@ -27,7 +28,6 @@ DOMAIN-SUFFIX,adsrvr.org
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,clevertap.com
-DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,mookie1.com
 DOMAIN-SUFFIX,taboola.com

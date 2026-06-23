@@ -271,7 +271,6 @@ rules:
   - DOMAIN-SUFFIX,crashlytics.com,REJECT
   - DOMAIN-SUFFIX,braze.com,REJECT
   - DOMAIN-SUFFIX,clevertap.com,REJECT
-  - DOMAIN-SUFFIX,intercom.io,REJECT
   - DOMAIN-SUFFIX,intercom.com,REJECT
   - DOMAIN-SUFFIX,mookie1.com,REJECT
   - DOMAIN-SUFFIX,taboola.com,REJECT
@@ -467,7 +466,6 @@ rules:
   - DOMAIN-SUFFIX,mu88.club,REJECT
   - DOMAIN-SUFFIX,gg8.com,REJECT
   - DOMAIN-SUFFIX,gg8.club,REJECT
-  - DOMAIN-SUFFIX,b52.com,REJECT
   - DOMAIN-SUFFIX,b52.club,REJECT
   - DOMAIN-SUFFIX,uy88.com,REJECT
   - DOMAIN-SUFFIX,top88.com,REJECT
@@ -510,7 +508,6 @@ rules:
   - DOMAIN-SUFFIX,nohu90.com,REJECT
   - DOMAIN-SUFFIX,hitclub.com,REJECT
   - DOMAIN-SUFFIX,hitclub.gg,REJECT
-  - DOMAIN-SUFFIX,57k.com,REJECT
   # --- 5.2c Gambling (2026) [SYNC] ---
   - DOMAIN-SUFFIX,79king.com,REJECT
   - DOMAIN-SUFFIX,79king.club,REJECT
@@ -640,8 +637,6 @@ rules:
   - DOMAIN-SUFFIX,liadm.com,REJECT
   # DOMAIN-SUFFIX,branch.io,REJECT  # Disabled: breaks deep linking
   # DOMAIN-SUFFIX,app.link,REJECT   # Disabled: breaks deep linking
-  - DOMAIN-SUFFIX,go.link,REJECT
-  - DOMAIN-SUFFIX,onelink.me,REJECT
   # DOMAIN-SUFFIX,app.adjust.com,REJECT  # Redundant: covered by adjust.com in section 2.1
   # DOMAIN-SUFFIX,s.adjust.com,REJECT    # Redundant: covered by adjust.com in section 2.1
   - DOMAIN-SUFFIX,impression.link,REJECT
@@ -659,7 +654,6 @@ rules:
   - DOMAIN-SUFFIX,sclick.net,REJECT
   - DOMAIN-SUFFIX,re.taobao.com,REJECT
   - DOMAIN-SUFFIX,sdk.m.amap.com,REJECT
-  - DOMAIN-SUFFIX,acs.m.taobao.com,REJECT
 
   # --- 7.3 Phishing / Malware / Crypto Scam ---
   # DOMAIN-KEYWORD,phishing,REJECT  # Disabled: too broad, blocks anti-phishing education sites

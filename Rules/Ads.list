@@ -247,8 +247,6 @@ DOMAIN-SUFFIX,clickfuse.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,liadm.com
-DOMAIN-SUFFIX,go.link
-DOMAIN-SUFFIX,onelink.me
 DOMAIN-SUFFIX,impression.link
 DOMAIN-SUFFIX,metric.gstatic.com
 DOMAIN-SUFFIX,cm.bilibili.com
@@ -260,7 +258,6 @@ DOMAIN-SUFFIX,adash.m.taobao.com
 DOMAIN-SUFFIX,sclick.net
 DOMAIN-SUFFIX,re.taobao.com
 DOMAIN-SUFFIX,sdk.m.amap.com
-DOMAIN-SUFFIX,acs.m.taobao.com
 DOMAIN-SUFFIX,coinhive.com
 DOMAIN-SUFFIX,coin-hive.com
 DOMAIN-SUFFIX,authedmine.com
