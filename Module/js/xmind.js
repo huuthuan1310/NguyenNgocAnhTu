@@ -6,9 +6,14 @@
  * @date: 2026-05-09
  */
 
-const obj = JSON.parse($response.body);
-obj.license = obj.license || {};
-obj.license.status = "sub";
-obj.license.expireTime = 1893456000000; // 2030-01-01 ms
+let obj;
+try { obj = JSON.parse($response.body); } catch (e) {}
 
-$done({ body: JSON.stringify(obj) });
+if (!obj || typeof obj !== "object") {
+    $done({});
+} else {
+    obj.license = obj.license || {};
+    obj.license.status = "sub";
+    obj.license.expireTime = 1893456000000; // 2030-01-01 ms
+    $done({ body: JSON.stringify(obj) });
+}

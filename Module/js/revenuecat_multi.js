@@ -14,8 +14,13 @@ const mapping = {
 
 // =========  Core Logic  ========= //
 // =========  @z3rokaze  ========= //
-var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
-  obj = JSON.parse($response.body);
+var ua = $request.headers["User-Agent"] || $request.headers["user-agent"];
+var obj;
+try { obj = JSON.parse($response.body); } catch (e) {}
+if (!obj || typeof obj !== "object" || !obj.subscriber) {
+  // Không parse được hoặc thiếu subscriber -> trả nguyên body, tránh làm hỏng app
+  $done({});
+} else {
 obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
 var z3rokaze = {
       auto_resume_date: null,
@@ -52,3 +57,4 @@ if (match) {
 $done({
   body: JSON.stringify(obj)
 });
+}

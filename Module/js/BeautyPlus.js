@@ -5,7 +5,8 @@
  * @date: 2026-04-21
  */
 
-var objc = JSON.parse($response.body);
+var objc;
+try { objc = JSON.parse($response.body); } catch (e) {}
 
 objc = {
     "vip_expires_date": 4071600000,

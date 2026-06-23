@@ -5,7 +5,8 @@
  * @date: 2026-04-21
  */
 
-var obj = JSON.parse($response.body);
+var obj;
+try { obj = JSON.parse($response.body); } catch (e) {}
 
 obj = {
     "is_valid_device": true,

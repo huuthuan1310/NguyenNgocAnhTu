@@ -1,7 +1,7 @@
 #!name=⚡ Anh Tú Premium - Surge
 #!desc=67 Apps: Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + Day One + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + Spark Mail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store
-#!version=2.1.0-stable
-#!date=2026-06-16
+#!version=2.1.1-stable
+#!date=2026-06-23
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -60,7 +60,7 @@ RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules
 RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/AI_Proxy.list,PROXY
 
 # --- Chống Lừa đảo (Phishing/Scam) từ cộng đồng HostsVN ---
-RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/suspect.txt,REJECT
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/surge-rule.conf,REJECT
 
 # --- Dịch vụ quốc tế (Game, Stream, Social, Dev) đi qua Proxy ---
 RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/Proxy.list,PROXY

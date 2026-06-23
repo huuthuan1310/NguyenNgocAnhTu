@@ -5,7 +5,8 @@
  * @date: 2026-05-09
  */
 
-var objc = JSON.parse($response.body);
+var objc;
+try { objc = JSON.parse($response.body); } catch (e) {}
 
 const vip = {
     "vip_type": "svip",
@@ -24,14 +25,16 @@ const vip = {
     "store": "apple"
 };
 
-if (objc.data) {
+if (!objc || typeof objc !== "object") {
+    $done({});
+} else if (objc.data) {
     objc.data.vip_info = vip;
     objc.data.is_vip = true;
     objc.data.vip_type = "svip";
+    $done({ body: JSON.stringify(objc) });
 } else {
     objc.vip_info = vip;
     objc.is_vip = true;
     objc.vip_type = "svip";
+    $done({ body: JSON.stringify(objc) });
 }
-
-$done({ body: JSON.stringify(objc) });

@@ -1,7 +1,7 @@
 #!name=👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium ⁕
 #!desc=🚀 Mở khóa 300+ App VIP (Spotify, Locket, RevenueCat/iTunes Apps...). 🛡️ Chặn Ads & Tracking. ⚡ Tối ưu DNS, Banking, Streaming & Social.
-#!version=2.1.0-stable
-#!date=2026-06-16
+#!version=2.1.1-stable
+#!date=2026-06-23
 #!author=Nguyễn Ngọc Anh Tú (z3rokaze)
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
@@ -56,7 +56,7 @@ RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules
 RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/AI_Proxy.list,PROXY
 
 # --- Chống Lừa đảo (Phishing/Scam) từ cộng đồng HostsVN ---
-RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/suspect.txt,REJECT
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/surge-rule.conf,REJECT
 
 # --- Block iOS OTA Updates ---
 DOMAIN,mesu.apple.com,REJECT

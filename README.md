@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.0.5--stable-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.1.1--stable-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -476,6 +476,8 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
+| 🏆 | **`v2.1.1-stable`** | `23.06.2026` | 🔗 **Sửa link chết & gia cố script**: thay rule-set chống lừa đảo `hostsVN/filters/suspect.txt` (404) → `extensions/threat/surge-rule.conf` (Surge/Loon/LanceX/Premium) • Tắt lại `host-keyword phishing/malware` bị bật nhầm trong QuantumultX (tránh chặn nhầm site giáo dục) • Bọc `try/catch` fail-safe cho 16 script tự host (không treo request khi body lỗi) • Gỡ rule trùng `captive.apple.com` trong Direct.list. | **70+** |
+| 🏆 | **`v2.1.0-stable`** | `16.06.2026` | ✨ **Mở rộng & ổn định**: thêm CARROT Weather, Agenda, PDF Expert, Documents (Readdle), Sorted • Viết lại Photomath tự host (hạn 2099, thay bản `poh.js` đã chết) • Đồng bộ hostname MITM + cấu trúc script trên cả 7 chuẩn proxy. | **70+** |
 | 🏆 | **`v2.0.5-stable`** | `06.06.2026` | ✅ **Đồng bộ 7 chuẩn proxy**: sửa UTF-8/mojibake, xóa rule trùng, tắt script link chết, thêm captive/connectivity DIRECT, tối ưu `REJECT` để giảm retry-loop/pin • Validator sạch: URL sống, regex 0 lỗi, duplicate 0. | **68+** |
 | 🏆 | **`v2.0.3`** | `05.06.2026` | 🚀 **Bản Ổn Định Tuyệt Đối**: Cập nhật toàn bộ script URL sang `raw.githubusercontent` tránh redirect 302 • Loại bỏ triệt để catastrophic backtracking regex • Dọn dẹp cấu hình MITM thừa thãi, tối ưu tốc độ phân giải. | **68+** |
 | 🛡️ | **`v1.7.0`** | `30.05.2026` | 🚀 **Bản Tối Ưu Toàn Diện**: Gộp 14+ scripts rác (Darkroom, PhotoRoom, v.v.) vào generic fallback • Thêm `force-http-engine` chống quét RevenueCat • Bổ sung chuẩn cấu trúc 67+ apps cho Stash (`.stoverride`) | **68+** |

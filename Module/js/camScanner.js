@@ -5,7 +5,8 @@
  * @date: 2026-04-21
  */
 
-var banhsbao = JSON.parse($response.body);
+var banhsbao;
+try { banhsbao = JSON.parse($response.body); } catch (e) {}
 const vipa = '/purchase/cs/query_property';
 const vipb = '/queryProperty';
 const tqzx = '/getPrivilegeItem';
@@ -44,7 +45,7 @@ const vip = {
     "group2_paid": 0
 };
 
-if ($request.url.indexOf(vipa) != -1) {
+if (banhsbao && banhsbao.data && $request.url.indexOf(vipa) != -1) {
     banhsbao.data["psnl_vip_property"] = vip;
     banhsbao.data["fax_balance"] = "99999";
     banhsbao.data["used_points"] = "99999";
@@ -57,11 +58,11 @@ if ($request.url.indexOf(vipa) != -1) {
     banhsbao.data["CamScanner_RoadMap"] = 100000;
 }
 
-if ($request.url.indexOf(vipb) != -1) {
+if (banhsbao && banhsbao.data && banhsbao.data.ar_property && $request.url.indexOf(vipb) != -1) {
     banhsbao.data.ar_property["psnl_vip_property"] = vip;
 }
 
-if ($request.url.indexOf(tqzx) != -1) {
+if (banhsbao && banhsbao.data && $request.url.indexOf(tqzx) != -1) {
     banhsbao.data.data = {
         "document": [
             { "balance": -1, "item": "CamScanner_Pic2pdf" },
@@ -102,4 +103,8 @@ if ($request.url.indexOf(tqzx) != -1) {
     };
 }
 
-$done({ body: JSON.stringify(banhsbao) });
+if (banhsbao && typeof banhsbao === "object") {
+    $done({ body: JSON.stringify(banhsbao) });
+} else {
+    $done({});
+}

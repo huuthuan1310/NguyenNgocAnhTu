@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Administrator/.claude/debug/**)",
+      "Read(//c/Users/Administrator/.claude/**)",
+      "Bash(echo \"=== USER SETTINGS ===\"; ls -la \"C:/Users/Administrator/.claude/settings.json\" 2>&1; echo \"=== PROJECT SETTINGS ===\"; ls -la \"g:/XAZCZ/NguyenNgocAnhTu-master/.claude/settings.json\" 2>&1; echo \"=== LOCAL SETTINGS ===\"; ls -la \"g:/XAZCZ/NguyenNgocAnhTu-master/.claude/settings.local.json\" 2>&1)",
+      "Bash(grep -v '^\\\\s*$')",
+      "Read(//tmp/**)",
+      "Bash(command -v curl)",
+      "Bash(cat /tmp/urls_js.txt /tmp/urls_rules.txt)",
+      "Bash(curl -s -A \"Mozilla/5.0\" --max-time 25 \"https://api.github.com/repos/bigdargon/hostsVN/contents/filters\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" --max-time 25 \"https://api.github.com/repos/bigdargon/hostsVN/contents/\")",
+      "PowerShell($node = \\(Get-Command node -ErrorAction SilentlyContinue\\).Source; if \\($node\\) { Write-Output \"node: $node\"; node --version } else { Write-Output \"no node\" }; $py = \\(Get-Command python -ErrorAction SilentlyContinue\\).Source; if \\($py\\) { Write-Output \"python: $py\" } else { Write-Output \"no python\" })"
+    ]
+  }
+}

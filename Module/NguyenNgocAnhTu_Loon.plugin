@@ -1,7 +1,7 @@
 #!name=⚡ Anh Tú Premium - Loon
 #!desc=🚀 Mở khóa 250+ App VIP (Spotify, Locket, CapCut...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. 🏦 41+ Banking & Ví VN. 🎬 Streaming & Social.
-#!version=2.1.0-stable
-#!date=2026-06-16
+#!version=2.1.1-stable
+#!date=2026-06-23
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -54,7 +54,7 @@ RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules
 RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/AI_Proxy.list,PROXY
 
 # --- Chống Lừa đảo (Phishing/Scam) từ cộng đồng HostsVN ---
-RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/suspect.txt,REJECT
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/surge-rule.conf,REJECT
 
 # --- Dịch vụ quốc tế (Game, Stream, Social, Dev) đi qua Proxy ---
 RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules/Proxy.list,PROXY
@@ -219,6 +219,9 @@ http-response ^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_
 http-response ^https:\/\/api\.gotokeep\.com script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js,requires-body=true,timeout=10,tag=Keep-Res
 # 🎨 Color Widgets (yfamilys)
 http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers)\/.* script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js,requires-body=true,timeout=10,tag=ColorWidgets-Res
+# 🎬 InVideo (yfamilys)
+http-response ^https?:\/\/payments\.invideo\.io\/(verify_purchase|subscription) script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js,requires-body=true,timeout=10,tag=InVideo-Res
+
 # === iTRANSLATE PRO (dịch thuật) - 89996462 ===
 http-request ^https:\/\/ssl-api\.itranslateapp\.com\/accounts\/v\d\/subscriptions\/verify\/ios script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iTranslate.js,requires-body=true,timeout=10,tag=iTranslate-Req
 # === LINGVIST HỌC NGOẠI NGỮ - 89996462 ===
