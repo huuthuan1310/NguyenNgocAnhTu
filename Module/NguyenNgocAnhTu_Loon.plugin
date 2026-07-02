@@ -1,7 +1,7 @@
 #!name=⚡ Anh Tú Premium - Loon
 #!desc=🚀 Mở khóa 250+ App VIP (Spotify, Locket, CapCut...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. 🏦 41+ Banking & Ví VN. 🎬 Streaming & Social.
-#!version=2.1.3-stable
-#!date=2026-06-27
+#!version=2.1.5-stable
+#!date=2026-07-02
 #!author=Nguyễn Ngọc Anh Tú
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -71,6 +71,11 @@ RULE-SET,https://raw.githubusercontent.com/ekaznyra/NguyenNgocAnhTu/master/Rules
 
 # --- Vietnam Local Network & GeoIP fallback ---
 GEOIP,VN,DIRECT
+
+[URL Rewrite]
+# 🏃 Seven Workouts - block subscription verification endpoints
+^https:\/\/api\.sevenworkouts\.com\/api\/v1\/account\/subscription-purchases - reject
+^https:\/\/api\.sevenworkouts\.com\/api\/v1\/buyers\/ - reject
 
 [Script]
 # 📦 Sub-Store
@@ -253,5 +258,44 @@ http-request ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscript
 # 📆 Sorted Calendar/Planner
 http-response ^https:\/\/api\.sortedapp\.com\/receipts\/verify script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js,requires-body=true,timeout=10,tag=Sorted
 
+# 🎵 Spotify Header Injection (app2smile)
+http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js,tag=spotify-header
+
+# 🧮 Symbolab Premium
+http-response ^https?:\/\/scibug\.com\/appleSubscriptionValidate$ script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/symbolab.js,requires-body=true,timeout=10,tag=symbolab
+
+# 🎬 Videoleap Pro
+http-response ^https?:\/\/api\.lightricks\.com\/subscription\?bundle=com\.lightricks\.Enlight-Video script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/videoleap.js,requires-body=true,timeout=10,tag=videoleap
+
+# 🎬 VivaCut Pro
+http-response ^https:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/vivacut.js,requires-body=true,timeout=10,tag=vivacut
+
+# 📋 MeisterTask Pro
+http-response ^https:\/\/www\.mindmeister\.com\/api\/v2\/licenses\/meistertask script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/meistertask.js,requires-body=true,timeout=10,tag=meistertask
+
+# 📋 Pocket Lists Pro
+http-response ^https:\/\/pocketlists\.com\/api\/v1\/pocketlists\.me\.get script-path=https://raw.githubusercontent.com/deezertidal/private/main/pocketlists.js,requires-body=true,timeout=10,tag=pocketlists
+
+# 🏃 Seven - 7 Minute Workout
+http-response ^https:\/\/api\.sevenworkouts\.com\/api\/v\d\/(verify-purchases|account\/verify-purchases) script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Seven.js,requires-body=true,timeout=10,tag=seven
+
+# 🧘 Ten Percent Happier
+http-response ^https:\/\/api\.changecollective\.com\/api\/v3\/user script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/tenPercent.js,requires-body=true,timeout=10,tag=tenpercent
+
+# 🎉 JibJab
+http-response ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js,requires-body=true,timeout=10,tag=jibjab
+
+# 👶 Lingokids
+http-response ^https:\/\/api\.lingokids\.com\/v1\/renovate_session script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingokids.js,requires-body=true,timeout=10,tag=lingokids
+
+# 📷 NoMo Cam Pro
+http-request ^https?:\/\/nomo\.dafork\.com\/api\/.+ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js,tag=nomocam
+
+# 🥗 MyPlate Calorie Tracker
+http-response ^https:\/\/www\.livestrong\.com\/service\/user\/profile\/ script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myPlate.js,requires-body=true,timeout=10,tag=myplate
+
+# 🖼 PicCollage
+http-response ^https:\/\/piccollage\.com\/api\/graphql script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/picCollage.js,requires-body=true,timeout=10,tag=piccollage
+
 [MITM]
-hostname=-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com, api.picsart.cn,api.meiease.com, api.meiease.cn,api-mobile.soundcloud.com,mb3admin.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium-*.truecaller.com,*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*.account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com,app.bilibili.com,carrotweather.herokuapp.com,accounts.agenda.com,license.pdfexpert.com,api.sortedapp.com
+hostname=-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,spclient.wg.spotify.com,*-spclient.spotify.com,api.revenuecat.com,api.rc-backup.com,buy.itunes.apple.com,api.picsart.com, api.picsart.cn,api.meiease.com, api.meiease.cn,api-mobile.soundcloud.com,mb3admin.com,api-account.kinemasters.com,photos.adobe.io,lcs-mobile-cops.adobe.io,app.algoriddim.com,api.calm.com,api.busuu.com,api.prod.headspace.com,vsco.co,api.funimate.com,us-central1-alight-creative.cloudfunctions.net,api-sub.meitu.com,premium-*.truecaller.com,*.intsig.net,api.mr.pixocial.com,newbeee-api.beautyplus.com,user-snow-api.snow.me,user-kaji-api.b612kaji.com,h5.xiuxiu.meitu.com,api.xiuxiu.meitu.com,account.wps.cn,*.account.wps.cn,account.wps.com,*.account.wps.com,www.xmind.cn,www.xmind.net,www.xmind.app,ars.alar.my,subscription.grammarly.com,notability.com,lapi.photomath.net,pro.smallpdf.com,billing.peakcloud.org,api.polaxiong.com,premium-api.myfitnesspal.com,apic.musixmatch.com,server.yoyiapp.com,mid.zineapi.com,apimboom2.globaldelight.net,api.flexibits.com,api.craft.do,dayone.app,restore-access.indream.app,service.ilovepdf.com,api.mondlylanguages.com,api.memrise.com,api.alohaprofile.com,pre.dailyyoga.com,app-subscription-proxy.accuweather.com,api-production.endel.io,flomoapp.com,backend.getdrafts.com,api.gotokeep.com,payments.invideo.io,ssl-api.itranslateapp.com,payment-api.lingvist.com,*.oracle.bendingspoonsapps.com,app.bilibili.com,carrotweather.herokuapp.com,accounts.agenda.com,license.pdfexpert.com,api.sortedapp.com,scibug.com,api.lightricks.com,medi.dxzzy321.top,www.mindmeister.com,pocketlists.com,api.sevenworkouts.com,api.changecollective.com,origin-prod-phoenix.jibjab.com,api.lingokids.com,nomo.dafork.com,www.livestrong.com,piccollage.com
