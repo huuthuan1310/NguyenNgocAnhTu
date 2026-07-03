@@ -1,5 +1,5 @@
 name: ⚡ Anh Tú Premium - Stash
-desc: 80 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + DayOne + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + SparkMail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store + Symbolab + Videoleap + VivaCut + MeisterTask + PocketLists + Seven + TenPercent + JibJab + LingoKids + NoMoCam + MyPlate + PicCollage | v2.1.5-stable (2026-07-02)
+desc: 67 Apps - Locket Gold + YouTube + Spotify + SoundCloud + PicsArt + Lightroom + Photoshop + Emby + KineMaster + Djay + Calm + Busuu + Headspace + AlightMotion + Wink + Truecaller + CamScanner + BeautyPlus + VSCO + Snow + B612 + Meitu + Funimate + iTunes + WPS + Xmind + Alarmy + Grammarly + Notability + Photomath + Smallpdf + Peak + Polarr + MyFitnessPal + Musixmatch + Fimo + Varlens + Darkroom + OldRoll + PhotoRoom + Pixelcut + Mojo + Boom + Audiomack + Fantastical + Craft + DayOne + Nicegram + iLovePDF + Mondly + Memrise + Aloha + DailyYoga + AccuWeather + SparkMail + Endel + Flomo + Drafts + Keep + ColorWidgets + WidgetSmith + InVideo + Pandora + Beelinguapp + Relens + TouchRetouch + Emote + Sub-Store | v2.1.3-stable (2026-06-27)
 author: Nguyễn Ngọc Anh Tú
 homepage: https://github.com/ekaznyra/NguyenNgocAnhTu
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -953,8 +953,6 @@ mitm:
   - "h5.xiuxiu.meitu.com"
   - "api.xiuxiu.meitu.com"
   - "account.wps.cn"
-  - "*.account.wps.cn"
-  - "account.wps.com"
   - "*.account.wps.com"
   - "www.xmind.cn"
   - "www.xmind.net"
@@ -994,18 +992,6 @@ mitm:
   - "accounts.agenda.com"
   - "license.pdfexpert.com"
   - "api.sortedapp.com"
-  - "scibug.com"
-  - "api.lightricks.com"
-  - "medi.dxzzy321.top"
-  - "www.mindmeister.com"
-  - "pocketlists.com"
-  - "api.sevenworkouts.com"
-  - "api.changecollective.com"
-  - "origin-prod-phoenix.jibjab.com"
-  - "api.lingokids.com"
-  - "nomo.dafork.com"
-  - "www.livestrong.com"
-  - "piccollage.com"
 
 force-http-engine:
   - "api.revenuecat.com:443"
@@ -1014,8 +1000,6 @@ force-http-engine:
 http:
   url-rewrite:
     - "^https?://[\\w-]+\\.googlevideo\\.com/initplayback.+&oad - reject-200"
-    - "^https://api\\.sevenworkouts\\.com/api/v1/account/subscription-purchases - reject-200"
-    - "^https://api\\.sevenworkouts\\.com/api/v1/buyers/ - reject-200"
 
 script-providers:
   yt-req:
@@ -1221,45 +1205,6 @@ script-providers:
     interval: 86400
   sorted-response:
     url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js
-    interval: 86400
-  spotify-header-request:
-    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js
-    interval: 86400
-  symbolab-response:
-    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/symbolab.js
-    interval: 86400
-  videoleap-response:
-    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/videoleap.js
-    interval: 86400
-  vivacut-response:
-    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/vivacut.js
-    interval: 86400
-  meistertask-response:
-    url: https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/meistertask.js
-    interval: 86400
-  pocketlists-response:
-    url: https://raw.githubusercontent.com/deezertidal/private/main/pocketlists.js
-    interval: 86400
-  seven-response:
-    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Seven.js
-    interval: 86400
-  tenpercent-response:
-    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/tenPercent.js
-    interval: 86400
-  jibjab-response:
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js
-    interval: 86400
-  lingokids-response:
-    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingokids.js
-    interval: 86400
-  nomocam-request:
-    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
-    interval: 86400
-  myplate-response:
-    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myPlate.js
-    interval: 86400
-  piccollage-response:
-    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/picCollage.js
     interval: 86400
 
 scriptings:
@@ -1671,81 +1616,5 @@ scriptings:
       name: sorted-response
       match: ^https:\/\/api\.sortedapp\.com\/receipts\/verify
       script-provider: sorted-response
-      require-body: true
-      timeout: 10
-  - http-request:
-      name: spotify-header
-      match: ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$
-      script-provider: spotify-header-request
-      timeout: 10
-  - http-response:
-      name: symbolab
-      match: ^https?:\/\/scibug\.com\/appleSubscriptionValidate$
-      script-provider: symbolab-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: videoleap
-      match: ^https?:\/\/api\.lightricks\.com\/subscription\?bundle=com\.lightricks\.Enlight-Video
-      script-provider: videoleap-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: vivacut
-      match: ^https:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform
-      script-provider: vivacut-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: meistertask
-      match: ^https:\/\/www\.mindmeister\.com\/api\/v2\/licenses\/meistertask
-      script-provider: meistertask-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: pocketlists
-      match: ^https:\/\/pocketlists\.com\/api\/v1\/pocketlists\.me\.get
-      script-provider: pocketlists-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: seven
-      match: ^https:\/\/api\.sevenworkouts\.com\/api\/v\d\/(verify-purchases|account\/verify-purchases)
-      script-provider: seven-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: tenpercent
-      match: ^https:\/\/api\.changecollective\.com\/api\/v3\/user
-      script-provider: tenpercent-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: jibjab
-      match: ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user
-      script-provider: jibjab-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: lingokids
-      match: ^https:\/\/api\.lingokids\.com\/v1\/renovate_session
-      script-provider: lingokids-response
-      require-body: true
-      timeout: 10
-  - http-request:
-      name: nomocam
-      match: ^https?:\/\/nomo\.dafork\.com\/api\/.+
-      script-provider: nomocam-request
-      timeout: 10
-  - http-response:
-      name: myplate
-      match: ^https:\/\/www\.livestrong\.com\/service\/user\/profile\/
-      script-provider: myplate-response
-      require-body: true
-      timeout: 10
-  - http-response:
-      name: piccollage
-      match: ^https:\/\/piccollage\.com\/api\/graphql
-      script-provider: piccollage-response
       require-body: true
       timeout: 10

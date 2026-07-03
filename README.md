@@ -2,7 +2,7 @@
 
 <!-- HEADER -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:20003B&height=320&section=header&text=%20%E2%9A%A1%20PREMIUM%20UNLOCKER%20&fontSize=60&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2080%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=55&descSize=20&descColor=00F0FF&stroke=00F0FF&strokeWidth=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:20003B&height=320&section=header&text=%20%E2%9A%A1%20PREMIUM%20UNLOCKER%20&fontSize=60&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=%E2%9C%A8%20Tinh%20Hoa%20M%E1%BB%9F%20Kho%C3%A1%20Premium%20%E2%80%A2%2070%2B%20%E1%BB%A8ng%20D%E1%BB%A5ng%20%E2%80%A2%208%20N%E1%BB%81n%20T%E1%BA%A3ng%20%E2%80%A2%20iOS%2015%2B&descAlignY=55&descSize=20&descColor=00F0FF&stroke=00F0FF&strokeWidth=2"/>
 
 <br>
 
@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v2.1.5-stable...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+80%2B+Applications+Unlocked." alt="Terminal Simulation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=3000&pause=500&color=00FF00&background=00000000&center=false&vCenter=true&repeat=true&width=450&height=100&lines=%5B+%2B+%5D+Initializing+Premium+Unlocker+v2.1.3-stable...;%5B+%2B+%5D+Bypassing+security+checks+and+receipts...;%5B+%2B+%5D+Injecting+premium+payload+via+MITM...;%5B+%2B+%5D+Success!+70%2B+Applications+Unlocked." alt="Terminal Simulation" />
 </a>
 
 <br>
@@ -24,7 +24,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=3500&pause=1200&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+80%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=3500&pause=1200&color=00F0FF&background=0D111700&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%F0%9F%8F%86+Ch%E1%BA%A1m+T%E1%BB%9Bi+%C4%90%E1%BB%89nh+Cao+Tr%E1%BA%A3i+Nghi%E1%BB%87m+Premium;%F0%9F%92%8E+B%E1%BB%A9t+Ph%C3%A1+Gi%E1%BB%9Bi+H%E1%BA%A1n+%E2%80%94+%C4%90%E1%BA%B3ng+C%E1%BA%A5p+Kh%C3%A1c+Bi%E1%BB%87t;%E2%9A%A1+70%2B+%E1%BB%A8ng+D%E1%BB%A5ng+%E2%80%A2+8+N%E1%BB%81n+T%E1%BA%A3ng+%E2%80%A2+Mi%E1%BB%85n+Ph%C3%AD+Tr%E1%BB%8Dn+%C4%90%E1%BB%9Di;%F0%9F%94%90+Kh%C3%B4ng+Jailbreak+%E2%80%A2+M%C3%A3+Ngu%E1%BB%93n+M%E1%BB%9F+%E2%80%A2+T%E1%BB%91i+%C6%AFu+Tuy%E1%BB%87t+%C4%90%E1%BB%91i" alt="Typing SVG" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- HÀNG 1 — THÔNG TIN DỰ ÁN -->
-<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.1.5--stable-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
+<a href="https://github.com/ekaznyra/NguyenNgocAnhTu/releases"><img src="https://img.shields.io/badge/%E2%9A%A1_PHI%C3%8AN_B%E1%BA%A2N-v2.1.3--stable-00F0FF?style=for-the-badge&labelColor=0D1117" alt="version"/></a>
 &nbsp;
 <a href="https://github.com/ekaznyra/NguyenNgocAnhTu/blob/master/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C_GI%E1%BA%A4Y_PH%C3%89P-AGPL--3.0-FF007F?style=for-the-badge&labelColor=0D1117" alt="license"/></a>
 &nbsp;
@@ -124,7 +124,7 @@
 <table>
 <tr>
 <td align="center" width="16.6%">
-<img src="https://img.shields.io/badge/80+-c9a84c?style=flat-square&labelColor=0D1117" alt=""/><br>
+<img src="https://img.shields.io/badge/70+-c9a84c?style=flat-square&labelColor=0D1117" alt=""/><br>
 <b>📱 Ứng dụng</b><br>
 <sub>Hỗ trợ & cập nhật</sub>
 </td>
@@ -188,7 +188,7 @@
 | [`05`](#-nguyên-lý-hoạt-động) | 🧠 **Nguyên lý hoạt động** | Hiểu cách module vận hành |
 | [`06`](#-chọn-ứng-dụng-proxy) | 📥 **Chọn ứng dụng proxy** | So sánh 7 ứng dụng chi tiết |
 | [`07`](#-cách-sử-dụng--hướng-dẫn-cài-đặt-chi-tiết) | 📖 **Cách sử dụng & Cài đặt** | Từng bước cực kỳ chi tiết |
-| [`08`](#-danh-sách-68-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 80+ ứng dụng** | Tất cả app được hỗ trợ |
+| [`08`](#-danh-sách-68-ứng-dụng-hỗ-trợ) | 📱 **Danh sách 70+ ứng dụng** | Tất cả app được hỗ trợ |
 | [`09`](#-locket-gold-dns--giữ-gold-vĩnh-viễn) | 🔒 **Locket Gold DNS** | Giữ Gold không cần proxy |
 | [`10`](#️-tuỳ-chỉnh-youtube-nâng-cao) | ⚙️ **Tuỳ chỉnh YouTube** | Đổi ngôn ngữ, ẩn nút |
 | [`11`](#-xử-lý-sự-cố--faq) | ❓ **Xử lý sự cố & FAQ** | Gặp lỗi? Xem đây |
@@ -476,7 +476,6 @@
 
 | | Phiên bản | Ngày | Nội dung cập nhật | Số app |
 |:---:|:---:|:---:|:---|:---:|
-| 🏆 | **`v2.1.5-stable`** | `02.07.2026` | 🎁 **Mở rộng 12 app host-riêng + đồng bộ 7/7 format**: thêm Symbolab, Videoleap, VivaCut, MeisterTask, Pocket Lists, 7 Minute HIIT, 10% Happier, JibJab, Lingokids, NoMo Cam, MyPlate, PicCollage • bổ sung Spotify `spotify-qx-header` (chống 304) • Fix regex `ctier=L` YouTube • Gỡ `*.stun.l.google.com` thừa khỏi `always-real-ip` (đã REJECT ở [Rule]) • Đủ 4 biến thể MITM `account.wps.{cn,com}` + wildcard • Đã lọc bỏ app trùng handler tổng RevenueCat/iTunes để tránh xung đột. | **80+** |
 | 🏆 | **`v2.1.3-stable`** | `27.06.2026` | ⚡ **Tối ưu & Đồng bộ toàn diện**: Gỡ `bypass-system` gây warning • Fix Spotify header rewrite thêm `bootstrap/v1/bootstrap` chống 304 cache • Fix WPS hostname wildcard `*.account.wps.com` • Xoá duplicate `lcs-mobile-cops.adobe.io` trên 4/7 file • Đồng bộ version 7/7 proxy formats. | **70+** |
 | 🏆 | **`v2.1.1-stable`** | `23.06.2026` | 🔗 **Sửa link chết & gia cố script**: thay rule-set chống lừa đảo `hostsVN/filters/suspect.txt` (404) → `extensions/threat/surge-rule.conf` (Surge/Loon/LanceX/Premium) • Tắt lại `host-keyword phishing/malware` bị bật nhầm trong QuantumultX (tránh chặn nhầm site giáo dục) • Bọc `try/catch` fail-safe cho 16 script tự host (không treo request khi body lỗi) • Gỡ rule trùng `captive.apple.com` trong Direct.list. | **70+** |
 | 🏆 | **`v2.1.0-stable`** | `16.06.2026` | ✨ **Mở rộng & ổn định**: thêm CARROT Weather, Agenda, PDF Expert, Documents (Readdle), Sorted • Viết lại Photomath tự host (hạn 2099, thay bản `poh.js` đã chết) • Đồng bộ hostname MITM + cấu trúc script trên cả 7 chuẩn proxy. | **70+** |
@@ -823,7 +822,7 @@ graph TD
 </tr>
 </table>
 
-> **v2.1.5-stable status:** 7/7 formats synced / UTF-8 clean / Regex 0 errors / Active duplicates 0 / Script and raw URLs 78/78 live.
+> **v2.1.3-stable status:** 7/7 formats synced / UTF-8 clean / Regex 0 errors / Active duplicates 0 / Script and raw URLs 66/66 live.
 
 </div>
 

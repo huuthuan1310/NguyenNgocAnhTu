@@ -1,5 +1,5 @@
 name: "👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (Egern) ⁕"
-description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.1.5-stable (2026-07-02)"
+description: "🚀 Mở khóa 250+ App VIP (Spotify, Locket...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. | v2.1.3-stable (2026-06-27)"
 author: "Nguyễn Ngọc Anh Tú (z3rokaze)"
 homepage: "https://github.com/ekaznyra/NguyenNgocAnhTu"
 icon: "lock.open.fill"
@@ -2144,13 +2144,6 @@ url_rewrites:
   - match: "^https?://s\\.youtube\\.com/api/stats/qoe\\?adcontext"
     location: "reject-200"
     status_code: 200
-  # Seven Workouts - Block subscription verification endpoints
-  - match: "^https://api\\.sevenworkouts\\.com/api/v1/account/subscription-purchases"
-    location: "reject-200"
-    status_code: 200
-  - match: "^https://api\\.sevenworkouts\\.com/api/v1/buyers/"
-    location: "reject-200"
-    status_code: 200
 
 header_rewrites:
   - match: ^https?://www\.youtube\.com/youtubei/v1/player
@@ -2725,98 +2718,6 @@ scriptings:
       script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js"
       body_required: true
       timeout: 10
-
-  # === v2.1.5-stable Additions (2026-07-02) ===
-  # 🎵 Spotify Header (app2smile)
-  - http_request:
-      name: "spotify-header"
-      match: "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/user-customization-service\\/v1\\/customize$"
-      script_url: "https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js"
-      timeout: 10
-  # 🧮 Symbolab Premium (deezertidal)
-  - http_response:
-      name: "symbolab"
-      match: "^https?:\\/\\/scibug\\.com\\/appleSubscriptionValidate$"
-      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/symbolab.js"
-      body_required: true
-      timeout: 10
-  # 🎬 Videoleap Premium (deezertidal)
-  - http_response:
-      name: "videoleap"
-      match: "^https?:\\/\\/api\\.lightricks\\.com\\/subscription\\?bundle=com\\.lightricks\\.Enlight-Video"
-      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/videoleap.js"
-      body_required: true
-      timeout: 10
-  # 🎬 VivaCut Pro (89996462)
-  - http_response:
-      name: "vivacut"
-      match: "^https:\\/\\/medi\\.dxzzy321\\.top\\/api\\/rest\\/commerce\\/integrate\\/vip\\/perform"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/vivacut.js"
-      body_required: true
-      timeout: 10
-  # 📋 MeisterTask Premium (deezertidal)
-  - http_response:
-      name: "meistertask"
-      match: "^https:\\/\\/www\\.mindmeister\\.com\\/api\\/v2\\/licenses\\/meistertask"
-      script_url: "https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/meistertask.js"
-      body_required: true
-      timeout: 10
-  # 📝 Pocketlists Premium (deezertidal)
-  - http_response:
-      name: "pocketlists"
-      match: "^https:\\/\\/pocketlists\\.com\\/api\\/v1\\/pocketlists\\.me\\.get"
-      script_url: "https://raw.githubusercontent.com/deezertidal/private/main/pocketlists.js"
-      body_required: true
-      timeout: 10
-  # 💪 Seven Workouts Premium (89996462)
-  - http_response:
-      name: "seven"
-      match: "^https:\\/\\/api\\.sevenworkouts\\.com\\/api\\/v\\d\\/(verify-purchases|account\\/verify-purchases)"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Seven.js"
-      body_required: true
-      timeout: 10
-  # 🧘 Ten Percent Happier (Marol62926)
-  - http_response:
-      name: "tenpercent"
-      match: "^https:\\/\\/api\\.changecollective\\.com\\/api\\/v3\\/user"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/tenPercent.js"
-      body_required: true
-      timeout: 10
-  # 🎬 JibJab Premium (NobyDa)
-  - http_response:
-      name: "jibjab"
-      match: "^https:\\/\\/origin-prod-phoenix\\.jibjab\\.com\\/v1\\/user"
-      script_url: "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js"
-      body_required: true
-      timeout: 10
-  # 👶 Lingokids Premium (89996462)
-  - http_response:
-      name: "lingokids"
-      match: "^https:\\/\\/api\\.lingokids\\.com\\/v1\\/renovate_session"
-      script_url: "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingokids.js"
-      body_required: true
-      timeout: 10
-  # 📷 NoMoCam Pro (yqc007)
-  - http_request:
-      name: "nomocam"
-      match: "^https?:\\/\\/nomo\\.dafork\\.com\\/api\\/.+"
-      script_url: "https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js"
-      timeout: 10
-  # 🍎 MyPlate Premium (Marol62926)
-  - http_response:
-      name: "myplate"
-      match: "^https:\\/\\/www\\.livestrong\\.com\\/service\\/user\\/profile\\/"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myPlate.js"
-      body_required: true
-      timeout: 10
-  # 🖼️ PicCollage Premium (Marol62926)
-  - http_response:
-      name: "piccollage"
-      match: "^https:\\/\\/piccollage\\.com\\/api\\/graphql"
-      script_url: "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/picCollage.js"
-      body_required: true
-      timeout: 10
-
 mitm:
   hostnames:
     - "*.googlevideo.com"
@@ -2852,8 +2753,6 @@ mitm:
     - "h5.xiuxiu.meitu.com"
     - "api.xiuxiu.meitu.com"
     - "account.wps.cn"
-    - "*.account.wps.cn"
-    - "account.wps.com"
     - "*.account.wps.com"
     - "www.xmind.cn"
     - "www.xmind.net"

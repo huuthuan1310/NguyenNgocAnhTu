@@ -1,7 +1,7 @@
 #!name=👑 Nguyễn Ngọc Anh Tú 🌸 ⁕ Ultimate Premium (LanceX) ⁕
 #!desc=🚀 Mở khóa 250+ App VIP (Spotify, Locket, CapCut...). 🛡️ Chặn sạch Ads & Tracking. ⚡ Tối ưu DNS, AI & Gaming. 🏦 41+ Banking & Ví VN. 🎬 Streaming & Social.
-#!version=2.1.5-stable
-#!date=2026-07-02
+#!version=2.1.3-stable
+#!date=2026-06-27
 #!author=Nguyễn Ngọc Anh Tú (z3rokaze)
 #!homepage=https://github.com/ekaznyra/NguyenNgocAnhTu
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
@@ -13,7 +13,7 @@ force-http-engine-hosts = %APPEND% *youtube.com:443, *googlevideo.com:443
 skip-proxy = 127.0.0.1, 100.64.0.0/10, 17.0.0.0/8, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, *.lan, captive.apple.com, detectportal.firefox.com, connectivitycheck.gstatic.com, clients3.google.com, www.msftconnecttest.com, www.msftncsi.com
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
 force-http-engine-hosts = %APPEND% api.revenuecat.com:443, api.rc-backup.com:443
-always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.turn.apple.com, *.stun.services.mozilla.com
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.turn.apple.com, *.stun.services.mozilla.com, *.stun.l.google.com
 # === DNS MÃ HÓA (DoH) - Pomelo520 ===
 dns-server = https://dns.google/dns-query, https://cloudflare-dns.com/dns-query, https://dns.quad9.net/dns-query, system
 
@@ -106,11 +106,7 @@ elsaspeak-response = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads _ reject-200
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) _ reject-200
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext _ reject-200
-^(https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+)? $1$2 302
-
-# === SEVEN WORKOUTS AUX REJECT ===
-^https:\/\/api\.sevenworkouts\.com\/api\/v1\/account\/subscription-purchases - reject
-^https:\/\/api\.sevenworkouts\.com\/api\/v1\/buyers\/ - reject
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
 
 [Script]
 # === YOUTUBE PREMIUM - ekaznyra Version (2026-05-09) ===
@@ -320,45 +316,6 @@ documents-request = type=http-request, pattern=^https:\/\/license\.pdfexpert\.co
 # === SORTED CALENDAR/PLANNER - 89996462 ===
 sorted-response = type=http-response, pattern=^https:\/\/api\.sortedapp\.com\/receipts\/verify, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js, requires-body=1, max-size=0, timeout=10
 
-# === SPOTIFY HEADER (app2smile) ===
-spotify-header = type=http-request, pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js, requires-body=0, timeout=10
-
-# === SYMBOLAB PRO - ddgksf2013 ===
-symbolab-response = type=http-response, pattern=^https?:\/\/scibug\.com\/appleSubscriptionValidate$, script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/symbolab.js, requires-body=1, max-size=0, timeout=10
-
-# === VIDEOLEAP PRO - ddgksf2013 ===
-videoleap-response = type=http-response, pattern=^https?:\/\/api\.lightricks\.com\/subscription\?bundle=com\.lightricks\.Enlight-Video, script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/videoleap.js, requires-body=1, max-size=0, timeout=10
-
-# === VIVACUT PRO - 89996462 ===
-vivacut-response = type=http-response, pattern=^https:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/vivacut.js, requires-body=1, max-size=0, timeout=10
-
-# === MEISTERTASK PRO - ddgksf2013 ===
-meistertask-response = type=http-response, pattern=^https:\/\/www\.mindmeister\.com\/api\/v2\/licenses\/meistertask, script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/meistertask.js, requires-body=1, max-size=0, timeout=10
-
-# === POCKETLISTS PRO - deezertidal ===
-pocketlists-response = type=http-response, pattern=^https:\/\/pocketlists\.com\/api\/v1\/pocketlists\.me\.get, script-path=https://raw.githubusercontent.com/deezertidal/private/main/pocketlists.js, requires-body=1, max-size=0, timeout=10
-
-# === SEVEN WORKOUTS - 89996462 ===
-seven-response = type=http-response, pattern=^https:\/\/api\.sevenworkouts\.com\/api\/v\d\/(verify-purchases|account\/verify-purchases), script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Seven.js, requires-body=1, max-size=0, timeout=10
-
-# === TEN PERCENT HAPPIER - Marol62926 ===
-tenpercent-response = type=http-response, pattern=^https:\/\/api\.changecollective\.com\/api\/v3\/user, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/tenPercent.js, requires-body=1, max-size=0, timeout=10
-
-# === JIBJAB - NobyDa ===
-jibjab-response = type=http-response, pattern=^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js, requires-body=1, max-size=0, timeout=10
-
-# === LINGOKIDS - 89996462 ===
-lingokids-response = type=http-response, pattern=^https:\/\/api\.lingokids\.com\/v1\/renovate_session, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lingokids.js, requires-body=1, max-size=0, timeout=10
-
-# === NOMO CAM PRO - yqc007 ===
-nomocam-request = type=http-request, pattern=^https?:\/\/nomo\.dafork\.com\/api\/.+, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js, requires-body=0, max-size=0, timeout=10
-
-# === MYPLATE - Marol62926 ===
-myplate-response = type=http-response, pattern=^https:\/\/www\.livestrong\.com\/service\/user\/profile\/, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myPlate.js, requires-body=1, max-size=0, timeout=10
-
-# === PICCOLLAGE - Marol62926 ===
-piccollage-response = type=http-response, pattern=^https:\/\/piccollage\.com\/api\/graphql, script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/picCollage.js, requires-body=1, max-size=0, timeout=10
-
 [MITM]
 enable = true
-hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector*.googlevideo.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium-*.truecaller.com, *.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *.account.wps.cn, account.wps.com, *.account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com, app.bilibili.com, carrotweather.herokuapp.com, accounts.agenda.com, license.pdfexpert.com, api.sortedapp.com, scibug.com, api.lightricks.com, medi.dxzzy321.top, www.mindmeister.com, pocketlists.com, api.sevenworkouts.com, api.changecollective.com, origin-prod-phoenix.jibjab.com, api.lingokids.com, nomo.dafork.com, www.livestrong.com, piccollage.com
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, -redirector*.googlevideo.com, spclient.wg.spotify.com, *-spclient.spotify.com, api.revenuecat.com, api.rc-backup.com, buy.itunes.apple.com, api.picsart.com, api.picsart.cn, api.meiease.com, api.meiease.cn, api-mobile.soundcloud.com, mb3admin.com, api-account.kinemasters.com, photos.adobe.io, lcs-mobile-cops.adobe.io, app.algoriddim.com, api.calm.com, api.busuu.com, api.prod.headspace.com, vsco.co, api.funimate.com, us-central1-alight-creative.cloudfunctions.net, api-sub.meitu.com, premium-*.truecaller.com, *.intsig.net, api.mr.pixocial.com, newbeee-api.beautyplus.com, user-snow-api.snow.me, user-kaji-api.b612kaji.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, account.wps.cn, *.account.wps.com, www.xmind.cn, www.xmind.net, www.xmind.app, ars.alar.my, subscription.grammarly.com, notability.com, lapi.photomath.net, pro.smallpdf.com, billing.peakcloud.org, api.polaxiong.com, premium-api.myfitnesspal.com, apic.musixmatch.com, server.yoyiapp.com, mid.zineapi.com, apimboom2.globaldelight.net, api.flexibits.com, api.craft.do, dayone.app, restore-access.indream.app, service.ilovepdf.com, api.mondlylanguages.com, api.memrise.com, api.alohaprofile.com, pre.dailyyoga.com, app-subscription-proxy.accuweather.com, api-production.endel.io, flomoapp.com, backend.getdrafts.com, api.gotokeep.com, payments.invideo.io, ssl-api.itranslateapp.com, payment-api.lingvist.com, *.oracle.bendingspoonsapps.com, app.bilibili.com, carrotweather.herokuapp.com, accounts.agenda.com, license.pdfexpert.com, api.sortedapp.com
